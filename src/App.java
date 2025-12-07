@@ -4,13 +4,13 @@ class App {
     public static void main(String[] args) {
 
 // 1. Write a program to Print First 10 natural numbers. 
-/* 
+
         for (int i = 1; i <= 10; i++) {
             System.out.println(i);
         }
-*/
+
 // 2. Write a program to Calculate the sum of all numbers from 1 to a given number. 3. Write a program to print multiplication table of a given number. 
-/* 
+
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = scanner.nextInt();
@@ -22,11 +22,11 @@ class App {
         for (int i = 1; i <= 10; i++) {
             System.out.println((num * i));
         }
-*/
+
 // 4. Write a program to display only those numbers from a list (numbers = [12, 75, 150,  180, 145, 525, 50]) that satisfy the following conditions:
 // The number must be divisible by five 
 // If the number is greater than 150, then skip it and move to the next number  If the number is greater than 500, then stop the loop 
-/*
+
         int[] numbers = {12, 75, 150, 180, 145, 525, 50};
     for (int number : numbers) {
         if (number > 500) break;
@@ -34,16 +34,16 @@ class App {
             System.out.println(number);
         }
     }
-*/
+
 // 5. Write a program to Print list in reverse order using a loop. 
-/*
+
         int[] numbers = {10, 20, 30, 40, 50};
         for (int i = numbers.length - 1; i >= 0; i--) {
             System.out.println(numbers[i]);
         }
-*/
+
 // 6. Write a program to display all prime numbers within a range. 
-/*
+
     int n = 20;
     System.out.println("Prime numbers up to " + n + ":");
     for (int i = 2; i <= n; i++) {
@@ -56,9 +56,9 @@ class App {
         }
         if (isPrime) System.out.println(i);
     }
-*/
+
 // 7. Write a program to Find the factorial of a given number. 
-/*
+
     Scanner scanner = new Scanner(System.in);
     System.out.print("Enter a number: ");
     int num = scanner.nextInt();
@@ -67,9 +67,9 @@ class App {
         factorial *= i;
     }
     System.out.println("Factorial of " + num + " is " + factorial);
-*/
+
 // 8. Write a program to find the sum of the series up to n terms.
-/*
+
     System.out.print("Enter the number of terms: ");
     int terms = scanner.nextInt();
     double sumSeries = 0.0;
@@ -77,10 +77,10 @@ class App {
         sumSeries += (double) 1 / i;
     }
     System.out.println("Sum of the series up to " + terms + " terms is " + sumSeries);
-*/
+
 // 9. Write a Java program to guess a number between 1 and 9. 
 // Note : User is prompted to enter a guess. If the user guesses wrong then the prompt  appears again until the guess is correct, on successful guess, user will get a "Well  guessed!" message, and the program will exit. 
-//* 
+ 
     Scanner scanner = new Scanner(System.in);    
     int secretNumber = 7;
     int userGuess = 0;
