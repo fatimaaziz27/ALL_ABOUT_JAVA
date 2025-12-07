@@ -255,3 +255,23 @@ List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, 
     }
 }
 
+//20.Write a program to that takes a string from the user and calculates numbers of letters and digits in that particular string.
+//Example:
+//Input -> Enter Any String: Java3.2
+//Output -> Letters: 4, Digits: 2
+
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter Any String: "); 
+        String input = scanner.nextLine(); 
+        int letters = 0; 
+        int digits = 0; 
+        for (char n : input.toCharArray()) { 
+            if(Character.isLetter(n)) 
+                letters++; 
+            else if(Character.isDigit(n))
+                digits++; 
+        } 
+        System.out.println("Letters: "+letters+", Digits: "+digits); 
+    } 
+}
+
