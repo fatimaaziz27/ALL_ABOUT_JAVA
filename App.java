@@ -1,7 +1,8 @@
+import java.util.Scanner;
 import java.util.*;
 class App {
     public static void main(String[] args) {
-
+/* 
 // 1. Write a program to Print First 10 natural numbers. 
 
         for (int i = 1; i <= 10; i++) {
@@ -272,6 +273,27 @@ List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, 
                 digits++; 
         } 
         System.out.println("Letters: "+letters+", Digits: "+digits); 
+
+// Java program that takes an integer n as input, stores n numbers in an array, calculates the sum of the numbers, and finds the maximum number:
+        
+        Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter the number of elements: "); 
+        int n = scanner.nextInt(); 
+        int[] numbers = new int[n]; 
+        System.out.println("Enter the elements: "); 
+        for (int i = 0; i < n; i++) { 
+            numbers[i] = scanner.nextInt(); 
+        } 
+        int sum = 0; 
+        int max = numbers[0]; 
+        for (int num : numbers) { 
+            sum += num; 
+            if (num > max) { 
+                max = num; 
+            } 
+        } 
+        System.out.println("Sum of numbers: " + sum); 
+        System.out.println("Maximum number: " + max);
+*/
     } 
 }
-
