@@ -1,8 +1,9 @@
 import java.util.Scanner;
 import java.util.*;
 class App {
+    /* 
     public static void main(String[] args) {
-/* 
+
 // 1. Write a program to Print First 10 natural numbers. 
 
         for (int i = 1; i <= 10; i++) {
@@ -294,6 +295,22 @@ List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, 
         } 
         System.out.println("Sum of numbers: " + sum); 
         System.out.println("Maximum number: " + max);
-*/
+
+// Java program to check if a number is prime or not:
+
+    public static String prime(int num) {
+        for(int i=2;i<=num;i++){
+            if(num%i==0){
+                return num+ "Not a Prime number";
+            }
+        }
+        return num+ "is a Prime number";
     } 
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int number = sc.nextInt();
+        System.out.println(prime(number));
+}
+*/
 }
