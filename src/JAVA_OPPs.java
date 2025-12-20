@@ -1,3 +1,8 @@
+import java.util.*;
+class JAVA_OOPs {
+
+    public static void main(String[] args) {
+
 /*
 There are two types of programming:
     procedural programming
@@ -34,5 +39,6 @@ PILLARS OF OOP:
     Abstraction:
     The concept of hiding the complex implementation details and exposing only the essential features of an object.
     It helps in reducing complexity and increases efficiency.
-
-
+*/
+    }
+}
