@@ -312,5 +312,20 @@ List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, 
         int number = sc.nextInt();
         System.out.println(prime(number));
 }
+
+    Scanner number = new Scanner(System.in);
+        System.out.println("enter any number:");
+        int num = number.nextInt();
+        if (num>0){
+            if (num%2 == 0){
+                System.out.print("the entered num is positive & even");
+            }
+            else{
+                System.out.println("enter number is positive & odd");
+            }
+        }
+        else{
+            System.out.println("the entered num is negative");
+        }
 */
 }
