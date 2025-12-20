@@ -1,3 +1,4 @@
+import java.util.Scanner;
 import java.util.*;
 class JAVA_OOPs {
 
@@ -40,5 +41,17 @@ PILLARS OF OOP:
     The concept of hiding the complex implementation details and exposing only the essential features of an object.
     It helps in reducing complexity and increases efficiency.
 */
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+        if (num > 0) {
+            if (num % 2 == 0) {
+                System.out.println("The entered number is positive & even");
+            } else {
+                System.out.println("The entered number is positive & odd");
+            }
+        } else {
+            System.out.println("The entered number is negative");
+        }
     }
 }
