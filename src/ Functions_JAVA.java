@@ -110,3 +110,81 @@ import java.util.*;
 //     while(k<=10);
 //     }
 // }
+
+//        datatypes:
+
+// class main{
+//     public static void main(String[] args){
+//     // java datatypes 
+//     int my_num = 5;
+//     float my_float = 5.99f;
+//     char my_char = 'd';
+//     Boolean my_bool = true;
+//     String my_string = "hello";
+//     }
+
+//         // Java user input / Scanner
+
+// class Main {
+//     public static void main(String[] args) {
+
+//         Scanner sc = new Scanner(System.in);
+
+//         System.out.println("Enter a number:");
+//         int num = sc.nextInt();
+
+//         System.out.println("You entered: " + num);
+//     }
+// }
+
+import java.util.Scanner;
+
+class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter your grade:");
+        char letter = sc.next().toLowerCase().charAt(0);
+
+        switch (letter) {
+            case 'a':
+                System.out.println("Excellent");
+                break;
+            case 'b':
+                System.out.println("Very good");
+                break;
+            case 'c':
+                System.out.println("Good");
+                break;
+            case 'd':
+                System.out.println("Average");
+                break;
+            case 'e':
+                System.out.println("Poor");
+                break;
+            default:
+                System.out.println("Fail");
+        }
+    }
+}
+
+
+switch (letters.toLowerCase()) {
+    case "a":
+        System.out.println("Excellent");
+        break;
+    case "b":
+        System.out.println("Very good");
+        break;
+    case "c":
+        System.out.println("Good");
+        break;
+    case "d":
+        System.out.println("Average");
+        break;
+    case "e":
+        System.out.println("Poor");
+        break;
+    default:
+        System.out.println("Fail");
+}
