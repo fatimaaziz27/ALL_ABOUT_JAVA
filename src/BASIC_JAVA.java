@@ -1,5 +1,13 @@
+<<<<<<< HEAD
+import java.util.Scanner;
+import java.util.*;
+class BASIC_JAVA {
+    /* 
+    public static void main(String[] args) {
+=======
 // import java.util.*;
 // class BASIC_JAVA {
+>>>>>>> 63ac3584f54c7916916cf39567b09b7ca0ae70de
 
 //     public static void main(String[] args) {
  
@@ -341,4 +349,4 @@
 //     }
 // }
 
-                
+}                
