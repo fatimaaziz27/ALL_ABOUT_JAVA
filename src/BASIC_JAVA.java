@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 import java.util.Scanner;
 import java.util.*;
 class BASIC_JAVA {
@@ -349,4 +348,20 @@ class BASIC_JAVA {
 //     }
 // }
 
+    class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter any string:");
+        String word = sc.nextLine();
+
+        int count = 0;
+        char[] charList = word.toCharArray();
+
+        for (char i : charList) {
+            count++;
+        }
+
+        System.out.println("The length of string entered is: " + count);
+    }
 }                
