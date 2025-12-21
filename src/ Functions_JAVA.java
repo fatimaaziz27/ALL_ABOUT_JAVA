@@ -86,3 +86,27 @@ import java.util.*;
 //     }
 // }
 
+//        while loop:
+
+// class main{
+//     public static void main(String[] args){
+//     int i=0;
+//     while(i<=10){
+//         System.out.println(i);
+//         i++;
+//         }
+//     }
+// }
+
+//        do-while loop:
+
+// class main{
+//     public static void main(String[] args){
+//     int k=0;
+//     do{
+//         System.out.println(k);
+//         k++;
+//     }
+//     while(k<=10);
+//     }
+// }
