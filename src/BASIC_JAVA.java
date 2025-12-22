@@ -1,355 +1,368 @@
 import java.util.Scanner;
 import java.util.*;
 class BASIC_JAVA {
-    /* 
     public static void main(String[] args) {
-=======
-// import java.util.*;
-// class BASIC_JAVA {
->>>>>>> 63ac3584f54c7916916cf39567b09b7ca0ae70de
 
-//     public static void main(String[] args) {
- 
 
-// //                Iterative Structure 
+//                                                     Iterative Structure 
 
-// // 1. Write a program to Print First 10 natural numbers. 
-// // CODE:
 
-//         for (int i = 1; i <= 10; i++) {
-//             System.out.println(i);
-//         }
+// 1. Write a program to Print First 10 natural numbers. 
 
-// // 2. Write a program to Calculate the sum of all numbers from 1 to a given number. 3. Write a program to print multiplication table of a given number. 
-// // CODE:
+// CODE:
+/*
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+*/
 
-// /*      Scanner scanner = new Scanner(System.in);
-//         System.out.print("Enter a number: ");
-//         int num = scanner.nextInt();
+// 2. Write a program to Calculate the sum of all numbers from 1 to a given number. 3. Write a program to print multiplication table of a given number. 
 
-//         int sum = 0;
-//         for (int i = 1; i <= num; i++) {
-//             sum += i;
-//         }
-//         for (int i = 1; i <= 10; i++) {
-//             System.out.println((num * i));
-//         }
-// */ 
+// CODE:
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
 
-// // 4. Write a program to display only those numbers from a list (numbers = [12, 75, 150,  180, 145, 525, 50]) that satisfy the following conditions:
-// // The number must be divisible by five 
-// // If the number is greater than 150, then skip it and move to the next number  If the number is greater than 500, then stop the loop 
-// // CODE:
+        int sum = 0;
+        for (int i = 1; i <= num; i++) {
+            sum += i;
+        }
+        for (int i = 1; i <= 10; i++) {
+             System.out.println((num * i));
+        }
+*/
 
-// /*  int[] numbers = {12, 75, 150, 180, 145, 525, 50};
-//     for (int number : numbers) {
-//         if (number > 500) break;
-//         if (number % 5 == 0 && number <= 150) {
-//             System.out.println(number);
-//         }
-//     }
-// */
+// 4. Write a program to display only those numbers from a list (numbers = [12, 75, 150,  180, 145, 525, 50]) that satisfy the following conditions:
+// The number must be divisible by five 
+// If the number is greater than 150, then skip it and move to the next number  If the number is greater than 500, then stop the loop 
 
-// // 5. Write a program to Print list in reverse order using a loop. 
-// // CODE:
+// CODE:
 
-// /*      int[] numbers = {10, 20, 30, 40, 50};
-//         for (int i = numbers.length - 1; i >= 0; i--) {
-//             System.out.println(numbers[i]);
-//         }
-// */
+/*  int[] numbers = {12, 75, 150, 180, 145, 525, 50};
+    for (int number : numbers) {
+        if (number > 500) break;
+        if (number % 5 == 0 && number <= 150) {
+            System.out.println(number);
+        }
+    }
+*/
 
-// // 6. Write a program to display all prime numbers within a range. 
-// // CODE:
+// 5. Write a program to Print list in reverse order using a loop. 
 
-// /*  int n = 20;
-//     System.out.println("Prime numbers up to " + n + ":");
-//     for (int i = 2; i <= n; i++) {
-//         boolean isPrime = true;
-//         for (int j = 2; j <= i / 2; j++) {
-//             if (i % j == 0) {
-//                 isPrime = false;
-//                 break;
-//             }
-//         }
-//         if (isPrime) System.out.println(i);
-//     }
-// */
+// CODE:
 
-// // 7. Write a program to Find the factorial of a given number. 
-// // CODE:
+/*      int[] numbers = {10, 20, 30, 40, 50};
+        for (int i = numbers.length - 1; i >= 0; i--) {
+            System.out.println(numbers[i]);
+        }
+*/
 
-// /*  Scanner scanner = new Scanner(System.in);
-//     System.out.print("Enter a number: ");
-//     int num = scanner.nextInt();
-//     int factorial = 1;
-//     for (int i = 1; i <= num; i++) {
-//         factorial *= i;
-//     }
-//     System.out.println("Factorial of " + num + " is " + factorial);
-// */
+// 6. Write a program to display all prime numbers within a range. 
 
-// // 8. Write a program to find the sum of the series up to n terms.
-// // CODE:
+// CODE:
 
-// /*  System.out.print("Enter the number of terms: ");
-//     int terms = scanner.nextInt();
-//     double sumSeries = 0.0;
-//     for (int i = 1; i <= terms; i++) {
-//         sumSeries += (double) 1 / i;
-//     }
-//     System.out.println("Sum of the series up to " + terms + " terms is " + sumSeries);
-// */ 
+/*  int n = 20;
+    System.out.println("Prime numbers up to " + n + ":");
+    for (int i = 2; i <= n; i++) {
+        boolean isPrime = true;
+        for (int j = 2; j <= i / 2; j++) {
+            if (i % j == 0) {
+                isPrime = false;
+                break;
+            }
+        }
+        if (isPrime) System.out.println(i);
+    }
+*/
 
-// // 9. Write a Java program to guess a number between 1 and 9. 
-// // Note : User is prompted to enter a guess. If the user guesses wrong then the prompt  appears again until the guess is correct, on successful guess,
-// // user will get a "Well  guessed!" message, and the program will exit. 
-// // CODE:
+// 7. Write a program to Find the factorial of a given number. 
 
-// /*  Scanner scanner = new Scanner(System.in);    
-//     int secretNumber = 7;
-//     int userGuess = 0;
-//     while (userGuess != secretNumber) {
-//         System.out.print("Guess a number between 1 and 9: ");
-//         userGuess = scanner.nextInt();
-//         if (userGuess < secretNumber) {
-//             System.out.println("Too low, try again.");
-//         } else if (userGuess > secretNumber) {
-//             System.out.println("Too high, try again.");
-//         }
-//     }
-// System.out.println("Well guessed!");
-// */
+// CODE:
 
-// // 10. Write a Java program that accepts a word from the user and reverses it. 11. Write a Java program that accepts a string and calculates the number of digits and  letters. 
-// // Sample Data : Java 3.2  
-// // Expected Output : 
-// // Letters 4 
-// // Digits 2. 
-// // CODE:
+/*  Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter a number: ");
+    int num = scanner.nextInt();
+    int factorial = 1;
+    for (int i = 1; i <= num; i++) {
+        factorial *= i;
+    }
+    System.out.println("Factorial of " + num + " is " + factorial);
+*/
 
-// /*  Scanner scanner = new Scanner(System.in);
-//     System.out.print("Enter a word: ");
-//     String word = scanner.nextLine();
-//     String reversed = "";
-//     for (int i = word.length() - 1; i >= 0; i--) {
-//         reversed += word.charAt(i);
-//     }
-//     System.out.println("Reversed word: " + reversed);
+// 8. Write a program to find the sum of the series up to n terms.
 
-//     System.out.print("Enter a string: ");
-//     String input = scanner.nextLine();
-//     int letterCount = 0;
-//     int digitCount = 0;
-//     for (int i = 0; i < input.length(); i++) {
-//         char ch = input.charAt(i);
-//         if (Character.isLetter(ch)) {
-//             letterCount++;
-//         } else if (Character.isDigit(ch)) {
-//             digitCount++;
-//         }
-//     }
-//     System.out.println("Letters: " + letterCount);
-//     System.out.println("Digits: " + digitCount);
-// */
+// CODE:
 
-// // 12. Write a program to calculate the length of string provide input by user (without using  len). 
-// // CODE:
+/*  System.out.print("Enter the number of terms: ");
+    int terms = scanner.nextInt();
+    double sumSeries = 0.0;
+    for (int i = 1; i <= terms; i++) {
+        sumSeries += (double) 1 / i;
+    }
+    System.out.println("Sum of the series up to " + terms + " terms is " + sumSeries);
+*/ 
 
-// /*  Scanner scanner = new Scanner(System.in);    
-//     System.out.print("Enter a string to calculate its length: ");
-//     String str = scanner.nextLine();
-//     int length = 0;
-//     for (char c : str.toCharArray()) {
-//         length++;
-//     }
-//     System.out.println("Length of the string: " + length);
-// */
+// 9. Write a Java program to guess a number between 1 and 9. 
+// Note : User is prompted to enter a guess. If the user guesses wrong then the prompt  appears again until the guess is correct, on successful guess,
+// user will get a "Well  guessed!" message, and the program will exit. 
 
-// // 13. Write a Java program to print the number of vowels and consonant in your full  name. 
-// // CODE:
+// CODE:
 
-// /*  Scanner scanner = new Scanner(System.in);    
-//     System.out.print("Enter your full name: ");
-//     String fullName = scanner.nextLine().toLowerCase();
-//     int vowels = 0;
-//     int consonants = 0;
-//     for (int i = 0; i < fullName.length(); i++) {
-//         char ch = fullName.charAt(i);
-//         if (ch >= 'a' && ch <= 'z') {
-//             if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
-//                 vowels++;
-//             } else {
-//                 consonants++;
-//             }
-//         }
-//     }System.out.println("Vowels: " + vowels);
-// */
+/*  Scanner scanner = new Scanner(System.in);    
+    int secretNumber = 7;
+    int userGuess = 0;
+    while (userGuess != secretNumber) {
+        System.out.print("Guess a number between 1 and 9: ");
+        userGuess = scanner.nextInt();
+        if (userGuess < secretNumber) {
+            System.out.println("Too low, try again.");
+        } else if (userGuess > secretNumber) {
+            System.out.println("Too high, try again.");
+        }
+    }
+System.out.println("Well guessed!");
+*/
 
-// // 14. Write a Java program that generates list of values. The values must be taken from  user as input. 
-// // CODE:
+// 10. Write a Java program that accepts a word from the user and reverses it. 11. Write a Java program that accepts a string and calculates the number of digits and  letters. 
+// Sample Data : Java 3.2  
+// Expected Output : 
+// Letters 4 
+// Digits 2. 
 
-// /*  Scanner scanner = new Scanner(System.in);    
-//     System.out.print("Enter the number of values you want to input: ");
-//     int n = scanner.nextInt();
-//     List<Integer> values = new ArrayList<>();
-//     System.out.println("Enter " + n + " values:");
-//     for (int i = 0; i < n; i++) {
-//         int value = scanner.nextInt();
-//         values.add(value);
-//     }
+// CODE:
+
+/*  Scanner scanner = new Scanner(System.in);
+    System.out.print("Enter a word: ");
+    String word = scanner.nextLine();
+    String reversed = "";
+    for (int i = word.length() - 1; i >= 0; i--) {
+        reversed += word.charAt(i);
+    }
+    System.out.println("Reversed word: " + reversed);
+
+    System.out.print("Enter a string: ");
+    String input = scanner.nextLine();
+    int letterCount = 0;
+    int digitCount = 0;
+    for (int i = 0; i < input.length(); i++) {
+        char ch = input.charAt(i);
+        if (Character.isLetter(ch)) {
+            letterCount++;
+        } else if (Character.isDigit(ch)) {
+            digitCount++;
+        }
+    }
+    System.out.println("Letters: " + letterCount);
+    System.out.println("Digits: " + digitCount);
+*/
+
+// 12. Write a program to calculate the length of string provide input by user (without using  len). 
+
+// CODE:
+
+/*  Scanner scanner = new Scanner(System.in);    
+    System.out.print("Enter a string to calculate its length: ");
+    String str = scanner.nextLine();
+    int length = 0;
+    for (char c : str.toCharArray()) {
+        length++;
+    }
+    System.out.println("Length of the string: " + length);
+*/
+
+// 13. Write a Java program to print the number of vowels and consonant in your full  name. 
+// CODE:
+
+/*  Scanner scanner = new Scanner(System.in);    
+    System.out.print("Enter your full name: ");
+    String fullName = scanner.nextLine().toLowerCase();
+    int vowels = 0;
+    int consonants = 0;
+    for (int i = 0; i < fullName.length(); i++) {
+        char ch = fullName.charAt(i);
+        if (ch >= 'a' && ch <= 'z') {
+            if (ch == 'a' || ch == 'e' || ch == 'i' || ch == 'o' || ch == 'u') {
+                vowels++;
+            } else {
+                consonants++;
+            }
+        }
+    }System.out.println("Vowels: " + vowels);
+*/
+
+// 14. Write a Java program that generates list of values. The values must be taken from  user as input. 
+
+// CODE:
+
+/*  Scanner scanner = new Scanner(System.in);    
+    System.out.print("Enter the number of values you want to input: ");
+    int n = scanner.nextInt();
+    List<Integer> values = new ArrayList<>();
+    System.out.println("Enter " + n + " values:");
+    for (int i = 0; i < n; i++) {
+        int value = scanner.nextInt();
+        values.add(value);
+    }
     
-//     System.out.println("You entered: " + values);
-// */
+    System.out.println("You entered: " + values);
+*/
 
-// // 15. Write a Java program to copy elements from one list to another. 
-// // CODE:
+// 15. Write a Java program to copy elements from one list to another. 
 
-// /*  List<Integer> sourceList = Arrays.asList(1, 2, 3, 4, 5);
-//     List<Integer> destinationList = new ArrayList<>();
-//     for (Integer item : sourceList) {
-//         destinationList.add(item);
-//     }
-//     System.out.println("Source List: " + sourceList);
-//     System.out.println("Destination List: " + destinationList);
-// */
+// CODE:
 
-// // 16. Write a Java program to select the maximum value from list (without using maximum function). 
-// // CODE:
+/*  List<Integer> sourceList = Arrays.asList(1, 2, 3, 4, 5);
+    List<Integer> destinationList = new ArrayList<>();
+    for (Integer item : sourceList) {
+        destinationList.add(item);
+    } 
+    System.out.println("Source List: " + sourceList);
+    System.out.println("Destination List: " + destinationList);
+*/
 
-// /*  List<Integer> numbers = Arrays.asList(34, 67, 23, 89, 12, 90, 45);
-//     int max = numbers.get(0);
-//     for (int i = 1; i < numbers.size(); i++) {
-//         if (numbers.get(i) > max) {
-//             max = numbers.get(i);
-//         }
-//     }
-//     System.out.println("Maximum value in the list: " + max);
-// */
+// 16. Write a Java program to select the maximum value from list (without using maximum function). 
 
-// // 17. Write a Java program to count the number of even and odd numbers from a series of  numbers. Sample numbers: numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
-// // CODE:
+// CODE:
 
-// /*  List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
-//     int evenCount = 0;
-//     int oddCount = 0;
-//     for (Integer number : numbers) {
-//         if (number % 2 == 0) {
-//             evenCount++;
-//         } else {
-//             oddCount++;
-//         }
-//     }
-//     System.out.println("Even numbers count: " + evenCount);
-//     System.out.println("Odd numbers count: " + oddCount);
-// */
+/*  List<Integer> numbers = Arrays.asList(34, 67, 23, 89, 12, 90, 45);
+    int max = numbers.get(0);
+    for (int i = 1; i < numbers.size(); i++) {
+        if (numbers.get(i) > max) {
+            max = numbers.get(i);
+        }
+    }
+    System.out.println("Maximum value in the list: " + max);
+*/
 
-// // 18. Find the sum of squares of each element of the list using for loop. numbers = [3, 5, 23,  6, 5, 1, 2, 9, 8 
-// // CODE:
+// 17. Write a Java program to count the number of even and odd numbers from a series of  numbers. Sample numbers: numbers = (1, 2, 3, 4, 5, 6, 7, 8, 9) 
 
-// /*  List<Integer> numbers = Arrays.asList(3, 5, 23, 6, 5, 1, 2, 9, 8);
-//     int sumOfSquares = 0;
-//     for (Integer number : numbers) {
-//         sumOfSquares += number * number;
-//     }
-//     System.out.println("Sum of squares: " + sumOfSquares);
-// */
+// CODE:
 
-// // 19. From given list: gadgets = [“Mobile”, “Laptop”, 100, “Camera”, 310.28, “Speakers”,  27.00, “Television”, 1000, “Laptop Case”, “Camera Lens”] 
-// // a) Create separate lists of strings and numbers. 
-// // b) Sort the strings list in ascending order 
-// // c) Sort the strings list in descending order 
-// // d) Sort the number list from lowest to highest 
-// // e) Sort the number list from highest to lowest
-// // CODE:
+/*  List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+    int evenCount = 0;
+    int oddCount = 0;
+    for (Integer number : numbers) {
+        if (number % 2 == 0) {
+            evenCount++;
+        } else {
+            oddCount++;
+        }
+    }
+    System.out.println("Even numbers count: " + evenCount);
+    System.out.println("Odd numbers count: " + oddCount);
+*/
 
-// /* List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00, "Television", 1000, "Laptop Case", "Camera Lens");
-//         List<String> stringList = new ArrayList<>();
-//         List<Double> numberList = new ArrayList<>();
+// 18. Find the sum of squares of each element of the list using for loop. numbers = [3, 5, 23,  6, 5, 1, 2, 9, 8 
+
+// CODE:
+
+/*  List<Integer> numbers = Arrays.asList(3, 5, 23, 6, 5, 1, 2, 9, 8);
+    int sumOfSquares = 0;
+    for (Integer number : numbers) {
+        sumOfSquares += number * number;
+    }
+    System.out.println("Sum of squares: " + sumOfSquares);
+*/
+
+// 19. From given list: gadgets = [“Mobile”, “Laptop”, 100, “Camera”, 310.28, “Speakers”,  27.00, “Television”, 1000, “Laptop Case”, “Camera Lens”] 
+// a) Create separate lists of strings and numbers. 
+// b) Sort the strings list in ascending order 
+// c) Sort the strings list in descending order 
+// d) Sort the number list from lowest to highest 
+// e) Sort the number list from highest to lowest
+
+// CODE:
+
+/* List<Object> gadgets = Arrays.asList("Mobile", "Laptop", 100, "Camera", 310.28, "Speakers", 27.00, "Television", 1000, "Laptop Case", "Camera Lens");
+        List<String> stringList = new ArrayList<>();
+        List<Double> numberList = new ArrayList<>();
         
-//         // a) Create separate lists
-//         for (Object item : gadgets) {
-//             if (item instanceof String) {
-//                 stringList.add((String) item);
-//             } else if (item instanceof Number) {
-//                 numberList.add(((Number) item).doubleValue());
-//             }
-//         }
+        // a) Create separate lists
+        for (Object item : gadgets) {
+            if (item instanceof String) {
+                stringList.add((String) item);
+            } else if (item instanceof Number) {
+                numberList.add(((Number) item).doubleValue());
+            }
+        }
         
-//         // b) Sort strings in ascending order
+        // b) Sort strings in ascending order
 
-//         List<String> ascStrings = new ArrayList<>(stringList);
-//         Collections.sort(ascStrings);
-//         System.out.println("Strings (Ascending): " + ascStrings);
+        List<String> ascStrings = new ArrayList<>(stringList);
+        Collections.sort(ascStrings);
+        System.out.println("Strings (Ascending): " + ascStrings);
         
-//         // c) Sort strings in descending order
+        // c) Sort strings in descending order
 
-//         List<String> descStrings = new ArrayList<>(stringList);
-//         Collections.sort(descStrings, Collections.reverseOrder());
-//         System.out.println("Strings (Descending): " + descStrings);
+        List<String> descStrings = new ArrayList<>(stringList);
+        Collections.sort(descStrings, Collections.reverseOrder());
+        System.out.println("Strings (Descending): " + descStrings);
         
-//         // d) Sort numbers from lowest to highest
+        // d) Sort numbers from lowest to highest
 
-//         List<Double> ascNumbers = new ArrayList<>(numberList);
-//         Collections.sort(ascNumbers);
-//         System.out.println("Numbers (Low to High): " + ascNumbers);
+        List<Double> ascNumbers = new ArrayList<>(numberList);
+        Collections.sort(ascNumbers);
+        System.out.println("Numbers (Low to High): " + ascNumbers);
         
-//         // e) Sort numbers from highest to lowest
+        // e) Sort numbers from highest to lowest
 
-//         List<Double> descNumbers = new ArrayList<>(numberList);
-//         Collections.sort(descNumbers, Collections.reverseOrder());
-//         System.out.println("Numbers (High to Low): " + descNumbers);
-//     }
-// }
-// */
+        List<Double> descNumbers = new ArrayList<>(numberList);
+        Collections.sort(descNumbers, Collections.reverseOrder());
+        System.out.println("Numbers (High to Low): " + descNumbers);
+    }
+}
+*/
 
-// // 20.Write a program to that takes a string from the user and calculates numbers of letters and digits in that particular string.
-// // Example:
-// // Input -> Enter Any String: Java3.2
-// // Output -> Letters: 4, Digits: 2
-// // CODE:
+// 20.Write a program to that takes a string from the user and calculates numbers of letters and digits in that particular string.
+// Example:
+// Input -> Enter Any String: Java3.2
+// Output -> Letters: 4, Digits: 2
 
-// /*      Scanner scanner = new Scanner(System.in); 
-//         System.out.print("Enter Any String: "); 
-//         String input = scanner.nextLine(); 
-//         int letters = 0; 
-//         int digits = 0; 
-//         for (char n : input.toCharArray()) { 
-//             if(Character.isLetter(n)) 
-//                 letters++; 
-//             else if(Character.isDigit(n))
-//                 digits++; 
-//         } 
-//         System.out.println("Letters: "+letters+", Digits: "+digits); 
-// */  
+// CODE:
 
-// // 21.Java program that takes an integer n as input, stores n numbers in an array, calculates the sum of the numbers, and finds the maximum number:
-// // CODE: 
+/*      Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter Any String: "); 
+        String input = scanner.nextLine(); 
+        int letters = 0; 
+        int digits = 0; 
+        for (char n : input.toCharArray()) { 
+            if(Character.isLetter(n)) 
+                letters++; 
+            else if(Character.isDigit(n))
+                digits++; 
+        } 
+        System.out.println("Letters: "+letters+", Digits: "+digits); 
+*/  
 
-// /*      Scanner scanner = new Scanner(System.in); 
-//         System.out.print("Enter the number of elements: "); 
-//         int n = scanner.nextInt(); 
-//         int[] numbers = new int[n]; 
-//         System.out.println("Enter the elements: "); 
-//         for (int i = 0; i < n; i++) { 
-//             numbers[i] = scanner.nextInt(); 
-//         } 
-//         int sum = 0; 
-//         int max = numbers[0]; 
-//         for (int num : numbers) { 
-//             sum += num; 
-//             if (num > max) { 
-//                 max = num; 
-//             } 
-//         } 
-//         System.out.println("Sum of numbers: " + sum); 
-//         System.out.println("Maximum number: " + max);
-// */
-//     }
-// }
+// 21.Java program that takes an integer n as input, stores n numbers in an array, calculates the sum of the numbers, and finds the maximum number:
 
-    class Main {
-    public static void main(String[] args) {
+// CODE: 
+
+/*      Scanner scanner = new Scanner(System.in); 
+        System.out.print("Enter the number of elements: "); 
+        int n = scanner.nextInt(); 
+        int[] numbers = new int[n]; 
+        System.out.println("Enter the elements: "); 
+        for (int i = 0; i < n; i++) { 
+            numbers[i] = scanner.nextInt(); 
+        } 
+        int sum = 0; 
+        int max = numbers[0]; 
+        for (int num : numbers) { 
+            sum += num; 
+            if (num > max) { 
+                max = num; 
+            } 
+        } 
+        System.out.println("Sum of numbers: " + sum); 
+        System.out.println("Maximum number: " + max);
+*/
+
+// 22. Write a Java program to calculate the length of a string without using the built-in length() method.
+
+// CODE:
+/*
         Scanner sc = new Scanner(System.in);
 
         System.out.println("Enter any string:");
@@ -363,5 +376,7 @@ class BASIC_JAVA {
         }
 
         System.out.println("The length of string entered is: " + count);
-    }
-}                
+*/
+
+        }
+}
