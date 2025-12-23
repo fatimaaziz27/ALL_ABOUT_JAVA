@@ -1,17 +1,23 @@
-// import java.util.*;
-// import java.util.Scanner;
-// class JAVA_OOPs {
-
-//     public static void main(String[] args) {
+import java.util.*;
+import java.util.Scanner;
+class JAVA_OOPs {
 
 // /*
 // There are two types of programming:
 //     procedural programming
 //     object oriented programming (OOP)
 
-// OOP:
+// What is OOP?
 //     OOP stands for Object-Oriented Programming System (or Object-Oriented Programming).
 //     It’s a way of writing programs where you organize code around objects instead of just functions and logic.
+
+//                                           OR
+
+//     Object-Oriented Programming (OOP) is a programming paradigm(type)
+//     that uses "objects" to represent data and methods to manipulate
+//     that data. It emphasizes concepts such as encapsulation,
+//     inheritance, polymorphism, and abstraction to promote
+//     code reusability and modularity.
 
 // Component           Purpose
 
@@ -44,48 +50,48 @@
 
 
 
-//Introduction to Object-Oriented Programming in Java
-//Example:
-import java.util.Scanner;
-class OOP {
-   public static void main(String[] args) {
+//          Introduction to Object-Oriented Programming in Java
+
+    public static void main(String[] args) {
+
        // Creating objects of the OOP class
        // Syntax: classname objectname = new classname();
-       car hamzas_car = new car();
+
+        car hamzas_car = new car();
+
        // Calling method to display data
        // objectname.methodname();
-       hamzas_car.honk(); // Output: Beep Beep!
-       hamzas_car.start(); // Output: Car Started
+
+       hamzas_car.honk();           // Output: Beep Beep!
+       hamzas_car.start();          // Output: Car Started
+
        // objectname.attributename;
-       hamzas_car.brand="Honda";
-       System.out.println(hamzas_car.brand); // Output: Honda
-       System.out.println(hamzas_car.year); // Output: 2008
-       car ammars_car= new car();
-       System.out.println(ammars_car.brand); // Output: Suzuki
-       System.out.println(ammars_car.year); // Output: 2008
-   }
+       
+        hamzas_car.brand="Honda";
+       System.out.println(hamzas_car.brand);          // Output: Honda
+       System.out.println(hamzas_car.year);          // Output: 2008
+        car ammars_car= new car();
+       System.out.println(ammars_car.brand);       // Output: Suzuki
+       System.out.println(ammars_car.year);        // Output: 2008
+    }
 }
 class car{
-   String brand="Suzuki"; // Attribute (property)
-   int year = 2008; // Attribute (property)
+   String brand="Suzuki";          // Attribute (property)
+   int year = 2008;              // Attribute (property)
 
    // Method (behavior)
-   void honk() {
-       System.out.println("Beep Beep!");}
-   void start() {
-       System.out.println("Car Started");}
+
+    void honk() {
+        System.out.println("Beep Beep!");}
+    void start() {
+        System.out.println("Car Started");}
 
 }
 
 
 
 
-//What is OOP?
-//Object-Oriented Programming (OOP) is a programming paradigm(type)
-// that uses "objects" to represent data and methods to manipulate
-// that data. It emphasizes concepts such as encapsulation,
-// inheritance, polymorphism, and abstraction to promote
-// code reusability and modularity.
+
 
 
 
