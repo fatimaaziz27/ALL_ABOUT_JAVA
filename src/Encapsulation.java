@@ -84,7 +84,7 @@ class GetterSetter{
 
     }
 }
-class Car1{
+static class Car1{
     String brand;
     String model;
     int year;
