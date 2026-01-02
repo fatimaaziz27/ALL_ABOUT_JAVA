@@ -1,5 +1,7 @@
 //                      Abstraction in Java:
 
+// The concept of hiding the complex implementation details and exposing only the essential features of an object.
+// It helps in reducing complexity and increases efficiency.
 
 // Abstraction is an OOP concept that focuses on what an object does, not how it does it.
 // It hides unnecessary details and shows only the important features to the user.
