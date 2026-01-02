@@ -1,11 +1,37 @@
+//                                 Encapsulation in OOP:
+
+// The bundling of data (attributes) and methods (functions) that operate on that data into a single unit (class).
+// It restricts direct access to some of the object components, which help prevent unintended interference and misuse
+// of the data.
+
+// Encapsulation is the concept of wrapping data (attributes) and methods (functions
+// behaviors) together into a single unit known as a class. It restricts direct access
+// to some of the object's components, which helps prevent unintended interference
+// and misuse of the data. Encapsulation is a fundamental principle of object-oriented
+// programming (OOP) that promotes data hiding and modularity.
+
+
+// Encapsulation is an OOP concept that focuses on binding data (variables) and methods into a single unit (class).
+// It hides the internal data of an object and allows access only through public methods.
+// Data members are usually declared private to prevent direct access from outside the class.
+// Access to the data is provided using getter and setter methods.
+// Encapsulation helps in data security, data validation, and better control over class variables.
+// If encapsulation is not used properly, data can be modified incorrectly, which may cause unexpected results.
+// Encapsulation is used to protect data and maintain data integrity.
+
+
 import java.util.*;
 public class Encapsulation {
+
 // Getters and Setters in OOP:
+
 // Getters and Setters are methods used to access and update
 // the private attributes of a class. They provide a controlled
 // way to read and modify the values of private variables,
 // ensuring encapsulation and data integrity.
+
 // Example:
+
 //class GetterSetter{
 //	public static void main(String[] args){
 //            // Creating objects of the OOP class
@@ -19,6 +45,7 @@ public class Encapsulation {
 //            System.out.println("Name: " + obj2.getName() + ", Age: " + obj2.getAge()+", Hair Color: " + obj2.getHairColor());
 //	}
 //}
+
 //class Person {
 //    String name; // attribute default null
 //    int age; // attribute default 0
@@ -45,8 +72,6 @@ public class Encapsulation {
 //    public void setHairColor(String new_hair_color) {
 //        this.hair_color = new_hair_color;}
 
-
-//
 //    public static void main(String[] args) {
 //        // Creating objects of the OOP class
 //        Person obj1 = new Person("Hamza",24,"Brown");
@@ -59,7 +84,6 @@ public class Encapsulation {
 //
 //        Person obj2= new Person();
 //        System.out.println("Name: " + obj2.getName() + ", Age: " + obj2.getAge()+", Hair Color: " + obj2.getHairColor());
-
 //    }
 
 
@@ -88,15 +112,18 @@ static class Car1{
     String brand;
     String model;
     int year;
-    //Getter Setter Methods
-    //Getter syntax ->
+
+//Getter Setter Methods
+//Getter syntax ->
 //    public datatype_attribute get+attribute_name(){
 //      return attribute_name
 //    }
-    //Setter syntax ->
+
+//Setter syntax ->
 //    public void set+attribute_name(datatype_attribute new_value(new+attribute_name){
 //      this.attribute_name =  new+attribute_name
 //    }
+
     public String getBrand() {
         return brand;
     }
