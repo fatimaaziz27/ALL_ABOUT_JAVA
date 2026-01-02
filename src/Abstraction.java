@@ -1,3 +1,9 @@
+// Method Overloading:
+// Same method name, different parameters, same class.
+
+// Method Overriding:
+// Same method name, same parameters, child class changes parent method.
+
 import java.util.*;
 class Abstraction {
     public static void main(String[] args) {
