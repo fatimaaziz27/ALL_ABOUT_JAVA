@@ -17,9 +17,9 @@ class TRY_EXCEPTION {
 
         // Another Example:
 
-        Scanner scanner = new Scanner(System.in);
+        Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number to divide 100 by: ");
-        int divisor = scanner.nextInt();
+        int divisor = sc.nextInt();
 
         try {
             int result = 100 / divisor;
@@ -31,8 +31,17 @@ class TRY_EXCEPTION {
         }
 
         // Example with multiple catch blocks:
+
         try {
-            System.out.println("enter first 
+            System.out.println("enter first number:");
+            int num1 = sc.nextInt();
+            System.out.println("enter second number:");
+            int num2 = sc.nextInt();
+            int num3 = num1 / num2;
+            System.out.println("Result: " + num3);
+        }
+        catch (ArithmeticException e) {
+
 
 
 
