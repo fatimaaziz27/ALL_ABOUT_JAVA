@@ -41,7 +41,7 @@ class TRY_EXCEPTION {
             System.out.println("Result: " + num3);
         }
         catch (ArithmeticException e) {
-            System.out.println("Arithmetic Error":);
+            System.out.println("Arithmetic Error");
         }
         catch (Exception e) {
             System.out.println("Random Error");
@@ -50,7 +50,7 @@ class TRY_EXCEPTION {
             System.out.println("Execution completed.");
         }
 
-        
+
     }
     
 }
