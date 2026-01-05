@@ -44,11 +44,13 @@ class TRY_EXCEPTION {
             System.out.println("Arithmetic Error":);
         }
         catch (Exception e) {
-            System.out.println("Random 
+            System.out.println("Random Error");
+        }
+        finally {
+            System.out.println("Execution completed.");
+        }
 
-
-
-
+        
     }
     
 }
