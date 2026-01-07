@@ -30,15 +30,17 @@ class Access_Modifiers {
 // Example:
 class Main {
     public static void main(String[] args) {
+        
         Car myCar = new Car("Toyota", 2020, "Corolla");
         System.out.println(myCar.getBrand());
         System.out.println(myCar.getYear());
         System.out.println(myCar.getModel());
+        
         myCar.setBrand("Ford");
         myCar.setModel("Ford GT");
         myCar.setYear(2022);
+        
         myCar.display();
-
     }
 }
 class Car {
@@ -86,8 +88,6 @@ class Car {
     // Method to display car details
     public void display() {
         System.out.println("Brand: " + brand + ", Year: " + year + ", Model: " + model);
-    }}
-
-
+    }
     
-}
+}}
