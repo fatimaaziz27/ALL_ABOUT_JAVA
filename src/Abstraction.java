@@ -11,7 +11,6 @@
 // Abstraction is used to hide data and expose only essential information.
 
 
-import java.util.*;
 class Abstraction {
     public static void main(String[] args) {
         ali_baba obj = new ali_baba();
