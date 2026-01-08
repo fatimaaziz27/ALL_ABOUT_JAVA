@@ -1,5 +1,3 @@
-import java.util.Scanner;
-import java.util.*;
 class Function_JAVA {
     public static void main(String[] args) {
 
