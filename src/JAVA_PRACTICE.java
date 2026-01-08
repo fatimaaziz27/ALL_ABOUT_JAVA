@@ -116,6 +116,7 @@ public static void main(String[] args) {
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
 
+/*
     static int safe_sub(int x, int y) {
         int result = x - y;
 
@@ -142,22 +143,77 @@ public static void main(String[] args) {
         sc.close();
     }
 }
-
-
-
-
-
-
-
-
+*/
 
 // 3. Check for Division by Zero
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
 // should return `"Cannot divide by zero"`.
 
+
+/*
+static int safe_sub(int x, int y) {
+        int result = x / y;
+        return result;
+    }
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+
+            System.out.println("Result: " + safe_sub(x, y));
+
+        } catch (ArithmeticException e) {
+            System.out.println("Cannot divide by zero");
+        }
+        catch (Exception e) {
+            System.out.println("invalid input: enter integer numbers only");
+        }
+        sc.close();
+    }
+}
+*/
+
+
+
 // 4. Handling Invalid Input
 // Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
 // integer. If the conversion fails, return the message `"Invalid input"`.
+
+
+    static int parse_input(String value) {
+        try {
+            return Integer.parseInt(value); // convert string to int
+        } catch (NumberFormatException e) {
+            System.out.println("Invalid input"); // print error message
+            return 0; // return 0 when conversion fails
+        }
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        String value1 = sc.nextLine();
+        String value2 = sc.nextLine();
+
+        int num1 = parse_input(value1);
+        int num2 = parse_input(value2);
+
+        System.out.println("First number: " + num1);
+        System.out.println("Second number: " + num2);
+
+        sc.close();
+    }
+}
+
+
+
+
+
+
+
+
 
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
@@ -375,4 +431,3 @@ public static void main(String[] args) {
 // Define a base class Person with attributes name and age. Create a subclass Employee that adds
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
-    }
