@@ -1,7 +1,7 @@
 import java.util.*;
 class JAVA_PRACTICE{
-    public static void main(String[] args) {
-//                                              Basic Java Programming 
+
+//                                              Basic Java Programming
 
 // Data Types & Operations
 
@@ -9,6 +9,8 @@ class JAVA_PRACTICE{
 // Write a Java program that creates a list of floats. Use a for loop to calculate the sum of all positive
 // integers in the list.
 
+/* 
+public static void main(String[] args) {
     List<Float> floatlist = new ArrayList<>();
     floatlist.add(12.5f);
     floatlist.add(-3.4f);
@@ -21,7 +23,8 @@ class JAVA_PRACTICE{
         }
     }
     System.out.println("Sum of list" + sum);
-
+}
+*/
 
 // 2. Filtering and Summing Numbers
 // Write a Java program that creates a list of integers. Use list comprehension to create a new list that
@@ -77,13 +80,43 @@ class JAVA_PRACTICE{
 // Input: `"hello world", "world"`
 // Output: `True`
 
+
+
+
+
 // Functions and Exception Handling
 
 // 1. Safe Addition
 // Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
 // error message if the numbers are not valid floats.
 
-// 2. Safe Subtraction
+
+
+    static float safe_add(float x, float y) {
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            float x = sc.nextFloat();
+            float y = sc.nextFloat();
+
+            System.out.println("Result: " + safe_add(x, y));
+
+        } catch (Exception e) {
+            System.out.println("Invalid input: enter float numbers only");
+        }
+
+        sc.close();
+    }
+
+
+
+
+
+    // 2. Safe Subtraction
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
 
@@ -98,6 +131,10 @@ class JAVA_PRACTICE{
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
+
+
+
 
 // * Object-Oriented Programming *
 
