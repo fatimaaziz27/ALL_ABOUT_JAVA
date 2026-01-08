@@ -116,16 +116,15 @@ public static void main(String[] args) {
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
 
+    static int safe_sub(int x, int y) {
+        int result = x - y;
 
-static int safe_sub(int x, int y) {
-    if( x - y/2 == 1){
-        System.out.println("Error: Result is negative.");
-        return 0;
+        if (result < 0) {
+            System.out.println("Error: Result is negative.");
+            return 0;
+        }
+        return result;
     }
-    else {
-        return x - y;
-    }
-}
 
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
@@ -142,6 +141,7 @@ static int safe_sub(int x, int y) {
 
         sc.close();
     }
+}
 
 
 
