@@ -20,7 +20,6 @@
 // Encapsulation is used to protect data and maintain data integrity.
 
 
-import java.util.*;
 public class Encapsulation {
 
 // Getters and Setters in OOP:

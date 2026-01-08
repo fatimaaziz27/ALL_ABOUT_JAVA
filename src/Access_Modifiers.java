@@ -1,6 +1,5 @@
-import java.util.*;
 class Access_Modifiers {
-    //Access Modifiers in Java:
+//Access Modifiers in Java:
 //Access modifiers are keywords in Java that set the accessibility
 // of classes, methods, and variables. The three main access
 // modifiers are:

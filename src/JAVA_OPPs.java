@@ -1,5 +1,3 @@
-import java.util.*;
-import java.util.Scanner;
 class JAVA_OOPs {
 
 // /*
