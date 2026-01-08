@@ -90,8 +90,7 @@ public static void main(String[] args) {
 // Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
 // error message if the numbers are not valid floats.
 
-
-
+/* 
     static float safe_add(float x, float y) {
         return x + y;
     }
@@ -111,14 +110,46 @@ public static void main(String[] args) {
 
         sc.close();
     }
+*/
 
-
-
-
-
-    // 2. Safe Subtraction
+// 2. Safe Subtraction
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
+
+
+static int safe_sub(int x, int y) {
+    if( x - y/2 == 1){
+        System.out.println("Error: Result is negative.");
+        return 0;
+    }
+    else {
+        return x - y;
+    }
+}
+
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+
+        try {
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+
+            System.out.println("Result: " + safe_sub(x, y));
+
+        } catch (Exception e) {
+            System.out.println("Invalid input: enter integer numbers only");
+        }
+
+        sc.close();
+    }
+
+
+
+
+
+
+
+
 
 // 3. Check for Division by Zero
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
@@ -345,4 +376,3 @@ public static void main(String[] args) {
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
     }
-}
