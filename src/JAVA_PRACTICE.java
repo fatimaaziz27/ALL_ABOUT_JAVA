@@ -181,7 +181,7 @@ static int safe_sub(int x, int y) {
 // Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
 // integer. If the conversion fails, return the message `"Invalid input"`.
 
-
+/*
     static int parse_input(String value) {
         try {
             return Integer.parseInt(value); // convert string to int
@@ -207,18 +207,30 @@ static int safe_sub(int x, int y) {
     }
 }
 
-
-
-
-
-
-
-
+*/
 
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
 
+/* 
+    static int add_positive_numbers(int x, int y) {
+        if (x < 0 || y < 0) {
+            throw new IllegalArgumentException("Both numbers must be positive");
+        }
+        return x + y;
+    }
+
+    public static void main(String[] args) {
+        try {
+            System.out.println(add_positive_numbers(5, 3));   // 8
+            System.out.println(add_positive_numbers(-2, 4));  // Throws error
+        } catch (IllegalArgumentException e) {
+            System.out.println(e.getMessage());
+        }
+    }
+
+*/
 
 
 
@@ -232,10 +244,67 @@ static int safe_sub(int x, int y) {
 // Create a constructor to initialize these attributes and a method `average_grade()` that returns the average
 // grade of the student.
 
+/* 
+    public static void main(String[] args) {
+            List<Float> grades = new ArrayList<>();
+            grades.add(85.5f);
+            grades.add(90.0f);
+            grades.add(78.5f);
+
+            student_info student1 = new student_info("Alice", 20, grades);
+            System.out.println("Name: " + student1.getname()+", Age: " + student1.getage()+", Average Grade: " + student1.average_grade());
+    }
+    public static class student_info {
+        String name;
+        int age;
+        List<Float> grades;
+
+        // Constructor
+        public student_info(String name, int age, List<Float> grades) {
+            this.name = name;
+            this.age=age;
+            this.grades=grades;
+        }
+        public String getname() {
+            return name;
+        }
+        public int getage() {
+            return age;
+        }
+        public List<Float> getgrades() {
+            return grades;
+        }
+        public void setname(String name) {
+            this.name = name;
+        }
+        public void setage(int age) {
+            this.age = age;
+        }
+        public void setgrades(List<Float> grades) {
+            this.grades = grades;
+        }
+        public float average_grade() {
+            float sum = 0;
+            for (Float grade : grades) {
+                sum += grade;
+            }
+            return sum / grades.size();
+        }
+    }}
+
+*/
+}
+
+
 // 2. Library Class
 // Define a class `Library` with the following attributes: `book_title` (string), `author` (string),
 // `published_year` (integer), and `is_available` (boolean). Create methods to check the availability of the
 // book and borrow it.
+
+
+
+
+
 
 // 3. Product Class
 // Define a class `Product` with the attributes `product_name` (string), `price` (float), and `quantity`
