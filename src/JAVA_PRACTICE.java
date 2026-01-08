@@ -293,7 +293,7 @@ static int safe_sub(int x, int y) {
     }}
 
 */
-}
+
 
 
 // 2. Library Class
@@ -313,6 +313,28 @@ static int safe_sub(int x, int y) {
 // 4. Car Class
 // Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
 // `display_car_info()` that prints out the car details in a readable format.
+class car{
+        String brand;
+        String model;
+        int year;
+        String color;
+
+        void display_car_info() {
+            System.out.println("Car Make: " + brand);
+            System.out.println("Car Model: " + model);
+            System.out.println("Car Year: " + year);
+            System.out.println("Car Color: " + color);
+        }
+public static void main(String[] args) {
+    car mycar = new car();
+    mycar.brand="Toyota";
+    mycar.model="Corolla";
+    mycar.year=2020;
+    mycar.color="White";
+
+    mycar.display_car_info();
+}
+}
 
 // 5. Rectangle Class
 // Define a class `Rectangle` with attributes `length` and `width`. Create methods to calculate the perimeter
