@@ -311,4 +311,120 @@ public static void main(String[] args) {
 }
 */
 
+// 1. Bank Account Class
+// Define a class `BankAccount` with private attributes `account_number` and `balance`. Provide public
+// methods `deposit()` and `withdraw()` to handle deposits and withdrawals. Ensure that the `withdraw()`
+// method checks that the withdrawal amount is not greater than the balance.
+
+/*
+static class bank_account{
+    private int account_number;
+    private float balance;
+    public bank_account(int account_number, float balance){
+        this.account_number = account_number;
+        this.balance = balance;
+    }
+    public void deposit(float amount){
+        balance += amount;
+        System.out.println("Deposited: " + amount + ", New Balance: " + balance);
+    }
+    public void withdraw(float amount){
+        if(amount > balance){
+            System.out.println("Insufficient balance");
+        }
+        else{
+            balance -= amount;
+            System.out.println("Withdrawn: " + amount + ", New Balance: " + balance);
+        }
+
+        }
+    public static void main(String[] args){
+        bank_account myAccount = new bank_account(123456, 1000.0f);
+        myAccount.deposit(500.0f);
+        myAccount.withdraw(200.0f);
+        myAccount.withdraw(2000.0f);
+    }
+    }
+}
+*/
+
+// 5. Shape Drawing Interface
+// Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
+// `Square` that each implement `draw()` to display the shape in a console.
+/* 
+abstract class Shape {
+    abstract void draw();
+}
+
+class Circle extends Shape {
+    void draw() {
+        System.out.println("Drawing a Circle");
+        System.out.println("  ***  ");
+        System.out.println(" *     * ");
+        System.out.println("  ***  ");
+    }
+}
+
+class Square extends Shape {
+    void draw() {
+        System.out.println("Drawing a Square");
+        System.out.println(" ***** ");
+        System.out.println(" *   * ");
+        System.out.println(" *   * ");
+        System.out.println(" ***** ");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Shape c = new Circle();
+        Shape s = new Square();
+
+        c.draw();
+        System.out.println();
+        s.draw();
+    }
+}
+*/
+
+// 1. Shape Area Calculation
+// Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
+// `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
+
+/*
+    abstract class Shape {
+        abstract int calculate_area();
+    }
+    class circle extends Shape{
+        int radius;
+        circle(int radius){
+            this.radius=radius;
+        }
+        int calculate_area(){
+            return (int)(3.14*radius*radius);
+        }
+    }
+    class rectangle extends Shape{
+        int length;
+        int width;
+        rectangle(int length, int width){
+            this.length=length;
+            this.width=width;
+        }
+        int calculate_area(){
+            return length*width;
+        }
+    }
+
+    public void main(String[] args){
+            Shape c = new circle(5);
+            Shape r = new rectangle(4,6);
+
+            System.out.println("Area of Circle: " + c.calculate_area());
+            System.out.println("Area of Rectangle: " + r.calculate_area());
+        }
+    }
+*/
+
+
 }
