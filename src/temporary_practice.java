@@ -217,6 +217,68 @@ static class StudentDatabase{
 
 */
 
+// 1. Shape Inheritance
+// Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
+// implementing the `draw()` method. Demonstrate polymorphism.
+
+/*
+static class shape{
+    void draw(){
+        System.out.println("I can draw");
+    }
+}
+static class circle extends shape{
+    void draw(){
+        System.out.println("I can draw circle");
+    }
+}
+static class rectangle extends shape{
+    void draw(){
+        System.out.println("I can draw rectangle");
+    }
+    public static void main(String[] args) {
+        shape s1 = new circle();
+        shape s2 = new rectangle();
+
+        s1.draw();
+        s2.draw();
+}
+}}
+*/
+
+// 2. Animal and Dog Classes
+// Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
+// `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
+// printing their information.
+
+/* 
+static class animal{
+    String name;
+    String species;
+
+    void display_info(){
+        System.out.println("Animal Name: " + name);
+        System.out.println("Animal Species: " + species);
+    }
+}
+static class dog extends animal{
+    String breed;
+
+    void display_info(){
+        System.out.println("Dog Name: " + name);
+        System.out.println("Dog Species: " + species);
+        System.out.println("Dog Breed: " + breed);
+    }
+    public static void main(String[]args){
+        animal a1 = new dog();
+        a1.name = "Buddy";
+        a1.species = "Canine";
+        ((dog) a1).breed = "Golden Retriever";
+        a1.display_info();
+    }
+}}
+*/
+
 
 
 }

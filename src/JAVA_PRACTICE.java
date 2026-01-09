@@ -440,10 +440,67 @@ static class StudentDatabase{
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
 // implementing the `draw()` method. Demonstrate polymorphism.
 
+/*
+static class shape{
+    void draw(){
+        System.out.println("I can draw");
+    }
+}
+static class circle extends shape{
+    void draw(){
+        System.out.println("I can draw circle");
+    }
+}
+static class rectangle extends shape{
+    void draw(){
+        System.out.println("I can draw rectangle");
+    }
+    public static void main(String[] args) {
+        shape s1 = new circle();
+        shape s2 = new rectangle();
+
+        s1.draw();
+        s2.draw();
+}
+}}
+*/
+
+
+
+
 // 2. Animal and Dog Classes
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
+
+/* 
+static class animal{
+    String name;
+    String species;
+
+    void display_info(){
+        System.out.println("Animal Name: " + name);
+        System.out.println("Animal Species: " + species);
+    }
+}
+static class dog extends animal{
+    String breed;
+
+    void display_info(){
+        System.out.println("Dog Name: " + name);
+        System.out.println("Dog Species: " + species);
+        System.out.println("Dog Breed: " + breed);
+    }
+    public static void main(String[]args){
+        animal a1 = new dog();
+        a1.name = "Buddy";
+        a1.species = "Canine";
+        ((dog) a1).breed = "Golden Retriever";
+        a1.display_info();
+    }
+}}
+*/
+
 
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
@@ -482,9 +539,38 @@ static class StudentDatabase{
 // Define a class `BankAccount` with private attributes `account_number` and `balance`. Provide public
 // methods `deposit()` and `withdraw()` to handle deposits and withdrawals. Ensure that the `withdraw()`
 // method checks that the withdrawal amount is not greater than the balance.
+
+
+
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
+
+static class employee{
+    private float salary;
+
+    public employee(float salary) {
+        this.salary = salary;
+    }
+
+    public float get_salary() {
+        if (salary > 0) {
+            return salary;
+        } else {
+            System.out.println("Salary must be greater than 0");
+            return 0;
+        }
+    }
+public static void main(String[] args) {
+    employee emp1 = new employee(5000);
+    System.out.println("Employee Salary: " + emp1.get_salary());
+
+    employee emp2 = new employee(-1000);
+    System.out.println("Employee Salary: " + emp2.get_salary());
+}
+}
+}
+
 
 // 3. Account Holder Class
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
