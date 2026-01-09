@@ -929,3 +929,4 @@ static class Appliance{
 // Define a base class Person with attributes name and age. Create a subclass Employee that adds
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
+}
