@@ -1,5 +1,3 @@
-import java.io.Writer;
-
 public class temporary_practice {
 
 // Functions and Exception Handling
@@ -143,7 +141,6 @@ static int safe_sub(int x, int y) {
             return sum / grades.size();
         }
     }}
-
 */
 
 // 5. Rectangle Class
@@ -200,8 +197,6 @@ static class StudentDatabase{
         }
     }
 }
-
-
     public static void main(String[] args) {
         StudentDatabase db = new StudentDatabase();
 
