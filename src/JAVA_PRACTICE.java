@@ -758,7 +758,40 @@ public class Main {
 // Define a class `Artist` with the attribute `art_style` and a method `create_art()`. Define another class
 // `Writer` with the attribute `writing_style` and a method `write()`. Then define a class `CreativePerson` that
 // inherits from both `Artist` and `Writer` and has a method `display_info()` that displays both art and writing
-// styles.
+// styles. 
+
+/*
+static class Artist {
+    static String art_style;
+
+    void create_art() {
+        System.out.println("Creating art in " + art_style + " style.");
+    }
+}
+static class Writer {
+    static String writing_style;
+
+    void write() {
+        System.out.println("Writing in " + writing_style + " style.");
+    }
+}
+static class creative_person extends Artist {
+    String writing_style;
+    void display_info() {
+        System.out.println("Art Style: " + art_style);
+        System.out.println("Writing Style: " + writing_style);
+    }
+    public static void main(String[] args) {
+        creative_person cp = new creative_person();
+        cp.art_style = "Impressionism";
+        cp.writing_style = "Fiction";
+        cp.display_info();
+    }
+}}
+
+*/
+
+
 
 // 2. Student and Sportsman Classes
 // Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
