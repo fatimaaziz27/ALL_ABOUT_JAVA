@@ -881,6 +881,30 @@ static class creative_person extends Artist {
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
+/*
+static class Appliance{
+    void turnon(){
+        System.out.println("Appliance is turned on");
+    }
+    static class washingmachine extends Appliance{
+        void washclothes(){
+            System.out.println("Washing clothes");
+    }
+    static class SmartWashingMachine extends washingmachine{
+        void connectToWiFi(){
+            System.out.println("Connected to WiFi");
+        }
+        public static void main(String[] args){
+            SmartWashingMachine swm = new SmartWashingMachine();
+            swm.turnon();
+            swm.washclothes();
+            swm.connectToWiFi();
+        }
+    }
+    }}}
+*/
+
+
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.

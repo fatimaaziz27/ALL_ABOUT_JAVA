@@ -1,3 +1,5 @@
+import java.io.Writer;
+
 public class temporary_practice {
 
 // Functions and Exception Handling
@@ -424,6 +426,74 @@ public class Main {
             System.out.println("Area of Rectangle: " + r.calculate_area());
         }
     }
+*/
+
+// 1. Artist and Writer Classes
+// Define a class `Artist` with the attribute `art_style` and a method `create_art()`. Define another class
+// `Writer` with the attribute `writing_style` and a method `write()`. Then define a class `CreativePerson` that
+// inherits from both `Artist` and `Writer` and has a method `display_info()` that displays both art and writing
+// styles. 
+
+/*
+static class Artist {
+    static String art_style;
+
+    void create_art() {
+        System.out.println("Creating art in " + art_style + " style.");
+    }
+}
+static class Writer {
+    static String writing_style;
+
+    void write() {
+        System.out.println("Writing in " + writing_style + " style.");
+    }
+}
+static class creative_person extends Artist {
+    String writing_style;
+    void display_info() {
+        System.out.println("Art Style: " + art_style);
+        System.out.println("Writing Style: " + writing_style);
+    }
+    public static void main(String[] args) {
+        creative_person cp = new creative_person();
+        cp.art_style = "Impressionism";
+        cp.writing_style = "Fiction";
+        cp.display_info();
+    }
+}}
+
+*/
+
+
+// Multilevel Inheritance
+
+// 1. Appliance → WashingMachine → SmartWashingMachine
+// Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
+// adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
+// connectToWiFi(). Demonstrate all methods using a single object.
+
+/*
+static class Appliance{
+    void turnon(){
+        System.out.println("Appliance is turned on");
+    }
+    static class washingmachine extends Appliance{
+        void washclothes(){
+            System.out.println("Washing clothes");
+    }
+    static class SmartWashingMachine extends washingmachine{
+        void connectToWiFi(){
+            System.out.println("Connected to WiFi");
+        }
+        public static void main(String[] args){
+            SmartWashingMachine swm = new SmartWashingMachine();
+            swm.turnon();
+            swm.washclothes();
+            swm.connectToWiFi();
+        }
+    }
+    }}}
 */
 
 
