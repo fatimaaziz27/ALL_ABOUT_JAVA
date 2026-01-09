@@ -209,6 +209,15 @@ static int safe_sub(int x, int y) {
 
 */
 
+
+
+
+
+
+
+
+
+
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
@@ -238,6 +247,10 @@ static int safe_sub(int x, int y) {
 // * Object-Oriented Programming *
 
 // Class Definition & Initialization
+
+
+
+
 
 // 1. Student Class
 // Define a class `Student` with the attributes `name` (string), `age` (integer), and `grades` (list of floats).
@@ -313,6 +326,9 @@ static int safe_sub(int x, int y) {
 // 4. Car Class
 // Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
 // `display_car_info()` that prints out the car details in a readable format.
+
+
+/*
 class car{
         String brand;
         String model;
@@ -334,17 +350,91 @@ public static void main(String[] args) {
 
     mycar.display_car_info();
 }
-}
+}}
+*/
+
+
 
 // 5. Rectangle Class
 // Define a class `Rectangle` with attributes `length` and `width`. Create methods to calculate the perimeter
 // and area of the rectangle.
+/* 
+class rectangle{
+    float length;
+    float width;
 
+    float area() {
+        return length * width;
+    }
+
+    float perimeter() {
+        return 2 * (length + width);
+    }
+}
+}
+*/
 // 6. Student Database Class
 // Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
 // with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
+/* 
+static class StudentDatabase{
+    
+    ArrayList<HashMap<String, Object>> students = new ArrayList<>();
+
+    // Add a student
+    void addStudent(String name, int age) {
+        HashMap<String, Object> student = new HashMap<>();
+        student.put("name", name);
+        student.put("age", age);
+        students.add(student);
+    }
+
+    // Remove a student by name
+    void removeStudent(String name) {
+        students.removeIf(student -> student.get("name").equals(name));
+    }
+
+    // Display all students
+    void displayStudents() {
+        if (students.isEmpty()) {
+            System.out.println("No students in database.");
+        } else {
+            for (HashMap<String, Object> student : students) {
+                System.out.println(
+                    "Name: " + student.get("name") +
+                    ", Age: " + student.get("age")
+                );
+            }
+        }
+    }
+}
+
+
+    public static void main(String[] args) {
+        StudentDatabase db = new StudentDatabase();
+
+        db.addStudent("Ali", 20);
+        db.addStudent("Fatima", 19);
+
+        db.displayStudents();
+
+        db.removeStudent("Ali");
+
+        System.out.println("After removal:");
+        db.displayStudents();
+    }
+}
+
+*/
+
+
+
 
 // Inheritance
+
+
+
+
 
 // 1. Shape Inheritance
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
@@ -372,7 +462,21 @@ public static void main(String[] args) {
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
 // inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
 
+
+
+
+
 // Encapsulation
+
+
+
+
+
+
+
+
+
+
 
 // 1. Bank Account Class
 // Define a class `BankAccount` with private attributes `account_number` and `balance`. Provide public
@@ -399,7 +503,23 @@ public static void main(String[] args) {
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
 
+
+
+
+
+
+
+
+
+
+
 // Abstraction & Interfaces
+
+
+
+
+
+
 
 // 1. Shape Area Calculation
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
@@ -427,7 +547,19 @@ public static void main(String[] args) {
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
 
+
+
+
+
+
+
 // Multiple Inheritance
+
+
+
+
+
+
 
 // 1. Artist and Writer Classes
 // Define a class `Artist` with the attribute `art_style` and a method `create_art()`. Define another class
@@ -461,7 +593,16 @@ public static void main(String[] args) {
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
 
+
+
+
+
+
 // Hierarchical Inheritance
+
+
+
+
 
 // 1. Shape Hierarchy
 // Define a base class Shape with an attribute color and a method draw(). Create two subclasses
@@ -491,7 +632,23 @@ public static void main(String[] args) {
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
 // have its own method to display job-specific responsibilities.
 
+
+
+
+
+
+
+
+
+
 // Multilevel Inheritance
+
+
+
+
+
+
+
 
 // 1. Appliance → WashingMachine → SmartWashingMachine
 // Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
