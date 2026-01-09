@@ -279,6 +279,36 @@ static class dog extends animal{
 }}
 */
 
+// Encapsulation
 
+// 2. Employee Class with Salary
+// Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
+// access to the salary, but only if the employee's salary is greater than 0.
+
+/*
+static class employee{
+    private float salary;
+
+    public employee(float salary) {
+        this.salary = salary;
+    }
+
+    public float get_salary() {
+        if (salary > 0) {
+            return salary;
+        } else {
+            System.out.println("Salary must be greater than 0");
+            return 0;
+        }
+    }
+public static void main(String[] args) {
+    employee emp1 = new employee(5000);
+    System.out.println("Employee Salary: " + emp1.get_salary());
+
+    employee emp2 = new employee(-1000);
+    System.out.println("Employee Salary: " + emp2.get_salary());
+}
+}
+*/
 
 }
