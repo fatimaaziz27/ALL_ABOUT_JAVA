@@ -64,4 +64,17 @@ public class POLYMORPHISM {
 
 //Use scanner class for input from user wherever necessary. End the program when user choose to end it.
 
+// Create a program with:
+// A base class Account having private attribute accountNumber and
+// protected attribute balance, and methods deposit(), withdraw(), and
+// getBalance().
+// A subclass SavingsAccount that extends Account
+// and adds an attribute interestRate, and a method calculateInterest().
+// Override the withdraw() method in SavingsAccount to prevent
+// withdrawals that would reduce the balance below a minimum threshold.
+
+//Use scanner class for input from user wherever necessary. End the program when user choose to end it.
+
+
+
 }
