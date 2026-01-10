@@ -20,6 +20,36 @@ public class POLYMORPHISM {
 //     }
 // }
 
-
+////Example of Method Overloading
+// class MathOperations {
+//     // Method to add two integers
+//     int add(int a, int b) {
+//         return a + b;
+//     }
+//     // Overloaded method to add three integers
+//     int add(int a, int b, int c) {
+//         return a + b + c;
+//     }
+//     // Overloaded method to add two double values
+//     double add(double a, double b) {
+//         return a + b;
+//     }
+//    // Overloaded method to add one double value & one int value
+//    double add(int a, double b) {
+//         return a + b;
+//    }
+// }
+////Example of Method Overriding
+// class Animal5 {
+//     void sound() {
+//         System.out.println("Animal makes a sound");
+//     }
+// }
+// class Dog5 extends Animal5 {
+////     @Override
+//         void sound() {
+//             System.out.println("Dog barks");
+//         }
+//     }
     
 }
