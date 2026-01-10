@@ -76,5 +76,49 @@ public class POLYMORPHISM {
 //Use scanner class for input from user wherever necessary. End the program when user choose to end it.
 
 
+class Accounts{
+    private String Accountnum;
+    protected double balance;
+    Accounts(String Account_num, double balance){
+        this.Accountnum = Account_num;
+        this.balance = balance;
+    }
+    void deposit(double amount){
+        this.balance += amount;
+        //this.balance = this.balance + amount
+    }
+    void withdraw(double amount){
+        if (balance == 0 || amount>this.balance) {
+            System.out.println("Can not withdraw");
+        }
+        else{
+            this.balance -= amount;
+            System.out.println("Withdrew: " + amount);
+            //this.balance = this.balance - amount
+        }
+    }
+    double getBalance(){
+        return this.balance;
+    }
+}
+class SavingAccounts extends Accounts{
+    private double interestRate;
+
+    SavingAccounts(String Account_num, double balance, double interestRate) {
+        super(Account_num, balance);
+        this.interestRate = interestRate;
+    }
+    @Override
+    void withdraw(double amount) {
+        if (balance - amount < 1000) {
+            System.out.println("Withdrawal denied: Balance cannot go below 1000");
+        } else {
+            super.withdraw(amount);
+        }
+    }
+    double calculateInterest() {
+        return balance * (interestRate / 100);
+    }
+}
 
 }
