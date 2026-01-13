@@ -3,12 +3,12 @@ class main{
     public static void main(String[]args){
 
         library b1 = new library("book_t","auth1",2007,true);
-        System.out.println(b1.book_title);
-
+        
         System.out.println("book title:" + b1.book_title + "author:" + b1.author + "published year:" +
                 b1.published_year + "is available:" + b1.is_available);
 
         library b2 = new library("book_t2","auth2",2003,false);
+
         System.out.println("book title:" + b2.book_title + "author:" + b2.author + "published year:" +
                 b2.published_year + "is available:" + b2.is_available);
     }
@@ -36,7 +36,7 @@ class library{
         return published_year;
     }
     public boolean getis_available(){
-        return is_available();
+        return is_available;
     }
 
     // setter
