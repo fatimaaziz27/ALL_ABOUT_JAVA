@@ -1,0 +1,64 @@
+import java.util.*;
+class main{
+    public static void main(String[]args){
+
+        library b1 = new library("book_t","auth1",2007,true);
+        System.out.println(b1.book_title());
+
+        b1.book_title("book_t2");
+        b1.author("auth2");
+        b1.publihed_year(2003);
+        b1.is_available(false);
+
+        System.out.println("book title:" + b1.book_title() + "author:" + b1.author() + "published year:" +
+                b1.published_year() + "is available:" + b1.is_available());
+
+        library b2 = new library("book_t2","auth2",2003,false);
+        System.out.println("book title:" + b2.book_title() + "author:" + b2.author() + "published year:" +
+                b2.published_year() + "is available:" + b2.is_available());
+    }
+}
+class library{
+    String book_title;
+    String author;
+    Integer published_year;
+    Boolean is_available;
+    library(String book_name, String author_name, Integer year, Boolean available){
+        this.book_title = book_name;
+        this.author = author_name;
+        this.published_year = year;
+        this.is_available = available;
+    }
+
+    // getter
+    public String getBook_title(){
+        return book_title;
+    }
+    public String getAuthor(){
+        return author;
+    }
+    public String getpublished_year(){
+        return published_year;
+    }
+    public String getis_available(){
+        return is_available();
+    }
+
+    // setter
+    public void setBook_title(String newbook_title){
+        this.book_title = newbook_title;
+    }
+    public void setAuthor(String newauthor){
+        this.author = author;
+    }
+    public void setPublished_year(Integer newpublished_year){
+        this.published_year = published_year;
+    }
+    public void setIs_available(Boolean newis_available) {
+        if (is_available == true) {
+            this.is_available = is_available;
+        } else {
+            System.out.println("not available");
+        }
+    }
+}
