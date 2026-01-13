@@ -80,7 +80,7 @@ public class JAVA_CLASS_PRACTICE {
             System.out.print("do you want to continue? yes/no: ");
             String i = scanner.nextLine();
         }
-        while (i.equals("yes")) {
+        while (String i == "yes") {
             Scanner scanner = new Scanner(System.in);
         
             System.out.print("Enter book title: ");
