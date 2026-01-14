@@ -248,3 +248,12 @@ class library{
         }
     }
 }
+
+import java.util.*;
+public class jp {
+    public static void main(String[]args){
+        product p1 = new product("rice",250,10);
+        System.out.println("product name:" + p1.product_name + "\nprice:" + p1.price + "\nquantity:" +
+                p1.quantity + "\ntotal value:" + p1.total_value);
+    }
+}
