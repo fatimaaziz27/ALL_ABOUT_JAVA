@@ -297,3 +297,24 @@ class product{
         this.quantity = quantity;
     }
 }
+
+
+
+
+import java.util.*;
+public class jp {
+    public static void main(String[]args) {
+        car c1 = new car("Toyota",2009,"black");
+    }
+}
+class car{
+    String make;
+    Integer model;
+    String colour;
+    
+    car(String make, Integer model,String colour){
+        this.make = make;
+        this.model = model;
+        this.colour = colour;
+    }
+}
