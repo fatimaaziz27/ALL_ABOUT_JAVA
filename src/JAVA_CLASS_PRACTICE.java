@@ -71,7 +71,7 @@
 
 //                             dynamic code:
 
-
+/*
 import java.util.*;
 public class JAVA_CLASS_PRACTICE {
     public static void main(String[]args){
@@ -297,12 +297,15 @@ class product{
         this.quantity = quantity;
     }
 }
+ */
 
 
+// 4. Car Class
+// Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method `display_car_info()` that prints out the car details in a readable format.
 
 
 import java.util.*;
-public class jp {
+public class JAVA_CLASS_PRACTICE {
     public static void main(String[]args) {
         car c1 = new car("Toyota",2009,"black");
     }
@@ -311,10 +314,15 @@ class car{
     String make;
     Integer model;
     String colour;
-    
-    car(String make, Integer model,String colour){
+    display_car_info = make,model,colour;
+    car(String make, Integer model, String colour){
         this.make = make;
         this.model = model;
         this.colour = colour;
+        this.display_car_info(make,model,colour);
+
+        public void display_car_info(String make, Integer model, String colour){
+            System.out.println("Gfh");
+        }
     }
 }
