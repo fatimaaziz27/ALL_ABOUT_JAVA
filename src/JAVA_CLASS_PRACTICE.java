@@ -314,7 +314,7 @@ class car{
     String make;
     Integer model;
     String colour;
-    display_car_info = make,model,colour;
+
     car(String make, Integer model, String colour){
         this.make = make;
         this.model = model;
@@ -322,7 +322,7 @@ class car{
         this.display_car_info(make,model,colour);
 
         public void display_car_info(String make, Integer model, String colour){
-            System.out.println("Gfh");
+            System.out.println("make" + make + "model" + model +"colour" + colour);
         }
     }
 }
