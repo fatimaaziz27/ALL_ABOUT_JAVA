@@ -326,21 +326,3 @@ class car{
         }
     }
 }
-
-
-class car{
-    String make;
-    Integer model;
-    String colour;
-
-    car(String make, Integer model, String colour){
-        this.make = make;
-        this.model = model;
-        this.colour = colour;
-        this.display_car_info(make, model, colour);
-    }
-
-    public void display_car_info(String make, Integer model, String colour){
-        System.out.println("Make: " + make + ", Model: " + model + ", Colour: " + colour);
-    }
-}
