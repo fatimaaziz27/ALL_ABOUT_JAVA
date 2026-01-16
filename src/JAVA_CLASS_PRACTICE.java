@@ -326,3 +326,31 @@ class car{
         }
     }
 }
+
+//// 4. Car Class
+//// Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
+//// `display_car_info()` that prints out the car details in a readable format.
+//
+//
+//import java.util.*;
+//public class main {
+//    public static void main(String[]args) {
+//        car c1 = new car("Toyota",2009,"black");
+//        c1.display_car_info();
+//    }
+//}
+//class car{
+//    String make;
+//    Integer model;
+//    String colour;
+//
+//    car(String make, Integer model, String colour) {
+//        this.make = make;
+//        this.model = model;
+//        this.colour = colour;
+//    }
+//        void display_car_info(){
+//            System.out.println("make: " + this.make + "\nmodel: " + this.model +"\ncolour: " + this.colour);
+//        }
+//}
+
