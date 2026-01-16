@@ -369,6 +369,23 @@ class car{
 //class rectangle {
 //    int length;
 //    int width;
+//
+//    rectangle(int length, int width) {
+//        this.length = length;
+//        this.width= width;
+//    }
+//
+//    void perimeter() {
+//        int peri = (2 * length) + (2 * width);
+//        System.out.println("perimeter of rectangle: "+ peri);
+//    }
+//
+//    void area() {
+//        int area = (length * width);
+//        System.out.println("area of rectangle: "+ area);
+//    }
+//}
+
 
 
 
