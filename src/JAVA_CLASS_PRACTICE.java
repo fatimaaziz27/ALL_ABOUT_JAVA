@@ -354,3 +354,21 @@ class car{
 //        }
 //}
 
+//// Q5) define a class "rectangle" with attributes "length" and "width" ceate methods to calculate the
+////perimeter and area of the rectangle
+//
+//import java.util.*;
+//class main{
+//    public static void main(String[]args){
+//        rectangle m1 = new rectangle(5,9);
+//        m1.perimeter();
+//        m1.area();
+//    }
+//}
+//
+//class rectangle {
+//    int length;
+//    int width;
+
+
+
