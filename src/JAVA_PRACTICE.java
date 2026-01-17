@@ -302,7 +302,6 @@ static int safe_sub(int x, int y) {
     }}
  */
 
-
 // 2. Library Class
 // Define a class `Library` with the following attributes: `book_title` (string), `author` (string),
 // `published_year` (integer), and `is_available` (boolean). Create methods to check the availability of the
@@ -560,12 +559,10 @@ class library{
 */
 //                          dynamic code ends here.
 
-
-
-
 // 3. Product Class
 // Define a class `Product` with the attributes `product_name` (string), `price` (float), and `quantity`
 // (integer). Write methods to display the total value of the product in stock (`price * quantity`).
+
 /*
     public static void main(String[]args){
         product p1 = new product("rice",250,10);
@@ -642,155 +639,76 @@ class car{
 }
 */
 
-
-
-
 // 5. Rectangle Class
 // Define a class `Rectangle` with attributes `length` and `width`. Create methods to calculate the perimeter
 // and area of the rectangle.
+
 /* 
-class rectangle{
-    float length;
-    float width;
-
-    float area() {
-        return length * width;
-    }
-
-    float perimeter() {
-        return 2 * (length + width);
+    public static void main(String[]args){
+        rectangle m1 = new rectangle(5,9);
+        m1.perimeter();
+        m1.area();
     }
 }
+
+class rectangle {
+    int length;
+    int width;
+
+    rectangle(int length, int width) {
+        this.length = length;
+        this.width= width;
+    }
+
+    void perimeter() {
+        int peri = (2 * length) + (2 * width);
+        System.out.println("perimeter of rectangle: "+ peri);
+    }
+
+    void area() {
+        int area = (length * width);
+        System.out.println("area of rectangle: "+ area);
+    }
 }
 */
+
 // 6. Student Database Class
 // Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
 // with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
+
 /* 
-static class StudentDatabase{
-    
-    ArrayList<HashMap<String, Object>> students = new ArrayList<>();
+    public static void main(String[] args){
+        student_database s1 = new student_database("me",18);
+        ArrayList<Object> l1 = new ArrayList<>();
+        l1.add(s1);
 
-    // Add a student
-    void addStudent(String name, int age) {
-        HashMap<String, Object> student = new HashMap<>();
-        student.put("name", name);
-        student.put("age", age);
-        students.add(student);
-    }
-
-    // Remove a student by name
-    void removeStudent(String name) {
-        students.removeIf(student -> student.get("name").equals(name));
-    }
-
-    // Display all students
-    void displayStudents() {
-        if (students.isEmpty()) {
-            System.out.println("No students in database.");
-        } else {
-            for (HashMap<String, Object> student : students) {
-                System.out.println(
-                    "Name: " + student.get("name") +
-                    ", Age: " + student.get("age")
-                );
-            }
-        }
     }
 }
-
-
-    public static void main(String[] args) {
-        StudentDatabase db = new StudentDatabase();
-
-        db.addStudent("Ali", 20);
-        db.addStudent("Fatima", 19);
-
-        db.displayStudents();
-
-        db.removeStudent("Ali");
-
-        System.out.println("After removal:");
-        db.displayStudents();
+class student_database{
+    String name;
+    Integer age;
+    student_database(String name , Integer age){
+        this.name = name;
+        this.age= age;
+    }
+    void display(){
+        System.out.println("data " + this.name);
     }
 }
-
 */
 
 
-
-
 // Inheritance
-
-
-
 
 
 // 1. Shape Inheritance
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
 // implementing the `draw()` method. Demonstrate polymorphism.
 
-/*
-static class shape{
-    void draw(){
-        System.out.println("I can draw");
-    }
-}
-static class circle extends shape{
-    void draw(){
-        System.out.println("I can draw circle");
-    }
-}
-static class rectangle extends shape{
-    void draw(){
-        System.out.println("I can draw rectangle");
-    }
-    public static void main(String[] args) {
-        shape s1 = new circle();
-        shape s2 = new rectangle();
-
-        s1.draw();
-        s2.draw();
-}
-}}
-*/
-
-
-
-
 // 2. Animal and Dog Classes
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
-
-/* 
-static class animal{
-    String name;
-    String species;
-
-    void display_info(){
-        System.out.println("Animal Name: " + name);
-        System.out.println("Animal Species: " + species);
-    }
-}
-static class dog extends animal{
-    String breed;
-
-    void display_info(){
-        System.out.println("Dog Name: " + name);
-        System.out.println("Dog Species: " + species);
-        System.out.println("Dog Breed: " + breed);
-    }
-    public static void main(String[]args){
-        animal a1 = new dog();
-        a1.name = "Buddy";
-        a1.species = "Canine";
-        ((dog) a1).breed = "Golden Retriever";
-        a1.display_info();
-    }
-}}
-*/
-
 
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
@@ -808,6 +726,10 @@ static class dog extends animal{
 // 6. Fruit and Apple Classes
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
 // inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
+
+
+
+
 
 
 
