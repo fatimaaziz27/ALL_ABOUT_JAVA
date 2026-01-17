@@ -309,7 +309,7 @@ static int safe_sub(int x, int y) {
 // book and borrow it.
 
 //                      static code:
-
+/*
 //    public static void main(String[]args){
 
 // // object 1
@@ -381,7 +381,7 @@ static int safe_sub(int x, int y) {
 
 
 //                             dynamic code:
-
+ */
 /*
     public static void main(String[]args){
         do{
@@ -566,7 +566,6 @@ class library{
 // 3. Product Class
 // Define a class `Product` with the attributes `product_name` (string), `price` (float), and `quantity`
 // (integer). Write methods to display the total value of the product in stock (`price * quantity`).
-
 /*
     public static void main(String[]args){
         product p1 = new product("rice",250,10);
@@ -614,8 +613,8 @@ class product{
         this.quantity = quantity;
     }
 }
- */
 
+*/
 
 // 4. Car Class
 // Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
