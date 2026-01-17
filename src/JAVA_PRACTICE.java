@@ -567,35 +567,82 @@ class library{
 // Define a class `Product` with the attributes `product_name` (string), `price` (float), and `quantity`
 // (integer). Write methods to display the total value of the product in stock (`price * quantity`).
 
+/*
+    public static void main(String[]args){
+        product p1 = new product("rice",250,10);
+        System.out.println("product name:" + p1.product_name + "\nprice:" + p1.price + "\nquantity:" +
+                p1.quantity + "\ntotal value:" + p1.total_value);
+    }
+}
+class product{
+    // attributes
+    String product_name;
+    Integer price;
+    Integer quantity;
+    Integer total_value;
+
+    // value calling
+    product(String product_name, Integer price , Integer quantity){
+        this.product_name = product_name;
+        this.price = price;
+        this.quantity = quantity;
+        this.total_value = price*quantity;
+    }
+
+    // getter
+    public String getProduct_name(){
+        return product_name;
+    }
+    public Integer getPrice(){
+        return price;
+    }
+    public Integer getQuantity(){
+        return quantity;
+    }
+    public Integer getTotal_value(){
+        return total_value;
+    }
+
+    // setter
+    public void setProduct_name(String newproduct_name){
+        this.product_name = newproduct_name;
+    }
+    public void setPrice(Integer newprice){
+        this.price = price;
+    }
+    public void setQuantity(Integer newquantity){
+        this.quantity = quantity;
+    }
+}
+ */
+
+
 // 4. Car Class
 // Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
 // `display_car_info()` that prints out the car details in a readable format.
 
-
 /*
-class car{
-        String brand;
-        String model;
-        int year;
-        String color;
-
-        void display_car_info() {
-            System.out.println("Car Make: " + brand);
-            System.out.println("Car Model: " + model);
-            System.out.println("Car Year: " + year);
-            System.out.println("Car Color: " + color);
-        }
-public static void main(String[] args) {
-    car mycar = new car();
-    mycar.brand="Toyota";
-    mycar.model="Corolla";
-    mycar.year=2020;
-    mycar.color="White";
-
-    mycar.display_car_info();
+    public static void main(String[]args) {
+        car c1 = new car("Toyota",2009,"black");
+        c1.display_car_info();
+    }
 }
-}}
+class car{
+    String make;
+    Integer model;
+    String colour;
+
+    car(String make, Integer model, String colour) {
+        this.make = make;
+        this.model = model;
+        this.colour = colour;
+    }
+        void display_car_info(){
+            System.out.println("make: " + this.make + "\nmodel: " + this.model +"\ncolour: " + this.colour);
+        }
+}
 */
+
 
 
 
