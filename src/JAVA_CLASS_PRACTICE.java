@@ -68,6 +68,32 @@ class dog extends animal{
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
 
+class java_class_practice {
+    public static void main(String[] args) {
+        animal dog = new animal(" fnfffghghhrt");
+        dog.name();
+        dog.species();
+    }
+}
+class person{
+    String name;
+    Integer age;
+    String address;
+    person(String name,Integer age,String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+}
+class employee extends person{
+    Integer salary;
+    employee(String name,Integer age,String address,Integer salary){
+        super(name, age, address);
+        this.salary = salary;
+    }
+
+}
+
 // 4. Vehicle and Electric Car Classes
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
