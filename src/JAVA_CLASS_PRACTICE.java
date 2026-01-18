@@ -110,8 +110,14 @@ class java_class_practice {
     }
 }
 class vehicle{
-    
+    String make;
+    Integer model;
+    vehicle(String make,Integer model){
+        this.make = make;
+        this.model = model;
+    }
 }
+
 
 
 
