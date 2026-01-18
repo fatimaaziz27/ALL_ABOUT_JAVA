@@ -39,6 +39,13 @@ class rectangle extends shape{
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
 
+class java_class_practice {
+    public static void main(String[] args) {
+    }
+}
+class animal{
+    
+}
 
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
