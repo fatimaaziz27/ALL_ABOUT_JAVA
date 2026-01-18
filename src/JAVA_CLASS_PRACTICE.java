@@ -70,9 +70,11 @@ class dog extends animal{
 
 class java_class_practice {
     public static void main(String[] args) {
-        animal dog = new animal(" fnfffghghhrt");
-        dog.name();
-        dog.species();
+        person em1 = new person("me",18,"north nazimabad",250000);
+        em1.name();
+        em1.age();
+        em1.address();
+        em1.salary();
     }
 }
 class person{
@@ -98,6 +100,7 @@ class employee extends person{
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
+
 
 // 5. Shape and Triangle Classes
 // Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
