@@ -4,6 +4,7 @@ import java.util.*;
 // 1. Shape Inheritance
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
 // implementing the `draw()` method. Demonstrate polymorphism.
+
 /*
 class java_class_practice {
     public static void main(String[] args) {
@@ -38,6 +39,7 @@ class rectangle extends shape{
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
+
 /*
 class java_class_practice {
     public static void main(String[] args) {
@@ -68,6 +70,7 @@ class dog extends animal{
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
 
+/*
 class java_class_practice {
     public static void main(String[] args) {
         person em1 = new person("me",18,"north nazimabad",250000);
@@ -95,11 +98,22 @@ class employee extends person{
     }
 
 }
+*/
 
 // 4. Vehicle and Electric Car Classes
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
+
+class java_class_practice {
+    public static void main(String[] args) {
+    }
+}
+class vehicle{
+    
+}
+
+
 
 
 // 5. Shape and Triangle Classes
