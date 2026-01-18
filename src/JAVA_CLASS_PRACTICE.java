@@ -4,9 +4,31 @@ import java.util.*;
 // 1. Shape Inheritance
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
 // implementing the `draw()` method. Demonstrate polymorphism.
-class shape{
-    
+class java_class_practice {
+    public static void main(String[] args) {
+    }
 }
+class shape{
+    String draw;
+    shape (Sring draw){
+        this.draw = draw;
+    }
+    void draw(){
+        System.out.println("i can be drawn" + draw);
+    }
+}
+class circle extends shape{
+    circle(String draw){
+        super(draw);
+    }
+}
+class rectangle extends shape{
+    rectangle(String draw){
+        super(draw);
+    }
+}
+
+
 // 2. Animal and Dog Classes
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
