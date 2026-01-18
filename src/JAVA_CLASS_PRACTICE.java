@@ -38,13 +38,29 @@ class rectangle extends shape{
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
-
+/*
 class java_class_practice {
     public static void main(String[] args) {
+        animal dog = new animal(" fnfffghghhrt");
+        dog.name();
+        dog.species();
     }
 }
 class animal{
-    
+    String name;
+    String species;
+    animal(String name, String species){
+        this.name = name;
+        this.species = species;
+    }
+}
+class dog extends animal{
+    String breed;
+
+    dog(String breed,String name,String species){
+        this.breed = breed;
+        super(name,species);
+    }
 }
 
 // 3. Person and Employee Classes
