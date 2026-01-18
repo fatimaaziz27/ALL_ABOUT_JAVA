@@ -62,6 +62,7 @@ class dog extends animal{
         super(name,species);
     }
 }
+*/
 
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
