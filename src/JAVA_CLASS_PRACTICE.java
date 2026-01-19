@@ -332,8 +332,8 @@ class rectangle extends shape{
 class java_class_practice {
     public static void main(String[] args) {
         animal dog = new animal(" hrt","thg");
-        dog.name;
-        dog.species;
+        dog.getname();
+        dog.getSpecies();
     }
 }
 class animal{
@@ -391,7 +391,6 @@ class dog extends animal{
 
     }
 }
-
 
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
@@ -473,3 +472,4 @@ class electriccar extends vehicle{
 // 6. Fruit and Apple Classes
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
 // inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
+
