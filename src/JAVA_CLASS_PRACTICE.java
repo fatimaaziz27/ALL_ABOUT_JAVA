@@ -132,7 +132,6 @@ class vehicle{
 
 
 
-
 //import java.util.*;
 //class main{
 //    public static void main(String[]args){
@@ -333,8 +332,8 @@ class rectangle extends shape{
 class java_class_practice {
     public static void main(String[] args) {
         animal dog = new animal(" hrt","thg");
-        System.out.println(dog.name);
-        System.out.println(dog.species);
+        dog.name;
+        dog.species;
     }
 }
 class animal{
@@ -375,14 +374,21 @@ class dog extends animal{
         return species;
     }
 
+    public String getBreed() {
+        return breed;
+    }
+
     // setter
-    public void setname(Integer newname){
+    public void setname(String newname){
         this.name = name;
     }
-    public void setspecies(Integer newspecies){
+    public void setspecies(String newspecies){
         this.species = species;
     }
-    
+    public void setbreed(String newbreed){
+        this.breed = breed;
+    }
+
     }
 }
 
@@ -458,3 +464,12 @@ class electriccar extends vehicle{
 
 
 
+
+// 5. Shape and Triangle Classes
+// Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
+// implements the `draw()` method, printing a message when a triangle is drawn.
+
+
+// 6. Fruit and Apple Classes
+// Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
+// inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
