@@ -458,13 +458,3 @@ class electriccar extends vehicle{
 
 
 
-
-// 5. Shape and Triangle Classes
-// Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
-// implements the `draw()` method, printing a message when a triangle is drawn.
-
-
-// 6. Fruit and Apple Classes
-// Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
-// inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
-
