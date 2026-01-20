@@ -1,48 +1,42 @@
 class Access_Modifiers {
-//Access Modifiers in Java:
-//Access modifiers are keywords in Java that set the accessibility
-// of classes, methods, and variables. The three main access
-// modifiers are:
-// 1. Public: Accessible from any other class.
-// 2. Protected: Accessible within the same class and subclasses.
-// 3. Private: Accessible only within the declared class.
 
 
-// Why use Access Modifiers?
-// Access modifiers are used to implement encapsulation,
-// a core principle of OOP. They help protect the internal
-// state of an object by restricting direct access to its
-// attributes. This ensures that the object's data can only
-// be modified through controlled methods (getters and setters),
-// maintaining data integrity and preventing unintended interference.
-// By using access modifiers, developers can define clear
-// interfaces for their classes, enhancing code maintainability
-// and readability.
+    //              Access Modifiers:
+//  Access modifiers are keywords in Java that set the accessibility
+//  of classes, methods, and variables.
 
-// Example of Access Modifiers:
-// class Example {
-//     public int publicVar; // Accessible from anywhere
-//     private int privateVar; // Accessible only within this class
-//     protected int protectedVar; // Accessible within package and subclasses
-// }
+
+//           Types of Access Modifiers:
+//  public ---> Accessible from anywhere
+//  private ---> Accessible only within this class
+//  protected ---> Accessible within package and subclasses
 
 // Example:
     public static void main(String[] args) {
-        
+
+        // Creating an object of Car class        
         Car myCar = new Car("Toyota", 2020, "Corolla");
         
+        // Accessing public member        
         System.out.println(myCar.getBrand());
         System.out.println(myCar.getYear());
         System.out.println(myCar.getModel());
-        
+
+        // Accessing protected member through method
         myCar.setBrand("Ford");
         myCar.setModel("Ford GT");
         myCar.setYear(2022);
         myCar.display();
 
+        // Accessing private member through method
+        //myCar.honk();
+        // myCar.start(); // This line would cause a compile-time error
     }
 }
+
 class Car {
+
+    // var with different access modifiers
     public String brand;
     protected int year;
     private String model;
