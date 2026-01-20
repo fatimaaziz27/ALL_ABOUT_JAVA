@@ -1,5 +1,5 @@
 import java.util.*;
-class ghfgh {
+class RAW_FILE_PRICE_CHECKER {
     public static void main(String[] args) {
 
         HashMap<String, Integer> PRODUCT_DICTIONARY = new HashMap<>();
