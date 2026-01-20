@@ -5,7 +5,7 @@
 import java.util.*;
 class main{
     public static void main(String[] args){
-        student_database s1 = new student_database( );
+      //  student_database s1 = new student_database( );
 
     }
 }

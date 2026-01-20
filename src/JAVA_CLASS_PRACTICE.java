@@ -105,26 +105,24 @@ class employee extends person{
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
 
-class java_class_practice {
-    public static void main(String[] args) {
-    }
-}
-class vehicle{
-    String make;
-    Integer model;
-    vehicle(String make,Integer model){
-        this.make = make;
-        this.model = model;
-    }
-}
-
-
-
-
 
 // 5. Shape and Triangle Classes
 // Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
 // implements the `draw()` method, printing a message when a triangle is drawn.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 // 6. Fruit and Apple Classes
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
