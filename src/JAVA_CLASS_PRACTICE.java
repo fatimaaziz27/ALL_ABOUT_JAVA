@@ -660,3 +660,28 @@ class apple extends fruits{
         System.out.println("sweet");
     }
 }
+
+// 5. Shape and Triangle Classes
+// Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
+// implements the `draw()` method, printing a message when a triangle is drawn.
+
+class java_class_practice {
+    public static void main(String[] args) {
+        }
+}
+abstract class shape {
+    abstract void draw();
+}
+class shape extends traingle{
+
+    // getter
+    @Override
+    public void getdraw() {
+        System.out.println("vcd");
+    }
+    // setter
+    @Override
+    public void draw(){
+        System.out.println("hfg");
+    }
+}
