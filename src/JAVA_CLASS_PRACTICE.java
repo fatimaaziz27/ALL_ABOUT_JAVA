@@ -471,3 +471,159 @@ class electriccar extends vehicle{
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
 // inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
 
+/*
+class java_class_practice {
+    public static void main(String[] args) {
+        employee em1 = new employee("me",18,"north nazimabad",250000);
+        System.out.println(em1.name);
+        System.out.println(em1.age);
+        System.out.println(em1.address);
+        System.out.println(em1.salary);
+    }
+}
+class person{
+    String name;
+    Integer age;
+    String address;
+    person(String name,Integer age,String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+    // getter
+    public String getname(){
+        return name;
+    }
+    public Integer getage(){
+        return age;
+    }
+    public String getaddress() {
+        return address;
+    }
+    // setter
+    public void setname(String newname){
+        this.name = name;
+    }
+    public void setage(Integer newage){
+        this.age = age;
+    }
+    public void setaddress(String newaddress){
+        this.address = address;
+    }
+}
+class employee extends person{
+    Integer salary;
+    employee(String name,Integer age,String address,Integer salary){
+        super(name, age, address);
+        this.salary = salary;
+    }
+    // getter
+    public String getname(){
+        return name;
+    }
+    public Integer getage(){
+        return age;
+    }
+    public String getaddress() {
+        return address;
+    }
+    public Integer getsalary() {
+        return salary;
+    }
+    // setter
+    public void setname(String newname){
+        this.name = name;
+    }
+    public void setage(Integer newage){
+        this.age = age;
+    }
+    public void setaddress(String newaddress){
+        this.address = address;
+    }
+    public void setsalary(Integer newsalary){
+        this.salary = salary;
+    }
+}
+*/
+
+
+// 4. Vehicle and Electric Car Classes
+// Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
+// from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
+// battery capacity.
+
+/*
+class java_class_practice {
+    public static void main(String[] args) {
+        electriccar el1 = new electriccar("toyota",2,4);
+        el1.display_info();
+        vehicle el2 = new vehicle("toyota",5);
+        el2.display_info();
+    }
+}
+class vehicle{
+    String make;
+    Integer model;
+    vehicle(String make,Integer model){
+        this.make = make;
+        this.model = model;
+    }
+    void display_info(){
+        System.out.println("make:" + this.make + " model:"+ this.model);
+    }
+    // getter
+    public String getMake(){
+        return make;
+    }
+    public Integer getmodel() {
+        return model;
+    }
+    // setter
+    public void setMake(String newmake){
+        this.make = make;
+    }
+    public void setmodel(Integer newmodel){
+        this.model = model;
+    }
+}
+class electriccar extends vehicle {
+    Integer battery_capacity;
+
+    electriccar(String make, Integer model, Integer battery_capacity) {
+        super(make, model);
+        this.battery_capacity = battery_capacity;
+    }
+
+    // getter
+    public String getMake() {
+        return make;
+    }
+
+    public Integer getmodel() {
+        return model;
+    }
+
+    public Integer getbattery_capacity() {
+        return battery_capacity;
+    }
+
+    // setter
+    public void setMake(String newmake) {
+        this.make = make;
+    }
+
+    public void setmodel(Integer newmodel) {
+        this.model = model;
+    }
+
+    public void setbattery_capacity(Integer newbattery_capacity) {
+        this.battery_capacity = battery_capacity;
+    }
+    @Override
+    void display_info() {
+        System.out.println("battery_capacity:" + this.battery_capacity +
+                " model:" + this.model + " make:" + this.make);
+    }
+}
+*/
+
