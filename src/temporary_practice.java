@@ -594,7 +594,23 @@ class collectionofdata {
 
 
 
-
+//import java.util.*;
+//class hashmaporset{
+//    public static void main(String[]args){
+//        // HASHMAP
+//        System.out.println("HASHSET");
+//
+//        HashMap<String,Integer> h1 = new HashMap<>();
+//        h1.put("alice",10);
+//        h1.put("bob",20);
+//        h1.put("tom",30);
+//        h1.put("charlie",40);
+//        h1.put("alan",50);
+//        h1.remove("alice");
+//        h1.remove("tom");
+//        System.out.println(h1.get("alan"));
+//        System.out.println(h1.size());
+//        System.out.println(h1);
 
 
 
