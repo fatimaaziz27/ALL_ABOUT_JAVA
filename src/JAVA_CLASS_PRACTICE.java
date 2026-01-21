@@ -627,3 +627,36 @@ class electriccar extends vehicle {
 }
 */
 
+
+
+
+// right code ---->
+
+// 6. Fruit and Apple Classes
+// Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
+// inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
+
+class java_class_practice {
+    public static void main(String[] args) {
+        apple a1 = new apple("apple");
+        a1.taste();
+    }
+}
+class fruits{
+    String name;
+    fruits(String name){
+        this.name = name;
+    }
+    void taste(){
+        System.out.println();
+    }
+}
+class apple extends fruits{
+    apple(String name){
+        super(name);
+    }
+    @Override
+    void taste() {
+        System.out.println("sweet");
+    }
+}
