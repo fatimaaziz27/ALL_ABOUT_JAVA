@@ -614,7 +614,24 @@ class collectionofdata {
 
 
 
-
+//        // HASHSET
+//        System.out.println("HASHSET");
+//
+//        HashSet<Integer> h2 = new HashSet<>();
+//        h2.add(10);
+//        h2.add(20);
+//        h2.add(30);
+//        h2.add(40);
+//        h2.add(50);
+//        h2.remove(40);
+//        h2.remove(10);
+//        System.out.println(h2.contains(56));
+//        System.out.println(h2.size());
+//        System.out.println(h2.isEmpty());
+//        System.out.println(h2);
+//        h2.clear();
+//        System.out.println(h2);
+//
 
 
 
