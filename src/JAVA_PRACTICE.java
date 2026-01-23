@@ -793,7 +793,7 @@ class dog extends animal{
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
 
 
-class java_class_practice {
+/*
     public static void main(String[] args) {
         person em1 = new person("me",18,"north nazimabad",250000);
         em1.name();
@@ -820,12 +820,87 @@ class employee extends person{
     }
 
 }
-
+ */
 
 // 4. Vehicle and Electric Car Classes
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
+
+
+
+    public static void main(String[] args) {
+        electriccar el1 = new electriccar("toyota",2,4);
+        el1.display_info();
+        vehicle el2 = new vehicle("toyota",5);
+        el2.display_info();
+    }
+}
+class vehicle{
+    String make;
+    Integer model;
+    vehicle(String make,Integer model){
+        this.make = make;
+        this.model = model;
+    }
+    void display_info(){
+        System.out.println("make:" + this.make + " model:"+ this.model);
+    }
+    // getter
+    public String getMake(){
+        return make;
+    }
+    public Integer getmodel() {
+        return model;
+    }
+    // setter
+    public void setMake(String newmake){
+        this.make = make;
+    }
+    public void setmodel(Integer newmodel){
+        this.model = model;
+    }
+}
+class electriccar extends vehicle {
+    Integer battery_capacity;
+
+    electriccar(String make, Integer model, Integer battery_capacity) {
+        super(make, model);
+        this.battery_capacity = battery_capacity;
+    }
+
+    // getter
+    public String getMake() {
+        return make;
+    }
+
+    public Integer getmodel() {
+        return model;
+    }
+
+    public Integer getbattery_capacity() {
+        return battery_capacity;
+    }
+
+    // setter
+    public void setMake(String newmake) {
+        this.make = make;
+    }
+
+    public void setmodel(Integer newmodel) {
+        this.model = model;
+    }
+
+    public void setbattery_capacity(Integer newbattery_capacity) {
+        this.battery_capacity = battery_capacity;
+    }
+    @Override
+    void display_info() {
+        System.out.println("battery_capacity:" + this.battery_capacity +
+                " model:" + this.model + " make:" + this.make);
+    }
+}
+
 
 
 // 5. Shape and Triangle Classes

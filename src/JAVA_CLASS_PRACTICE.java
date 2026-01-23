@@ -2,155 +2,10 @@ import java.util.*;
 
 
 
-//import java.util.*;
-//class main{
-//    public static void main(String[]args){
-//
-//        library b1 = new library("book_t","auth1",2007,true);
-//
-//        System.out.println("book title:\n" + b1.book_title + "author:\n" + b1.author + "published year:\n" +
-//                b1.published_year + "is available:\n" + b1.is_available);
-//
-//        library b2 = new library("book_t2","auth2",2003,false);
-//
-//        System.out.println("book title:\n" + b2.book_title + "author:\n" + b2.author + "published year:\n" +
-//                b2.published_year + "is available:\n" + b2.is_available);
-//    }
-//}
-//class library{
-//    String book_title;
-//    String author;
-//    Integer published_year;
-//    Boolean is_available;
-//
-//    library(String book_name, String author_name, Integer year, Boolean available){
-//        this.book_title = book_name;
-//        this.author = author_name;
-//        this.published_year = year;
-//        this.is_available = available;
-//    }
-//
-//    // getter
-//    public String getBook_title(){
-//        return book_title;
-//    }
-//    public String getAuthor(){
-//        return author;
-//    }
-//    public Integer getpublished_year(){
-//        return published_year;
-//    }
-//    public boolean getis_available(){
-//        return is_available;
-//    }
-//
-//    // setter
-//    public void setBook_title(String newbook_title){
-//        this.book_title = newbook_title;
-//    }
-//    public void setAuthor(String newauthor){
-//        this.author = author;
-//    }
-//    public void setPublished_year(Integer newpublished_year){
-//        this.published_year = published_year;
-//    }
-//    public void setIs_available(Boolean newis_available) {
-//        if (is_available == true) {
-//            this.is_available = is_available;
-//        } else {
-//            System.out.println("not available");
-//        }
-//    }
-//}
-
-//// 4. Car Class
-//// Define a class `Car` with attributes `make`, `model`, `year`, and `color`. Create a method
-//// `display_car_info()` that prints out the car details in a readable format.
-//
-//
-//import java.util.*;
-//public class main {
-//    public static void main(String[]args) {
-//        car c1 = new car("Toyota",2009,"black");
-//        c1.display_car_info();
-//    }
-//}
-//class car{
-//    String make;
-//    Integer model;
-//    String colour;
-//
-//    car(String make, Integer model, String colour) {
-//        this.make = make;
-//        this.model = model;
-//        this.colour = colour;
-//    }
-//        void display_car_info(){
-//            System.out.println("make: " + this.make + "\nmodel: " + this.model +"\ncolour: " + this.colour);
-//        }
-//}
-
-//// Q5) define a class "rectangle" with attributes "length" and "width" ceate methods to calculate the
-////perimeter and area of the rectangle
-/*
-//import java.util.*;
-//class main{
-//    public static void main(String[]args){
-//        rectangle m1 = new rectangle(5,9);
-//        m1.perimeter();
-//        m1.area();
-//    }
-//}
-//
-//class rectangle {
-//    int length;
-//    int width;
-//
-//    rectangle(int length, int width) {
-//        this.length = length;
-//        this.width= width;
-//    }
-//
-//    void perimeter() {
-//        int peri = (2 * length) + (2 * width);
-//        System.out.println("perimeter of rectangle: "+ peri);
-//    }
-//
-//    void area() {
-//        int area = (length * width);
-//        System.out.println("area of rectangle: "+ area);
-//    }
-//}
-
-// 6. Student Database Class
-// Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
-// with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
-
-import java.util.*;
-class main{
-    public static void main(String[] args){
-        student_database s1 = new student_database("me",18);
-        ArrayList<Object> l1 = new ArrayList<>();
-        l1.add(s1);
-
-    }
-}
-class student_database{
-    String name;
-    Integer age;
-    student_database(String name , Integer age){
-        this.name = name;
-        this.age= age;
-    }
-    void display(){
-        System.out.println("data " + this.name);
-    }
-}
-
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
-
+/* 
 
 class java_class_practice {
     public static void main(String[] args) {
@@ -179,7 +34,7 @@ class employee extends person{
     }
 
 }
-
+*/
 
 
 
@@ -190,7 +45,7 @@ class employee extends person{
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
-/*
+
 class java_class_practice {
     public static void main(String[] args) {
     }
@@ -213,7 +68,7 @@ class electriccar extends vehicle{
     }
 
 
-*/
+
 
 
 
@@ -307,81 +162,6 @@ class employee extends person{
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
-
-/*
-class java_class_practice {
-    public static void main(String[] args) {
-        electriccar el1 = new electriccar("toyota",2,4);
-        el1.display_info();
-        vehicle el2 = new vehicle("toyota",5);
-        el2.display_info();
-    }
-}
-class vehicle{
-    String make;
-    Integer model;
-    vehicle(String make,Integer model){
-        this.make = make;
-        this.model = model;
-    }
-    void display_info(){
-        System.out.println("make:" + this.make + " model:"+ this.model);
-    }
-    // getter
-    public String getMake(){
-        return make;
-    }
-    public Integer getmodel() {
-        return model;
-    }
-    // setter
-    public void setMake(String newmake){
-        this.make = make;
-    }
-    public void setmodel(Integer newmodel){
-        this.model = model;
-    }
-}
-class electriccar extends vehicle {
-    Integer battery_capacity;
-
-    electriccar(String make, Integer model, Integer battery_capacity) {
-        super(make, model);
-        this.battery_capacity = battery_capacity;
-    }
-
-    // getter
-    public String getMake() {
-        return make;
-    }
-
-    public Integer getmodel() {
-        return model;
-    }
-
-    public Integer getbattery_capacity() {
-        return battery_capacity;
-    }
-
-    // setter
-    public void setMake(String newmake) {
-        this.make = make;
-    }
-
-    public void setmodel(Integer newmodel) {
-        this.model = model;
-    }
-
-    public void setbattery_capacity(Integer newbattery_capacity) {
-        this.battery_capacity = battery_capacity;
-    }
-    @Override
-    void display_info() {
-        System.out.println("battery_capacity:" + this.battery_capacity +
-                " model:" + this.model + " make:" + this.make);
-    }
-}
-*/
 
 
 
