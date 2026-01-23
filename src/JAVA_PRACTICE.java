@@ -149,7 +149,6 @@ public static void main(String[] args) {
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
 // should return `"Cannot divide by zero"`.
 
-
 /*
 static int safe_sub(int x, int y) {
         int result = x / y;
@@ -174,8 +173,6 @@ static int safe_sub(int x, int y) {
     }
 }
 */
-
-
 
 // 4. Handling Invalid Input
 // Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
@@ -209,15 +206,6 @@ static int safe_sub(int x, int y) {
 
 */
 
-
-
-
-
-
-
-
-
-
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
@@ -240,8 +228,6 @@ static int safe_sub(int x, int y) {
     }
 
 */
-
-
 
 
 // * Object-Oriented Programming *
@@ -643,7 +629,7 @@ class car{
 // Define a class `Rectangle` with attributes `length` and `width`. Create methods to calculate the perimeter
 // and area of the rectangle.
 
-/* 
+/*
     public static void main(String[]args){
         rectangle m1 = new rectangle(5,9);
         m1.perimeter();
@@ -670,13 +656,13 @@ class rectangle {
         System.out.println("area of rectangle: "+ area);
     }
 }
-*/
+ */
 
 // 6. Student Database Class
 // Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
 // with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
 
-/* 
+/*
     public static void main(String[] args){
         student_database s1 = new student_database("me",18);
         ArrayList<Object> l1 = new ArrayList<>();
@@ -695,7 +681,7 @@ class student_database{
         System.out.println("data " + this.name);
     }
 }
-*/
+ */
 
 
 // Inheritance
@@ -705,19 +691,142 @@ class student_database{
 // Define a base class `Shape` with a method `draw()`. Then create subclasses `Circle` and `Rectangle`, each
 // implementing the `draw()` method. Demonstrate polymorphism.
 
+/*  public static void main(String[] args) {
+        shape circle = new shape(" and I am round");
+        shape rectangle = new shape(" and I have 4 sides");
+        circle.draw();
+        rectangle.draw();
+    }
+}
+class shape{
+    String draw;
+    shape (String draw){
+        this.draw = draw;
+    }
+    void draw(){
+        System.out.println("i can be drawn" + draw);
+    }
+}
+class circle extends shape{
+    circle(String draw){
+        super(draw);
+    }
+}
+class rectangle extends shape{
+    rectangle(String draw){
+        super(draw);
+    }
+}
+ */
+
 // 2. Animal and Dog Classes
 // Create a class `Animal` with attributes `name` and `species`. Then, create a class `Dog` that inherits from
 // `Animal`, with an additional attribute `breed`. Demonstrate usage by creating instances of both classes and
 // printing their information.
 
+/*
+    public static void main(String[] args) {
+        animal dog = new animal(" hrt","thg");
+        dog.getname();
+        dog.getSpecies();
+    }
+}
+class animal{
+    String name;
+    String species;
+    animal(String name, String species){
+        this.name = name;
+        this.species = species;
+    }
+    // getter
+    public String getname(){
+        return name;
+    }
+    public String getSpecies(){
+        return species;
+    }
+    // setter
+    public void setname(Integer newname){
+        this.name = name;
+    }
+    public void setspecies(Integer newspecies){
+        this.species = species;
+
+    }
+class dog extends animal{
+    String breed;
+
+    dog(String breed,String name,String species) {
+        super(name, species);
+        this.breed = breed;
+    }
+
+    // getter
+    public String getname(){
+        return name;
+        }
+    public String getSpecies(){
+        return species;
+    }
+
+    public String getBreed() {
+        return breed;
+    }
+
+    // setter
+    public void setname(String newname){
+        this.name = name;
+    }
+    public void setspecies(String newspecies){
+        this.species = species;
+    }
+    public void setbreed(String newbreed){
+        this.breed = breed;
+    }
+
+    }
+}
+*/
+
 // 3. Person and Employee Classes
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
+
+
+class java_class_practice {
+    public static void main(String[] args) {
+        person em1 = new person("me",18,"north nazimabad",250000);
+        em1.name();
+        em1.age();
+        em1.address();
+        em1.salary();
+    }
+}
+class person{
+    String name;
+    Integer age;
+    String address;
+    person(String name,Integer age,String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+}
+class employee extends person{
+    Integer salary;
+    employee(String name,Integer age,String address,Integer salary){
+        super(name, age, address);
+        this.salary = salary;
+    }
+
+}
+
 
 // 4. Vehicle and Electric Car Classes
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
+
 
 // 5. Shape and Triangle Classes
 // Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
@@ -1141,4 +1250,3 @@ static class Appliance{
 // Define a base class Person with attributes name and age. Create a subclass Employee that adds
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
-}

@@ -26,3 +26,4 @@ class RAW_FILE_PRICE_CHECKER {
         }
 }
 }
+
