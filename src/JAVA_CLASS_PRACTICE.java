@@ -668,7 +668,27 @@ class apple extends fruits{
 // implements the `draw()` method, printing a message when a triangle is drawn.
 /*
 
-
+class main {
+    public static void main(String[] args) {
+        traingle t1 = new traingle();
+        t1.draw();
+        t1.getdraw();
+        }
+}
+abstract class shape {
+    abstract void getdraw();
+}
+class traingle extends shape{
+    // getter
+    @Override
+    public void getdraw() {
+        System.out.println("vcd");
+    }
+    // setter
+    public void draw(){
+        System.out.println("hfg");
+    }
+}
 
 
 */
@@ -699,6 +719,7 @@ class apple extends fruits{
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
 
 
