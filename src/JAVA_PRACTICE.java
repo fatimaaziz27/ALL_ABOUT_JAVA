@@ -797,8 +797,8 @@ class dog extends animal{
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
 
-
-
+// completed ------>
+/*
     public static void main(String[] args) {
         electriccar el1 = new electriccar("toyota",2,4);
         el1.display_info();
@@ -870,12 +870,15 @@ class electriccar extends vehicle {
                 " model:" + this.model + " make:" + this.make);
     }
 }
-
+ */
 
 
 // 5. Shape and Triangle Classes
 // Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
 // implements the `draw()` method, printing a message when a triangle is drawn.
+
+
+
 
 // 6. Fruit and Apple Classes
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
@@ -905,7 +908,7 @@ class electriccar extends vehicle {
 // Define a class `BankAccount` with private attributes `account_number` and `balance`. Provide public
 // methods `deposit()` and `withdraw()` to handle deposits and withdrawals. Ensure that the `withdraw()`
 // method checks that the withdrawal amount is not greater than the balance.
-
+// completed ------>
 /*
 static class bank_account{
     private int account_number;
@@ -974,6 +977,17 @@ public static void main(String[] args) {
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
+
+public static void main(String[] args) {
+}
+class account_holder{
+    private String name;
+    private double account_balance;
+
+    
+
+}
+
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
