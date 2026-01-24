@@ -983,7 +983,29 @@ public static void main(String[] args) {
 class account_holder{
     private String name;
     private double account_balance;
+    public account_holder(String name ,double account_balance) {
+        this.account_balance = account_balance;
+        this.name = name;
+    }
 
+    public float get_salary() {
+        if (salary > 0) {
+            return salary;
+        } else {
+            System.out.println("Salary must be greater than 0");
+            return 0;
+        }
+    }
+public static void main(String[] args) {
+    employee emp1 = new employee(5000);
+    System.out.println("Employee Salary: " + emp1.get_salary());
+
+    employee emp2 = new employee(-1000);
+    System.out.println("Employee Salary: " + emp2.get_salary());
+}
+}
+}
+*/
 
 
 }
