@@ -988,22 +988,13 @@ class account_holder{
         this.name = name;
     }
 
-    public float get_salary() {
-        if (salary > 0) {
-            return salary;
-        } else {
-            System.out.println("Salary must be greater than 0");
-            return 0;
-        }
-    }
-public static void main(String[] args) {
-    employee emp1 = new employee(5000);
-    System.out.println("Employee Salary: " + emp1.get_salary());
+    public float deposit(amount) {
 
-    employee emp2 = new employee(-1000);
-    System.out.println("Employee Salary: " + emp2.get_salary());
-}
-}
+    }
+    public float withdraw(amount) {
+        
+    }
+
 }
 */
 
