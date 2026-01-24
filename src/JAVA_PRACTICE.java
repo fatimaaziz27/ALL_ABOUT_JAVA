@@ -984,7 +984,7 @@ class account_holder{
     private String name;
     private double account_balance;
 
-    
+
 
 }
 
