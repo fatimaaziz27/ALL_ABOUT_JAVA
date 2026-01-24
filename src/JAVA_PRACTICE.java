@@ -987,7 +987,7 @@ class account_holder{
         this.account_balance = account_balance;
         this.name = name;
     }
-
+}
     public float deposit(amount) {
 
     }
@@ -995,8 +995,6 @@ class account_holder{
         
     }
 
-}
-*/
 
 
 }
