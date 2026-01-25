@@ -63,6 +63,8 @@ class encap {
 
 class JAVA_CLASS_PRACTICE {
 public static void main(String[] args) {
+    account_holder.acc1 = new account_holder("me",5000);
+    acc1.amount(6700);
     }
 }
 class account_holder{
@@ -74,25 +76,21 @@ class account_holder{
     }
     void deposit(amount){
         if (amount == 0 || amount < 0){
-            System.out.println("hdghg");
+            System.out.println("Negative amount is not accepted.");
         }
+        System.out.println(amount + " has been deposited");
     }
     void withdraw(amount){
-        
+        if (amount>0){
+            System.out.println(this.name + ", your transaction is successful.");
+        }
+        else{
+            System.out.println("Insufficient funds")
+        }
     }
 
 }
 
-
-void deposit(amount){
-        int  = (2 * length) + (2 * width);
-        System.out.println("perimeter of rectangle: "+ peri);
-    }
-
-    void area() {
-        int area = (length * width);
-        System.out.println("area of rectangle: "+ area);
-    }
 
 
 
