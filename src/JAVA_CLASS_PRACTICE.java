@@ -45,7 +45,7 @@ class employee extends person{
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
-
+/* 
 class java_class_practice {
     public static void main(String[] args) {
     }
@@ -67,7 +67,7 @@ class electriccar extends vehicle{
         System.out.println(this.battery_capacity + this.model + this.make)
     }
 
-
+*/
 
 
 
@@ -378,60 +378,9 @@ class collectionofdata {
 
 // Encapsulation
 
-// 1. Bank Account Class
-// Define a class `BankAccount` with private attributes `account_number` and `balance`. Provide public
-// methods `deposit()` and `withdraw()` to handle deposits and withdrawals. Ensure that the `withdraw()`
-// method checks that the withdrawal amount is not greater than the balance.
 
-/*
 
-class encap {
-    public static void main(String[] args) {
-        bank_account acc1 = new bank_account();
-        acc1.setbalance(6700);
-        acc1.setaccount_number(7);
-        acc1.deposit(45);
-        acc1.withdraw(67);
-    }
-}
-    class bank_account {
-        private Integer account_number;
-        private Integer balance;
 
-//        bank_account(Integer account_number,Integer balance){
-//            this.account_number = account_number;
-//            this.balance = balance;
-
-        // getter
-        public Integer getaccount_number() {
-            return account_number;
-        }
-        public Integer getbalance() {
-            return balance;
-        }
-        // setter
-        public void setaccount_number(Integer newaccount_number) {
-            this.account_number = newaccount_number;
-        }
-        public void setbalance(Integer newbalance) {
-            this.balance = newbalance;
-        }
-
-        public void deposit(Integer amount){
-            amount+=amount;
-            System.out.println(amount);
-        }
-        public void withdraw(Integer amount){
-            if (amount>this.balance){
-                System.out.println("hgfh");
-            }
-            else {
-                this.balance-=amount;
-            }
-        }
-    }
-
-*/
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
@@ -452,12 +401,3 @@ class encap {
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
-
-
-
-
-
-
-
-
-

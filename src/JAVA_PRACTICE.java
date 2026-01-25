@@ -909,74 +909,7 @@ class electriccar extends vehicle {
 // methods `deposit()` and `withdraw()` to handle deposits and withdrawals. Ensure that the `withdraw()`
 // method checks that the withdrawal amount is not greater than the balance.
 // completed ------>
-/*
-static class bank_account{
-    private int account_number;
-    private float balance;
-    public bank_account(int account_number, float balance){
-        this.account_number = account_number;
-        this.balance = balance;
-    }
-    public void deposit(float amount){
-        balance += amount;
-        System.out.println("Deposited: " + amount + ", New Balance: " + balance);
-    }
-    public void withdraw(float amount){
-        if(amount > balance){
-            System.out.println("Insufficient balance");
-        }
-        else{
-            balance -= amount;
-            System.out.println("Withdrawn: " + amount + ", New Balance: " + balance);
-        }
 
-        }
-    public static void main(String[] args){
-        bank_account myAccount = new bank_account(123456, 1000.0f);
-        myAccount.deposit(500.0f);
-        myAccount.withdraw(200.0f);
-        myAccount.withdraw(2000.0f);
-    }
-    }
-}
-*/
-
-
-// 2. Employee Class with Salary
-// Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
-// access to the salary, but only if the employee's salary is greater than 0.
-
-/*
-static class employee{
-    private float salary;
-
-    public employee(float salary) {
-        this.salary = salary;
-    }
-
-    public float get_salary() {
-        if (salary > 0) {
-            return salary;
-        } else {
-            System.out.println("Salary must be greater than 0");
-            return 0;
-        }
-    }
-public static void main(String[] args) {
-    employee emp1 = new employee(5000);
-    System.out.println("Employee Salary: " + emp1.get_salary());
-
-    employee emp2 = new employee(-1000);
-    System.out.println("Employee Salary: " + emp2.get_salary());
-}
-}
-}
-*/
-
-// 3. Account Holder Class
-// Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
-// methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
-// negative values are not accepted.
 /*
 class encap {
     public static void main(String[] args) {
@@ -1023,8 +956,66 @@ class encap {
             }
         }
     }
+ */
 
+
+// 2. Employee Class with Salary
+// Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
+// access to the salary, but only if the employee's salary is greater than 0.
+
+/*
+static class employee{
+    private float salary;
+
+    public employee(float salary) {
+        this.salary = salary;
+    }
+
+    public float get_salary() {
+        if (salary > 0) {
+            return salary;
+        } else {
+            System.out.println("Salary must be greater than 0");
+            return 0;
+        }
+    }
+public static void main(String[] args) {
+    employee emp1 = new employee(5000);
+    System.out.println("Employee Salary: " + emp1.get_salary());
+
+    employee emp2 = new employee(-1000);
+    System.out.println("Employee Salary: " + emp2.get_salary());
+}
+}
+}
 */
+
+// 3. Account Holder Class
+// Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
+// methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
+// negative values are not accepted.
+
+public static void main(String[] args) {
+}
+class account_holder{
+    private String name;
+    private double account_balance;
+    public account_holder(String name ,double account_balance) {
+        this.account_balance = account_balance;
+        this.name = name;
+    }
+}
+    public float deposit(amount) {
+
+    }
+    public float withdraw(amount) {
+        
+    }
+
+
+
+}
+
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
