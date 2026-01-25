@@ -3,6 +3,9 @@ class JAVA_PRACTICE{
 
 //                                              Basic Java Programming
 
+
+
+
 // Data Types & Operations
 
 // 1. Sum of Positive Integers
@@ -44,6 +47,10 @@ public static void main(String[] args) {
 // 6. Multiplying Numbers
 // Create a list of numbers and use a for loop to multiply all the integers in the list together. If there are no
 // integers, print a message indicating that.
+
+
+
+
 
 // String Manipulation
 
@@ -90,147 +97,31 @@ public static void main(String[] args) {
 // Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
 // error message if the numbers are not valid floats.
 
-/* 
-    static float safe_add(float x, float y) {
-        return x + y;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        try {
-            float x = sc.nextFloat();
-            float y = sc.nextFloat();
-
-            System.out.println("Result: " + safe_add(x, y));
-
-        } catch (Exception e) {
-            System.out.println("Invalid input: enter float numbers only");
-        }
-
-        sc.close();
-    }
-*/
-
 // 2. Safe Subtraction
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
-
-/*
-    static int safe_sub(int x, int y) {
-        int result = x - y;
-
-        if (result < 0) {
-            System.out.println("Error: Result is negative.");
-            return 0;
-        }
-        return result;
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        try {
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-
-            System.out.println("Result: " + safe_sub(x, y));
-
-        } catch (Exception e) {
-            System.out.println("Invalid input: enter integer numbers only");
-        }
-
-        sc.close();
-    }
-}
-*/
 
 // 3. Check for Division by Zero
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
 // should return `"Cannot divide by zero"`.
 
-/*
-static int safe_sub(int x, int y) {
-        int result = x / y;
-        return result;
-    }
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        try {
-            int x = sc.nextInt();
-            int y = sc.nextInt();
-
-            System.out.println("Result: " + safe_sub(x, y));
-
-        } catch (ArithmeticException e) {
-            System.out.println("Cannot divide by zero");
-        }
-        catch (Exception e) {
-            System.out.println("invalid input: enter integer numbers only");
-        }
-        sc.close();
-    }
-}
-*/
-
 // 4. Handling Invalid Input
 // Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
 // integer. If the conversion fails, return the message `"Invalid input"`.
-
-/*
-    static int parse_input(String value) {
-        try {
-            return Integer.parseInt(value); // convert string to int
-        } catch (NumberFormatException e) {
-            System.out.println("Invalid input"); // print error message
-            return 0; // return 0 when conversion fails
-        }
-    }
-
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-
-        String value1 = sc.nextLine();
-        String value2 = sc.nextLine();
-
-        int num1 = parse_input(value1);
-        int num2 = parse_input(value2);
-
-        System.out.println("First number: " + num1);
-        System.out.println("Second number: " + num2);
-
-        sc.close();
-    }
-}
-
-*/
 
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
 
-/* 
-    static int add_positive_numbers(int x, int y) {
-        if (x < 0 || y < 0) {
-            throw new IllegalArgumentException("Both numbers must be positive");
-        }
-        return x + y;
-    }
 
-    public static void main(String[] args) {
-        try {
-            System.out.println(add_positive_numbers(5, 3));   // 8
-            System.out.println(add_positive_numbers(-2, 4));  // Throws error
-        } catch (IllegalArgumentException e) {
-            System.out.println(e.getMessage());
-        }
-    }
 
-*/
 
 
 // * Object-Oriented Programming *
+
+
+
+
 
 // Class Definition & Initialization
 
@@ -684,6 +575,9 @@ class student_database{
  */
 
 
+
+
+
 // Inheritance
 
 
@@ -792,12 +686,86 @@ class dog extends animal{
 // Define a `Person` class with attributes `name`, `age`, and `address`. Then define an `Employee` class that
 // inherits from `Person` and adds an attribute `salary`. Print out the details of an employee.
 
+/*
+class java_class_practice {
+    public static void main(String[] args) {
+        employee em1 = new employee("me",18,"north nazimabad",250000);
+        System.out.println(em1.name);
+        System.out.println(em1.age);
+        System.out.println(em1.address);
+        System.out.println(em1.salary);
+    }
+}
+class person{
+    String name;
+    Integer age;
+    String address;
+    person(String name,Integer age,String address){
+        this.name = name;
+        this.age = age;
+        this.address = address;
+    }
+    // getter
+    public String getname(){
+        return name;
+    }
+    public Integer getage(){
+        return age;
+    }
+    public String getaddress() {
+        return address;
+    }
+    // setter
+    public void setname(String newname){
+        this.name = name;
+    }
+    public void setage(Integer newage){
+        this.age = age;
+    }
+    public void setaddress(String newaddress){
+        this.address = address;
+    }
+}
+class employee extends person{
+    Integer salary;
+    employee(String name,Integer age,String address,Integer salary){
+        super(name, age, address);
+        this.salary = salary;
+    }
+    // getter
+    public String getname(){
+        return name;
+    }
+    public Integer getage(){
+        return age;
+    }
+    public String getaddress() {
+        return address;
+    }
+    public Integer getsalary() {
+        return salary;
+    }
+    // setter
+    public void setname(String newname){
+        this.name = name;
+    }
+    public void setage(Integer newage){
+        this.age = age;
+    }
+    public void setaddress(String newaddress){
+        this.address = address;
+    }
+    public void setsalary(Integer newsalary){
+        this.salary = salary;
+    }
+}
+*/
+
 // 4. Vehicle and Electric Car Classes
 // Create a class `Vehicle` with attributes `make` and `model`. Then create a class `ElectricCar` that inherits
 // from `Vehicle`, adding the attribute `battery_capacity`. Override the `display_info()` method to include the
 // battery capacity.
 
-// completed ------>
 /*
     public static void main(String[] args) {
         electriccar el1 = new electriccar("toyota",2,4);
@@ -872,20 +840,64 @@ class electriccar extends vehicle {
 }
  */
 
-
 // 5. Shape and Triangle Classes
 // Create an abstract class `Shape` with an abstract method `draw()`. Then create a subclass `Triangle` that
 // implements the `draw()` method, printing a message when a triangle is drawn.
 
-
-
+/*
+class main {
+    public static void main(String[] args) {
+        traingle t1 = new traingle();
+        t1.draw();
+        t1.getdraw();
+        }
+}
+abstract class shape {
+    abstract void getdraw();
+}
+class traingle extends shape{
+    // getter
+    @Override
+    public void getdraw() {
+        System.out.println("i am a shape");
+    }
+    // setter
+    public void draw(){
+        System.out.println("i am a triangle");
+    }
+}
+*/
 
 // 6. Fruit and Apple Classes
 // Define a class `Fruit` with an attribute `name` and a method `taste()`. Then define a subclass `Apple` that
 // inherits from `Fruit` and overrides the `taste()` method to print a specific message about the apple's taste.
 
-
-
+/*
+class java_class_practice {
+    public static void main(String[] args) {
+        apple a1 = new apple("apple");
+        a1.taste();
+    }
+}
+class fruits{
+    String name;
+    fruits(String name){
+        this.name = name;
+    }
+    void taste(){
+        System.out.println();
+    }
+}
+class apple extends fruits{
+    apple(String name){
+        super(name);
+    }
+    @Override
+    void taste() {
+        System.out.println("sweet");
+    }
+}
+*/
 
 
 
@@ -893,15 +905,6 @@ class electriccar extends vehicle {
 
 
 // Encapsulation
-
-
-
-
-
-
-
-
-
 
 
 // 1. Bank Account Class
@@ -995,26 +998,6 @@ public static void main(String[] args) {
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
 
-public static void main(String[] args) {
-}
-class account_holder{
-    private String name;
-    private double account_balance;
-    public account_holder(String name ,double account_balance) {
-        this.account_balance = account_balance;
-        this.name = name;
-    }
-}
-    public float deposit(amount) {
-
-    }
-    public float withdraw(amount) {
-        
-    }
-
-
-
-}
 
 
 // 4. Product Stock Class

@@ -1,5 +1,4 @@
 class JAVA_OOPs {
-
 // /*
 // There are two types of programming:
 //     procedural programming
@@ -117,7 +116,7 @@ class car{
 
 
 
-//  Make a class Pen with attributes ink type, ink color, pen type and method
+// Q) Make a class Pen with attributes ink type, ink color, pen type and method
 //  write print "I am a pen and I can write"
 
 
@@ -145,7 +144,8 @@ class car{
 //}
 
 
-//  Make a class of shape with 3 attribute lenght breath & radius and 2 methods
+
+// Q) Make a class of shape with 3 attribute lenght breath & radius and 2 methods
 //  find_area(lenght * breath) and find_circumference(2*3.14*radius).
 
 
@@ -178,7 +178,10 @@ class car{
 //}
 
 
-// Q1 Write a Java program to demonstrate polymorphism using an abstract class 'product' 
+
+
+
+// Q) Write a Java program to demonstrate polymorphism using an abstract class 'product' 
 // with subclasses 'electronics' and 'clothing'. Implement methods to calculate and display 
 // discounts and final prices for each product type.
 /*
