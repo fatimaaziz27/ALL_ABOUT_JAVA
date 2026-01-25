@@ -61,8 +61,9 @@ class encap {
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
 
-/*
+class JAVA_CLASS_PRACTICE {
 public static void main(String[] args) {
+    }
 }
 class account_holder{
     private String name;
@@ -71,20 +72,27 @@ class account_holder{
         this.account_balance = account_balance;
         this.name = name;
     }
-}
-    public float deposit(amount) {
-
+    void deposit(amount){
+        if (amount == 0 || amount < 0){
+            System.out.println("hdghg");
+        }
     }
-    public float withdraw(amount) {
+    void withdraw(amount){
         
     }
 
-
-
 }
-*/
 
 
+void deposit(amount){
+        int  = (2 * length) + (2 * width);
+        System.out.println("perimeter of rectangle: "+ peri);
+    }
+
+    void area() {
+        int area = (length * width);
+        System.out.println("area of rectangle: "+ area);
+    }
 
 
 
