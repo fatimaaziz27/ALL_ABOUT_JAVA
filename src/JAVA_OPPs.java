@@ -176,3 +176,52 @@ class car{
 //        System.out.println("The circumference is found to be: "+circumference);
 //    }
 //}
+
+
+// Q1 Write a Java program to demonstrate polymorphism using an abstract class 'product' 
+// with subclasses 'electronics' and 'clothing'. Implement methods to calculate and display 
+// discounts and final prices for each product type.
+/*
+import java.util.*;
+class q1{
+    public static void main(String[]args){
+        electronics e1 = new electronics();
+        clothing c1 = new clothing();
+        e1.getDiscount();
+        e1.finalprice();
+
+        c1.getDiscount();
+        c1.finalprice();
+    }
+}
+abstract class product {
+    private int productID;
+    private int price;
+
+    abstract void getDiscount();
+
+    void finalprice() {
+        int finalprice;
+    }
+}
+class electronics extends product{
+    @Override
+    public void getDiscount() {
+    System.out.println("10% discount");
+    }
+    @Override
+    public void finalprice(){
+    System.out.println("500");
+    }
+}
+class clothing extends product{
+    @Override
+    public void getDiscount() {
+    System.out.println("70% discount");
+    }
+    @Override
+    public void finalprice(){
+    System.out.println("600");
+    }
+}
+*/
