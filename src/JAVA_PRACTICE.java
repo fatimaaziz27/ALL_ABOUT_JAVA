@@ -1,9 +1,10 @@
 import java.util.*;
 class JAVA_PRACTICE{
+    public static void main(String[]args){
 
 //                                              Basic Java Programming
-
-
+    }
+}
 
 
 // Data Types & Operations
@@ -118,9 +119,6 @@ public static void main(String[] args) {
 
 
 // * Object-Oriented Programming *
-
-
-
 
 
 // Class Definition & Initialization
@@ -553,6 +551,8 @@ class rectangle {
 // Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
 // with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
 
+// incomplete code --------->
+
 /*
     public static void main(String[] args){
         student_database s1 = new student_database("me",18);
@@ -961,44 +961,14 @@ class encap {
     }
  */
 
-
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
-
-/*
-static class employee{
-    private float salary;
-
-    public employee(float salary) {
-        this.salary = salary;
-    }
-
-    public float get_salary() {
-        if (salary > 0) {
-            return salary;
-        } else {
-            System.out.println("Salary must be greater than 0");
-            return 0;
-        }
-    }
-public static void main(String[] args) {
-    employee emp1 = new employee(5000);
-    System.out.println("Employee Salary: " + emp1.get_salary());
-
-    employee emp2 = new employee(-1000);
-    System.out.println("Employee Salary: " + emp2.get_salary());
-}
-}
-}
-*/
 
 // 3. Account Holder Class
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
-
-
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
@@ -1016,58 +986,12 @@ public static void main(String[] args) {
 
 
 
-
-
-
-
-
-
 // Abstraction & Interfaces
-
-
-
-
-
 
 
 // 1. Shape Area Calculation
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
 // `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
-
-/*
-    abstract class Shape {
-        abstract int calculate_area();
-    }
-    class circle extends Shape{
-        int radius;
-        circle(int radius){
-            this.radius=radius;
-        }
-        int calculate_area(){
-            return (int)(3.14*radius*radius);
-        }
-    }
-    class rectangle extends Shape{
-        int length;
-        int width;
-        rectangle(int length, int width){
-            this.length=length;
-            this.width=width;
-        }
-        int calculate_area(){
-            return length*width;
-        }
-    }
-
-    public void main(String[] args){
-            Shape c = new circle(5);
-            Shape r = new rectangle(4,6);
-
-            System.out.println("Area of Circle: " + c.calculate_area());
-            System.out.println("Area of Rectangle: " + r.calculate_area());
-        }
-    }
-*/
 
 
 // 2. Payment System
@@ -1083,48 +1007,9 @@ public static void main(String[] args) {
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
 
-
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
 // `Square` that each implement `draw()` to display the shape in a console.
-/* 
-abstract class Shape {
-    abstract void draw();
-}
-
-class Circle extends Shape {
-    void draw() {
-        System.out.println("Drawing a Circle");
-        System.out.println("  ***  ");
-        System.out.println(" *     * ");
-        System.out.println("  ***  ");
-    }
-}
-
-class Square extends Shape {
-    void draw() {
-        System.out.println("Drawing a Square");
-        System.out.println(" ***** ");
-        System.out.println(" *   * ");
-        System.out.println(" *   * ");
-        System.out.println(" ***** ");
-    }
-}
-
-public class Main {
-    public static void main(String[] args) {
-        Shape c = new Circle();
-        Shape s = new Square();
-
-        c.draw();
-        System.out.println();
-        s.draw();
-    }
-}
-*/
-
-
-
 
 // 6. Employee Task Management
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
@@ -1135,14 +1020,7 @@ public class Main {
 
 
 
-
-
 // Multiple Inheritance
-
-
-
-
-
 
 
 // 1. Artist and Writer Classes
@@ -1150,39 +1028,6 @@ public class Main {
 // `Writer` with the attribute `writing_style` and a method `write()`. Then define a class `CreativePerson` that
 // inherits from both `Artist` and `Writer` and has a method `display_info()` that displays both art and writing
 // styles. 
-
-/*
-static class Artist {
-    static String art_style;
-
-    void create_art() {
-        System.out.println("Creating art in " + art_style + " style.");
-    }
-}
-static class Writer {
-    static String writing_style;
-
-    void write() {
-        System.out.println("Writing in " + writing_style + " style.");
-    }
-}
-static class creative_person extends Artist {
-    String writing_style;
-    void display_info() {
-        System.out.println("Art Style: " + art_style);
-        System.out.println("Writing Style: " + writing_style);
-    }
-    public static void main(String[] args) {
-        creative_person cp = new creative_person();
-        cp.art_style = "Impressionism";
-        cp.writing_style = "Fiction";
-        cp.display_info();
-    }
-}}
-
-*/
-
-
 
 // 2. Student and Sportsman Classes
 // Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
@@ -1214,11 +1059,7 @@ static class creative_person extends Artist {
 
 
 
-
 // Hierarchical Inheritance
-
-
-
 
 
 // 1. Shape Hierarchy
@@ -1253,48 +1094,13 @@ static class creative_person extends Artist {
 
 
 
-
-
-
-
-
 // Multilevel Inheritance
-
-
-
-
-
-
 
 
 // 1. Appliance → WashingMachine → SmartWashingMachine
 // Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
-
-/*
-static class Appliance{
-    void turnon(){
-        System.out.println("Appliance is turned on");
-    }
-    static class washingmachine extends Appliance{
-        void washclothes(){
-            System.out.println("Washing clothes");
-    }
-    static class SmartWashingMachine extends washingmachine{
-        void connectToWiFi(){
-            System.out.println("Connected to WiFi");
-        }
-        public static void main(String[] args){
-            SmartWashingMachine swm = new SmartWashingMachine();
-            swm.turnon();
-            swm.washclothes();
-            swm.connectToWiFi();
-        }
-    }
-    }}}
-*/
-
 
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
