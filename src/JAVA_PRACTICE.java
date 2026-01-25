@@ -977,28 +977,54 @@ public static void main(String[] args) {
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
-
-public static void main(String[] args) {
-}
-class account_holder{
-    private String name;
-    private double account_balance;
-    public account_holder(String name ,double account_balance) {
-        this.account_balance = account_balance;
-        this.name = name;
+/*
+class encap {
+    public static void main(String[] args) {
+        bank_account acc1 = new bank_account();
+        acc1.setbalance(6700);
+        acc1.setaccount_number(7);
+        acc1.deposit(45);
+        acc1.withdraw(67);
     }
 }
-    public float deposit(amount) {
+    class bank_account {
+        private Integer account_number;
+        private Integer balance;
 
+//        bank_account(Integer account_number,Integer balance){
+//            this.account_number = account_number;
+//            this.balance = balance;
+
+        // getter
+        public Integer getaccount_number() {
+            return account_number;
+        }
+        public Integer getbalance() {
+            return balance;
+        }
+        // setter
+        public void setaccount_number(Integer newaccount_number) {
+            this.account_number = newaccount_number;
+        }
+        public void setbalance(Integer newbalance) {
+            this.balance = newbalance;
+        }
+
+        public void deposit(Integer amount){
+            amount+=amount;
+            System.out.println(amount);
+        }
+        public void withdraw(Integer amount){
+            if (amount>this.balance){
+                System.out.println("hgfh");
+            }
+            else {
+                this.balance-=amount;
+            }
+        }
     }
-    public float withdraw(amount) {
-        
-    }
 
-
-
-}
-
+*/
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
