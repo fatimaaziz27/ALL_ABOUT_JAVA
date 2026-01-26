@@ -76,21 +76,20 @@ class account_holder{
         this.account_balance = account_balance;
         this.name = name;
     }
-    void deposit(amount){
+    void deposit(Integer amount){
         if (amount == 0 || amount < 0){
             System.out.println("Negative amount is not accepted.");
         }
         System.out.println(amount + " has been deposited");
     }
-    void withdraw(amount){
+    void withdraw(Integer amount){
         if (amount>0){
             System.out.println(this.name + ", your transaction is successful.");
         }
         else{
-            System.out.println("Insufficient funds")
+            System.out.println("Insufficient funds");
         }
     }
-
 }
 
 
