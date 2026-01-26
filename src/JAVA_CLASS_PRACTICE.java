@@ -98,6 +98,33 @@ class account_holder{
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
 
+class JAVA_CLASS_PRACTICE {
+public static void main(String[] args) {
+    employee em1 = new employee();
+    em1.get_salary(67);
+    }
+}
+class employee{
+    private Integer salary;
+}
+public void get_salary(){
+    if (Salary > 0){
+        System.out.println(salary);
+        }
+    else{
+            System.out.println("Insufficient funds")
+        }
+}
+
+public void withdraw(Integer amount){
+            if (amount>this.balance){
+                System.out.println("hgfh");
+            }
+            else {
+                this.balance-=amount;
+            }
+        
+
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
 // public method `check_availability()` to check if a product is in stock and return a message accordingly.
