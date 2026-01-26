@@ -55,6 +55,8 @@ class encap {
 
 
 
+// completed -------->
+
 
 // 3. Account Holder Class
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
@@ -148,12 +150,13 @@ public void get_salary(int amount){
         }
     }
 }
-    
+
 */
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
 // public method `check_availability()` to check if a product is in stock and return a message accordingly.
+
 
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
