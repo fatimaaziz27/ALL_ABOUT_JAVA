@@ -63,13 +63,15 @@ class encap {
 
 class JAVA_CLASS_PRACTICE {
 public static void main(String[] args) {
-    account_holder.acc1 = new account_holder("me",5000);
-    acc1.amount(6700);
+    account_holder acc1 = new account_holder("me",5000);
+    acc1.deposit(6700);
+    acc1.withdraw(6700);
     }
 }
 class account_holder{
     private String name;
     private double account_balance;
+    
     public account_holder(String name ,double account_balance) {
         this.account_balance = account_balance;
         this.name = name;
