@@ -60,7 +60,7 @@ class encap {
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
-
+/*
 class JAVA_CLASS_PRACTICE {
 public static void main(String[] args) {
     account_holder acc1 = new account_holder("me",5000);
@@ -91,6 +91,7 @@ class account_holder{
         }
     }
 }
+*/
 
 
 
