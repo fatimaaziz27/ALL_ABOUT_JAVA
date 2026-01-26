@@ -106,24 +106,17 @@ public static void main(String[] args) {
 }
 class employee{
     private Integer salary;
-}
+
 public void get_salary(){
     if (Salary > 0){
         System.out.println(salary);
         }
+    
     else{
-            System.out.println("Insufficient funds")
+        System.out.println("Insufficient funds")
         }
+    }
 }
-
-public void withdraw(Integer amount){
-            if (amount>this.balance){
-                System.out.println("hgfh");
-            }
-            else {
-                this.balance-=amount;
-            }
-        
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
