@@ -99,6 +99,29 @@ class account_holder{
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
+/* */
+class JAVA_CLASS_PRACTICE {
+public static void main(String[] args) {
+    employee em1 = new employee();
+    em1.get_salary(67);
+    }
+}
+class employee{
+    private Integer salary;
+
+public void get_salary(int amount){
+    if (amount > 0){
+        System.out.println(salary);
+        }
+    
+    else{
+        System.out.println("Insufficient funds")
+        }
+    }
+}
+
+
+//                                OR
 
 class JAVA_CLASS_PRACTICE {
 public static void main(String[] args) {
@@ -109,8 +132,12 @@ public static void main(String[] args) {
 class employee{
     private Integer salary;
 
-public void get_salary(){
-    if (Salary > 0){
+    public employee(Integer salary) {
+        this.salary = salary;
+    }
+
+public void get_salary(int amount){
+    if (amount > 0){
         System.out.println(salary);
         }
     
@@ -119,6 +146,7 @@ public void get_salary(){
         }
     }
 }
+
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
