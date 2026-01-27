@@ -63,52 +63,9 @@ class encap {
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
 
-/*class java{
-public static void main(String[] args) {
-
-    account_holder acc1 = new account_holder("me",5000);
-    acc1.deposit(0);
-    acc1.withdraw(6700);
-    }
-}
-class account_holder{
-    private String name;
-    private double account_balance;
-
-    public account_holder(String name ,double account_balance) {
-        this.account_balance = account_balance;
-        this.name = name;
-    }
-    void deposit(Integer amount){
-        if (amount == 0 || amount < 0){
-            System.out.println("Negative amount is not accepted.");
-        }
-        else{
-            this.account_balance+=amount;
-            System.out.println(amount + " has been deposited");
-        }
-    }
-    void withdraw(Integer amount){
-        if (amount>0 && amount<account_balance){
-            this.account_balance-=amount;
-            System.out.println(this.name + ", your transaction is successful.");
-        }
-        else{
-            System.out.println("Insufficient funds");
-        }
-    }
-}
-*/
 
 
 
-
-// 2. Employee Class with Salary
-// Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
-// access to the salary, but only if the employee's salary is greater than 0.
-
-
-// completed -------->
 
 
 
