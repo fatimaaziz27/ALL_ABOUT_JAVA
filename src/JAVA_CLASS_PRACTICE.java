@@ -47,7 +47,6 @@ class gradebook{
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
 // `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
 
-
 // 2. Payment System
 // Create an abstract class `Payment` with an abstract method `process_payment()`. Then create two
 // subclasses: `CreditCardPayment` and `PayPalPayment`. Extend the `process_payment()` method in both
