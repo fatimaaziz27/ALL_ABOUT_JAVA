@@ -142,6 +142,9 @@ class employee {
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
 // public method `check_availability()` to check if a product is in stock and return a message accordingly.
 
+
+// completed -------->
+
 /*
 class java{
     public static void main(String[] args){
@@ -177,6 +180,7 @@ class productstock{
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
 
 
