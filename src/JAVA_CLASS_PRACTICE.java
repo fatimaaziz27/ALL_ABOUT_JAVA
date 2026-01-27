@@ -177,9 +177,12 @@ class productstock{
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
 
+// completed -------->
+
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
 
 
