@@ -215,20 +215,20 @@ class gradebook{
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
 
-// Incompleted -------->
+// completed -------->
 
 /*
 class java{
     public static void main(String[] args){
         movie m1 = new movie();
-        m1.rating(0);
-        m1.get_rating(0);
+        m1.rating(2);
+        m1.get_rating();
     }
 }
 class movie{
     private Integer rating;
 
-    public Integer get_rating(Integer rating) {
+    public Integer get_rating() {
         return rating;
     }
     public void rating(Integer newrating) {
@@ -241,6 +241,7 @@ class movie{
     }
 }
 */
+
 
 
 
