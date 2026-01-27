@@ -965,6 +965,34 @@ class encap {
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
 
+/*
+class JAVA{
+    public static void main(String[] args) {
+
+    employee em1 = new employee();
+    em1.Salary(0);
+    System.out.println(em1.get_salary());
+    }
+}
+class employee {
+    private Integer salary;
+
+    public Integer get_salary() {
+        return salary;
+    }
+
+    public void Salary(Integer newsalary) {
+        this.salary = newsalary;
+        if (salary > 0) {
+            System.out.println(salary);
+        } else {
+            System.out.println("Insufficient funds");
+
+        }
+    }
+}
+*/
+
 // 3. Account Holder Class
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that

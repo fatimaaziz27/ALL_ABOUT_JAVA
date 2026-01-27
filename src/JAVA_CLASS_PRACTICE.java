@@ -110,33 +110,7 @@ class account_holder{
 
 // completed -------->
 
-/*
-class JAVA{
-    public static void main(String[] args) {
 
-    employee em1 = new employee();
-    em1.Salary(0);
-    System.out.println(em1.get_salary());
-    }
-}
-class employee {
-    private Integer salary;
-
-    public Integer get_salary() {
-        return salary;
-    }
-
-    public void Salary(Integer newsalary) {
-        this.salary = newsalary;
-        if (salary > 0) {
-            System.out.println(salary);
-        } else {
-            System.out.println("Insufficient funds");
-
-        }
-    }
-}
-*/
 
 // 4. Product Stock Class
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
