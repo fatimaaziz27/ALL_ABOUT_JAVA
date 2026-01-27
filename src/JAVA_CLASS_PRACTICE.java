@@ -215,6 +215,10 @@ class gradebook{
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
 
+// Incompleted -------->
+
+
+
 
 
 
