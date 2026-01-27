@@ -106,6 +106,10 @@ class account_holder{
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
+
+
+// completed -------->
+
 /*
 class JAVA{
     public static void main(String[] args) {
@@ -173,6 +177,7 @@ class productstock{
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
 
 
