@@ -106,56 +106,32 @@ class account_holder{
 // 2. Employee Class with Salary
 // Define a class `Employee` with a private attribute `salary`. Write a method `get_salary()` that allows
 // access to the salary, but only if the employee's salary is greater than 0.
-
 /*
+class JAVA{
+    public static void main(String[] args) {
 
-class JAVA_CLASS_PRACTICE {
-public static void main(String[] args) {
     employee em1 = new employee();
-    em1.get_salary(67);
+    em1.Salary(0);
+    System.out.println(em1.get_salary());
     }
 }
-class employee{
+class employee {
     private Integer salary;
 
-public void get_salary(int amount){
-    if (amount > 0){
-        System.out.println(salary);
-        }
-    
-    else{
-        System.out.println("Insufficient funds")
-        }
-    }
-}
-
-
-//                                OR
-
-class JAVA_CLASS_PRACTICE {
-public static void main(String[] args) {
-    employee em1 = new employee();
-    em1.get_salary(67);
-    }
-}
-class employee{
-    private Integer salary;
-
-    public employee(Integer salary) {
-        this.salary = salary;
+    public Integer get_salary() {
+        return salary;
     }
 
-public void get_salary(int amount){
-    if (amount > 0){
-        System.out.println(salary);
-        }
-    
-    else{
-        System.out.println("Insufficient funds")
+    public void Salary(Integer newsalary) {
+        this.salary = newsalary;
+        if (salary > 0) {
+            System.out.println(salary);
+        } else {
+            System.out.println("Insufficient funds");
+
         }
     }
 }
-
 */
 
 // 4. Product Stock Class
@@ -170,4 +146,5 @@ public void get_salary(int amount){
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
