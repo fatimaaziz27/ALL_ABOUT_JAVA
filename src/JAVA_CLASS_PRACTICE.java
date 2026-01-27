@@ -218,6 +218,30 @@ class gradebook{
 // Incompleted -------->
 
 
+class java{
+    public static void main(String[] args){
+        movie m1 = new movie();
+        m1.rating(0);
+        m1.get_rating(0);
+    }
+}
+class movie{
+    private Integer rating;
+
+    public Integer get_rating(Integer rating) {
+        return rating;
+    }
+    public void rating(Integer newrating) {
+        this.rating = newrating;
+        if (rating > 2) {
+            System.out.println(rating);
+        } else {
+            System.out.println("low rating");
+        }
+    }
+}
+
+
 
 
 
