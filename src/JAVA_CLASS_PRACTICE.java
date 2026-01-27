@@ -177,11 +177,44 @@ class productstock{
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
 
-// completed -------->
+// Incompleted -------->
+
+/*
+class java{
+    public static void main(String[] args){
+
+    }
+}
+class gradebook{
+    private String student_name;
+    private ArrayList grades;
+
+    void add_grade() {
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of arraylist");
+        int size = sc.nextInt();
+        while (size > 0) {
+            Scanner c = new Scanner(System.in);
+            System.out.println("enter any number");
+            int num = c.nextInt();
+            this.grades.add(num);
+            size--;
+        }
+    }
+    void average_grade() {
+        int count=0;
+        for (int i : this.grades){
+            count+=i;
+        }
+    }
+}
+*/
+
 
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
 
 
 
