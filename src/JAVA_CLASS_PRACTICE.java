@@ -62,18 +62,19 @@ class encap {
 // Create a class `AccountHolder` with private attributes `name` and `account_balance`. Provide public
 // methods `deposit(amount)` and `withdraw(amount)` to handle money transactions, while ensuring that
 // negative values are not accepted.
-/*
-class JAVA_CLASS_PRACTICE {
+
+/*class java{
 public static void main(String[] args) {
+
     account_holder acc1 = new account_holder("me",5000);
-    acc1.deposit(6700);
+    acc1.deposit(0);
     acc1.withdraw(6700);
     }
 }
 class account_holder{
     private String name;
     private double account_balance;
-    
+
     public account_holder(String name ,double account_balance) {
         this.account_balance = account_balance;
         this.name = name;
@@ -82,10 +83,14 @@ class account_holder{
         if (amount == 0 || amount < 0){
             System.out.println("Negative amount is not accepted.");
         }
-        System.out.println(amount + " has been deposited");
+        else{
+            this.account_balance+=amount;
+            System.out.println(amount + " has been deposited");
+        }
     }
     void withdraw(Integer amount){
-        if (amount>0){
+        if (amount>0 && amount<account_balance){
+            this.account_balance-=amount;
             System.out.println(this.name + ", your transaction is successful.");
         }
         else{
@@ -165,3 +170,4 @@ public void get_salary(int amount){
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
