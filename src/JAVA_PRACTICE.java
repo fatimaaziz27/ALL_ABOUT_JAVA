@@ -1040,6 +1040,34 @@ class account_holder{
 // Define a class `ProductStock` with private attributes `product_name` and `quantity_in_stock`. Write a
 // public method `check_availability()` to check if a product is in stock and return a message accordingly.
 
+/*
+class java{
+    public static void main(String[] args){
+    
+        productstock p1 = new productstock("chips",0);
+        p1.check_availability();
+    }
+}
+class productstock{
+    private String product_name;
+    private Integer quantity_in_stock;
+
+    productstock(String product_name,Integer quantity_in_stock){
+        this.product_name = product_name;
+        this.quantity_in_stock = quantity_in_stock;
+    }
+    
+    public void check_availability(){
+        if (quantity_in_stock == 0){
+            System.out.println(this.product_name + " is out of stock");
+        }
+        else{
+            System.out.println(this.quantity_in_stock +" "+ this.product_name + " are available");
+        }
+    }
+}
+*/
+
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -1047,6 +1075,31 @@ class account_holder{
 // 6. Movie Class
 // Create a class `Movie` with a private attribute `rating` and a public method `get_rating()` that allows
 // access to the rating only if it is above a certain threshold (e.g., 3).
+
+/*
+class java{
+    public static void main(String[] args){
+        movie m1 = new movie();
+        m1.rating(2);
+        m1.get_rating();
+    }
+}
+class movie{
+    private Integer rating;
+
+    public Integer get_rating() {
+        return rating;
+    }
+    public void rating(Integer newrating) {
+        this.rating = newrating;
+        if (rating > 2) {
+            System.out.println(rating);
+        } else {
+            System.out.println("low rating");
+        }
+    }
+}
+*/
 
 
 
@@ -1058,7 +1111,6 @@ class account_holder{
 // 1. Shape Area Calculation
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
 // `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
-
 
 // 2. Payment System
 // Create an abstract class `Payment` with an abstract method `process_payment()`. Then create two
