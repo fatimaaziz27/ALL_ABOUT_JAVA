@@ -72,6 +72,32 @@ class gradebook{
 
 // Abstraction & Interfaces
 
+// example code -------->
+
+/*
+class main {
+    public static void main(String[] args) {
+        traingle t1 = new traingle();
+        t1.draw();
+        t1.getdraw();
+        }
+}
+abstract class shape {
+    abstract void getdraw();
+}
+class traingle extends shape{
+    // getter
+    @Override
+    public void getdraw() {
+        System.out.println("i am a shape");
+    }
+    // setter
+    public void draw(){
+        System.out.println("i am a triangle");
+    }
+}
+*/
+
 
 // 1. Shape Area Calculation
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
@@ -98,6 +124,7 @@ class gradebook{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
