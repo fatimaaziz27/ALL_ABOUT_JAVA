@@ -1112,10 +1112,80 @@ class movie{
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
 // `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
 
+/*
+class ABSTRACTION {
+    public static void main(String[] args) {
+        circle c1 = new circle(2,3.14);
+        c1.calculate_area();
+        rectangle r1 = new rectangle(2,3);
+        r1.calculate_area();
+    }
+}
+abstract class shape {
+    abstract void calculate_area();
+}
+class circle extends shape {
+    Integer radius;
+    double pi;
+    circle(Integer radius , double pi){
+        this.radius = radius;
+        this.pi = pi;
+    }
+    // getter
+    @Override
+    public void calculate_area() {
+        System.out.println("Area of a circle: " + this.pi * this.radius * this.radius);
+    }
+}
+class rectangle extends shape{
+    Integer len_of_r;
+    Integer wid_of_r;
+    rectangle(Integer len_of_r , Integer wid_of_r){
+        this.len_of_r = len_of_r;
+        this.wid_of_r = wid_of_r;
+    }
+    // getter
+    @Override
+    public void calculate_area() {
+        System.out.println("Area of a rectangle: " + this.len_of_r * this.wid_of_r);
+    }
+}
+*/
+
 // 2. Payment System
 // Create an abstract class `Payment` with an abstract method `process_payment()`. Then create two
 // subclasses: `CreditCardPayment` and `PayPalPayment`. Extend the `process_payment()` method in both
 // subclasses.
+
+/*
+class ABSTRACTION {
+    public static void main(String[] args) {
+        CreditCardPayment c1 = new CreditCardPayment();
+        c1.process_payment();
+
+        PayPalPayment p1 = new PayPalPayment();
+        p1.process_payment();
+    }
+}
+abstract class payment {
+    abstract void process_payment();
+}
+class CreditCardPayment extends payment {
+    // getter
+    @Override
+    public void process_payment() {
+        System.out.println("payment process");
+    }
+}
+class PayPalPayment extends payment{
+    // getter
+    @Override
+    public void process_payment() {
+        System.out.println("payment process");
+    }
+}
+*/
+
 
 // 3. Transportation System
 // Create an abstract class `Transportation` with an abstract method `move()`. Then create subclasses `Car`
