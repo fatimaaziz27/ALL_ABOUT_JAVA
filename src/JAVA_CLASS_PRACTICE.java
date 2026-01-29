@@ -150,6 +150,12 @@ class rectangle extends shape{
 // subclasses: `CreditCardPayment` and `PayPalPayment`. Extend the `process_payment()` method in both
 // subclasses.
 
+class ABSTRACTION {
+    public static void main(String[] args) {
+
+    }
+}
+
 // 3. Transportation System
 // Create an abstract class `Transportation` with an abstract method `move()`. Then create subclasses `Car`
 // and `Bicycle` that extend the `move()` method in different ways.
@@ -166,6 +172,7 @@ class rectangle extends shape{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
