@@ -152,7 +152,7 @@ class rectangle extends shape{
 
 // incomplete code --------->
 
-
+/*
 class ABSTRACTION {
     public static void main(String[] args) {
         CreditCardPayment c1 = new CreditCardPayment();
@@ -160,10 +160,26 @@ class ABSTRACTION {
 
         PayPalPayment p1 = new PayPalPayment();
         p1.process_payment();
-
     }
 }
-
+abstract class payment {
+    abstract void process_payment();
+}
+class CreditCardPayment extends payment {
+    // getter
+    @Override
+    public void process_payment() {
+        System.out.println("payment process");
+    }
+}
+class PayPalPayment extends payment{
+    // getter
+    @Override
+    public void process_payment() {
+        System.out.println("payment process");
+    }
+}
+*/
 
 // 3. Transportation System
 // Create an abstract class `Transportation` with an abstract method `move()`. Then create subclasses `Car`
@@ -181,6 +197,7 @@ class ABSTRACTION {
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
