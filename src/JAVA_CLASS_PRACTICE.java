@@ -195,7 +195,16 @@ class ABSTRACTION {
         b1.move();
     }
 }
-
+abstract class transportation {
+    abstract void move();
+}
+class Car extends transportation {
+    // getter
+    @Override
+    public void move() {
+        System.out.println("A car is a four-wheeler");
+    }
+}
 
 
 // 4. Appliance Interface
@@ -210,6 +219,7 @@ class ABSTRACTION {
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
