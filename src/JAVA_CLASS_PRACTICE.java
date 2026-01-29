@@ -127,7 +127,20 @@ class circle extends shape {
     public void calculate_area() {
         System.out.println("Area of a circle: " + this.pi * this.radius * this.radius);
     }
-
+}
+class rectangle extends shape{
+    Integer len_of_r;
+    Integer wid_of_r;
+    rectangle(Integer len_of_r , Integer wid_of_r){
+        this.len_of_r = len_of_r;
+        this.wid_of_r = wid_of_r;
+    }
+    // getter
+    @Override
+    public void calculate_area() {
+        System.out.println("Area of a rectangle: " + this.len_of_r * this.wid_of_r);
+    }
+}
 
 // 2. Payment System
 // Create an abstract class `Payment` with an abstract method `process_payment()`. Then create two
@@ -150,6 +163,7 @@ class circle extends shape {
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
