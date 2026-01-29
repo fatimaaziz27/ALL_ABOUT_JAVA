@@ -150,7 +150,7 @@ class rectangle extends shape{
 // subclasses: `CreditCardPayment` and `PayPalPayment`. Extend the `process_payment()` method in both
 // subclasses.
 
-// incomplete code --------->
+// complete code --------->
 
 /*
 class ABSTRACTION {
@@ -185,6 +185,10 @@ class PayPalPayment extends payment{
 // Create an abstract class `Transportation` with an abstract method `move()`. Then create subclasses `Car`
 // and `Bicycle` that extend the `move()` method in different ways.
 
+// complete code --------->
+
+
+
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
@@ -197,6 +201,7 @@ class PayPalPayment extends payment{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
