@@ -106,35 +106,13 @@ class traingle extends shape{
 
 class ABSTRACTION {
     public static void main(String[] args) {
-
-    }
-}
-abstract class shape {
-    abstract void calculate_area();
-}
-class circle extends shape{
-    // getter
-    @Override
-    public void calculate_area() {
-        System.out.println();
-    }
-    // setter
-    public void calculate_area(){
-        System.out.println();
+        circle c1 = new circle(2,3.14);
+        c1.calculate_area();
+        rectangle r1 = new rectangle(2,3);
+        r1.calculate_area();
     }
 }
 
-class rectangle extends shape{
-    // getter
-    @Override
-    public void calculate_area() {
-        System.out.println();
-    }
-    // setter
-    public void calculate_area(){
-        System.out.println();
-    }
-}
 
 
 // 2. Payment System
@@ -158,6 +136,7 @@ class rectangle extends shape{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
