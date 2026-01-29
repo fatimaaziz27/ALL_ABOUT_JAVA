@@ -112,7 +112,21 @@ class ABSTRACTION {
         r1.calculate_area();
     }
 }
-
+abstract class shape {
+    abstract void calculate_area();
+}
+class circle extends shape {
+    Integer radius;
+    double pi;
+    circle(Integer radius , double pi){
+        this.radius = radius;
+        this.pi = pi;
+    }
+    // getter
+    @Override
+    public void calculate_area() {
+        System.out.println("Area of a circle: " + this.pi * this.radius * this.radius);
+    }
 
 
 // 2. Payment System
@@ -136,6 +150,7 @@ class ABSTRACTION {
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
