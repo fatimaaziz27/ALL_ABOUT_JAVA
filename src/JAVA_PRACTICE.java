@@ -1231,7 +1231,33 @@ class Bicycle extends transportation{
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
 
-
+/*
+class main {
+    public static void main(String[] args) {
+        manager m1 = new manager();
+        m1.perform_task();
+        developer d1 = new developer();
+        d1.perform_task();
+    }
+}
+abstract class employee {
+    abstract void perform_task();
+}
+class manager extends employee {
+    // getter
+    @Override
+    public void perform_task() {
+        System.out.println("As a manager, I oversee teams and ensure goals are met.");
+    }
+}
+class developer extends employee {
+    // getter
+    @Override
+    public void perform_task() {
+        System.out.println("As a developer, I'm responsible for building and maintaining software solutions.");
+    }
+}
+*/
 
 
 

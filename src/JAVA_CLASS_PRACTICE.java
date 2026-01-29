@@ -100,24 +100,71 @@ class traingle extends shape{
 
 
 
-
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
-
-// complete code --------->
-
 
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
 // `Square` that each implement `draw()` to display the shape in a console.
 
-// 6. Employee Task Management
-// Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
-// subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
-// tasks.
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// Multiple Inheritance
+
+
+// 1. Artist and Writer Classes
+// Define a class `Artist` with the attribute `art_style` and a method `create_art()`. Define another class
+// `Writer` with the attribute `writing_style` and a method `write()`. Then define a class `CreativePerson` that
+// inherits from both `Artist` and `Writer` and has a method `display_info()` that displays both art and writing
+// styles. 
+
+// 2. Student and Sportsman Classes
+// Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
+// `Sportsman` with an attribute `sport` and a method `play_sport()`. Then define a class `StudentAthlete`
+// that inherits from both `Student` and `Sportsman` and implements a method `display_info()` to show all
+// details.
+
+// 3. Person and Vehicle Classes
+// Define a class `Person` with attributes `name` and `age`. Define another class `Vehicle` with an attribute
+// `model`. Create a class `Driver` that inherits from both `Person` and `Vehicle` and displays a message that
+// includes the driver's name, age, and the vehicle model.
+
+// 4. Teacher and Researcher Classes
+// Define a class `Teacher` with the attribute `subject`. Define another class `Researcher` with the attribute
+// `research_area`. Create a class `Professor` that inherits from both `Teacher` and `Researcher` and prints
+// out the details of both the subject and research area.
+
+// 5. Chef and Server Classes
+// Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
+// `restaurant_name`. Create a class `RestaurantEmployee` that inherits from both `Chef` and `Server` and
+// displays the employee's specialty and restaurant name.
+
+// 6. Product and Category Classes
+// Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
+// the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
+// `Category`, and displays the product name along with its category.
 
 
 
