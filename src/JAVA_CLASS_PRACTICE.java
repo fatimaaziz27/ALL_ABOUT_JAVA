@@ -186,7 +186,7 @@ class PayPalPayment extends payment{
 // and `Bicycle` that extend the `move()` method in different ways.
 
 // complete code --------->
-
+/*
 class ABSTRACTION {
     public static void main(String[] args) {
         Car c1 = new Car();
@@ -212,10 +212,14 @@ class Bicycle extends transportation{
         System.out.println("A bicycle is a two-wheeler");
     }
 }
+*/
 
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
+
+// complete code --------->
+
 
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
@@ -225,6 +229,7 @@ class Bicycle extends transportation{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
