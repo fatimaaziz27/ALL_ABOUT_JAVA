@@ -187,6 +187,15 @@ class PayPalPayment extends payment{
 
 // complete code --------->
 
+class ABSTRACTION {
+    public static void main(String[] args) {
+        Car c1 = new Car();
+        c1.move();
+        Bicycle b1 = new Bicycle();
+        b1.move();
+    }
+}
+
 
 
 // 4. Appliance Interface
@@ -201,6 +210,7 @@ class PayPalPayment extends payment{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
