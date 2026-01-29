@@ -1186,10 +1186,37 @@ class PayPalPayment extends payment{
 }
 */
 
-
 // 3. Transportation System
 // Create an abstract class `Transportation` with an abstract method `move()`. Then create subclasses `Car`
 // and `Bicycle` that extend the `move()` method in different ways.
+
+/*
+class ABSTRACTION {
+    public static void main(String[] args) {
+        Car c1 = new Car();
+        c1.move();
+        Bicycle b1 = new Bicycle();
+        b1.move();
+    }
+}
+abstract class transportation {
+    abstract void move();
+}
+class Car extends transportation {
+    // getter
+    @Override
+    public void move() {
+        System.out.println("A car is a four-wheeler");
+    }
+}
+class Bicycle extends transportation{
+    // getter
+    @Override
+    public void move() {
+        System.out.println("A bicycle is a two-wheeler");
+    }
+}
+*/
 
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
