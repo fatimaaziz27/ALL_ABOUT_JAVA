@@ -103,7 +103,9 @@ class traingle extends shape{
 // Define an abstract class `Shape` with an abstract method `calculate_area()`. Then create subclasses
 // `Circle` and `Rectangle` that extends this method, calculating the area for each shape.
 
+// complete code --------->
 
+/*
 class ABSTRACTION {
     public static void main(String[] args) {
         circle c1 = new circle(2,3.14);
@@ -141,6 +143,7 @@ class rectangle extends shape{
         System.out.println("Area of a rectangle: " + this.len_of_r * this.wid_of_r);
     }
 }
+*/
 
 // 2. Payment System
 // Create an abstract class `Payment` with an abstract method `process_payment()`. Then create two
@@ -163,6 +166,7 @@ class rectangle extends shape{
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
