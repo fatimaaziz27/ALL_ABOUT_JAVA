@@ -205,7 +205,13 @@ class Car extends transportation {
         System.out.println("A car is a four-wheeler");
     }
 }
-
+class Bicycle extends transportation{
+    // getter
+    @Override
+    public void move() {
+        System.out.println("A bicycle is a two-wheeler");
+    }
+}
 
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
@@ -219,6 +225,7 @@ class Car extends transportation {
 // Create an abstract class `Employee` with an abstract method `perform_task()`. Then create two
 // subclasses, `Manager` and `Developer`, and extends `perform_task()` for each subclass with appropriate
 // tasks.
+
 
 
 
