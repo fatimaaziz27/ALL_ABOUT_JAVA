@@ -42,6 +42,47 @@ class gradebook{
 
 
 
+// 6. Student Database Class
+// Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
+// with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
+
+
+import java.util.*;
+class main{
+    public static void main(String[] args){
+        student_database s1 = new student_database("alice",23);
+        s1.add();
+        s1.display();
+        s1.add();
+        s1.remove();
+
+    }
+}
+class student_database{
+    String name;
+    Integer age;
+
+    HashMap<String,Integer> h1 = new HashMap<>();
+
+    student_database(String name , Integer age){
+        this.name = name;
+        this.age= age;
+    }
+    void add(){
+        h1.put(this.name,this.age);
+    }
+    void remove(){
+        h1.remove(this.name);
+    }
+    void display(){
+        System.out.println(h1);
+    }
+}
+
+
+
+
+
 
 
 
