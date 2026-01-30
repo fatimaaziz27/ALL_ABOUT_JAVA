@@ -30,6 +30,14 @@ import java.util.*;
 
 
 
+
+
+
+
+
+
+
+
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -70,35 +78,13 @@ class gradebook{
 
 
 
+
+
+
+
+
+
 // Abstraction & Interfaces
-
-// example code -------->
-
-/*
-class main {
-    public static void main(String[] args) {
-        traingle t1 = new traingle();
-        t1.draw();
-        t1.getdraw();
-        }
-}
-abstract class shape {
-    abstract void getdraw();
-}
-class traingle extends shape{
-    // getter
-    @Override
-    public void getdraw() {
-        System.out.println("i am a shape");
-    }
-    // setter
-    public void draw(){
-        System.out.println("i am a triangle");
-    }
-}
-*/
-
-
 
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
@@ -107,16 +93,6 @@ class traingle extends shape{
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
 // `Square` that each implement `draw()` to display the shape in a console.
-
-
-
-
-
-
-
-
-
-
 
 
 
