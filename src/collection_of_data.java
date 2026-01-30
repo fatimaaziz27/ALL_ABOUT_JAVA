@@ -6,7 +6,11 @@
 import java.util.*;
 class main{
     public static void main(String[] args){
-        student
+        student_database s1 = new student_database("alice",23);
+        s1.add();
+        s1.display();
+        s1.add();
+        s1.remove();
 
     }
 }
