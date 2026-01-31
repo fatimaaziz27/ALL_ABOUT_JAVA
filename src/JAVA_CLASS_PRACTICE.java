@@ -165,7 +165,8 @@ class Smartphone implements Camera, MusicPlayer {
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
 
-        // Smartphone myPhone = new Smartphone("Samsung");
+        appliance a1 = new appliance() { };
+        a1.turn_on();
         // myPhone.info();
         // myPhone.takephoto();
         // myPhone.recordvideo();
@@ -188,9 +189,12 @@ class washingMachine implements appliance {
 
 
 class refrigerator implements appliance {
-
-    
+    public void turn_on(){
+        appliance.super.turn_on();
+    }
 }
+    
+
 /*
 class shape{
     String draw;
