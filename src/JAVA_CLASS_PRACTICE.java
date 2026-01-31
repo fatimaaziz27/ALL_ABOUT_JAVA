@@ -164,7 +164,7 @@ class Smartphone implements Camera, MusicPlayer {
 
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
-        
+
         // Smartphone myPhone = new Smartphone("Samsung");
         // myPhone.info();
         // myPhone.takephoto();
@@ -175,53 +175,35 @@ class JAVA_CLASS_PRACTICE{
 }
 
 interface appliance {
-    
-    //Identifiers for Variables -> public, static, final
-    
-    public final int value = 5;
-    
-    //Identifiers for Methods -> default, static, private
-    
-    static void takephoto(){
-        System.out.println("Taking photo");
-    }
-    default void recordvideo(){
-        System.out.println("Recording video");
+    default void turn_on(){
+        System.out.println("ON");
     }
 }
 
-interface MusicPlayer {
-    default void playmusic(){
-        System.out.println("Playing music");
-    }
-    default void stopmusic(){
-        System.out.println("Stopping music");
-    }
+class washingMachine implements appliance {
+
 }
 
-class Smartphone implements Camera, MusicPlayer {
-    String brand;
-    
-    Smartphone(String brand) {
-        this.brand = brand;
-    }
-    void info() {
-        System.out.println("Smartphone Brand: " + this.brand);
-    }
-    public void takephoto(){
-        Camera.takephoto();
-    }
-    public void recordvideo(){
-        Camera.super.recordvideo();
-    }
-    public void playmusic(){
-        MusicPlayer.super.playmusic();
-    }
-    public void stopmusic(){
-        MusicPlayer.super.stopmusic();
-    }
+class refrigerator implements appliance {
+
     
 }
+
+    // public void takephoto(){
+    //     Camera.takephoto();
+    // }
+    // public void recordvideo(){
+    //     Camera.super.recordvideo();
+    // }
+    // public void playmusic(){
+    //     MusicPlayer.super.playmusic();
+    // }
+    // public void stopmusic(){
+    //     MusicPlayer.super.stopmusic();
+    
+
+    
+
 
 
 
