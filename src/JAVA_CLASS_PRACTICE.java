@@ -181,13 +181,37 @@ interface appliance {
 }
 
 class washingMachine implements appliance {
-
+    public void turn_on(){
+        appliance.super.turn_on();
+    }
 }
+
 
 class refrigerator implements appliance {
 
     
 }
+/*
+class shape{
+    String draw;
+    shape (String draw){
+        this.draw = draw;
+    }
+    void draw(){
+        System.out.println("i can be drawn" + draw);
+    }
+}
+class circle extends shape{
+    circle(String draw){
+        super(draw);
+    }
+}
+class rectangle extends shape{
+    rectangle(String draw){
+        super(draw);
+    }
+}
+ */
 
     // public void takephoto(){
     //     Camera.takephoto();
