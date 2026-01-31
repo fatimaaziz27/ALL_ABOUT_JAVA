@@ -162,20 +162,26 @@ class Smartphone implements Camera, MusicPlayer {
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
 
-class Mainnn{
+class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
-        Smartphone myPhone = new Smartphone("Samsung");
-        myPhone.info();
-        myPhone.takephoto();
-        myPhone.recordvideo();
-        myPhone.playmusic();
-        myPhone.stopmusic();
+        
+        // Smartphone myPhone = new Smartphone("Samsung");
+        // myPhone.info();
+        // myPhone.takephoto();
+        // myPhone.recordvideo();
+        // myPhone.playmusic();
+        // myPhone.stopmusic();
     }
 }
-interface Camera {
+
+interface appliance {
+    
     //Identifiers for Variables -> public, static, final
+    
     public final int value = 5;
+    
     //Identifiers for Methods -> default, static, private
+    
     static void takephoto(){
         System.out.println("Taking photo");
     }
@@ -183,6 +189,7 @@ interface Camera {
         System.out.println("Recording video");
     }
 }
+
 interface MusicPlayer {
     default void playmusic(){
         System.out.println("Playing music");
@@ -191,6 +198,7 @@ interface MusicPlayer {
         System.out.println("Stopping music");
     }
 }
+
 class Smartphone implements Camera, MusicPlayer {
     String brand;
     
