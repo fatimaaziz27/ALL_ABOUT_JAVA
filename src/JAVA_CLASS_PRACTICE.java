@@ -200,22 +200,9 @@ class refrigerator implements appliance {
 
 
 
-
-
-
-
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
 // `Square` that each implement `draw()` to display the shape in a console.
-
-
-
-
-
-
-
-
-
 
 
 
