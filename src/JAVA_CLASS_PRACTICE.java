@@ -94,7 +94,73 @@ class student_database{
 
 
 
+//    Interfaces Example ------->
 
+
+
+/*
+class Mainnn{
+    public static void main(String[] args) {
+        Smartphone myPhone = new Smartphone("Samsung");
+        myPhone.info();
+        myPhone.takephoto();
+        myPhone.recordvideo();
+        myPhone.playmusic();
+        myPhone.stopmusic();
+    }
+}
+interface Camera {
+    //Identifiers for Variables -> public, static, final
+    public final int value = 5;
+    //Identifiers for Methods -> default, static, private
+    static void takephoto(){
+        System.out.println("Taking photo");
+    }
+    default void recordvideo(){
+        System.out.println("Recording video");
+    }
+}
+interface MusicPlayer {
+    default void playmusic(){
+        System.out.println("Playing music");
+    }
+    default void stopmusic(){
+        System.out.println("Stopping music");
+    }
+}
+class Smartphone implements Camera, MusicPlayer {
+    String brand;
+    
+    Smartphone(String brand) {
+        this.brand = brand;
+    }
+    void info() {
+        System.out.println("Smartphone Brand: " + this.brand);
+    }
+    public void takephoto(){
+        Camera.takephoto();
+    }
+    public void recordvideo(){
+        Camera.super.recordvideo();
+    }
+    public void playmusic(){
+        MusicPlayer.super.playmusic();
+    }
+    public void stopmusic(){
+        MusicPlayer.super.stopmusic();
+    }
+    
+}
+ */
+
+
+
+
+// Abstraction & Interfaces
+
+// 4. Appliance Interface
+// Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
+// `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
 
 class Mainnn{
     public static void main(String[] args) {
@@ -153,11 +219,10 @@ class Smartphone implements Camera, MusicPlayer {
 
 
 
-// Abstraction & Interfaces
 
-// 4. Appliance Interface
-// Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
-// `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
+
+
+
 
 // 5. Shape Drawing Interface
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
