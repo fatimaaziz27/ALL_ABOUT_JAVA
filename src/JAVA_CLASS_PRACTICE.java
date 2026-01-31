@@ -167,11 +167,12 @@ class JAVA_CLASS_PRACTICE{
 
         appliance a1 = new appliance() { };
         a1.turn_on();
-        // myPhone.info();
-        // myPhone.takephoto();
-        // myPhone.recordvideo();
-        // myPhone.playmusic();
-        // myPhone.stopmusic();
+
+        washingMachine w1 = new washingMachine() { };
+        w1.turn_on();
+
+        
+        
     }
 }
 
