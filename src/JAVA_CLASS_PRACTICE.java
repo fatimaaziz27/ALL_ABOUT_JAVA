@@ -171,7 +171,8 @@ class JAVA_CLASS_PRACTICE{
         washingMachine w1 = new washingMachine() { };
         w1.turn_on();
 
-        
+        refrigerator r1 = new refrigerator() { };
+        r1.turn_on();
         
     }
 }
