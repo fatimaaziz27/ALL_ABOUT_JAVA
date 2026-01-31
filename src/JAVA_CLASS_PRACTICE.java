@@ -197,46 +197,6 @@ class refrigerator implements appliance {
 }
     
 
-/*
-class shape{
-    String draw;
-    shape (String draw){
-        this.draw = draw;
-    }
-    void draw(){
-        System.out.println("i can be drawn" + draw);
-    }
-}
-class circle extends shape{
-    circle(String draw){
-        super(draw);
-    }
-}
-class rectangle extends shape{
-    rectangle(String draw){
-        super(draw);
-    }
-}
- */
-
-    // public void takephoto(){
-    //     Camera.takephoto();
-    // }
-    // public void recordvideo(){
-    //     Camera.super.recordvideo();
-    // }
-    // public void playmusic(){
-    //     MusicPlayer.super.playmusic();
-    // }
-    // public void stopmusic(){
-    //     MusicPlayer.super.stopmusic();
-    
-
-    
-
-
-
-
 
 
 
