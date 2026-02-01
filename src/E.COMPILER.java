@@ -34,15 +34,15 @@ class E_COMPILER{
 
 // Q3) ------------->
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
-        if (num/7 == 1){
-            System.out.print("hello");
-        }
-        else{
-            System.out.print("number is not divisible by 7");
-        }
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number: ");
+        // int num = sc.nextInt();
+        // if (num/7 == 1){
+        //     System.out.print("hello");
+        // }
+        // else{
+        //     System.out.print("number is not divisible by 7");
+        // }
 }
     
 }
