@@ -2,6 +2,8 @@ import java.util.*;
 class E_COMPILER{
     public static void main(String[] args) {
 
+// Q2) -------->
+
         // Scanner sc = new Scanner(System.in);
         // System.out.print("Enter a number: ");
         // int num = sc.nextInt();
@@ -17,16 +19,18 @@ class E_COMPILER{
         //     System.out.print("the number is positive");
         // }
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter a number: ");
-        int num = sc.nextInt();
+// Q3) ------------->
 
-        if (num%2 == 0){
-            System.out.print("number IS EVEN");
-        }
-        else{
-            System.out.print("number is odd");
-        }
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter a number: ");
+        // int num = sc.nextInt();
+
+        // if (num%2 == 0){
+        //     System.out.print("number IS EVEN");
+        // }
+        // else{
+        //     System.out.print("number is odd");
+        // }
 }
     
 }
