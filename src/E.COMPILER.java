@@ -31,6 +31,18 @@ class E_COMPILER{
         // else{
         //     System.out.print("number is odd");
         // }
+
+// Q3) ------------->
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = sc.nextInt();
+        if (num/7 == 0){
+            System.out.print("helloOo");
+        }
+        else{
+            System.out.print("number is not divisible by 7");
+        }
 }
     
 }
