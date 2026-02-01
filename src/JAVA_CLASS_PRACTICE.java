@@ -219,10 +219,8 @@ class JAVA_CLASS_PRACTICE{
     }
 }
 
-interface appliance {
-    default void turn_on(){
-        System.out.println("ON");
-    }
+interface shape {
+    default void draw(){};
 }
 
 class washingMachine implements appliance {
