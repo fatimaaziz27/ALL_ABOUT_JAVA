@@ -207,14 +207,14 @@ class refrigerator implements appliance {
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
 
-        appliance a1 = new appliance() { };
-        a1.turn_on();
+        shape s1 = new shape(){ };
+        s1.draw();
 
-        washingMachine w1 = new washingMachine() { };
-        w1.turn_on();
+        circle c1 = new circle(){ };
+        c1.draw();
 
-        refrigerator r1 = new refrigerator() { };
-        r1.turn_on();
+        square q1 = new square() { };
+        q1.draw();
         
     }
 }
@@ -230,7 +230,7 @@ class circle implements shape {
 }
 
 
-class square implements appliance {
+class square implements shape {
     public void draw(){
         shape.super.draw();
     }
