@@ -161,6 +161,48 @@ class Smartphone implements Camera, MusicPlayer {
 // 4. Appliance Interface
 // Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
 // `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
+/*
+class JAVA_CLASS_PRACTICE{
+    public static void main(String[] args) {
+
+        appliance a1 = new appliance() { };
+        a1.turn_on();
+
+        washingMachine w1 = new washingMachine() { };
+        w1.turn_on();
+
+        refrigerator r1 = new refrigerator() { };
+        r1.turn_on();
+        
+    }
+}
+
+interface appliance {
+    default void turn_on(){
+        System.out.println("ON");
+    }
+}
+
+class washingMachine implements appliance {
+    public void turn_on(){
+        appliance.super.turn_on();
+    }
+}
+
+
+class refrigerator implements appliance {
+    public void turn_on(){
+        appliance.super.turn_on();
+    }
+}
+*/  
+
+
+
+
+// 5. Shape Drawing Interface
+// Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
+// `Square` that each implement `draw()` to display the shape in a console.
 
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
@@ -195,16 +237,6 @@ class refrigerator implements appliance {
         appliance.super.turn_on();
     }
 }
-    
-
-
-
-
-// 5. Shape Drawing Interface
-// Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
-// `Square` that each implement `draw()` to display the shape in a console.
-
-
 
 
 
