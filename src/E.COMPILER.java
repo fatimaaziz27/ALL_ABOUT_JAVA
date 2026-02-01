@@ -46,22 +46,22 @@ class E_COMPILER{
 
 // Q4) ------------->
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter your first number: ");
-        int num1 = sc.nextInt();
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter your first number: ");
+        // int num1 = sc.nextInt();
 
-        System.out.print("Enter your second number: ");
-        int num2 = sc.nextInt();
+        // System.out.print("Enter your second number: ");
+        // int num2 = sc.nextInt();
 
-        if (num1 == num2){
-            System.out.print("both numbers are equal");
-        }
-        else if (num1 <= num2){
-            System.out.print(num2 +" is greater than second number " + num1 );
-        }
-        else{
-            System.out.print(num1 +" is greater than second number " + num2 );
-        }
+        // if (num1 == num2){
+        //     System.out.print("both numbers are equal");
+        // }
+        // else if (num1 <= num2){
+        //     System.out.print(num2 +" is greater than second number " + num1 );
+        // }
+        // else{
+        //     System.out.print(num1 +" is greater than second number " + num2 );
+        // }
 }
     
 }
