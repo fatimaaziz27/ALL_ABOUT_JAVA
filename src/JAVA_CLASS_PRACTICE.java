@@ -220,19 +220,19 @@ class JAVA_CLASS_PRACTICE{
 }
 
 interface shape {
-    default void draw(){};
+    default void draw(){}
 }
 
-class washingMachine implements appliance {
-    public void turn_on(){
+class circle implements appliance {
+    public void draw(){
         appliance.super.turn_on();
     }
 }
 
 
-class refrigerator implements appliance {
-    public void turn_on(){
-        appliance.super.turn_on();
+class square implements appliance {
+    public void draw(){
+        shape.super.turn_on();
     }
 }
 
