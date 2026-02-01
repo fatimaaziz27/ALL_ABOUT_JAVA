@@ -4,7 +4,15 @@ class E_COMPILER{
 
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter your percentage");
+        int percentage = sc.nextInt();
+        switch () {
+            case value:
+                
+                break;
         
+            default:
+                break;
+        }
 }
     
 }
