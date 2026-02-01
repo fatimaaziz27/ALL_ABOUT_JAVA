@@ -225,14 +225,14 @@ interface shape {
 
 class circle implements shape {
     public void draw(){
-        shape.super.turn_on();
+        shape.super.draw();
     }
 }
 
 
 class square implements appliance {
     public void draw(){
-        shape.super.turn_on();
+        shape.super.draw();
     }
 }
 
