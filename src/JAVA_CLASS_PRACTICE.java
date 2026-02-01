@@ -215,6 +215,9 @@ class JAVA_CLASS_PRACTICE{
 
         square q1 = new square() { };
         q1.draw();
+
+        System.out.println("---------------------------------------------------");
+
         
     }
 }
@@ -229,13 +232,11 @@ class circle implements shape {
     }
 }
 
-
 class square implements shape {
     public void draw(){
         shape.super.draw();
     }
 }
-
 
 
 // Multiple Inheritance
