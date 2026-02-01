@@ -43,6 +43,23 @@ class E_COMPILER{
         // else{
         //     System.out.print("number is not divisible by 7");
         // }
+
+// Q4) ------------->
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num1 = sc.nextInt();
+
+        System.out.print("Enter a number: ");
+        int num2 = sc.nextInt();
+
+        if (num1 == num2){
+            System.out.print("both num are equal");
+        }
+        else if (num1 <= num2){
+            System.out.print(num2 + " ");
+
+        }
 }
     
 }
