@@ -37,11 +37,11 @@ class E_COMPILER{
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
-        if (num/7 == 0){
-            System.out.print("helloOo");
+        if (num/7 == 1){
+            System.out.print("number is not divisible by 7");
         }
         else{
-            System.out.print("number is not divisible by 7");
+            System.out.print("helloOo");
         }
 }
     
