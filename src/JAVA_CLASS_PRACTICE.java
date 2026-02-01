@@ -223,9 +223,9 @@ interface shape {
     default void draw(){}
 }
 
-class circle implements appliance {
+class circle implements shape {
     public void draw(){
-        appliance.super.turn_on();
+        shape.super.turn_on();
     }
 }
 
