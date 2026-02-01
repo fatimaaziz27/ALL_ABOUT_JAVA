@@ -38,10 +38,10 @@ class E_COMPILER{
         System.out.print("Enter a number: ");
         int num = sc.nextInt();
         if (num/7 == 1){
-            System.out.print("number is not divisible by 7");
+            System.out.print("hello");
         }
         else{
-            System.out.print("helloOo");
+            System.out.print("number is not divisible by 7");
         }
 }
     
