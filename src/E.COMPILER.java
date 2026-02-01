@@ -57,10 +57,10 @@ class E_COMPILER{
             System.out.print("both numbers are equal");
         }
         else if (num1 <= num2){
-            System.out.print(" first number (" + num2 +") is greater than second number (" + num1 +")");
+            System.out.print(num2 +" is greater than second number " + num1 );
         }
         else{
-            System.out.print(" first number (" + num1 +") is greater than second number (" + num2 +")");
+            System.out.print(num1 +" is greater than second number " + num2 );
         }
 }
     
