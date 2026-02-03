@@ -164,14 +164,11 @@ class Smartphone implements Camera, MusicPlayer {
 /*
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
-
-        appliance a1 = new appliance() { };
-        a1.turn_on();
-
-        washingMachine w1 = new washingMachine() { };
+//         interfaces do not have obj
+        washingMachine w1 = new washingMachine();
         w1.turn_on();
 
-        refrigerator r1 = new refrigerator() { };
+        refrigerator r1 = new refrigerator();
         r1.turn_on();
         
     }
@@ -207,13 +204,10 @@ class refrigerator implements appliance {
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
 
-        shape s1 = new shape(){ };
-        s1.draw();
-
-        circle c1 = new circle(){ };
+        circle c1 = new circle();
         c1.draw();
 
-        square q1 = new square() { };
+        square q1 = new square();
         q1.draw();
 
         System.out.println("---------------------------------------------------");
@@ -273,6 +267,7 @@ class square implements shape {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
