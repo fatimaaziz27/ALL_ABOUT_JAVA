@@ -225,6 +225,14 @@ interface student{
         System.out.println("CS");
     }
 }
+interface sportsman{
+    default void sport(){
+        System.out.println("sport");
+    }
+    default void play_sport(){
+        System.out.println("play sport");
+    }
+}
 
 
 // 3. Person and Vehicle Classes
@@ -246,6 +254,7 @@ interface student{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
