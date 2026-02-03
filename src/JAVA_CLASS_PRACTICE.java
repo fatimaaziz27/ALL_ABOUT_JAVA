@@ -208,6 +208,15 @@ class creative_person implements artist,writer{
 // that inherits from both `Student` and `Sportsman` and implements a method `display_info()` to show all
 // details.
 
+public static void main(String[] args) {
+    studentathlete s1 = new studentathlete ();
+    s1.display_info1();
+    s1.display_info2();
+    }
+}
+
+
+
 // 3. Person and Vehicle Classes
 // Define a class `Person` with attributes `name` and `age`. Define another class `Vehicle` with an attribute
 // `model`. Create a class `Driver` that inherits from both `Person` and `Vehicle` and displays a message that
@@ -227,6 +236,7 @@ class creative_person implements artist,writer{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
