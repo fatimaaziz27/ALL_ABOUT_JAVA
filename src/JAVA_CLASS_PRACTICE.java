@@ -288,6 +288,11 @@ interface teacher{
         System.out.println("CS");
     }
 }
+interface Researcher{
+    default void research_area(){
+        System.out.println("research area");
+    }
+}
 
 // 5. Chef and Server Classes
 // Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
@@ -298,6 +303,7 @@ interface teacher{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
