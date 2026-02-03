@@ -186,6 +186,22 @@ interface writer {
         System.out.println("writer");
     }
 }
+class creative_person implements artist,writer{
+
+    public void display_info(){
+        writer.super.writing_style();
+        artist.super.art_style();
+    }
+
+    public void writing_style(){
+        writer.super.writing_style();
+    }
+    public void art_style(){
+        artist.super.art_style();
+    }
+}
+*/
+
 // 2. Student and Sportsman Classes
 // Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
 // `Sportsman` with an attribute `sport` and a method `play_sport()`. Then define a class `StudentAthlete`
@@ -211,6 +227,7 @@ interface writer {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
