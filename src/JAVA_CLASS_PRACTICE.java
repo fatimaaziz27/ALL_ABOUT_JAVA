@@ -233,6 +233,17 @@ interface sportsman{
         System.out.println("play sport");
     }
 }
+class studentathlete implements student,sportsman{
+    public void display_info1(){
+        student.super.name();
+        student.super.age();
+        student.super.study();
+    }
+    public void display_info2(){
+        sportsman.super.sport();
+        sportsman.super.play_sport();
+    }
+}
 
 
 // 3. Person and Vehicle Classes
@@ -254,6 +265,7 @@ interface sportsman{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
