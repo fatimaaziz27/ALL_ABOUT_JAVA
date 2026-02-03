@@ -250,6 +250,14 @@ public static void main(String[] args) {
     d1.display_info();
     }
 }
+interface person{
+    default void name(){
+        System.out.println("Driver Name");
+    }
+    default void age(){
+        System.out.println("26");
+    }
+}
 
 // 4. Teacher and Researcher Classes
 // Define a class `Teacher` with the attribute `subject`. Define another class `Researcher` with the attribute
@@ -265,6 +273,7 @@ public static void main(String[] args) {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
