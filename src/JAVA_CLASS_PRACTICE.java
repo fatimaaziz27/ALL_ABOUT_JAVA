@@ -129,37 +129,30 @@ class refrigerator implements appliance {
 // Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
 // `Square` that each implement `draw()` to display the shape in a console.
 
+/*
 class JAVA_CLASS_PRACTICE{
     public static void main(String[] args) {
-
         circle c1 = new circle();
         c1.draw();
-
         square q1 = new square();
         q1.draw();
-
-        System.out.println("---------------------------------------------------");
-
-        
+        System.out.println("---------------------------------------------------");  
     }
 }
-
 interface shape {
     default void draw(){}
 }
-
 class circle implements shape {
     public void draw(){
         shape.super.draw();
     }
 }
-
 class square implements shape {
     public void draw(){
         shape.super.draw();
     }
 }
-
+*/
 
 // Multiple Inheritance
 
@@ -208,6 +201,7 @@ class creative_person implements artist,writer{
 // that inherits from both `Student` and `Sportsman` and implements a method `display_info()` to show all
 // details.
 
+/*
 public static void main(String[] args) {
     studentathlete s1 = new studentathlete ();
     s1.display_info1();
@@ -244,7 +238,7 @@ class studentathlete implements student,sportsman{
         sportsman.super.play_sport();
     }
 }
-
+*/
 
 // 3. Person and Vehicle Classes
 // Define a class `Person` with attributes `name` and `age`. Define another class `Vehicle` with an attribute
@@ -265,6 +259,7 @@ class studentathlete implements student,sportsman{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
