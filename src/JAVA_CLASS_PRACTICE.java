@@ -176,6 +176,11 @@ class square implements shape {
         c1.display_info();
     }
 }
+interface artist {
+    default void art_style(){
+        System.out.println("artist");
+    }
+}
 
 // 2. Student and Sportsman Classes
 // Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
@@ -202,6 +207,7 @@ class square implements shape {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
