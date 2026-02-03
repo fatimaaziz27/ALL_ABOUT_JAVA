@@ -278,6 +278,11 @@ class driver implements person,vehicle{
 // `research_area`. Create a class `Professor` that inherits from both `Teacher` and `Researcher` and prints
 // out the details of both the subject and research area.
 
+public static void main(String[] args) {
+    professor p1 = new professor();
+    p1.display_info();
+    }
+}
 // 5. Chef and Server Classes
 // Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
 // `restaurant_name`. Create a class `RestaurantEmployee` that inherits from both `Chef` and `Server` and
@@ -287,6 +292,7 @@ class driver implements person,vehicle{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
