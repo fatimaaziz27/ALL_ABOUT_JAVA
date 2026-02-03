@@ -38,331 +38,397 @@ class gradebook{
 */
 
 
+// Hierarchical Inheritance
+
+// examples code ------->
+
+
+// class Main9{
+//     public static void main(String[] args) {
+//         Animal2 myAnimal = new Animal2("Generic Animal", "make sound");
+//         myAnimal.info();
+//         myAnimal.speak();
+//         Dog1 myDog = new Dog1("Dog", "Bark", "Labrador");
+//         myDog.info();
+//         myDog.speak();
+//         Cat myCat = new Cat("Cat", "Meow", "Brown");
+//         myCat.info();
+//         myCat.speak();
+//     }
+// }
+// class Animal2 {
+//     String specie;
+//     String language;
+
+//     Animal2(String specie, String language) {
+//         this.specie = specie;
+//         this.language = language;
+//     }
+
+//     void info() {
+//         System.out.println("Specie: " + this.specie + "\nLanguage: " + this.language);
+//     }
+
+//     void speak() {
+//         System.out.println("I am a " + this.specie + " and I can " + this.language);
+//     }
+// }
+// class Dog1 extends Animal2 {
+//     String breed;
+
+//     Dog1(String specie_child, String language_child, String breed_child) {
+//         super(specie_child, language_child);
+//         this.breed = breed_child;
+//     }
+//     public void setBreed(String breed) {
+//         this.breed = breed;
+//     }
+//     public String getBreed() {
+//         return this.breed;
+//     }
+//     @Override
+//     void info() {
+//         super.info();
+//         System.out.println("Breed: " + this.breed);
+//     }
+//     @Override
+//     void speak() {
+//         super.speak();
+//         System.out.println("and I am of breed " + this.breed + ".");
+//     }
+// }
+
+
+// //Hierarchical Inheritance Example:
+
+// class Cat extends Animal2 {
+//     String color;
+
+//     Cat(String specie_child, String language_child, String color_child) {
+//         super(specie_child, language_child);
+//         this.color = color_child;
+//     }
+//    public void setColor(String color) {
+//         this.color = color;
+//     }
+//     public String getColor() {
+//         return this.color;
+//     }
+//     @Override
+//     void info() {
+//         super.info();
+//         System.out.println("Color: " + this.color);
+//     }
+//     @Override
+//     void speak() {
+//         super.speak();
+//         System.out.println("I am a " + this.color + " cat.");
+//     }
+// }
+
+
+//Hierarchical Inheritance Example:
+
+
+// class Cat extends Animal {
+//     String color;
+//     Cat(String specie_child, String language_child, String color_child) {
+//         super(specie_child, language_child);
+//         this.color = color_child;
+//     }
+//     @Override
+//     void info() {
+//         super.info();
+//         System.out.println("Color: " + this.color);
+//     }
+//     @Override
+//     void speak() {
+//         super.speak();
+//         System.out.println(" I am a " + this.color + " cat.");
+//     }
+// }
+
+// class Puppy extends Dog {
+//     int ageInMonths;
+
+//     Puppy(String specie_child, String language_child, String breed_child, int ageInMonths_child) {
+//         super(specie_child, language_child, breed_child);
+//         this.ageInMonths = ageInMonths_child;
+//     }
+//     public void setAgeInMonths(int ageInMonths) {
+//         this.ageInMonths = ageInMonths;
+//     }
+//     public int getAgeInMonths() {
+//         return this.ageInMonths;
+//     }
+//     @Override
+//     void info() {
+//         super.info();
+//         System.out.println("Age in Months: " + this.ageInMonths);
+//     }
+//     @Override
+//     void speak() {
+//         super.speak();
+//         System.out.println("I am a puppy and I am " + this.ageInMonths + " months old.");
+//     }
+// }
 
 
 
 
-// 6. Student Database Class
-// Define a class `StudentDatabase` that holds a list of students. Each student is represented as a dictionary
-// with their `name` and `age`. Provide methods to add a student, remove a student, and display all students.
 
-// Completed -------->
+// 1. Shape Hierarchy
+// Define a base class Shape with an attribute color and a method draw(). Create two subclasses
+// Circle and Rectangle that inherit from Shape. Each subclass should override the draw() method to
+// display its shape type and color.
 
-/*
-import java.util.*;
-class main{
-    public static void main(String[] args){
-        student_database s1 = new student_database("alice",23);
-        s1.add();
-        s1.display();
-        s1.add();
-        s1.remove();
+// 2. Vehicle Hierarchy
+// Define a base class Vehicle with attributes brand and speed. Create two subclasses Car
+// and Bike that inherit from Vehicle. Each subclass should display vehicle details along with
+// its specific type.
 
-    }
-}
-class student_database{
-    String name;
-    Integer age;
+// 3. Account Hierarchy
+// Define a base class BankAccount with attributes accountNumber and balance. Create two
+// subclasses SavingsAccount and CurrentAccount. Each subclass should implement a method to
+// display account type and balance.
 
-    HashMap<String,Integer> h1 = new HashMap<>();
+// 4. Person Hierarchy
+// Define a base class Person with attributes name and age. Create two subclasses Student and
+// Teacher. Each subclass should display role-specific information such as course or subject.
 
-    student_database(String name , Integer age){
-        this.name = name;
-        this.age= age;
-    }
-    void add(){
-        h1.put(this.name,this.age);
-    }
-    void remove(){
-        h1.remove(this.name);
-    }
-    void display(){
-        System.out.println(h1);
-    }
-}
- */
+// 5. Media Hierarchy
+// Define a base class Media with attributes title and duration. Create two subclasses Audio and
+// Video. Each subclass should display its type and playback details.
 
-
-
-// Abstraction & Interfaces
-
-// 4. Appliance Interface
-// Define an abstract class `Appliance` with an abstract method `turn_on()`. Create subclasses
-// `WashingMachine` and `Refrigerator`, each extending the `turn_on()` method.
-/*
-class JAVA_CLASS_PRACTICE{
-    public static void main(String[] args) {
-//         interfaces do not have obj
-        washingMachine w1 = new washingMachine();
-        w1.turn_on();
-
-        refrigerator r1 = new refrigerator();
-        r1.turn_on();
-        
-    }
-}
-
-interface appliance {
-    default void turn_on(){
-        System.out.println("ON");
-    }
-}
-
-class washingMachine implements appliance {
-    public void turn_on(){
-        appliance.super.turn_on();
-    }
-}
-
-
-class refrigerator implements appliance {
-    public void turn_on(){
-        appliance.super.turn_on();
-    }
-}
-*/  
+// 6. Employee Hierarchy
+// Define a base class Employee with attributes name and employeeId. Create two
+// subclasses Manager and Developer that inherit from Employee. Each subclass should
+// have its own method to display job-specific responsibilities.
 
 
 
 
-// 5. Shape Drawing Interface
-// Define an abstract class `Shape` with an abstract method `draw()`. Then create subclasses `Circle` and
-// `Square` that each implement `draw()` to display the shape in a console.
 
-/*
-class JAVA_CLASS_PRACTICE{
-    public static void main(String[] args) {
-        circle c1 = new circle();
-        c1.draw();
-        square q1 = new square();
-        q1.draw();
-        System.out.println("---------------------------------------------------");  
-    }
-}
-interface shape {
-    default void draw(){}
-}
-class circle implements shape {
-    public void draw(){
-        shape.super.draw();
-    }
-}
-class square implements shape {
-    public void draw(){
-        shape.super.draw();
-    }
-}
-*/
+// Multilevel Inheritance
 
-// Multiple Inheritance
+// example code --------->
 
 
-// 1. Artist and Writer Classes
-// Define a class `Artist` with the attribute `art_style` and a method `create_art()`. Define another class
-// `Writer` with the attribute `writing_style` and a method `write()`. Then define a class `CreativePerson` that
-// inherits from both `Artist` and `Writer` and has a method `display_info()` that displays both art and writing
-// styles. 
+//class Multilevel{
+//    public static void main(String[] args) {
+//        Animals myAnimal = new Animals("Generic Animal", "make sound");
+//        myAnimal.info();
+//        myAnimal.speak();
+//        Dog myDog = new Dog("Dog", "Bark", "Labrador");
+//        myDog.info();
+//        myDog.speak();
+//        Puppy myPuppy = new Puppy("Puppy", "Bark", "Beagle", 6);
+//        myPuppy.info();
+//        myPuppy.speak();
+//    }
+//}
+//class Animals {
+//    String specie;
+//    String language;
+//
+//    Animals(String specie, String language) {
+//        this.specie = specie;
+//        this.language = language;
+//    }
+//
+//    void info() {
+//        System.out.println("Specie: " + this.specie + "\nLanguage: " + this.language);
+//    }
+//
+//    void speak() {
+//        System.out.println("I am a " + this.specie + " and I can " + this.language);
+//    }
+//}
+//class Dog extends Animals {
+//    String breed;
+//
+//    Dog(String specie_child, String language_child, String breed_child) {
+//        super(specie_child, language_child);
+//        this.breed = breed_child;
+//    }
+//    public void setBreed(String breed) {
+//        this.breed = breed;
+//    }
+//    public String getBreed() {
+//        return this.breed;
+//    }
+//    @Override
+//    void info() {
+//        super.info();
+//        System.out.println("Breed: " + this.breed);
+//    }
+//    @Override
+//    void speak() {
+//        super.speak();
+//        System.out.println(" and I am of breed " + this.breed + ".");
+//    }
+//}
+//class Puppy extends Dog {
+//    int ageInMonths;
+//
+//    Puppy(String specie_child, String language_child, String breed_child, int ageInMonths_child) {
+//        super(specie_child, language_child, breed_child);
+//        this.ageInMonths = ageInMonths_child;
+//    }
+//    public void setAgeInMonths(int ageInMonths) {
+//        this.ageInMonths = ageInMonths;
+//    }
+//    public int getAgeInMonths() {
+//        return this.ageInMonths;
+//    }
+//    @Override
+//    void info() {
+//        super.info();
+//        System.out.println("Age in Months: " + this.ageInMonths);
+//    }
+//    @Override
+//    void speak() {
+//        super.speak();
+//        System.out.println(" I am a puppy and I am " + this.ageInMonths + " months old.");
+//    }
+//}
 
-/*
-    public static void main(String[] args) {
-        creative_person c1 = new creative_person();
-        c1.display_info();
-    }
-}
-interface artist {
-    default void art_style(){
-        System.out.println("artist");
-    }
-}
-interface writer {
-     default void writing_style(){
-        System.out.println("writer");
-    }
-}
-class creative_person implements artist,writer{
 
-    public void display_info(){
-        writer.super.writing_style();
-        artist.super.art_style();
-    }
 
-    public void writing_style(){
-        writer.super.writing_style();
-    }
-    public void art_style(){
-        artist.super.art_style();
-    }
-}
-*/
+// class Multilevel{
+//     public static void main(String[] args) {
+//         Device myDevice = new Device("Samsung", "S10");
+//         myDevice.info();
+//         myDevice.poweron();
+//         myDevice.poweroff();
+//         System.out.println();
+//         MobileDevice myMobile = new MobileDevice("Nokia", "3310", 123456789);
+//         myMobile.info();
+//         myMobile.poweron();
+//         myMobile.makeCall();
+//         myMobile.sendMessage();
+//         myMobile.poweroff();
+//         System.out.println();
+//         Smartphone mySmart = new Smartphone("Samsung", "S22", "One UI 8", 123456789);
+//         mySmart.info();
+//         mySmart.poweron();
+//         mySmart.installApp();
+//         mySmart.browseInternet();
+//         myMobile.makeCall();
+//         myMobile.sendMessage();
+//         myMobile.poweroff();
+//         System.out.println();
+//     }
+// }
+// class Device{
+//     String brand;
+//     String model;
+//     Device(String brand, String model){
+//         this.brand = brand;
+//         this.model = model;
+//     }
+//     void info(){
+//         System.out.println("Brand: " + this.brand);
+//         System.out.println("Model: " + this.model);
+//     }
+//     void poweron(){
+//         System.out.println("Powered on");
+//     }
+//     void poweroff(){
+//         System.out.println("Powered off");
+//     }
+// }
+// class  MobileDevice extends Device{
+//     int phonenumber;
+//     MobileDevice(String brand, String model, int phonenumber){
+//         super(brand,model);
+// //        this.brand= brand;
+// //        this.model=model;
+//         this.phonenumber=phonenumber;
+//     }
+//     void info(){
+//         super.info();
+//         System.out.println("Phone number: " + this.phonenumber);
+//     }
+//     void makeCall(){
+//         System.out.println("Calling.....");
+//     }
+//     void sendMessage(){
+//         System.out.println("Sending message.....");
+//     }
+// }
+// class Smartphone extends MobileDevice{
+//     String os;
+//     Smartphone(String brand, String model, String os, int phonenumber){
+//         super(brand,model,phonenumber);
+//         this.os=os;
+//     }
+//     void info(){
+//         super.info();
+//         System.out.println("OS: " + this.os);
+//     }
+//     void installApp(){
+//         System.out.println("Installing app.....");
+//     }
+//     void browseInternet(){
+//         System.out.println("Browsing Internet.....");
+//     }
+// }
 
-// 2. Student and Sportsman Classes
-// Define a class `Student` with attributes `name` and `age`, and a method `study()`. Define another class
-// `Sportsman` with an attribute `sport` and a method `play_sport()`. Then define a class `StudentAthlete`
-// that inherits from both `Student` and `Sportsman` and implements a method `display_info()` to show all
-// details.
 
-/*
-public static void main(String[] args) {
-    studentathlete s1 = new studentathlete ();
-    s1.display_info1();
-    s1.display_info2();
-    }
-}
-interface student{
-    default void name(){
-        System.out.println("yusra");
-    }
-    default void age(){
-        System.out.println("18");
-    }
-    default void study(){
-        System.out.println("CS");
-    }
-}
-interface sportsman{
-    default void sport(){
-        System.out.println("sport");
-    }
-    default void play_sport(){
-        System.out.println("play sport");
-    }
-}
-class studentathlete implements student,sportsman{
-    public void display_info1(){
-        student.super.name();
-        student.super.age();
-        student.super.study();
-    }
-    public void display_info2(){
-        sportsman.super.sport();
-        sportsman.super.play_sport();
-    }
-}
-*/
 
-// 3. Person and Vehicle Classes
-// Define a class `Person` with attributes `name` and `age`. Define another class `Vehicle` with an attribute
-// `model`. Create a class `Driver` that inherits from both `Person` and `Vehicle` and displays a message that
-// includes the driver's name, age, and the vehicle model.
 
-/*
-public static void main(String[] args) {
-    driver d1 = new driver();
-    d1.display_info();
-    }
-}
-interface person{
-    default void name(){
-        System.out.println("Driver Name");
-    }
-    default void age(){
-        System.out.println("26");
-    }
-}
-interface vehicle{
-    default void model(){
-        System.out.println("Toyota corolla");
-    }
-}
-class driver implements person,vehicle{
-    public void display_info(){
-        person.super.name();
-        person.super.age();
-        vehicle.super.model();
-    }
-}
-*/
 
-// 4. Teacher and Researcher Classes
-// Define a class `Teacher` with the attribute `subject`. Define another class `Researcher` with the attribute
-// `research_area`. Create a class `Professor` that inherits from both `Teacher` and `Researcher` and prints
-// out the details of both the subject and research area.
 
-/*
-public static void main(String[] args) {
-    professor p1 = new professor();
-    p1.display_info();
-    }
-}
-interface teacher{
-    default void subject(){
-        System.out.println("CS");
-    }
-}
-interface Researcher{
-    default void research_area(){
-        System.out.println("research area");
-    }
-}
-class professor implements teacher,Researcher{
-    public void display_info(){
-        teacher.super.subject();
-        Researcher.super.research_area();
-    }
-}
-*/
 
-// 5. Chef and Server Classes
-// Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
-// `restaurant_name`. Create a class `RestaurantEmployee` that inherits from both `Chef` and `Server` and
-// displays the employee's specialty and restaurant name.
 
-/*
-    public static void main(String[] args) {
-    restaurantEmployee r1 = new restaurantEmployee();
-    r1.display_info();
-    }
-}
-interface chef{
-    default void specialty(){
-        System.out.println("Cooking");
-    }
-}
-interface server{
-    default void restaurant_name(){
-        System.out.println("CG");
-    }
-}
-class restaurantEmployee implements chef,server{
-    public void display_info(){
-        chef.super.specialty();
-        server.super.restaurant_name();
-    }
-}
-*/
 
-// 6. Product and Category Classes
-// Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
-// the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
-// `Category`, and displays the product name along with its category.
 
-/*
-public static void main(String[] args) {
-    product_category p1 = new product_category();
-    p1.display_info();
-        }
-    }
-interface product{
-    default void product_name(){
-        System.out.println("milk");
-    }
-    default void price(){
-        System.out.println(220);
-    }
-}
-interface category{
-    default void category_name(){
-        System.out.println("Dairy product");
-    }
-}
-class product_category implements product,category{
-    public void display_info(){
-        product.super.product_name();
-        product.super.price();
-        category.super.category_name();
-    }
-}
-*/
+
+
+// 1. Appliance → WashingMachine → SmartWashingMachine
+// Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
+// adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
+// connectToWiFi(). Demonstrate all methods using a single object.
+
+// 2. Education → Course → OnlineCourse
+// Define a base class Education with an attribute institutionName. Create a subclass Course that
+// adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
+// Display full course details.
+
+// 3. Account → SavingsAccount → PremiumSavings
+// Define a base class Account with attributes accountNumber and balance. Create a subclass
+// SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
+// that adds an attribute bonusRate. Display complete account information.
+
+// 4. Vehicle → Car → ElectricCar
+// Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
+// attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
+// all vehicle details.
+
+// 5. Animal → Mammal → Dog
+// Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
+// walk(). Create a subclass Dog that adds a method bark(). Demonstrate method calls using a Dog
+// object.
+
+// 6. Person → Employee → Manager
+
+// 4. Create a base class named Device with attributes like brand and
+// model, and methods like powerOn() and powerOff().
+// Create a subclass named MobileDevice that inherits from Device and
+// adds attributes like phoneNumber and methods like makeCall() and
+// sendMessage().
+// Finally, create another subclass named Smartphone that inherits
+// from MobileDevice and adds attributes like operatingSystem and
+// methods like installApp() and browseInternet().
+
+
+
+
+
+
+
+
 
 
 

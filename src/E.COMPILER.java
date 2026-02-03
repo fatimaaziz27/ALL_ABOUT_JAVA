@@ -1,6 +1,6 @@
 import java.util.*;
 class E_COMPILER{
-    public static void main(String[] args) {
+    public static void main(String[] args){
 
 // Q2) -------->
 
@@ -63,5 +63,5 @@ class E_COMPILER{
         //     System.out.print(num1 +" is greater than second number " + num2 );
         // }
 }
-    
+
 }
