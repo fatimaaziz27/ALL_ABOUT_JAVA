@@ -278,6 +278,7 @@ class driver implements person,vehicle{
 // `research_area`. Create a class `Professor` that inherits from both `Teacher` and `Researcher` and prints
 // out the details of both the subject and research area.
 
+/*
 public static void main(String[] args) {
     professor p1 = new professor();
     p1.display_info();
@@ -293,6 +294,13 @@ interface Researcher{
         System.out.println("research area");
     }
 }
+class professor implements teacher,Researcher{
+    public void display_info(){
+        teacher.super.subject();
+        Researcher.super.research_area();
+    }
+}
+*/
 
 // 5. Chef and Server Classes
 // Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
@@ -303,6 +311,7 @@ interface Researcher{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
