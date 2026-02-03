@@ -258,6 +258,11 @@ interface person{
         System.out.println("26");
     }
 }
+interface vehicle{
+    default void model(){
+        System.out.println("Toyota corolla");
+    }
+}
 
 // 4. Teacher and Researcher Classes
 // Define a class `Teacher` with the attribute `subject`. Define another class `Researcher` with the attribute
@@ -273,6 +278,7 @@ interface person{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
