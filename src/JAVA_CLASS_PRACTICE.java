@@ -336,6 +336,33 @@ class restaurantEmployee implements chef,server{
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
 
+/*
+public static void main(String[] args) {
+    product_category p1 = new product_category();
+    p1.display_info();
+        }
+    }
+interface product{
+    default void product_name(){
+        System.out.println("milk");
+    }
+    default void price(){
+        System.out.println(220);
+    }
+}
+interface category{
+    default void category_name(){
+        System.out.println("Dairy product");
+    }
+}
+class product_category implements product,category{
+    public void display_info(){
+        product.super.product_name();
+        product.super.price();
+        category.super.category_name();
+    }
+}
+*/
 
 
 
