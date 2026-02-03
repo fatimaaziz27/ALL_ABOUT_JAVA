@@ -214,7 +214,17 @@ public static void main(String[] args) {
     s1.display_info2();
     }
 }
-
+interface student{
+    default void name(){
+        System.out.println("yusra");
+    }
+    default void age(){
+        System.out.println("18");
+    }
+    default void study(){
+        System.out.println("CS");
+    }
+}
 
 
 // 3. Person and Vehicle Classes
@@ -236,6 +246,7 @@ public static void main(String[] args) {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
