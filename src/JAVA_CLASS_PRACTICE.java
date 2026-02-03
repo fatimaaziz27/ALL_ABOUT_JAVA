@@ -307,10 +307,35 @@ class professor implements teacher,Researcher{
 // `restaurant_name`. Create a class `RestaurantEmployee` that inherits from both `Chef` and `Server` and
 // displays the employee's specialty and restaurant name.
 
+/*
+    public static void main(String[] args) {
+    restaurantEmployee r1 = new restaurantEmployee();
+    r1.display_info();
+    }
+}
+interface chef{
+    default void specialty(){
+        System.out.println("Cooking");
+    }
+}
+interface server{
+    default void restaurant_name(){
+        System.out.println("CG");
+    }
+}
+class restaurantEmployee implements chef,server{
+    public void display_info(){
+        chef.super.specialty();
+        server.super.restaurant_name();
+    }
+}
+*/
+
 // 6. Product and Category Classes
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
