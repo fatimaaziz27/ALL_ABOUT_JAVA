@@ -245,6 +245,7 @@ class studentathlete implements student,sportsman{
 // `model`. Create a class `Driver` that inherits from both `Person` and `Vehicle` and displays a message that
 // includes the driver's name, age, and the vehicle model.
 
+/*
 public static void main(String[] args) {
     driver d1 = new driver();
     d1.display_info();
@@ -263,6 +264,14 @@ interface vehicle{
         System.out.println("Toyota corolla");
     }
 }
+class driver implements person,vehicle{
+    public void display_info(){
+        person.super.name();
+        person.super.age();
+        vehicle.super.model();
+    }
+}
+*/
 
 // 4. Teacher and Researcher Classes
 // Define a class `Teacher` with the attribute `subject`. Define another class `Researcher` with the attribute
@@ -278,6 +287,7 @@ interface vehicle{
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
