@@ -283,6 +283,12 @@ public static void main(String[] args) {
     p1.display_info();
     }
 }
+interface teacher{
+    default void subject(){
+        System.out.println("CS");
+    }
+}
+
 // 5. Chef and Server Classes
 // Define a class `Chef` with the attribute `specialty`. Define another class `Server` with an attribute
 // `restaurant_name`. Create a class `RestaurantEmployee` that inherits from both `Chef` and `Server` and
@@ -292,6 +298,7 @@ public static void main(String[] args) {
 // Define a class `Product` with attributes `product_name` and `price`. Define another class `Category` with
 // the attribute `category_name`. Then create a class `ProductCategory` that inherits from both `Product` and
 // `Category`, and displays the product name along with its category.
+
 
 
 
