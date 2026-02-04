@@ -1595,10 +1595,53 @@ class rectangle extends shape {
 // and Bike that inherit from Vehicle. Each subclass should display vehicle details along with
 // its specific type.
 
+/* 
+class ABSTRACTION {
+    public static void main(String[] args) {
+        bike b1 = new bike("toyota",70);
+        b1.display_info0();
+        car c1 = new car("toyota",120);
+        c1.display_info1();
+
+    }
+}
+class vehicle {
+    String brand;
+    Integer speed;
+
+    vehicle(String brand, Integer speed) {
+        this.brand = brand;
+        this.speed = speed;
+    }
+}
+class bike extends vehicle {
+    bike(String brand, Integer speed) {
+        super(brand, speed);
+    }
+
+    void display_info0() {
+        System.out.println(brand);
+    }
+}
+class car extends vehicle{
+        car(String brand,Integer speed){
+            super(brand,speed);
+        }
+        void display_info1(){
+            System.out.println(speed);
+        }
+    }
+*/
+
 // 3. Account Hierarchy
 // Define a base class BankAccount with attributes accountNumber and balance. Create two
 // subclasses SavingsAccount and CurrentAccount. Each subclass should implement a method to
 // display account type and balance.
+
+
+
+
+
 
 // 4. Person Hierarchy
 // Define a base class Person with attributes name and age. Create two subclasses Student and

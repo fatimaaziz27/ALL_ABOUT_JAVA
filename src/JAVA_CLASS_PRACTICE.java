@@ -391,123 +391,19 @@ class gradebook{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
-// class ABSTRACTION {
-//     public static void main(String[] args) {
-//         shape s1 = new shape("blue");
-//         s1.draw();
-//         circle c1 = new circle("red");
-//         c1.draw();
-//         rectangle r1 = new rectangle("cyan");
-//         r1.draw();
-//     }
-// }
-// class shape {
-//         String color;
-//         shape(String color) {
-//             this.color = color;
-//         }
-//         void draw() {}
-//     }
-// class circle extends shape{
-//     circle(String color) {
-//         super(color);
-//     }
-//         @Override
-//         void draw() {
-//             super.draw();
-//             System.out.println(this.color+" circle");
-//         }
-//     }
-// class rectangle extends shape {
-//     rectangle(String color) {
-//         super(color);
-//     }
-//     @Override
-//     void draw() {
-//         super.draw();
-//         System.out.println(this.color+" rectangle");
-//     }
-// }
+
 
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
-// class ABSTRACTION {
-//     public static void main(String[] args) {
-//         bike b1 = new bike("toyota",70);
-//         b1.display_info0();
-//         car c1 = new car("toyota",120);
-//         c1.display_info1();
-
-//     }
-// }
-// class vehicle {
-//     String brand;
-//     Integer speed;
-
-//     vehicle(String brand, Integer speed) {
-//         this.brand = brand;
-//         this.speed = speed;
-//     }
-// }
-// class bike extends vehicle {
-//     bike(String brand, Integer speed) {
-//         super(brand, speed);
-//     }
-
-//     void display_info0() {
-//         System.out.println(brand);
-//     }
-// }
-// class car extends vehicle{
-//         car(String brand,Integer speed){
-//             super(brand,speed);
-//         }
-//         void display_info1(){
-//             System.out.println(speed);
-//         }
-//     }
 
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
 // that adds an attribute bonusRate. Display complete account information.
 
-//class ABSTRACTION {
-//    public static void main(String[] args) {
-//        SavingsAccount s1 = new SavingsAccount(40201,80000);
-//        s1.display_info0();
-//        CurrentAccount c1 = new CurrentAccount(40202,560000);
-//        c1.display_info1();
-//    }
-//}
-//class bank_account {
-//    Integer account_number;
-//    Integer balance;
-//    bank_account(Integer account_number,Integer balance) {
-//        this.account_number = account_number;
-//        this.balance = balance;
-//    }
-//}
-//class SavingsAccount extends bank_account {
-//    SavingsAccount(Integer account_number,Integer balance) {
-//        super(account_number,balance);
-//    }
-//    void display_info0() {
-//        System.out.println("SavingsAccount:\nAccount_number " + account_number + "\nBalance " + balance);
-//    }
-//}
-//class CurrentAccount extends bank_account{
-//    CurrentAccount(Integer account_number,Integer balance){
-//        super(account_number,balance);
-//    }
-//    void display_info1(){
-//        System.out.println();
-//        System.out.println("CurrentAccount:\nAccount_number " + account_number + "\nBalance " + balance);
-//    }
-//}
 
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
