@@ -434,6 +434,16 @@ class gradebook{
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
+class ABSTRACTION {
+    public static void main(String[] args) {
+        bike b1 = new bike("toyota",70);
+        b1.display_info0();
+        car c1 = new car("toyota",120);
+        c1.display_info1();
+
+    }
+}
+
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
@@ -459,6 +469,7 @@ class gradebook{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
