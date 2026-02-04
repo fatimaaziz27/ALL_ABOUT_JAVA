@@ -443,7 +443,15 @@ class ABSTRACTION {
 
     }
 }
+class vehicle {
+    String brand;
+    Integer speed;
 
+    vehicle(String brand, Integer speed) {
+        this.brand = brand;
+        this.speed = speed;
+    }
+}
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
@@ -469,6 +477,7 @@ class ABSTRACTION {
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
