@@ -1595,7 +1595,7 @@ class rectangle extends shape {
 // and Bike that inherit from Vehicle. Each subclass should display vehicle details along with
 // its specific type.
 
-/* 
+/*
 class ABSTRACTION {
     public static void main(String[] args) {
         bike b1 = new bike("toyota",70);

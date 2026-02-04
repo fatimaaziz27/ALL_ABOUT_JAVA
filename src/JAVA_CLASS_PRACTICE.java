@@ -38,6 +38,14 @@ class gradebook{
 */
 
 
+
+
+
+
+
+
+
+
 // Hierarchical Inheritance
 
 // examples code ------->
@@ -177,6 +185,12 @@ class gradebook{
 
 
 
+
+
+
+
+
+
 // 1. Shape Hierarchy
 // Define a base class Shape with an attribute color and a method draw(). Create two subclasses
 // Circle and Rectangle that inherit from Shape. Each subclass should override the draw() method to
@@ -204,6 +218,13 @@ class gradebook{
 // Define a base class Employee with attributes name and employeeId. Create two
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
 // have its own method to display job-specific responsibilities.
+
+
+
+
+
+
+
 
 
 
@@ -391,19 +412,15 @@ class gradebook{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
-
-
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
-
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
 // that adds an attribute bonusRate. Display complete account information.
-
 
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
