@@ -391,6 +391,17 @@ class gradebook{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
+class ABSTRACTION {
+    public static void main(String[] args) {
+        shape s1 = new shape("blue");
+        s1.draw();
+        circle c1 = new circle("red");
+        c1.draw();
+        rectangle r1 = new rectangle("cyan");
+        r1.draw();
+    }
+}
+
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
@@ -421,6 +432,7 @@ class gradebook{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
