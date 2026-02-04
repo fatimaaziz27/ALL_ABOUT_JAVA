@@ -1550,6 +1550,46 @@ class product_category implements product,category{
 // Circle and Rectangle that inherit from Shape. Each subclass should override the draw() method to
 // display its shape type and color.
 
+/*
+class ABSTRACTION {
+    public static void main(String[] args) {
+        shape s1 = new shape("blue");
+        s1.draw();
+        circle c1 = new circle("red");
+        c1.draw();
+        rectangle r1 = new rectangle("cyan");
+        r1.draw();
+    }
+}
+class shape {
+        String color;
+        shape(String color) {
+            this.color = color;
+        }
+        void draw() {}
+    }
+class circle extends shape{
+    circle(String color) {
+        super(color);
+    }
+        @Override
+        void draw() {
+            super.draw();
+            System.out.println(this.color+" circle");
+        }
+    }
+class rectangle extends shape {
+    rectangle(String color) {
+        super(color);
+    }
+    @Override
+    void draw() {
+        super.draw();
+        System.out.println(this.color+" rectangle");
+    }
+}
+*/
+
 // 2. Vehicle Hierarchy
 // Define a base class Vehicle with attributes brand and speed. Create two subclasses Car
 // and Bike that inherit from Vehicle. Each subclass should display vehicle details along with
