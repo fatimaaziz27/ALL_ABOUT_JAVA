@@ -408,6 +408,16 @@ class shape {
         }
         void draw() {}
     }
+class circle extends shape{
+    circle(String color) {
+        super(color);
+    }
+        @Override
+        void draw() {
+            super.draw();
+            System.out.println(this.color+" circle");
+        }
+    }
 
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
@@ -439,6 +449,7 @@ class shape {
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
