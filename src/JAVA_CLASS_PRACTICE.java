@@ -391,33 +391,43 @@ class gradebook{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
-class ABSTRACTION {
-    public static void main(String[] args) {
-        shape s1 = new shape("blue");
-        s1.draw();
-        circle c1 = new circle("red");
-        c1.draw();
-        rectangle r1 = new rectangle("cyan");
-        r1.draw();
-    }
-}
-class shape {
-        String color;
-        shape(String color) {
-            this.color = color;
-        }
-        void draw() {}
-    }
-class circle extends shape{
-    circle(String color) {
-        super(color);
-    }
-        @Override
-        void draw() {
-            super.draw();
-            System.out.println(this.color+" circle");
-        }
-    }
+// class ABSTRACTION {
+//     public static void main(String[] args) {
+//         shape s1 = new shape("blue");
+//         s1.draw();
+//         circle c1 = new circle("red");
+//         c1.draw();
+//         rectangle r1 = new rectangle("cyan");
+//         r1.draw();
+//     }
+// }
+// class shape {
+//         String color;
+//         shape(String color) {
+//             this.color = color;
+//         }
+//         void draw() {}
+//     }
+// class circle extends shape{
+//     circle(String color) {
+//         super(color);
+//     }
+//         @Override
+//         void draw() {
+//             super.draw();
+//             System.out.println(this.color+" circle");
+//         }
+//     }
+// class rectangle extends shape {
+//     rectangle(String color) {
+//         super(color);
+//     }
+//     @Override
+//     void draw() {
+//         super.draw();
+//         System.out.println(this.color+" rectangle");
+//     }
+// }
 
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
@@ -449,6 +459,7 @@ class circle extends shape{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
