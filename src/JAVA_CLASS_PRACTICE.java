@@ -434,42 +434,41 @@ class gradebook{
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
-class ABSTRACTION {
-    public static void main(String[] args) {
-        bike b1 = new bike("toyota",70);
-        b1.display_info0();
-        car c1 = new car("toyota",120);
-        c1.display_info1();
+// class ABSTRACTION {
+//     public static void main(String[] args) {
+//         bike b1 = new bike("toyota",70);
+//         b1.display_info0();
+//         car c1 = new car("toyota",120);
+//         c1.display_info1();
 
-    }
-}
-class vehicle {
-    String brand;
-    Integer speed;
+//     }
+// }
+// class vehicle {
+//     String brand;
+//     Integer speed;
 
-    vehicle(String brand, Integer speed) {
-        this.brand = brand;
-        this.speed = speed;
-    }
-}
-class bike extends vehicle {
-    bike(String brand, Integer speed) {
-        super(brand, speed);
-    }
+//     vehicle(String brand, Integer speed) {
+//         this.brand = brand;
+//         this.speed = speed;
+//     }
+// }
+// class bike extends vehicle {
+//     bike(String brand, Integer speed) {
+//         super(brand, speed);
+//     }
 
-    void display_info0() {
-        System.out.println(brand);
-    }
-}
-class car extends vehicle{
-        car(String brand,Integer speed){
-            super(brand,speed);
-        }
-        void display_info1(){
-            System.out.println(speed);
-        }
-    }
-
+//     void display_info0() {
+//         System.out.println(brand);
+//     }
+// }
+// class car extends vehicle{
+//         car(String brand,Integer speed){
+//             super(brand,speed);
+//         }
+//         void display_info1(){
+//             System.out.println(speed);
+//         }
+//     }
 
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
@@ -496,6 +495,7 @@ class car extends vehicle{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
