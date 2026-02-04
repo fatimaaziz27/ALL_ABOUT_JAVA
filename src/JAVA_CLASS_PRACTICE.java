@@ -461,6 +461,16 @@ class bike extends vehicle {
         System.out.println(brand);
     }
 }
+class car extends vehicle{
+        car(String brand,Integer speed){
+            super(brand,speed);
+        }
+        void display_info1(){
+            System.out.println(speed);
+        }
+    }
+
+
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
@@ -486,6 +496,7 @@ class bike extends vehicle {
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
