@@ -401,6 +401,13 @@ class ABSTRACTION {
         r1.draw();
     }
 }
+class shape {
+        String color;
+        shape(String color) {
+            this.color = color;
+        }
+        void draw() {}
+    }
 
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
@@ -432,6 +439,7 @@ class ABSTRACTION {
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
