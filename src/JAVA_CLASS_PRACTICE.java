@@ -475,6 +475,8 @@ class gradebook{
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
 // that adds an attribute bonusRate. Display complete account information.
 
+
+
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
 // attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
@@ -495,6 +497,7 @@ class gradebook{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
 
 
 
