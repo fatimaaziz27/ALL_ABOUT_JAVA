@@ -1638,10 +1638,41 @@ class car extends vehicle{
 // subclasses SavingsAccount and CurrentAccount. Each subclass should implement a method to
 // display account type and balance.
 
-
-
-
-
+/*
+class ABSTRACTION {
+   public static void main(String[] args) {
+       SavingsAccount s1 = new SavingsAccount(40201,80000);
+       s1.display_info0();
+       CurrentAccount c1 = new CurrentAccount(40202,560000);
+       c1.display_info1();
+   }
+}
+class bank_account {
+   Integer account_number;
+   Integer balance;
+   bank_account(Integer account_number,Integer balance) {
+       this.account_number = account_number;
+       this.balance = balance;
+   }
+}
+class SavingsAccount extends bank_account {
+   SavingsAccount(Integer account_number,Integer balance) {
+       super(account_number,balance);
+   }
+   void display_info0() {
+       System.out.println("SavingsAccount:\nAccount_number " + account_number + "\nBalance " + balance);
+   }
+}
+class CurrentAccount extends bank_account{
+   CurrentAccount(Integer account_number,Integer balance){
+       super(account_number,balance);
+   }
+   void display_info1(){
+       System.out.println();
+       System.out.println("CurrentAccount:\nAccount_number " + account_number + "\nBalance " + balance);
+   }
+}
+*/
 
 // 4. Person Hierarchy
 // Define a base class Person with attributes name and age. Create two subclasses Student and
