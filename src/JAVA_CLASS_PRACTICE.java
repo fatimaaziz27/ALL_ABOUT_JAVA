@@ -182,45 +182,6 @@ class gradebook{
 // }
 
 
-
-// 5. Media Hierarchy
-// Define a base class Media with attributes title and duration. Create two subclasses Audio and
-// Video. Each subclass should display its type and playback details.
-
-class java_class_practice {
-    public static void main(String[] args) {
-        Audio a1 = new Audio("Unknown", 240);
-        a1.display_a();
-        Video v1 = new Video("Nature Documentary", 1800);
-        v1.display_V();
-    }
-}
-class Media {
-    String title;
-    Integer duration;
-    Media(String title,Integer duration) {
-        this.title = title;
-        this.duration = duration;
-    }
-}
-class Audio extends Media {
-    Audio (String title,Integer duration) {
-        super(title,duration);
-    }
-    void display_a() {
-        System.out.println("Audio:\nTitle: "+title+"\nDuration: "+duration);
-    }
-}
-class Video extends Media{
-    Video (String title,Integer duration){
-        super(title,duration);
-    }
-    void display_V(){
-        System.out.println();
-        System.out.println("Video:\nTitle: "+title+"\nDuration: "+duration);
-    }
-}
-
 // 6. Employee Hierarchy
 // Define a base class Employee with attributes name and employeeId. Create two
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
