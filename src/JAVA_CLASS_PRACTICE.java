@@ -202,24 +202,24 @@ class java_class_practice {
         teacher t1 = new teacher("asfiya", 24);
         t1.display_t_role();
     }
-    }
-    class Person {
+}
+class Person {
     String name;
     Integer age;
     Person(String name,Integer age) {
         this.name = name;
         this.age = age;
     }
-    }
-    class student extends Person {
+}
+class student extends Person {
     student (String name,Integer age) {
         super(name,age);
     }
     void display_s_role() {
         System.out.println("I'm "+name+", an "+age+"-year-old student of CS.");
     }
-    }
-    class teacher extends Person{
+}
+class teacher extends Person{
     teacher(String name,Integer age){
         super(name,age);
     }
