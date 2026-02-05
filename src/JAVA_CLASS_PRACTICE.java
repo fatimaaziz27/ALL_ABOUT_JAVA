@@ -189,15 +189,15 @@ class gradebook{
 
 class java_class_practice {
     public static void main(String[] args) {
-        Audio a1 = new Audio();
+        Audio a1 = new Audio("Unknown", 240);
         a1.display_a();
-        Video v1 = new Video();
+        Video v1 = new Video("Nature Documentary", 1800);
         v1.display_v();
     }
 }
 class Media {
     String title;
-    double duration;
+    Integer duration;
     Media(String title,Integer duration) {
         this.title = title;
         this.duration = duration;
@@ -208,7 +208,7 @@ class Audio extends Media {
         super(title,duration);
     }
     void display_a() {
-        System.out.println();
+        System.out.println("Title: "+title+"Duration: "+duration);
     }
 }
 class Video extends Media{
@@ -216,7 +216,7 @@ class Video extends Media{
         super(title,duration);
     }
     void display_V(){
-        System.out.println();
+        System.out.println("Title: "+title+"Duration: "+duration);
     }
 }
 
