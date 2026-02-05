@@ -216,6 +216,7 @@ class Video extends Media{
         super(title,duration);
     }
     void display_V(){
+        System.out.println();
         System.out.println("Video:\nTitle: "+title+"\nDuration: "+duration);
     }
 }
