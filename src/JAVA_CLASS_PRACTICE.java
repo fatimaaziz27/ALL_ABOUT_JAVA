@@ -191,8 +191,8 @@ class java_class_practice {
     public static void main(String[] args) {
         Audio a1 = new Audio();
         a1.display_a();
-        Vide t1 = new teacher("asfiya", 24);
-        t1.display_t_role();
+        Video v1 = new Video();
+        v1.display_v();
     }
 }
 class Media {
