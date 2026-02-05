@@ -191,24 +191,43 @@ class gradebook{
 
 
 
-// 1. Shape Hierarchy
-// Define a base class Shape with an attribute color and a method draw(). Create two subclasses
-// Circle and Rectangle that inherit from Shape. Each subclass should override the draw() method to
-// display its shape type and color.
-
-// 2. Vehicle Hierarchy
-// Define a base class Vehicle with attributes brand and speed. Create two subclasses Car
-// and Bike that inherit from Vehicle. Each subclass should display vehicle details along with
-// its specific type.
-
-// 3. Account Hierarchy
-// Define a base class BankAccount with attributes accountNumber and balance. Create two
-// subclasses SavingsAccount and CurrentAccount. Each subclass should implement a method to
-// display account type and balance.
-
 // 4. Person Hierarchy
 // Define a base class Person with attributes name and age. Create two subclasses Student and
 // Teacher. Each subclass should display role-specific information such as course or subject.
+
+class ALL_ABOUT_JAVA {
+    public static void main(String[] args) {
+        SavingsAccount s1 = new SavingsAccount(40201,80000);
+        s1.display_info0();
+        CurrentAccount c1 = new CurrentAccount(40202,560000);
+        c1.display_info1();
+    }
+    }
+    class Person {
+    String name;
+    Integer age;
+    Person(String name,Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+    }
+    class student extends Person {
+    student (String name,Integer age) {
+        super(name,age);
+    }
+    void display_info0() {
+        System.out.println();
+    }
+    }
+    class teacher extends bank_account{
+    CurrentAccount(Integer account_number,Integer balance){
+        super(account_number,balance);
+    }
+    void display_info1(){
+        System.out.println();
+        System.out.println("CurrentAccount:\nAccount_number " + account_number + "\nBalance " + balance);
+    }
+    }
 
 // 5. Media Hierarchy
 // Define a base class Media with attributes title and duration. Create two subclasses Audio and
