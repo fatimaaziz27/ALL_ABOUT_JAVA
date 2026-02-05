@@ -197,10 +197,8 @@ class gradebook{
 
 class ALL_ABOUT_JAVA {
     public static void main(String[] args) {
-        SavingsAccount s1 = new SavingsAccount(40201,80000);
-        s1.display_info0();
-        CurrentAccount c1 = new CurrentAccount(40202,560000);
-        c1.display_info1();
+        student s1 = new student("ruqaiya",18);
+        s1.display_s_role();
     }
     }
     class Person {
@@ -216,7 +214,7 @@ class ALL_ABOUT_JAVA {
         super(name,age);
     }
     void display_s_role() {
-        System.out.println("I'm a student of CS");
+        System.out.println("I'm "+name+", an "+age+"-year-old student of CS.");
     }
     }
     class teacher extends Person{
@@ -224,7 +222,7 @@ class ALL_ABOUT_JAVA {
         super(name,age);
     }
     void display_t_role(){
-        System.out.println("I'm a teacher and I teach history");
+        System.out.println("I'm "+name+","+age+" years old, and I teach history");
     }
     }
 
