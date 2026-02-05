@@ -220,7 +220,7 @@ class ALL_ABOUT_JAVA {
     }
     }
     class teacher extends Person{
-    CurrentAccount(Integer account_number,Integer balance){
+    teacher(String name,Integer age){
         super(account_number,balance);
     }
     void display_info1(){
