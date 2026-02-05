@@ -1678,6 +1678,41 @@ class CurrentAccount extends bank_account{
 // Define a base class Person with attributes name and age. Create two subclasses Student and
 // Teacher. Each subclass should display role-specific information such as course or subject.
 
+class java_class_practice {
+    public static void main(String[] args) {
+        student s1 = new student("ruqaiya",18);
+        s1.display_s_role();
+        teacher t1 = new teacher("asfiya", 24);
+        t1.display_t_role();
+        System.out.println("--------------------------------------------");
+
+    }
+}
+class Person {
+    String name;
+    Integer age;
+    Person(String name,Integer age) {
+        this.name = name;
+        this.age = age;
+    }
+}
+class student extends Person {
+    student (String name,Integer age) {
+        super(name,age);
+    }
+    void display_s_role() {
+        System.out.println("I'm "+name+", an "+age+"-year-old student of CS.");
+    }
+}
+class teacher extends Person{
+    teacher(String name,Integer age){
+        super(name,age);
+    }
+    void display_t_role(){
+        System.out.println("I'm "+name+","+age+" years old, and I teach history");
+    }
+}
+
 // 5. Media Hierarchy
 // Define a base class Media with attributes title and duration. Create two subclasses Audio and
 // Video. Each subclass should display its type and playback details.
