@@ -219,7 +219,7 @@ class ALL_ABOUT_JAVA {
         System.out.println();
     }
     }
-    class teacher extends bank_account{
+    class teacher extends Person{
     CurrentAccount(Integer account_number,Integer balance){
         super(account_number,balance);
     }
