@@ -199,6 +199,8 @@ class ALL_ABOUT_JAVA {
     public static void main(String[] args) {
         student s1 = new student("ruqaiya",18);
         s1.display_s_role();
+        teacher t1 = new teacher("asfiya", 24);
+        t1.display_t_role();
     }
     }
     class Person {
