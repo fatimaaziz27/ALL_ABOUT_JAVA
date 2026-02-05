@@ -183,17 +183,9 @@ class gradebook{
 
 
 
-
-
-
-
-
-
-
-
-// 4. Person Hierarchy
-// Define a base class Person with attributes name and age. Create two subclasses Student and
-// Teacher. Each subclass should display role-specific information such as course or subject.
+// 5. Media Hierarchy
+// Define a base class Media with attributes title and duration. Create two subclasses Audio and
+// Video. Each subclass should display its type and playback details.
 
 class java_class_practice {
     public static void main(String[] args) {
@@ -203,34 +195,30 @@ class java_class_practice {
         t1.display_t_role();
     }
 }
-class Person {
-    String name;
-    Integer age;
-    Person(String name,Integer age) {
-        this.name = name;
-        this.age = age;
+class Media {
+    String title;
+    double duration;
+    Media(String title,Integer duration) {
+        this.title = title;
+        this.duration = duration;
     }
 }
-class student extends Person {
-    student (String name,Integer age) {
-        super(name,age);
+class Audio extends Media {
+    Audio (String title,Integer duration) {
+        super(title,duration);
     }
-    void display_s_role() {
-        System.out.println("I'm "+name+", an "+age+"-year-old student of CS.");
-    }
-}
-class teacher extends Person{
-    teacher(String name,Integer age){
-        super(name,age);
-    }
-    void display_t_role(){
-        System.out.println("I'm "+name+","+age+" years old, and I teach history");
+    void display_a() {
+        System.out.println();
     }
 }
-
-// 5. Media Hierarchy
-// Define a base class Media with attributes title and duration. Create two subclasses Audio and
-// Video. Each subclass should display its type and playback details.
+class Video extends Media{
+    Video (String title,Integer duration){
+        super(title,duration);
+    }
+    void display_V(){
+        System.out.println();
+    }
+}
 
 // 6. Employee Hierarchy
 // Define a base class Employee with attributes name and employeeId. Create two
