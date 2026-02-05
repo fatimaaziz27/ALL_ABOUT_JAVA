@@ -215,17 +215,17 @@ class ALL_ABOUT_JAVA {
     student (String name,Integer age) {
         super(name,age);
     }
-    void display_info0() {
+    void display_s_role() {
         System.out.println();
     }
     }
     class teacher extends Person{
     teacher(String name,Integer age){
-        super(account_number,balance);
+        super(name,age);
     }
-    void display_info1(){
+    void display_t_role(){
         System.out.println();
-        System.out.println("CurrentAccount:\nAccount_number " + account_number + "\nBalance " + balance);
+        System.out.println();
     }
     }
 
