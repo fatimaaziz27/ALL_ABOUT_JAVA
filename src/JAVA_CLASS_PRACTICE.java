@@ -216,7 +216,7 @@ class ALL_ABOUT_JAVA {
         super(name,age);
     }
     void display_s_role() {
-        System.out.println();
+        System.out.println("I'm a student of CS");
     }
     }
     class teacher extends Person{
@@ -224,8 +224,7 @@ class ALL_ABOUT_JAVA {
         super(name,age);
     }
     void display_t_role(){
-        System.out.println();
-        System.out.println();
+        System.out.println("I'm a teacher and I teach history");
     }
     }
 
