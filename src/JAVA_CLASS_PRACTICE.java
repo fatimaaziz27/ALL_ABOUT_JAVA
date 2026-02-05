@@ -195,7 +195,7 @@ class gradebook{
 // Define a base class Person with attributes name and age. Create two subclasses Student and
 // Teacher. Each subclass should display role-specific information such as course or subject.
 
-class ALL_ABOUT_JAVA {
+class java_class_practice {
     public static void main(String[] args) {
         student s1 = new student("ruqaiya",18);
         s1.display_s_role();
@@ -226,7 +226,7 @@ class ALL_ABOUT_JAVA {
     void display_t_role(){
         System.out.println("I'm "+name+","+age+" years old, and I teach history");
     }
-    }
+}
 
 // 5. Media Hierarchy
 // Define a base class Media with attributes title and duration. Create two subclasses Audio and
