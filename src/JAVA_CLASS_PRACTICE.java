@@ -192,7 +192,7 @@ class java_class_practice {
         Audio a1 = new Audio("Unknown", 240);
         a1.display_a();
         Video v1 = new Video("Nature Documentary", 1800);
-        v1.display_v();
+        v1.display_V();
     }
 }
 class Media {
@@ -208,7 +208,7 @@ class Audio extends Media {
         super(title,duration);
     }
     void display_a() {
-        System.out.println("Title: "+title+"Duration: "+duration);
+        System.out.println("Audio:\nTitle: "+title+"\nDuration: "+duration);
     }
 }
 class Video extends Media{
@@ -216,7 +216,7 @@ class Video extends Media{
         super(title,duration);
     }
     void display_V(){
-        System.out.println("Title: "+title+"Duration: "+duration);
+        System.out.println("Video:\nTitle: "+title+"\nDuration: "+duration);
     }
 }
 
