@@ -40,154 +40,29 @@ class gradebook{
 
 
 
-
-
-
-
-
-
-// Hierarchical Inheritance
-
-// examples code ------->
-
-
-// class Main9{
-//     public static void main(String[] args) {
-//         Animal2 myAnimal = new Animal2("Generic Animal", "make sound");
-//         myAnimal.info();
-//         myAnimal.speak();
-//         Dog1 myDog = new Dog1("Dog", "Bark", "Labrador");
-//         myDog.info();
-//         myDog.speak();
-//         Cat myCat = new Cat("Cat", "Meow", "Brown");
-//         myCat.info();
-//         myCat.speak();
-//     }
-// }
-// class Animal2 {
-//     String specie;
-//     String language;
-
-//     Animal2(String specie, String language) {
-//         this.specie = specie;
-//         this.language = language;
-//     }
-
-//     void info() {
-//         System.out.println("Specie: " + this.specie + "\nLanguage: " + this.language);
-//     }
-
-//     void speak() {
-//         System.out.println("I am a " + this.specie + " and I can " + this.language);
-//     }
-// }
-// class Dog1 extends Animal2 {
-//     String breed;
-
-//     Dog1(String specie_child, String language_child, String breed_child) {
-//         super(specie_child, language_child);
-//         this.breed = breed_child;
-//     }
-//     public void setBreed(String breed) {
-//         this.breed = breed;
-//     }
-//     public String getBreed() {
-//         return this.breed;
-//     }
-//     @Override
-//     void info() {
-//         super.info();
-//         System.out.println("Breed: " + this.breed);
-//     }
-//     @Override
-//     void speak() {
-//         super.speak();
-//         System.out.println("and I am of breed " + this.breed + ".");
-//     }
-// }
-
-
-// //Hierarchical Inheritance Example:
-
-// class Cat extends Animal2 {
-//     String color;
-
-//     Cat(String specie_child, String language_child, String color_child) {
-//         super(specie_child, language_child);
-//         this.color = color_child;
-//     }
-//    public void setColor(String color) {
-//         this.color = color;
-//     }
-//     public String getColor() {
-//         return this.color;
-//     }
-//     @Override
-//     void info() {
-//         super.info();
-//         System.out.println("Color: " + this.color);
-//     }
-//     @Override
-//     void speak() {
-//         super.speak();
-//         System.out.println("I am a " + this.color + " cat.");
-//     }
-// }
-
-
-//Hierarchical Inheritance Example:
-
-
-// class Cat extends Animal {
-//     String color;
-//     Cat(String specie_child, String language_child, String color_child) {
-//         super(specie_child, language_child);
-//         this.color = color_child;
-//     }
-//     @Override
-//     void info() {
-//         super.info();
-//         System.out.println("Color: " + this.color);
-//     }
-//     @Override
-//     void speak() {
-//         super.speak();
-//         System.out.println(" I am a " + this.color + " cat.");
-//     }
-// }
-
-// class Puppy extends Dog {
-//     int ageInMonths;
-
-//     Puppy(String specie_child, String language_child, String breed_child, int ageInMonths_child) {
-//         super(specie_child, language_child, breed_child);
-//         this.ageInMonths = ageInMonths_child;
-//     }
-//     public void setAgeInMonths(int ageInMonths) {
-//         this.ageInMonths = ageInMonths;
-//     }
-//     public int getAgeInMonths() {
-//         return this.ageInMonths;
-//     }
-//     @Override
-//     void info() {
-//         super.info();
-//         System.out.println("Age in Months: " + this.ageInMonths);
-//     }
-//     @Override
-//     void speak() {
-//         super.speak();
-//         System.out.println("I am a puppy and I am " + this.ageInMonths + " months old.");
-//     }
-// }
-
-
 // 6. Employee Hierarchy
 // Define a base class Employee with attributes name and employeeId. Create two
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
 // have its own method to display job-specific responsibilities.
 
+class java{
+    public static void main(String[] args){
 
+    }
+}
+class employee{
+    String name;
+    Integer employeeid;
+    employee(String name,Integer employeeid){
+        this.name = name;
+        this.employeeid = employeeid;
+    }
+class manager extends employee{
+    manager (String name,Integer employeeid) {
+        super(title,duration);
+    }
+}
+}
 
 
 
