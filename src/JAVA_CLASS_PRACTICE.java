@@ -61,7 +61,9 @@ class manager extends employee{
     manager (String name,Integer employeeid) {
         super(name,employeeid);
     }
-    
+    void display_info(){
+        S
+    }
 }
 }
 
