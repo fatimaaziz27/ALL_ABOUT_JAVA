@@ -1,5 +1,7 @@
 import java.util.*;
 
+import employee.manager;
+
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -47,6 +49,8 @@ class gradebook{
 
 class java{
     public static void main(String[] args){
+        manager m1 = new manager();
+        m1.display_info();
         
     }
 }
