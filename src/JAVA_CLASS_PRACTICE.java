@@ -62,7 +62,15 @@ class manager extends employee{
         super(name,employeeid);
     }
     void display_info(){
-        S
+        System.out.println("Manager: "+ name + "ID: " + employeeid);
+    }
+}
+class manager extends employee{
+    manager (String name,Integer employeeid) {
+        super(name,employeeid);
+    }
+    void display_info(){
+        System.out.println("Manager: "+ name + "ID: " + employeeid);
     }
 }
 }
