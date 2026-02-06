@@ -51,6 +51,8 @@ class java{
     public static void main(String[] args){
         manager m1 = new manager();
         m1.display_info();
+        employee e1 = new employee();
+        e1.display_info();
         
     }
 }
