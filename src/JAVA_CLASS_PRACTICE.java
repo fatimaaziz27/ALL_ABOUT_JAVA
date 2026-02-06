@@ -92,6 +92,11 @@ class developer extends employee{
 
 
 
+
+
+
+
+
 // Multilevel Inheritance
 
 // example code --------->
@@ -267,8 +272,6 @@ class developer extends employee{
 
 
 
-
-
 // 1. Appliance → WashingMachine → SmartWashingMachine
 // Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
@@ -304,6 +307,20 @@ class developer extends employee{
 // Finally, create another subclass named Smartphone that inherits
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
