@@ -59,8 +59,9 @@ class employee{
     }
 class manager extends employee{
     manager (String name,Integer employeeid) {
-        super(title,duration);
+        super(name,employeeid);
     }
+    
 }
 }
 
