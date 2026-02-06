@@ -1,5 +1,6 @@
 import java.util.*;
 
+import employee.developer;
 import employee.manager;
 
 // 5. Gradebook Class
@@ -49,11 +50,11 @@ class gradebook{
 
 class java{
     public static void main(String[] args){
-        manager m1 = new m();
+        manager m1 = new manager("ifra",1464);
         m1.display_info();
-        employee e1 = new employee();
-        e1.display_info();
-        
+        developer d1 = new developer("iqra", 7834);
+        d1.display_info();
+    
     }
 }
 class employee{
