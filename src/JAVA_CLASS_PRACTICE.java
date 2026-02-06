@@ -1,7 +1,6 @@
 import java.util.*;
 
-import employee.developer;
-import employee.manager;
+
 
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
@@ -42,12 +41,14 @@ class gradebook{
 
 
 
-
 // 6. Employee Hierarchy
 // Define a base class Employee with attributes name and employeeId. Create two
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
 // have its own method to display job-specific responsibilities.
 
+// Incompleted -------->
+
+/*
 class java{
     public static void main(String[] args){
         manager m1 = new manager("ifra",1464);
@@ -81,7 +82,7 @@ class developer extends employee{
     }
 }
 }
-
+*/
 
 
 
