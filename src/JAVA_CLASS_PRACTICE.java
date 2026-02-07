@@ -89,6 +89,7 @@ class developer extends employee{
 
 // Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
 
+/*
 class main{
     public static void main(String[]args){
         
@@ -100,18 +101,38 @@ class main{
         System.out.println("enter your third number: ");
         Integer num3 = sc.nextInt();
 
+        // for smallest number:
+
+        if (num1>=num2 && num1>=num3){
+            System.out.println("largest number: "+ num1);
+        }
+        else if (num2>=num1 && num2>=num3){
+                System.out.println("largest number: "+ num2);
+        }
+        else if (num3>=num1 && num3>=num2){
+            System.out.println("largest number: "+ num3);
+        }
+        else{
+            System.out.println("largest number: --");
+        }
+        
+        // for smallest number:
+
         if (num1<=num2 && num1<=num3){
             System.out.println("smallest number: "+ num1);
         }
-        // else if (num2<=num3){
-        //         System.out.println("smallest number: " + num2);
-        //     }
-        else {
-            System.out.println("largest number: "+ num3);
-            }
+        else if (num2<=num1 && num2<=num3){
+                System.out.println("smallest number: "+ num2);
+        }
+        else if (num3<=num1 && num3<=num2){
+            System.out.println("smallest number: "+ num3);
+        }
+        else{
+            System.out.println("smallest number: --");
+        }
     }
 }
-
+*/
 
 // Q2) write a Java program that takes n numbers from the user (where n is entered first), stores them in an array, and then prints:
 // The sum of all numbers
