@@ -154,6 +154,7 @@ class main{
         for (int i : numbers){
             sum_of_all+=i;
         }
+        System.out.println(sum_of_all);
     }
 }
         
