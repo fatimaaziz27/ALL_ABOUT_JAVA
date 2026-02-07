@@ -142,7 +142,9 @@ class main{
     public static void main(String[]args){
         ArrayList<Integer> numbers = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
+        System.out.println("enter the size of number list: ");
         
+
         
 
 // Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
