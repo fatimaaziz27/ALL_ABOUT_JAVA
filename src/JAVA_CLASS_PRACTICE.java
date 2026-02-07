@@ -143,6 +143,9 @@ class main{
         ArrayList<Integer> numbers = new ArrayList<>();
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the size of number list: ");
+        Integer size = sc.nextInt();
+        
+        
         
 
         
