@@ -154,6 +154,8 @@ class main{
         for (int i : numbers){
             sum_of_all+=i;
         }
+    }
+}
         
         
         
