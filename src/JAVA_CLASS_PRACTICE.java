@@ -146,7 +146,10 @@ class main{
         Integer size = sc.nextInt();
         for (int i=1; i<=size; i++){
             System.out.println("enter your "+i+" number: ");
+            Integer n = sc.nextInt();
+            numbers.add(n);
         
+
         
 
 // Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
