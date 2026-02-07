@@ -148,6 +148,8 @@ class main{
             System.out.println("enter your "+i+" number: ");
             Integer n = sc.nextInt();
             numbers.add(n);
+        }
+        
         
 
         
