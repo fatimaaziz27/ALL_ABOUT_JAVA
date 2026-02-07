@@ -85,6 +85,51 @@ class developer extends employee{
 */
 
 
+// mid-term questions
+
+// Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
+class main{
+    public static void main(String[]args){
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your first number: ");
+        Integer num1 = sc.nextInt();
+        System.out.println("enter your second number: ");
+        Integer num2 = sc.nextInt();
+        System.out.println("enter your third number: ");
+        Integer num3 = sc.nextInt();
+
+        if (num1<=num2 && num1<=num3){
+            if (num2<=num3){
+                System.out.println("smallest number: " + num2);
+            }
+            else {
+                System.out.println("smallest number: "+ num3);
+            }
+        }
+        else{
+            System.out.println("largest number: "+ num1);
+        }
+        
+    }
+}
+
+
+// Q2) write a Java program that takes n numbers from the user (where n is entered first), stores them in an array, and then prints:
+// The sum of all numbers
+// The maximum number entered
+
+
+
+
+// Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
+
+
+
+
+// Q4) Write a Java program that stores 5 product names and their prices using a HashMap<String, Double>.
+// Then print all products whose price is greater than 1000
+
+
 
 
 
