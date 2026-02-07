@@ -149,6 +149,9 @@ class main{
             Integer n = sc.nextInt();
             numbers.add(n);
         }
+        System.out.println(numbers);
+    
+        
         
         
 
