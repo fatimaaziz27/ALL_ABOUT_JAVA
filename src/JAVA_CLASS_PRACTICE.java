@@ -150,7 +150,10 @@ class main{
             numbers.add(n);
         }
         System.out.println(numbers);
-    
+        int sum_of_all=0;
+        for (int i : numbers){
+            sum_of_all+=i;
+        }
         
         
         
