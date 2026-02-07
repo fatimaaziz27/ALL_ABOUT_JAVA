@@ -144,7 +144,7 @@ class main{
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the size of number list: ");
         Integer size = sc.nextInt();
-        
+        for (int i=1; i<=size; i++){
         
         
 
