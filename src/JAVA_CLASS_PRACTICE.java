@@ -137,7 +137,7 @@ class main{
 // Q2) write a Java program that takes n numbers from the user (where n is entered first), stores them in an array, and then prints:
 // The sum of all numbers
 // The maximum number entered
-
+/*
 class main{
     public static void main(String[]args){
         ArrayList<Integer> numbers = new ArrayList<>();
@@ -157,11 +157,7 @@ class main{
         System.out.println(sum_of_all);
     }
 }
-        
-        
-        
-
-        
+*/
 
 // Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
 
