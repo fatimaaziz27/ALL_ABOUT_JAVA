@@ -88,8 +88,10 @@ class developer extends employee{
 // mid-term questions
 
 // Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
+
 class main{
     public static void main(String[]args){
+        
         Scanner sc = new Scanner(System.in);
         System.out.println("enter your first number: ");
         Integer num1 = sc.nextInt();
@@ -99,17 +101,14 @@ class main{
         Integer num3 = sc.nextInt();
 
         if (num1<=num2 && num1<=num3){
-            if (num2<=num3){
-                System.out.println("smallest number: " + num2);
-            }
-            else {
-                System.out.println("smallest number: "+ num3);
-            }
+            System.out.println("smallest number: "+ num1);
         }
-        else{
-            System.out.println("largest number: "+ num1);
-        }
-        
+        // else if (num2<=num3){
+        //         System.out.println("smallest number: " + num2);
+        //     }
+        else {
+            System.out.println("largest number: "+ num3);
+            }
     }
 }
 
