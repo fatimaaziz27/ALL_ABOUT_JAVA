@@ -139,7 +139,8 @@ class main{
 // The maximum number entered
 
 class main{
-    
+    public static void main(String[]args){
+        
 
 
 // Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
