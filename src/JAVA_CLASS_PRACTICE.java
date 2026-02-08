@@ -178,15 +178,14 @@ class main{
         
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER A WORD: ");
-        String W = sc.nextLine();
-        String vowels = [];
-        String count = [];
-        if (w == "a" || w == "e" w == "i" w == "o" w == "u"){
+        String w = sc.nextLine();
+        String vowels[];
+        String count[];
+        if (w == "a" || w == "e" || w == "i" || w == "o" || w == "u"){
             vowels++;
         }
         else{
             count++;
-
         }
     }
 }
