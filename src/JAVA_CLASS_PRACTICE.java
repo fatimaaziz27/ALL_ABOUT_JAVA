@@ -187,6 +187,7 @@ class main{
         else{
             count++;
         }
+        System.out.println()
     }
 }
 
