@@ -176,11 +176,9 @@ class main{
 class main{
     public static void main(String[]args){
         
-        ArrayList<Integer> numbers = new ArrayList<>();
-        
         Scanner sc = new Scanner(System.in);
-        System.out.println("enter the size of number list: ");
-        Integer size = sc.nextInt();
+        System.out.println("ENTER A WORD: ");
+        Integer W = sc.nextInt();
         
         for (int i=1; i<=size; i++){
             System.out.println("enter your "+i+" number: ");
