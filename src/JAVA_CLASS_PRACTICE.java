@@ -183,6 +183,7 @@ class main{
         if (w == "a" || w == "e" || w == "i" || w == "o" || w == "u"){
             vowels++;
         }
+
         System.out.println(vowels);
     }
 }
