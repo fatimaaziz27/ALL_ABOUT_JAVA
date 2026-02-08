@@ -179,7 +179,11 @@ class main{
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER A WORD: ");
         Integer W = sc.nextInt();
-        
+        String vowels [];
+
+        if (w == "a" || w == "e" w == "i" w == "o" w == "u"){
+            vowels++;
+        }
         for (int i=1; i<=size; i++){
             System.out.println("enter your "+i+" number: ");
             Integer n = sc.nextInt();
