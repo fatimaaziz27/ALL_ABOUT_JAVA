@@ -178,31 +178,16 @@ class main{
         
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER A WORD: ");
-        Integer W = sc.nextInt();
-        String vowels [];
-
+        String W = sc.nextLine();
+        String vowels = [];
+        String count = [];
         if (w == "a" || w == "e" w == "i" w == "o" w == "u"){
             vowels++;
         }
-        for (int i=1; i<=size; i++){
-            System.out.println("enter your "+i+" number: ");
-            Integer n = sc.nextInt();
-            numbers.add(n);
-        }
-        System.out.println(numbers);
+        else{
+            count++;
 
-        int sum_of_all=0;
-        for (int i : numbers){
-            sum_of_all+=i;
         }
-
-        int max_num = 0;
-        for (int i : numbers){
-            max_num++;
-        }
-        
-        System.out.println(sum_of_all);
-        System.out.println(max_num);
     }
 }
 
