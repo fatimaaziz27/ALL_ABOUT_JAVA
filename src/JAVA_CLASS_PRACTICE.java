@@ -179,8 +179,8 @@ class main{
         Scanner sc = new Scanner(System.in);
         System.out.println("ENTER A WORD: ");
         String w = sc.nextLine();
-        String vowels[];
-        String count[];
+        int vowels = 0;
+        int count = 0;
         if (w == "a" || w == "e" || w == "i" || w == "o" || w == "u"){
             vowels++;
         }
