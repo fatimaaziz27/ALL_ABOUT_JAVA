@@ -187,7 +187,8 @@ class main{
         else{
             count++;
         }
-        System.out.println()
+        System.out.println(vowels);
+        System.out.println(count);
     }
 }
 
