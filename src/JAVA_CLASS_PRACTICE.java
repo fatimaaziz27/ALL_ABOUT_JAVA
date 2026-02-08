@@ -180,15 +180,10 @@ class main{
         System.out.println("ENTER A WORD: ");
         String w = sc.nextLine();
         int vowels = 0;
-        int count = 0;
         if (w == "a" || w == "e" || w == "i" || w == "o" || w == "u"){
             vowels++;
         }
-        else{
-            count++;
-        }
         System.out.println(vowels);
-        System.out.println(count);
     }
 }
 
