@@ -192,7 +192,7 @@ class main{
 // Q4) Write a Java program that stores 5 product names and their prices using a HashMap<String, Double>.
 // Then print all products whose price is greater than 1000
 
-/*
+
 class main{
     public static void main(String[]args){
         
@@ -223,7 +223,7 @@ class main{
         System.out.println(max_num);
     }
 }
-*/
+
 
 
 
