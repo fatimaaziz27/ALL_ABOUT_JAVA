@@ -196,9 +196,9 @@ class main{
 class main{
     public static void main(String[]args){
     HashMap<String,Integer> h1 = new HashMap<>();
-    h1.put("alice",10);
-    h1.put("bob",20);
-    h1.put("tom",30);
+    h1.put("milk",10);
+    h1.put("salt",20);
+    h1.put("sugar",30);
     h1.put("charlie",40);
     h1.put("alan",50);
     
