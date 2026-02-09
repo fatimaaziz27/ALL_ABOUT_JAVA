@@ -195,37 +195,35 @@ class main{
 
 class main{
     public static void main(String[]args){
-        
-        ArrayList<Integer> numbers = new ArrayList<>();
-        
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter the size of number list: ");
-        Integer size = sc.nextInt();
-        
-        for (int i=1; i<=size; i++){
-            System.out.println("enter your "+i+" number: ");
-            Integer n = sc.nextInt();
-            numbers.add(n);
-        }
-        System.out.println(numbers);
 
-        int sum_of_all=0;
-        for (int i : numbers){
-            sum_of_all+=i;
-        }
+        student_database s1 = new student_database("alice",23);
+        s1.add();
+        s1.display();
+        s1.add();
+        s1.remove();
 
-        int max_num = 0;
-        for (int i : numbers){
-            max_num++;
-        }
-        
-        System.out.println(sum_of_all);
-        System.out.println(max_num);
     }
 }
+class student_database{
+    String name;
+    Integer age;
 
+    HashMap<String,Integer> h1 = new HashMap<>();
 
-
+    student_database(String name , Integer age){
+        this.name = name;
+        this.age= age;
+    }
+    void add(){
+        h1.put(this.name,this.age);
+    }
+    void remove(){
+        h1.remove(this.name);
+    }
+    void display(){
+        System.out.println(h1);
+    }
+}
 
 
 
