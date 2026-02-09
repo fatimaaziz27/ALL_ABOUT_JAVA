@@ -202,6 +202,9 @@ class main{
     h1.put("chips",50);
     h1.put("cake",100);
     
+    for (i:h1){
+        
+    }
     }
 }
 
