@@ -195,33 +195,9 @@ class main{
 
 class main{
     public static void main(String[]args){
-
-        student_database s1 = new student_database("alice",23);
-        s1.add();
-        s1.display();
-        s1.add();
-        s1.remove();
-
-    }
-}
-class student_database{
-    String name;
-    Integer age;
-
     HashMap<String,Integer> h1 = new HashMap<>();
-
-    student_database(String name , Integer age){
-        this.name = name;
-        this.age= age;
-    }
-    void add(){
-        h1.put(this.name,this.age);
-    }
-    void remove(){
-        h1.remove(this.name);
-    }
-    void display(){
-        System.out.println(h1);
+    h1.put();
+    
     }
 }
 
