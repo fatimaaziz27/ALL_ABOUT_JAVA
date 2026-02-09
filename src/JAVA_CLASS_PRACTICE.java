@@ -200,10 +200,10 @@ class main{
     h1.put("salt",2230);
     h1.put("sugar",150);
     h1.put("chips",50);
-    h1.put("cake",100);
+    h1.put("cake",1500);
     for (int i=0; i<5; i++){
         if (h1<=1000){
-            System.out.println();
+            System.out.println(h1);
     }
     }
 
