@@ -203,6 +203,7 @@ class main{
     h1.put("cake",100);
     for (int i=0; i<5; i++){
         if (h1<=1000){
+            System.out.println();
     }
     }
 
