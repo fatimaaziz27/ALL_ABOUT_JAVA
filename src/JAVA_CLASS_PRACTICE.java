@@ -202,9 +202,7 @@ class main{
     h1.put("chips",50);
     h1.put("cake",100);
     for (int i=0; i<5; i++){
-
-    
-    if (h1.values()<=1000){
+        if (h1.values()<=1000){
     }
     }
 
