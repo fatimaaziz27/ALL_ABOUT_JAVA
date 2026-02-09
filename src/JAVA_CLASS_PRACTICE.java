@@ -196,11 +196,11 @@ class main{
 class main{
     public static void main(String[]args){
     HashMap<String,Integer> h1 = new HashMap<>();
-    h1.put("milk",10);
-    h1.put("salt",20);
-    h1.put("sugar",30);
-    h1.put("charlie",40);
-    h1.put("alan",50);
+    h1.put("milk",220);
+    h1.put("salt",2230);
+    h1.put("sugar",150);
+    h1.put("chips",50);
+    h1.put("cake",100);
     
     }
 }
