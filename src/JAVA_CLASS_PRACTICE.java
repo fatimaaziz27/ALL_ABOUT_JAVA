@@ -306,6 +306,32 @@ class gradebook{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
+//class ABSTRACTION{
+//    public static void main(String[] args) {
+//        SmartWashingMachine s1 = new SmartWashingMachine();
+//        SmartWashingMachine.trunon();
+//        SmartWashingMachine.washclothes();
+//        SmartWashingMachine.connectToWiFi();
+//    }
+//}
+//class Appliance {
+//    void trunon() {
+//        System.out.println("ON");
+//    }
+//}
+//class WashingMachine extends Appliance {
+//    void washclothes() {
+//        System.out.println("WashingMachine");
+//    }
+//}
+//class SmartWashingMachine extends WashingMachine {
+//    void connectToWiFi(){
+//        System.out.println("SmartWashingMachine");
+//    }
+//}
+
+
+
 
 
 
@@ -656,6 +682,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
