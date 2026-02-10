@@ -331,7 +331,31 @@ class gradebook{
 //}
 
 
+//           OR       
 
+// class ABSTRACTION{
+//     public static void main(String[] args) {
+//         SmartWashingMachine s1 = new SmartWashingMachine();
+//         SmartWashingMachine.trunon();
+//         SmartWashingMachine.washclothes();
+//         SmartWashingMachine.connectToWiFi();
+//     }
+// }
+// class Appliance {
+//     static void trunon() {
+//         System.out.println("ON");
+//     }
+// }
+// class WashingMachine extends Appliance {
+//     static void washclothes() {
+//         System.out.println("WashingMachine");
+//     }
+// }
+// class SmartWashingMachine extends WashingMachine {
+//     static void connectToWiFi(){
+//         System.out.println("SmartWashingMachine");
+//     }
+// }
 
 
 
@@ -682,6 +706,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
