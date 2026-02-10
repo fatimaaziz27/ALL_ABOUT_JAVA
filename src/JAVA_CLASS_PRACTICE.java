@@ -146,6 +146,51 @@ class gradebook{
 
 
 
+//import java.util.*;
+//class JAV {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter first number: ");
+//        int i = sc.nextInt();
+//        System.out.println("Enter second number: ");
+//        int j = sc.nextInt();
+//        System.out.println("Enter third number: ");
+//        int k = sc.nextInt();
+//
+//        if (i < j && i < k) {
+//            if (j < k) {
+//                System.out.println(k + " is the largest");
+//            }
+//            else {
+//                System.out.println(j + " is largest");
+//            }
+//            System.out.println(i + " is smallest");
+//        }
+//        else if (k < j && k < i) {
+//            if (j < i) {
+//                System.out.println(i + " is the largest");
+//            }
+//            else {
+//                System.out.println(j + " is largest");
+//            }
+//            System.out.println(k + " is smallest");
+//        }
+//        else if (j < k && j < i) {
+//            if (i < k) {
+//                System.out.println(k + " is the largest");
+//            }
+//            else {
+//                System.out.println(i + " is largest");
+//            }
+//            System.out.println(j + "  is smallest");
+//        }
+//    }
+//}
+
+
+
+
+
 
 
 
@@ -487,6 +532,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
