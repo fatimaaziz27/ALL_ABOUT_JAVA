@@ -243,6 +243,38 @@ class gradebook{
 
 
 
+// Q4) Write a Java program that stores 5 product names and their prices using a HashMap<String, Double>.
+// Then print all products whose price is greater than 1000
+
+//class main{
+//    public static void main(String[]args){
+//        HashMap<String,Integer> h1 = new HashMap<>();
+//        h1.put("milk",220);
+//        h1.put("salt",2230);
+//        h1.put("sugar",150);
+//        h1.put("chips",50);
+//        h1.put("cake",1500);
+//        System.out.println(h1.entrySet());
+//        for (int i : h1.values()){
+//            if (i >= 1000) {
+//                System.out.println(i);
+//            }
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Multilevel Inheritance
 
 // example code --------->
@@ -579,6 +611,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
