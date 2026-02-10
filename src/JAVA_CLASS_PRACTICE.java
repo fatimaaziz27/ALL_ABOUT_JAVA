@@ -92,6 +92,58 @@ class gradebook{
 
 
 
+// mid-term questions
+
+// Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
+//class main{
+//    public static void main(String[]args){
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter your first number: ");
+//        Integer num1 = sc.nextInt();
+//        System.out.println("enter your second number: ");
+//        Integer num2 = sc.nextInt();
+//        System.out.println("enter your third number: ");
+//        Integer num3 = sc.nextInt();
+//
+//        // for smallest number:
+//
+//        if (num1>=num2 && num1>=num3){
+//            System.out.println("largest number: "+ num1);
+//        }
+//        else if (num2>=num1 && num2>=num3){
+//                System.out.println("largest number: "+ num2);
+//        }
+//        else if (num3>=num1 && num3>=num2){
+//            System.out.println("largest number: "+ num3);
+//        }
+//        else{
+//            System.out.println("largest number: --");
+//        }
+//
+//        // for smallest number:
+//
+//        if (num1<=num2 && num1<=num3){
+//            System.out.println("smallest number: "+ num1);
+//        }
+//        else if (num2<=num1 && num2<=num3){
+//                System.out.println("smallest number: "+ num2);
+//        }
+//        else if (num3<=num1 && num3<=num2){
+//            System.out.println("smallest number: "+ num3);
+//        }
+//        else{
+//            System.out.println("smallest number: --");
+//        }
+//    }
+//}
+
+
+
+
+
+
+
 
 
 
@@ -435,6 +487,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
