@@ -274,6 +274,34 @@ class gradebook{
 
 
 
+// Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
+
+//class main{
+//    public static void main(String[]args){
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("ENTER A WORD: ");
+//        String word = sc.nextLine();
+//        int vowels = 0;
+//        for (int i=0; i<word.length(); i++) {
+//            char w = word.charAt(i);
+//            if (w == 'a' || w == 'e' || w == 'i' || w == 'o' || w == 'u') {
+//                vowels++;
+//            }
+//        }
+//        System.out.println("vowels: "+ vowels);
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
 
 // Multilevel Inheritance
 
@@ -611,6 +639,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
