@@ -301,6 +301,23 @@ class gradebook{
 
 
 
+// 1. Appliance → WashingMachine → SmartWashingMachine
+// Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
+// adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
+// connectToWiFi(). Demonstrate all methods using a single object.
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 // Multilevel Inheritance
@@ -639,6 +656,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
