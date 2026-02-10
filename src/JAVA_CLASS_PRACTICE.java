@@ -368,6 +368,40 @@ class gradebook{
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
+// class ABSTRACTION{
+//     public static void main(String[] args) {
+
+//     }
+// }
+// class education {
+//     String institutionName;
+//     education(String institutionName){
+//         this.institutionName = institutionName;
+//     }
+// }
+// class course extends education {
+//     String courseName;
+//     course(String courseName,String institutionName) {
+//         super(institutionName);
+//         this.courseName = courseName;
+//     }
+// }
+// class onlinecourse extends course {
+//     String platform;
+//     onlinecourse (String platform,String courseName,String institutionName){
+//         super(courseName);
+//         super(institutionName);
+//         this.platform = platform;
+//     }
+
+// }
+
+
+
+
+
+
+
 
 
 
@@ -717,6 +751,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
