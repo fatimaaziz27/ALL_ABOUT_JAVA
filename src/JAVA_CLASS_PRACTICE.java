@@ -701,6 +701,32 @@ class gradebook{
 // walk(). Create a subclass Dog that adds a method bark(). Demonstrate method calls using a Dog
 // object.
 
+class ABSTRACTION{
+    public static void main(String[] args){
+        
+    }
+}
+class animal{
+    void eat(){
+    
+    }
+}
+class mammal{
+    void walk(){
+        
+    }
+}
+class dog{
+    void bark(){
+    
+    }
+}
+
+
+
+
+
+    
 // 6. Person → Employee → Manager
 
 // 4. Create a base class named Device with attributes like brand and
@@ -1033,6 +1059,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
