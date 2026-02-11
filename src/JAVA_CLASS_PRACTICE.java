@@ -602,6 +602,7 @@ class gradebook{
 //         System.out.println(p1.bonus_rate);
 //     }
 // }
+
 // class account{
 //     Integer account_number;
 //     Integer balance;
@@ -625,6 +626,14 @@ class gradebook{
 //         super(account_number, interestRate, balance);
 //         this.bonus_rate = bonus_rate;
 //     }
+
+//     void display(){
+//         System.out.println("bonus_rate: "+ bonus_rate
+//                 + "\ninterestRate: " + interestRate
+//                 + "\naccount_number: " + account_number
+//                 + "\nbalance: " + balance);
+//     }
+// }
 
 
 
@@ -776,6 +785,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
