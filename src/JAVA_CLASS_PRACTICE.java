@@ -642,10 +642,21 @@ class gradebook{
 
 
 
+
+
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
 // attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
 // all vehicle details.
+
+class ASTRACTION{
+    public static void main(String[] args){
+        electric_car e1 = new electric_car(1,"A","B","C");
+        e1.display_info();
+    }
+}
+
+
 
 // 5. Animal → Mammal → Dog
 // Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
@@ -984,6 +995,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
