@@ -701,27 +701,27 @@ class gradebook{
 // walk(). Create a subclass Dog that adds a method bark(). Demonstrate method calls using a Dog
 // object.
 
+
 class ABSTRACTION{
     public static void main(String[] args){
-        
+
     }
 }
 class animal{
     void eat(){
-    
+
     }
 }
-class mammal{
+class mammal extends animal{
     void walk(){
+
+    }
+}
+class dog extends mammal{
+    void bark(){
         
     }
 }
-class dog{
-    void bark(){
-    
-    }
-}
-
 
 
 
@@ -1059,6 +1059,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
