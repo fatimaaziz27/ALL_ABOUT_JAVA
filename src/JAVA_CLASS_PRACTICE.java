@@ -679,7 +679,14 @@ class electric_car extends car{
         super(fueltype,brand,model);
         this.battery_capacity = battery_capacity;
     }
-    
+
+    void display_info(){
+        System.out.println("Battery Capacity: " + battery_capacity
+                + "\nFueltype: " + fueltype
+                + "\nBrand: " + brand
+                + "\nModel: " + model);
+    }
+}
 
 // 5. Animal → Mammal → Dog
 // Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
@@ -1018,6 +1025,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
