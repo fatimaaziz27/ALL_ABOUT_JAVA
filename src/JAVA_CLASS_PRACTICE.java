@@ -590,20 +590,23 @@ class gradebook{
 
 
 
-// 1. Appliance → WashingMachine → SmartWashingMachine
-// Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
-// adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
-// connectToWiFi(). Demonstrate all methods using a single object.
-
-// 2. Education → Course → OnlineCourse
-// Define a base class Education with an attribute institutionName. Create a subclass Course that
-// adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
-// Display full course details.
-
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
 // that adds an attribute bonusRate. Display complete account information.
+
+// class ASTRACTION{
+//     public static void main(String[] args) {
+//         premium_savings p1 = new premium_savings(1,2,3,4);
+//         p1.display();
+//         System.out.println(p1.bonus_rate);
+//     }
+// }
+
+
+
+
+
 
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
@@ -751,6 +754,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
