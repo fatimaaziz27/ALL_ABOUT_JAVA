@@ -665,6 +665,14 @@ class vehicle{
     }
 }
 
+class car extends vehicle{
+    String fueltype;
+    car(String fueltype,String brand,String model){
+        this.fueltype = fueltype;
+        super(brand,model);
+    }
+}
+
 
 // 5. Animal → Mammal → Dog
 // Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
@@ -1003,6 +1011,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
