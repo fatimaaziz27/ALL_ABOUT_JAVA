@@ -649,44 +649,52 @@ class gradebook{
 // attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
 // all vehicle details.
 
-class ASTRACTION{
-    public static void main(String[] args){
-        electric_car e1 = new electric_car(1,"A","B","C");
-        e1.display_info();
-    }
-}
+// class ASTRACTION{
+//     public static void main(String[] args){
+//         electric_car e1 = new electric_car(1,"A","B","C");
+//         e1.display_info();
+//     }
+// }
 
-class vehicle{
-    String brand;
-    String model;
-    vehicle(String brand,String model){
-        this.brand = brand;
-        this.model = model;
-    }
-}
+// class vehicle{
+//     String brand;
+//     String model;
+//     vehicle(String brand,String model){
+//         this.brand = brand;
+//         this.model = model;
+//     }
+// }
 
-class car extends vehicle{
-    String fueltype;
-    car(String fueltype,String brand,String model){
-        this.fueltype = fueltype;
-        super(brand,model);
-    }
-}
+// class car extends vehicle{
+//     String fueltype;
+//     car(String fueltype,String brand,String model){
+//         this.fueltype = fueltype;
+//         super(brand,model);
+//     }
+// }
 
-class electric_car extends car{
-    Integer battery_capacity;
-    electric_car(Integer battery_capacity,String fueltype,String brand,String model){
-        super(fueltype,brand,model);
-        this.battery_capacity = battery_capacity;
-    }
+// class electric_car extends car{
+//     Integer battery_capacity;
+//     electric_car(Integer battery_capacity,String fueltype,String brand,String model){
+//         super(fueltype,brand,model);
+//         this.battery_capacity = battery_capacity;
+//     }
 
-    void display_info(){
-        System.out.println("Battery Capacity: " + battery_capacity
-                + "\nFueltype: " + fueltype
-                + "\nBrand: " + brand
-                + "\nModel: " + model);
-    }
-}
+//     void display_info(){
+//         System.out.println("Battery Capacity: " + battery_capacity
+//                 + "\nFueltype: " + fueltype
+//                 + "\nBrand: " + brand
+//                 + "\nModel: " + model);
+//     }
+// }
+
+
+
+
+
+
+
+
 
 // 5. Animal → Mammal → Dog
 // Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
@@ -1025,6 +1033,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
