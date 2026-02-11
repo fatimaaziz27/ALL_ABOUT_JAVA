@@ -374,6 +374,7 @@ class gradebook{
 //        oc1.display();
 //    }
 //}
+
 //class education {
 //    String institutionName;
 //    education(String institutionName){
@@ -381,6 +382,13 @@ class gradebook{
 //    }
 //}
 
+//class course extends education {
+//    String courseName;
+//    course(String courseName,String institutionName) {
+//        super(institutionName);
+//        this.courseName = courseName;
+//    }
+//}
 
 
 
@@ -768,6 +776,7 @@ public static void main(String[] args) {
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
 // are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
 
 
 
