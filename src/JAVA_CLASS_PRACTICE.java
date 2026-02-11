@@ -656,6 +656,14 @@ class ASTRACTION{
     }
 }
 
+class vehicle{
+    String brand;
+    String model;
+    vehicle(String brand,String model){
+        this.brand = brand;
+        this.model = model;
+    }
+}
 
 
 // 5. Animal → Mammal → Dog
@@ -995,6 +1003,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
