@@ -871,6 +871,15 @@ class jp {
         }
         System.out.println(list2);
 
+        Integer sum_of_list2 = 0;
+        for (int j : list2){
+            sum_of_list2+=j;
+        }
+        System.out.println("Sum of all: " + sum_of_list2);
+    }
+}
+
+
 
 
 
@@ -1153,6 +1162,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
