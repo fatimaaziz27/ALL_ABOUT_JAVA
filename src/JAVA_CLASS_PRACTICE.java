@@ -715,6 +715,11 @@ class gradebook{
 //    }
 //}
 
+//class mammal extends animal{
+//    void walk(){
+//        System.out.println("walk");
+//    }
+//}
 
     
 // 6. Person → Employee → Manager
@@ -1098,6 +1103,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
