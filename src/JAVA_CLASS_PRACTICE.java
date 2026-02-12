@@ -721,7 +721,21 @@ class gradebook{
 //    }
 //}
 
-    
+//class dog extends mammal{
+//    void bark(){
+//        System.out.println("bark");
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
 // 6. Person → Employee → Manager
 
 // 4. Create a base class named Device with attributes like brand and
@@ -1103,6 +1117,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
