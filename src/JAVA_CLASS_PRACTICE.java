@@ -863,6 +863,15 @@ class jp {
         }
         System.out.println(list1);
 
+        ArrayList<Integer> list2 = new ArrayList<>();
+        for (int i : list1){
+            if (i>=10){
+                list2.add(i);
+            }
+        }
+        System.out.println(list2);
+
+
 
 
 
@@ -1144,6 +1153,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
