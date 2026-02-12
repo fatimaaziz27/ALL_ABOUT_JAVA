@@ -834,7 +834,7 @@ public static void main(String[] args) {
             sum += i;
         }
     }
-    System.out.println("Sum of list" + sum);
+    System.out.println("Sum of list: " + sum);
 }
 */
 
@@ -1117,6 +1117,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
