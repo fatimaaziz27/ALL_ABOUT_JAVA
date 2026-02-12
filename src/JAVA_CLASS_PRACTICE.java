@@ -838,9 +838,29 @@ public static void main(String[] args) {
 }
 */
 
+
+
+
+
+
+
 // 2. Filtering and Summing Numbers
 // Write a Java program that creates a list of integers. Use list comprehension to create a new list that
 // contains only the numbers greater than 10. Calculate the sum of the numbers in the new list.
+
+class jp {
+    public static void main(String[] args){
+        
+        Scanner sc = new Scanner(System.in);
+        System.out.println("ENTER THE SIZE OF A LIST NUMBER: ");
+        int size = sc.nextInt();
+
+
+
+
+
+
+
 
 // 3. Removing Duplicates
 // Given a list containing both strings, write a Java program that removes duplicate elements from the list
@@ -1117,6 +1137,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
