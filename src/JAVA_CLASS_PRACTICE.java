@@ -750,7 +750,20 @@ class jp{
     }
 }
 
-
+class device{
+    String brand;
+    String model;
+    device(String brand_name,String model_number){
+        this.brand = brand_name;
+        this.model = model_number;
+    }
+    void power_on(){
+        System.out.println("ON");
+    }
+    void power_off(){
+        System.out.println("OFF");
+    }
+}
 
 
 
@@ -1069,6 +1082,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
