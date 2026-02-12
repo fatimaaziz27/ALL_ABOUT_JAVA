@@ -738,7 +738,17 @@ class dog extends mammal{
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
 
-
+class jp{
+    public static void main(String[] args){
+        smartphones s1 = new smartphones("Andriod",0300,"samsung","A15");
+        s1.power_on();
+        s1.power_off();
+        s1.make_call();
+        s1.send_message();
+        s1.install_app();
+        s1.browse_internet();
+    }
+}
 
 
 
@@ -1059,6 +1069,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
