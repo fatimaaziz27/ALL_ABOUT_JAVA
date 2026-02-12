@@ -709,6 +709,12 @@ class gradebook{
 //    }
 //}
 
+//class animal{
+//    void eat(){
+//        System.out.println("eat");
+//    }
+//}
+
 
     
 // 6. Person → Employee → Manager
@@ -1092,6 +1098,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
