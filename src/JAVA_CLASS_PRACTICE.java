@@ -855,6 +855,13 @@ class jp {
         System.out.println("ENTER THE SIZE OF A LIST NUMBER: ");
         int size = sc.nextInt();
 
+        ArrayList<Integer> list1 = new ArrayList<>();
+        for (int i=1; i<=size; i++){
+            System.out.println("ENTER "+i+" NUMBER: ");
+            int num = sc.nextInt();
+            list1.add(num);
+        }
+        System.out.println(list1);
 
 
 
@@ -1137,6 +1144,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
