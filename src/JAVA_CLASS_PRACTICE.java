@@ -781,6 +781,19 @@ class device{
 }
 
 
+class smartphones extends mobile_device {
+    String operating_system;
+    smartphones(String operating_system, Integer phone_number, String brand_name, String model_number) {
+        super(phone_number, brand_name, model_number);
+        this.operating_system = operating_system;
+    }
+    void install_app(){
+        System.out.println("INSTALLING");
+    }
+    void browse_internet(){
+        System.out.println("BROWSING");
+    }
+}
 
 
 
@@ -1095,6 +1108,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
