@@ -702,28 +702,12 @@ class gradebook{
 // object.
 
 
-class ABSTRACTION{
-    public static void main(String[] args){
-
-    }
-}
-class animal{
-    void eat(){
-
-    }
-}
-class mammal extends animal{
-    void walk(){
-
-    }
-}
-class dog extends mammal{
-    void bark(){
-        
-    }
-}
-
-
+//class ABSTRACTION{
+//    public static void main(String[] args){
+//        dog d1 = new dog();
+//        d1.bark();
+//    }
+//}
 
 
     
@@ -1108,6 +1092,7 @@ public static void main(String[] args) {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
