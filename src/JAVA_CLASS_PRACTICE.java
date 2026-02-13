@@ -8,7 +8,11 @@ class p{
         l1.borrow();
     }
 }
-
+class library{
+    String book_title;
+    String author;
+    Integer published_year;
+    boolean is_available;
 
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
@@ -1170,6 +1174,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
