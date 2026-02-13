@@ -19,6 +19,20 @@ library(String book_title,String author,Integer published_year,boolean is_availa
         this.published_year = published_year;
         this.author = author;
     }
+
+    // Getter ----->
+    String getbook_title(){
+        return book_title;
+    }
+    String getauthor(){
+        return author;
+    }
+    Integer getpublished_year(){
+        return published_year;
+    }
+    boolean getis_available(){
+        return is_available;
+    }
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -1179,6 +1193,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
