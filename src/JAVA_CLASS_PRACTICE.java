@@ -48,7 +48,25 @@ library(String book_title,String author,Integer published_year,boolean is_availa
         this.is_available = is_available;
     }
 
-    
+    // Method ------>
+    void borrow(){
+        if(this.is_available == true) {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Do you want to borrow? (yes/no)");
+            String ans = sc.nextLine();
+            if (ans.equals("yes")) {
+                System.out.println("borrowed");
+                this.is_available = false;
+            }
+        }
+        else {
+            System.out.println("book not available");
+        }
+    }
+}
+
+
+
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -1209,6 +1227,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
