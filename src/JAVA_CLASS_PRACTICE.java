@@ -817,62 +817,62 @@ class gradebook{
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
 
-class jp{
-    public static void main(String[] args){
-        smartphones s1 = new smartphones("Andriod",0300,"samsung","A15");
-        s1.power_on();
-        s1.power_off();
-        s1.make_call();
-        s1.send_message();
-        s1.install_app();
-        s1.browse_internet();
-    }
-}
+// class jp{
+//     public static void main(String[] args){
+//         smartphones s1 = new smartphones("Andriod",0300,"samsung","A15");
+//         s1.power_on();
+//         s1.power_off();
+//         s1.make_call();
+//         s1.send_message();
+//         s1.install_app();
+//         s1.browse_internet();
+//     }
+// }
 
-class device{
-    String brand;
-    String model;
-    device(String brand_name,String model_number){
-        this.brand = brand_name;
-        this.model = model_number;
-    }
-    void power_on(){
-        System.out.println("ON");
-    }
-    void power_off(){
-        System.out.println("OFF");
-    }
-}
+// class device{
+//     String brand;
+//     String model;
+//     device(String brand_name,String model_number){
+//         this.brand = brand_name;
+//         this.model = model_number;
+//     }
+//     void power_on(){
+//         System.out.println("ON");
+//     }
+//     void power_off(){
+//         System.out.println("OFF");
+//     }
+// }
 
-class device{
-    String brand;
-    String model;
-    device(String brand_name,String model_number){
-        this.brand = brand_name;
-        this.model = model_number;
-    }
-    void power_on(){
-        System.out.println("ON");
-    }
-    void power_off(){
-        System.out.println("OFF");
-    }
-}
+// class device{
+//     String brand;
+//     String model;
+//     device(String brand_name,String model_number){
+//         this.brand = brand_name;
+//         this.model = model_number;
+//     }
+//     void power_on(){
+//         System.out.println("ON");
+//     }
+//     void power_off(){
+//         System.out.println("OFF");
+//     }
+// }
 
 
-class smartphones extends mobile_device {
-    String operating_system;
-    smartphones(String operating_system, Integer phone_number, String brand_name, String model_number) {
-        super(phone_number, brand_name, model_number);
-        this.operating_system = operating_system;
-    }
-    void install_app(){
-        System.out.println("INSTALLING");
-    }
-    void browse_internet(){
-        System.out.println("BROWSING");
-    }
-}
+// class smartphones extends mobile_device {
+//     String operating_system;
+//     smartphones(String operating_system, Integer phone_number, String brand_name, String model_number) {
+//         super(phone_number, brand_name, model_number);
+//         this.operating_system = operating_system;
+//     }
+//     void install_app(){
+//         System.out.println("INSTALLING");
+//     }
+//     void browse_internet(){
+//         System.out.println("BROWSING");
+//     }
+// }
 
 
 
@@ -918,36 +918,36 @@ public static void main(String[] args) {
 // Write a Java program that creates a list of integers. Use list comprehension to create a new list that
 // contains only the numbers greater than 10. Calculate the sum of the numbers in the new list.
 
-class jp {
-    public static void main(String[] args){
+// class jp {
+//     public static void main(String[] args){
         
-        Scanner sc = new Scanner(System.in);
-        System.out.println("ENTER THE SIZE OF A LIST NUMBER: ");
-        int size = sc.nextInt();
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("ENTER THE SIZE OF A LIST NUMBER: ");
+//         int size = sc.nextInt();
 
-        ArrayList<Integer> list1 = new ArrayList<>();
-        for (int i=1; i<=size; i++){
-            System.out.println("ENTER "+i+" NUMBER: ");
-            int num = sc.nextInt();
-            list1.add(num);
-        }
-        System.out.println(list1);
+//         ArrayList<Integer> list1 = new ArrayList<>();
+//         for (int i=1; i<=size; i++){
+//             System.out.println("ENTER "+i+" NUMBER: ");
+//             int num = sc.nextInt();
+//             list1.add(num);
+//         }
+//         System.out.println(list1);
 
-        ArrayList<Integer> list2 = new ArrayList<>();
-        for (int i : list1){
-            if (i>=10){
-                list2.add(i);
-            }
-        }
-        System.out.println(list2);
+//         ArrayList<Integer> list2 = new ArrayList<>();
+//         for (int i : list1){
+//             if (i>=10){
+//                 list2.add(i);
+//             }
+//         }
+//         System.out.println(list2);
 
-        Integer sum_of_list2 = 0;
-        for (int j : list2){
-            sum_of_list2+=j;
-        }
-        System.out.println("Sum of all: " + sum_of_list2);
-    }
-}
+//         Integer sum_of_list2 = 0;
+//         for (int j : list2){
+//             sum_of_list2+=j;
+//         }
+//         System.out.println("Sum of all: " + sum_of_list2);
+//     }
+// }
 
 
 
@@ -1256,6 +1256,7 @@ class jp{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
