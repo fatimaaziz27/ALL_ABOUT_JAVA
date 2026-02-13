@@ -2,68 +2,73 @@ import java.util.*;
 
 // NEW CODE -------->
 
-class p{
-    public static void main(String[] args){
-        library l1 = new library("a","b",2003,true);
-        l1.borrow();
-    }
-}
-class library{
-    String book_title;
-    String author;
-    Integer published_year;
-    boolean is_available;
-library(String book_title,String author,Integer published_year,boolean is_available){
-        this.book_title = book_title;
-        this.is_available = is_available;
-        this.published_year = published_year;
-        this.author = author;
-    }
+// class p{
+//     public static void main(String[] args){
+//         library l1 = new library("a","b",2003,true);
+//         l1.borrow();
+//     }
+// }
+// class library{
+//     String book_title;
+//     String author;
+//     Integer published_year;
+//     boolean is_available;
+// library(String book_title,String author,Integer published_year,boolean is_available){
+//         this.book_title = book_title;
+//         this.is_available = is_available;
+//         this.published_year = published_year;
+//         this.author = author;
+//     }
 
-    // Getter ----->
-    String getbook_title(){
-        return book_title;
-    }
-    String getauthor(){
-        return author;
-    }
-    Integer getpublished_year(){
-        return published_year;
-    }
-    boolean getis_available(){
-        return is_available;
-    }
+//     // Getter ----->
+//     String getbook_title(){
+//         return book_title;
+//     }
+//     String getauthor(){
+//         return author;
+//     }
+//     Integer getpublished_year(){
+//         return published_year;
+//     }
+//     boolean getis_available(){
+//         return is_available;
+//     }
 
-    // Setter ------->
-    void setBook_title(String book_title){
-        this.book_title = book_title;
-    }
-    void setAuthor(String author){
-        this.author = author;
-    }
-    void setPublished_year(Integer published_year){
-        this.published_year = published_year;
-    }
-    void setIs_available(String isAvailable){
-        this.is_available = is_available;
-    }
+//     // Setter ------->
+//     void setBook_title(String book_title){
+//         this.book_title = book_title;
+//     }
+//     void setAuthor(String author){
+//         this.author = author;
+//     }
+//     void setPublished_year(Integer published_year){
+//         this.published_year = published_year;
+//     }
+//     void setIs_available(String isAvailable){
+//         this.is_available = is_available;
+//     }
 
-    // Method ------>
-    void borrow(){
-        if(this.is_available == true) {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Do you want to borrow? (yes/no)");
-            String ans = sc.nextLine();
-            if (ans.equals("yes")) {
-                System.out.println("borrowed");
-                this.is_available = false;
-            }
-        }
-        else {
-            System.out.println("book not available");
-        }
-    }
-}
+//     // Method ------>
+//     void borrow(){
+//         if(this.is_available == true) {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("Do you want to borrow? (yes/no)");
+//             String ans = sc.nextLine();
+//             if (ans.equals("yes")) {
+//                 System.out.println("borrowed");
+//                 this.is_available = false;
+//             }
+//         }
+//         else {
+//             System.out.println("book not available");
+//         }
+//     }
+// }
+
+
+
+
+
 
 
 
@@ -1227,6 +1232,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
