@@ -961,6 +961,30 @@ class jp {
 // Given a list containing both strings, write a Java program that removes duplicate elements from the list
 // and prints the result.
 
+class jp{
+    public static void main(String[] args){
+        ArrayList<Integer> numl1 = new ArrayList<>();
+        numl1.add(20);
+        numl1.add(30);
+        numl1.add(30);
+        numl1.add(10);
+        numl1.add(20);
+        ArrayList<Integer> numl2 = new ArrayList<>();
+        for (int i : numl1){
+            if (numl2.contains(i)==false){
+                numl2.add(i);
+            }
+        }
+        System.out.println(numl1);
+        System.out.println(numl2);
+    }
+}
+
+
+
+
+
+
 // 4. Finding the Mean
 // Create a list of numbers (floats) and write a Java program to compute the mean of the numbers in the
 // list.
@@ -1232,6 +1256,7 @@ class jp {
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
