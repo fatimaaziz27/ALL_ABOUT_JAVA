@@ -1834,7 +1834,6 @@ class Video extends Media{
 
 
 
-
 //                                  Mid-term questions
 
 // Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
