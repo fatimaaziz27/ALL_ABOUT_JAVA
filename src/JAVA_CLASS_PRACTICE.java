@@ -49,42 +49,6 @@ class gradebook{
 
 
 
-// Q2) write a Java program that takes n numbers from the user (where n is entered first), stores
-// them in an array, and then prints:
-// The sum of all numbers
-// The maximum number entered
-
-//class main{
-//    public static void main(String[]args){
-//
-//        ArrayList<Integer> numbers = new ArrayList<>();
-//
-//        Scanner sc = new Scanner(System.in);
-//        System.out.println("enter the size of number list: ");
-//        Integer size = sc.nextInt();
-//
-//        for (int i=1; i<=size; i++){
-//            System.out.println("enter your "+i+" number: ");
-//            Integer n = sc.nextInt();
-//            numbers.add(n);
-//        }
-//        System.out.println(numbers);
-//
-//        int sum_of_all=0;
-//        for (int i : numbers){
-//            sum_of_all+=i;
-//        }
-//        int max_num = Collections.max(numbers);
-//
-////        int max_num = 0;
-////        for (int i : numbers){
-////            max_num++;
-////        }
-//
-//        System.out.println(sum_of_all);
-//        System.out.println(max_num);
-//    }
-//}
 
 
 
