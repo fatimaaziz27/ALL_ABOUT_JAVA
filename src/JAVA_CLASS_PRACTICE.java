@@ -40,12 +40,6 @@ class gradebook{
 
 
 
-
-
-
-
-
-
 // 4. Finding the Mean
 // Create a list of numbers (floats) and write a Java program to compute the mean of the numbers in the
 // list.

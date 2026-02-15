@@ -26,7 +26,7 @@ public static void main(String[] args) {
             sum += i;
         }
     }
-    System.out.println("Sum of list" + sum);
+    System.out.println("Sum of list: " + sum);
 }
 */
 
@@ -34,20 +34,76 @@ public static void main(String[] args) {
 // Write a Java program that creates a list of integers. Use list comprehension to create a new list that
 // contains only the numbers greater than 10. Calculate the sum of the numbers in the new list.
 
+// class jp {
+//     public static void main(String[] args){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("ENTER THE SIZE OF A LIST NUMBER: ");
+//         int size = sc.nextInt();
+//         ArrayList<Integer> list1 = new ArrayList<>();
+//         for (int i=1; i<=size; i++){
+//             System.out.println("ENTER "+i+" NUMBER: ");
+//             int num = sc.nextInt();
+//             list1.add(num);
+//         }
+//         System.out.println(list1);
+//         ArrayList<Integer> list2 = new ArrayList<>();
+//         for (int i : list1){
+//             if (i>=10){
+//                 list2.add(i);
+//             }
+//         }
+//         System.out.println(list2);
+//         Integer sum_of_list2 = 0;
+//         for (int j : list2){
+//             sum_of_list2+=j;
+//         }
+//         System.out.println("Sum of all: " + sum_of_list2);
+//     }
+// }
+
 // 3. Removing Duplicates
 // Given a list containing both strings, write a Java program that removes duplicate elements from the list
 // and prints the result.
+
+/*
+class jp{
+    public static void main(String[] args){
+        ArrayList<Integer> numl1 = new ArrayList<>();
+        numl1.add(20);
+        numl1.add(30);
+        numl1.add(30);
+        numl1.add(10);
+        numl1.add(20);
+        ArrayList<Integer> numl2 = new ArrayList<>();
+        for (int i : numl1){
+            if (numl2.contains(i)==false){
+                numl2.add(i);
+            }
+        }
+        System.out.println(numl1);
+        System.out.println(numl2);
+    }
+}
+*/
 
 // 4. Finding the Mean
 // Create a list of numbers (floats) and write a Java program to compute the mean of the numbers in the
 // list.
 
+
+
+
 // 5. Count Occurrences of Elements
 // Write a Java program that counts how many times a particular number appears in a list of integers.
+
+
+
 
 // 6. Multiplying Numbers
 // Create a list of numbers and use a for loop to multiply all the integers in the list together. If there are no
 // integers, print a message indicating that.
+
+
 
 
 
