@@ -1954,6 +1954,45 @@ class Video extends Media{
 //    }
 //}
 
+// Q3) Write a Java program that reads a string from the user and counts how many vowels it contains.
+
+//class main{
+//    public static void main(String[]args){
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("ENTER A WORD: ");
+//        String word = sc.nextLine();
+//        int vowels = 0;
+//        for (int i=0; i<word.length(); i++) {
+//            char w = word.charAt(i);
+//            if (w == 'a' || w == 'e' || w == 'i' || w == 'o' || w == 'u') {
+//                vowels++;
+//            }
+//        }
+//        System.out.println("vowels: "+ vowels);
+//    }
+//}
+
+// Q4) Write a Java program that stores 5 product names and their prices using a HashMap<String, Double>.
+// Then print all products whose price is greater than 1000
+
+//class main{
+//    public static void main(String[]args){
+//        HashMap<String,Integer> h1 = new HashMap<>();
+//        h1.put("milk",220);
+//        h1.put("salt",2230);
+//        h1.put("sugar",150);
+//        h1.put("chips",50);
+//        h1.put("cake",1500);
+//        System.out.println(h1.entrySet());
+//        for (int i : h1.values()){
+//            if (i >= 1000) {
+//                System.out.println(i);
+//            }
+//        }
+//    }
+//}
+
 // Q) Write a Java program to create a class Library with attributes bookTitle, author, publishedYear, and isAvailable.
 // Include:
 // A constructor to initialize all attributes
