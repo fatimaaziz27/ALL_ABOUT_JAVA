@@ -1805,6 +1805,54 @@ class Video extends Media{
 // adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
 // connectToWiFi(). Demonstrate all methods using a single object.
 
+//class ABSTRACTION{
+//    public static void main(String[] args) {
+//        SmartWashingMachine s1 = new SmartWashingMachine();
+//        SmartWashingMachine.trunon();
+//        SmartWashingMachine.washclothes();
+//        SmartWashingMachine.connectToWiFi();
+//    }
+//}
+//class Appliance {
+//    void trunon() {
+//        System.out.println("ON");
+//    }
+//}
+//class WashingMachine extends Appliance {
+//    void washclothes() {
+//        System.out.println("WashingMachine");
+//    }
+//}
+//class SmartWashingMachine extends WashingMachine {
+//    void connectToWiFi(){
+//        System.out.println("SmartWashingMachine");
+//    }
+//}
+//           OR       
+// class ABSTRACTION{
+//     public static void main(String[] args) {
+//         SmartWashingMachine s1 = new SmartWashingMachine();
+//         SmartWashingMachine.trunon();
+//         SmartWashingMachine.washclothes();
+//         SmartWashingMachine.connectToWiFi();
+//     }
+// }
+// class Appliance {
+//     static void trunon() {
+//         System.out.println("ON");
+//     }
+// }
+// class WashingMachine extends Appliance {
+//     static void washclothes() {
+//         System.out.println("WashingMachine");
+//     }
+// }
+// class SmartWashingMachine extends WashingMachine {
+//     static void connectToWiFi(){
+//         System.out.println("SmartWashingMachine");
+//     }
+// }
+
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.

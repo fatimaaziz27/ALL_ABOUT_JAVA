@@ -39,108 +39,11 @@ class gradebook{
 
 
 
-// 1. Appliance → WashingMachine → SmartWashingMachine
-// Define a base class Appliance with a method turnOn(). Create a subclass WashingMachine that
-// adds a method washClothes(). Create a subclass SmartWashingMachine that adds a method
-// connectToWiFi(). Demonstrate all methods using a single object.
-
-//class ABSTRACTION{
-//    public static void main(String[] args) {
-//        SmartWashingMachine s1 = new SmartWashingMachine();
-//        SmartWashingMachine.trunon();
-//        SmartWashingMachine.washclothes();
-//        SmartWashingMachine.connectToWiFi();
-//    }
-//}
-//class Appliance {
-//    void trunon() {
-//        System.out.println("ON");
-//    }
-//}
-//class WashingMachine extends Appliance {
-//    void washclothes() {
-//        System.out.println("WashingMachine");
-//    }
-//}
-//class SmartWashingMachine extends WashingMachine {
-//    void connectToWiFi(){
-//        System.out.println("SmartWashingMachine");
-//    }
-//}
-
-
-//           OR       
-
-// class ABSTRACTION{
-//     public static void main(String[] args) {
-//         SmartWashingMachine s1 = new SmartWashingMachine();
-//         SmartWashingMachine.trunon();
-//         SmartWashingMachine.washclothes();
-//         SmartWashingMachine.connectToWiFi();
-//     }
-// }
-// class Appliance {
-//     static void trunon() {
-//         System.out.println("ON");
-//     }
-// }
-// class WashingMachine extends Appliance {
-//     static void washclothes() {
-//         System.out.println("WashingMachine");
-//     }
-// }
-// class SmartWashingMachine extends WashingMachine {
-//     static void connectToWiFi(){
-//         System.out.println("SmartWashingMachine");
-//     }
-// }
-
-
-
-
-
-
-
 // 2. Education → Course → OnlineCourse
 // Define a base class Education with an attribute institutionName. Create a subclass Course that
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
-//class ABSTRACTION{
-//    public static void main(String[] args) {
-//        onlinecourse oc1 = new onlinecourse("a","b","c");
-//        oc1.display();
-//    }
-//}
-
-//class education {
-//    String institutionName;
-//    education(String institutionName){
-//        this.institutionName = institutionName;
-//    }
-//}
-
-//class course extends education {
-//    String courseName;
-//    course(String courseName,String institutionName) {
-//        super(institutionName);
-//        this.courseName = courseName;
-//    }
-//}
-
-//class onlinecourse extends course {
-//    String platform;
-//    onlinecourse (String platform,String courseName,String institutionName){
-//        super(courseName,institutionName);
-//        this.platform = platform;
-//        }
-
-//        void display(){
-//            System.out.println("Platform: " + platform
-//                    + "\nCourse Name: " + courseName
-//                    +"\nInstitution Name: "+ institutionName);
-//    }
-//}
 
 
 
