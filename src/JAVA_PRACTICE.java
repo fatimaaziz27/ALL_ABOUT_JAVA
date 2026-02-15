@@ -90,20 +90,12 @@ class jp{
 // Create a list of numbers (floats) and write a Java program to compute the mean of the numbers in the
 // list.
 
-
-
-
 // 5. Count Occurrences of Elements
 // Write a Java program that counts how many times a particular number appears in a list of integers.
-
-
-
 
 // 6. Multiplying Numbers
 // Create a list of numbers and use a for loop to multiply all the integers in the list together. If there are no
 // integers, print a message indicating that.
-
-
 
 
 
