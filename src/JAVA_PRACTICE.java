@@ -1760,6 +1760,39 @@ class Video extends Media{
 // subclasses Manager and Developer that inherit from Employee. Each subclass should
 // have its own method to display job-specific responsibilities.
 
+//class java{
+//    public static void main(String[] args){
+//        manager m1 = new manager("ifra",1464);
+//        m1.display_info();
+//        developer d1 = new developer("iqra", 7834);
+//        d1.display_info();
+//    }
+//}
+//class employee{
+//    String name;
+//    Integer employeeid;
+//    employee(String name,Integer employeeid) {
+//        this.name = name;
+//        this.employeeid = employeeid;
+//    }
+//}
+//class manager extends employee{
+//    manager (String name,Integer employeeid) {
+//        super(name,employeeid);
+//    }
+//    void display_info(){
+//        System.out.println("Manager: "+ name + "\nID: " + employeeid);
+//    }
+//}
+//class developer extends employee{
+//    developer (String name,Integer employeeid) {
+//        super(name,employeeid);
+//    }
+//    void display_info(){
+//        System.out.println("developer: "+ name + "\nID: " + employeeid);
+//    }
+//}
+
 
 
 
