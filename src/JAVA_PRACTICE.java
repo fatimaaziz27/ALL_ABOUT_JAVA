@@ -1796,3 +1796,69 @@ class Video extends Media{
 // Define a base class Person with attributes name and age. Create a subclass Employee that adds
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
+
+// Q) Write a Java program to create a class Library with attributes bookTitle, author, publishedYear, and isAvailable.
+// Include:
+// A constructor to initialize all attributes
+// Getter and setter methods
+// A method borrow() that allows the user to borrow the book only if it is available and updates its availability status accordingly.
+
+// class p{
+//     public static void main(String[] args){
+//         library l1 = new library("a","b",2003,true);
+//         l1.borrow();
+//     }
+// }
+// class library{
+//     String book_title;
+//     String author;
+//     Integer published_year;
+//     boolean is_available;
+// library(String book_title,String author,Integer published_year,boolean is_available){
+//         this.book_title = book_title;
+//         this.is_available = is_available;
+//         this.published_year = published_year;
+//         this.author = author;
+//     }
+//     // Getter ----->
+//     String getbook_title(){
+//         return book_title;
+//     }
+//     String getauthor(){
+//         return author;
+//     }
+//     Integer getpublished_year(){
+//         return published_year;
+//     }
+//     boolean getis_available(){
+//         return is_available;
+//     }
+//     // Setter ------->
+//     void setBook_title(String book_title){
+//         this.book_title = book_title;
+//     }
+//     void setAuthor(String author){
+//         this.author = author;
+//     }
+//     void setPublished_year(Integer published_year){
+//         this.published_year = published_year;
+//     }
+//     void setIs_available(String isAvailable){
+//         this.is_available = is_available;
+//     }
+//     // Method ------>
+//     void borrow(){
+//         if(this.is_available == true) {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("Do you want to borrow? (yes/no)");
+//             String ans = sc.nextLine();
+//             if (ans.equals("yes")) {
+//                 System.out.println("borrowed");
+//                 this.is_available = false;
+//             }
+//         }
+//         else {
+//             System.out.println("book not available");
+//         }
+//     }
+// }

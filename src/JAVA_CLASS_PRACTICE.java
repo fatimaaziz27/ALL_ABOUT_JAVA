@@ -2,6 +2,12 @@ import java.util.*;
 
 // NEW CODE -------->
 
+// Q) Write a Java program to create a class Library with attributes bookTitle, author, publishedYear, and isAvailable.
+// Include:
+// A constructor to initialize all attributes
+// Getter and setter methods
+// A method borrow() that allows the user to borrow the book only if it is available and updates its availability status accordingly.
+
 // class p{
 //     public static void main(String[] args){
 //         library l1 = new library("a","b",2003,true);
