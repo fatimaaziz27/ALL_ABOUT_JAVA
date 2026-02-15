@@ -2003,7 +2003,58 @@ class Video extends Media{
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
 
-
+// class jp{
+//     public static void main(String[] args){
+//         smartphones s1 = new smartphones("Andriod",0300,"samsung","A15");
+//         s1.power_on();
+//         s1.power_off();
+//         s1.make_call();
+//         s1.send_message();
+//         s1.install_app();
+//         s1.browse_internet();
+//     }
+// }
+// class device{
+//     String brand;
+//     String model;
+//     device(String brand_name,String model_number){
+//         this.brand = brand_name;
+//         this.model = model_number;
+//     }
+//     void power_on(){
+//         System.out.println("ON");
+//     }
+//     void power_off(){
+//         System.out.println("OFF");
+//     }
+// }
+// class device{
+//     String brand;
+//     String model;
+//     device(String brand_name,String model_number){
+//         this.brand = brand_name;
+//         this.model = model_number;
+//     }
+//     void power_on(){
+//         System.out.println("ON");
+//     }
+//     void power_off(){
+//         System.out.println("OFF");
+//     }
+// }
+// class smartphones extends mobile_device {
+//     String operating_system;
+//     smartphones(String operating_system, Integer phone_number, String brand_name, String model_number) {
+//         super(phone_number, brand_name, model_number);
+//         this.operating_system = operating_system;
+//     }
+//     void install_app(){
+//         System.out.println("INSTALLING");
+//     }
+//     void browse_internet(){
+//         System.out.println("BROWSING");
+//     }
+// }
 
 
 
