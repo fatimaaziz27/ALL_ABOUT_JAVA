@@ -65,66 +65,10 @@ class gradebook{
 
 
 
-
-
-
-
-// 3. Account → SavingsAccount → PremiumSavings
-// Define a base class Account with attributes accountNumber and balance. Create a subclass
-// SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
-// that adds an attribute bonusRate. Display complete account information.
-
-
-
-
-
-
-
-
-
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
 // attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
 // all vehicle details.
-
-// class ASTRACTION{
-//     public static void main(String[] args){
-//         electric_car e1 = new electric_car(1,"A","B","C");
-//         e1.display_info();
-//     }
-// }
-
-// class vehicle{
-//     String brand;
-//     String model;
-//     vehicle(String brand,String model){
-//         this.brand = brand;
-//         this.model = model;
-//     }
-// }
-
-// class car extends vehicle{
-//     String fueltype;
-//     car(String fueltype,String brand,String model){
-//         this.fueltype = fueltype;
-//         super(brand,model);
-//     }
-// }
-
-// class electric_car extends car{
-//     Integer battery_capacity;
-//     electric_car(Integer battery_capacity,String fueltype,String brand,String model){
-//         super(fueltype,brand,model);
-//         this.battery_capacity = battery_capacity;
-//     }
-
-//     void display_info(){
-//         System.out.println("Battery Capacity: " + battery_capacity
-//                 + "\nFueltype: " + fueltype
-//                 + "\nBrand: " + brand
-//                 + "\nModel: " + model);
-//     }
-// }
 
 
 
@@ -140,30 +84,6 @@ class gradebook{
 // object.
 
 
-//class ABSTRACTION{
-//    public static void main(String[] args){
-//        dog d1 = new dog();
-//        d1.bark();
-//    }
-//}
-
-//class animal{
-//    void eat(){
-//        System.out.println("eat");
-//    }
-//}
-
-//class mammal extends animal{
-//    void walk(){
-//        System.out.println("walk");
-//    }
-//}
-
-//class dog extends mammal{
-//    void bark(){
-//        System.out.println("bark");
-//    }
-//}
 
 
 
@@ -185,62 +105,6 @@ class gradebook{
 // from MobileDevice and adds attributes like operatingSystem and
 // methods like installApp() and browseInternet().
 
-// class jp{
-//     public static void main(String[] args){
-//         smartphones s1 = new smartphones("Andriod",0300,"samsung","A15");
-//         s1.power_on();
-//         s1.power_off();
-//         s1.make_call();
-//         s1.send_message();
-//         s1.install_app();
-//         s1.browse_internet();
-//     }
-// }
-
-// class device{
-//     String brand;
-//     String model;
-//     device(String brand_name,String model_number){
-//         this.brand = brand_name;
-//         this.model = model_number;
-//     }
-//     void power_on(){
-//         System.out.println("ON");
-//     }
-//     void power_off(){
-//         System.out.println("OFF");
-//     }
-// }
-
-// class device{
-//     String brand;
-//     String model;
-//     device(String brand_name,String model_number){
-//         this.brand = brand_name;
-//         this.model = model_number;
-//     }
-//     void power_on(){
-//         System.out.println("ON");
-//     }
-//     void power_off(){
-//         System.out.println("OFF");
-//     }
-// }
-
-
-// class smartphones extends mobile_device {
-//     String operating_system;
-//     smartphones(String operating_system, Integer phone_number, String brand_name, String model_number) {
-//         super(phone_number, brand_name, model_number);
-//         this.operating_system = operating_system;
-//     }
-//     void install_app(){
-//         System.out.println("INSTALLING");
-//     }
-//     void browse_internet(){
-//         System.out.println("BROWSING");
-//     }
-// }
 
 
 
