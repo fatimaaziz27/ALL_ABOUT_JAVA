@@ -1830,6 +1830,99 @@ class Video extends Media{
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
 
+
+
+
+
+
+//                                  Mid-term questions
+
+// Q1) Write a Java programs three integers from the user and prints the largest and smallest numbers among them.
+
+//class main{
+//    public static void main(String[]args){
+//
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("enter your first number: ");
+//        Integer num1 = sc.nextInt();
+//        System.out.println("enter your second number: ");
+//        Integer num2 = sc.nextInt();
+//        System.out.println("enter your third number: ");
+//        Integer num3 = sc.nextInt();
+//
+//        // for smallest number:
+//
+//        if (num1>=num2 && num1>=num3){
+//            System.out.println("largest number: "+ num1);
+//        }
+//        else if (num2>=num1 && num2>=num3){
+//                System.out.println("largest number: "+ num2);
+//        }
+//        else if (num3>=num1 && num3>=num2){
+//            System.out.println("largest number: "+ num3);
+//        }
+//        else{
+//            System.out.println("largest number: --");
+//        }
+//
+//        // for smallest number:
+//
+//        if (num1<=num2 && num1<=num3){
+//            System.out.println("smallest number: "+ num1);
+//        }
+//        else if (num2<=num1 && num2<=num3){
+//                System.out.println("smallest number: "+ num2);
+//        }
+//        else if (num3<=num1 && num3<=num2){
+//            System.out.println("smallest number: "+ num3);
+//        }
+//        else{
+//            System.out.println("smallest number: --");
+//        }
+//    }
+//}
+//                        OR
+//import java.util.*;
+//class JAV {
+//    public static void main(String[] args) {
+//        Scanner sc = new Scanner(System.in);
+//        System.out.println("Enter first number: ");
+//        int i = sc.nextInt();
+//        System.out.println("Enter second number: ");
+//        int j = sc.nextInt();
+//        System.out.println("Enter third number: ");
+//        int k = sc.nextInt();
+//
+//        if (i < j && i < k) {
+//            if (j < k) {
+//                System.out.println(k + " is the largest");
+//            }
+//            else {
+//                System.out.println(j + " is largest");
+//            }
+//            System.out.println(i + " is smallest");
+//        }
+//        else if (k < j && k < i) {
+//            if (j < i) {
+//                System.out.println(i + " is the largest");
+//            }
+//            else {
+//                System.out.println(j + " is largest");
+//            }
+//            System.out.println(k + " is smallest");
+//        }
+//        else if (j < k && j < i) {
+//            if (i < k) {
+//                System.out.println(k + " is the largest");
+//            }
+//            else {
+//                System.out.println(i + " is largest");
+//            }
+//            System.out.println(j + "  is smallest");
+//        }
+//    }
+//}
+
 // Q) Write a Java program to create a class Library with attributes bookTitle, author, publishedYear, and isAvailable.
 // Include:
 // A constructor to initialize all attributes
