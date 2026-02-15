@@ -1858,25 +1858,99 @@ class Video extends Media{
 // adds an attribute courseName. Create a subclass OnlineCourse that adds an attribute platform.
 // Display full course details.
 
+//class ABSTRACTION{
+//    public static void main(String[] args) {
+//        onlinecourse oc1 = new onlinecourse("a","b","c");
+//        oc1.display();
+//    }
+//}
+//class education {
+//    String institutionName;
+//    education(String institutionName){
+//        this.institutionName = institutionName;
+//    }
+//}
+//class course extends education {
+//    String courseName;
+//    course(String courseName,String institutionName) {
+//        super(institutionName);
+//        this.courseName = courseName;
+//    }
+//}
+//class onlinecourse extends course {
+//    String platform;
+//    onlinecourse (String platform,String courseName,String institutionName){
+//        super(courseName,institutionName);
+//        this.platform = platform;
+//        }
+//        void display(){
+//            System.out.println("Platform: " + platform
+//                    + "\nCourse Name: " + courseName
+//                    +"\nInstitution Name: "+ institutionName);
+//    }
+//}
+
 // 3. Account → SavingsAccount → PremiumSavings
 // Define a base class Account with attributes accountNumber and balance. Create a subclass
 // SavingsAccount that adds an attribute interestRate. Create another subclass PremiumSavings
 // that adds an attribute bonusRate. Display complete account information.
+
+// class ASTRACTION{
+//     public static void main(String[] args) {
+//         premium_savings p1 = new premium_savings(1,2,3,4);
+//         p1.display();
+//         System.out.println(p1.bonus_rate);
+//     }
+// }
+// class account{
+//     Integer account_number;
+//     Integer balance;
+//     account(Integer account_number,Integer balance){
+//         this.account_number = account_number;
+//         this.balance = balance;
+//     }
+// }
+// class saving_account extends account{
+//     Integer interestRate;
+//     saving_account(Integer interestRate,Integer account_number,Integer balance){
+//         super(account_number,balance);
+//         this.interestRate = interestRate;
+//     }
+// }
+// class premium_savings extends saving_account{
+//     Integer bonus_rate;
+//     premium_savings(Integer bonus_rate,Integer interestRate,Integer account_number,Integer balance) {
+//         super(account_number, interestRate, balance);
+//         this.bonus_rate = bonus_rate;
+//     }
+//     void display(){
+//         System.out.println("bonus_rate: "+ bonus_rate
+//                 + "\ninterestRate: " + interestRate
+//                 + "\naccount_number: " + account_number
+//                 + "\nbalance: " + balance);
+//     }
+// }
 
 // 4. Vehicle → Car → ElectricCar
 // Define a base class Vehicle with attributes brand and model. Create a subclass Car that adds an
 // attribute fuelType. Create a subclass ElectricCar that adds an attribute batteryCapacity. Display
 // all vehicle details.
 
+
+
 // 5. Animal → Mammal → Dog
 // Define a class Animal with a method eat(). Create a subclass Mammal that adds a method
 // walk(). Create a subclass Dog that adds a method bark(). Demonstrate method calls using a Dog
 // object.
 
+
+
 // 6. Person → Employee → Manager
 // Define a base class Person with attributes name and age. Create a subclass Employee that adds
 // an attribute employeeId. Create another subclass Manager that adds an attribute department.
 // Display complete details of a manager.
+
+
 
 
 
