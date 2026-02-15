@@ -14,10 +14,10 @@ class Access_Modifiers {
 // Example:
     public static void main(String[] args) {
 
-        // Creating an object of Car class        
+        // Creating an object of Car class
         Car myCar = new Car("Toyota", 2020, "Corolla");
         
-        // Accessing public member        
+        // Accessing public member
         System.out.println(myCar.getBrand());
         System.out.println(myCar.getYear());
         System.out.println(myCar.getModel());
