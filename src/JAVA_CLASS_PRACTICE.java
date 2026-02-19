@@ -1,5 +1,97 @@
 import java.util.*;
 
+// Functions and Exception Handling
+
+// 1. Safe Addition
+// Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
+// error message if the numbers are not valid floats.
+
+//class jp{
+//    public static void main(String[]arg){
+//        try {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Enter first float number: ");
+//            float x = sc.nextInt();
+//            System.out.println("Enter second float number: ");
+//            float y = sc.nextInt();
+//            float c = x + y;
+//            System.out.println("Result" + c);
+//        }
+//        catch (ArithmeticException e){
+//            System.out.println("Invalid Input");
+//        }
+//    }
+//}
+
+
+
+
+
+// 2. Safe Subtraction
+// Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
+// the case where the subtraction results in a negative number.
+
+
+//class jp{
+//    public static void main(String[]arg){
+//        try {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Enter first float number: ");
+//            float x = sc.nextInt();
+//            System.out.println("Enter second float number: ");
+//            float y = sc.nextInt();
+//            float c = x - y;
+//            if (c>=0){
+//            System.out.println("Result" + c);
+//            }
+//        }
+//        catch (ArithmeticException e){
+//            System.out.println("Invalid Input");
+//        }
+//    }
+//}
+
+
+
+// 3. Check for Division by Zero
+// Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
+// should return `"Cannot divide by zero"`.
+
+
+
+//class jp{
+//    public static void main(String[]arg){
+//        try {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Enter first float number: ");
+//            float x = sc.nextInt();
+//            System.out.println("Enter second float number: ");
+//            float y = sc.nextInt();
+//            float c = x - y;
+//            if (c>=0){
+//                System.out.println("Result" + c);
+//            }
+//        }
+//        catch (ArithmeticException e){
+//            System.out.println("Invalid Input");
+//        }
+//    }
+//}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // 5. Gradebook Class
 // Create a `Gradebook` class with private attributes `student_name` and `grades` (a list). Provide a method
 // `add_grade()` to add grades, and a method `average_grade()` that returns the average of all grades.
@@ -311,6 +403,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
