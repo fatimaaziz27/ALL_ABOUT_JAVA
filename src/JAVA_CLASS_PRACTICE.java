@@ -11,17 +11,18 @@ import java.util.*;
 //        try {
 //            Scanner sc = new Scanner(System.in);
 //            System.out.println("Enter first float number: ");
-//            float x = sc.nextInt();
+//            double x = sc.nextDouble();
 //            System.out.println("Enter second float number: ");
-//            float y = sc.nextInt();
-//            float c = x + y;
-//            System.out.println("Result" + c);
+//            double y = sc.nextDouble();
+//            double c = x + y;
+//            System.out.println("Result: " + c);
 //        }
 //        catch (ArithmeticException e){
 //            System.out.println("Invalid Input");
 //        }
 //    }
 //}
+
 
 
 
@@ -403,6 +404,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
