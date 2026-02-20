@@ -1,5 +1,52 @@
 import java.util.*;
 
+
+
+
+
+
+// 1. Case Count
+// Write a Java function `case_count(text: str) -> hashmap` that counts the number of uppercase and
+// lowercase letters in a string.
+// Example:
+// Input: `"Hello World"`
+// Output: `{ "uppercase": 2, "lowercase": 8 }`
+
+
+// class jp{
+//     public static void main(String[]arg){
+//         Scanner sc = new Scanner(System.in);
+//         System.out.println("Enter a word: ");
+//         String w = sc.nextLine();
+//         for (i : w){
+//             if ()
+            
+//         }
+//     }
+// }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // Functions and Exception Handling
 
 // 1. Safe Addition
@@ -452,6 +499,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
