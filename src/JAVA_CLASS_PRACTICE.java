@@ -32,24 +32,24 @@ import java.util.*;
 // the case where the subtraction results in a negative number.
 
 
-class jp{
-    public static void main(String[]arg) {
-        try {
-            Scanner sc = new Scanner(System.in);
-            System.out.println("Enter first float number: ");
-            double x = sc.nextDouble();
-            System.out.println("Enter second float number: ");
-            double y = sc.nextDouble();
-            double c = x - y;
-            if (c<=0){
-            throw ArithmeticException;
-            }
-        }
-        catch (Exception e){
-            System.out.println("-------");
-        }
-    }
-}
+// class jp{
+//     public static void main(String[]arg) {
+//         try {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("Enter first float number: ");
+//             double x = sc.nextDouble();
+//             System.out.println("Enter second float number: ");
+//             double y = sc.nextDouble();
+//             double c = x - y;
+//             if (c<=0){
+//             throw ArithmeticException;
+//             }
+//         }
+//         catch (Exception e){
+//             System.out.println("-------");
+//         }
+//     }
+// }
 
 
 
@@ -423,6 +423,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
