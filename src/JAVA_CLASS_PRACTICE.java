@@ -103,6 +103,35 @@ import java.util.*;
 
 
 
+// 5. Negative Numbers Handling
+// Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
+// are positive. If either number is negative, raise a custom error: `"Both numbers must be positive"`.
+
+
+// class  jp{
+//     public static void main(String[]arg){
+//         try {
+//             Scanner sc = new Scanner(System.in);
+//             System.out.println("Enter first number: ");
+//             int x = sc.nextInt();
+//             System.out.println("Enter second number: ");
+//             int y = sc.nextInt();
+//             if (x<=0 && y<=0){
+//                 throw Exception;
+//             }
+//             else{
+//             int c = x + y;
+//             System.out.println(c);
+//             }
+//         }
+//         catch (Exception e){
+//             System.out.println("Both numbers must be positive");
+//         }
+//     }
+// }
+
+
+
 
 
 
@@ -423,6 +452,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
