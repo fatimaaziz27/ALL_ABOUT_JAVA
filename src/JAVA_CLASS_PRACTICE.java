@@ -27,30 +27,29 @@ import java.util.*;
 
 
 
-
 // 2. Safe Subtraction
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
 
 
-//class jp{
-//    public static void main(String[]arg){
-//        try {
-//            Scanner sc = new Scanner(System.in);
-//            System.out.println("Enter first float number: ");
-//            float x = sc.nextInt();
-//            System.out.println("Enter second float number: ");
-//            float y = sc.nextInt();
-//            float c = x - y;
-//            if (c>=0){
-//            System.out.println("Result" + c);
-//            }
-//        }
-//        catch (ArithmeticException e){
-//            System.out.println("Invalid Input");
-//        }
-//    }
-//}
+class jp{
+    public static void main(String[]arg) {
+        try {
+            Scanner sc = new Scanner(System.in);
+            System.out.println("Enter first float number: ");
+            double x = sc.nextDouble();
+            System.out.println("Enter second float number: ");
+            double y = sc.nextDouble();
+            double c = x - y;
+            if (c<=0){
+            throw ArithmeticException;
+            }
+        }
+        catch (Exception e){
+            System.out.println("-------");
+        }
+    }
+}
 
 
 
@@ -65,16 +64,36 @@ import java.util.*;
 //        try {
 //            Scanner sc = new Scanner(System.in);
 //            System.out.println("Enter first float number: ");
-//            float x = sc.nextInt();
+//            int x = sc.nextInt();
 //            System.out.println("Enter second float number: ");
-//            float y = sc.nextInt();
-//            float c = x - y;
-//            if (c>=0){
-//                System.out.println("Result" + c);
-//            }
+//            int y = sc.nextInt();
+//            int c = x / y;
+//            System.out.println(c);
 //        }
 //        catch (ArithmeticException e){
-//            System.out.println("Invalid Input");
+//            System.out.println("Cannot divide by zero");
+//        }
+//    }
+//}
+
+
+
+
+// 4. Handling Invalid Input
+// Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
+// integer. If the conversion fails, return the message `"Invalid input"`.
+
+//class jp{
+//    public static void main(String[]arg){
+//        try {
+//            Scanner sc = new Scanner(System.in);
+//            System.out.println("Enter a word: ");
+//            String word = sc.nextLine();
+//            int a= Integer.parseInt(word);
+//
+//        }
+//        catch (Exception e){
+//            System.out.println("Invalid input");
 //        }
 //    }
 //}
@@ -404,6 +423,7 @@ class gradebook{
 //        System.out.println("SmartWashingMachine");
 //    }
 //}
+
 
 
 
