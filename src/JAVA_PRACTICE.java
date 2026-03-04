@@ -146,11 +146,24 @@ class jp{
 // Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
 // error message if the numbers are not valid floats.
 
-
+//    Scanner sc = new Scanner(System.in);
+//        try{
+//            System.out.println("Enter a number: ");
+//            float a = sc.nextInt();
+//            System.out.println("Enter a number: ");
+//            float b = sc.nextInt();
+//            float c = a + b;
+//            System.out.println("Result:" + c);
+//        }
+//        catch (Exception e){
+//            System.out.println("invalid input");
+//        }
 
 // 2. Safe Subtraction
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
+
+
 
 // 3. Check for Division by Zero
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
