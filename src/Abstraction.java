@@ -10,8 +10,7 @@
 // If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
 // Abstraction is used to hide data and expose only essential information.
 
-
-
+//  Examples ------->
 
 //     code 1:
 
