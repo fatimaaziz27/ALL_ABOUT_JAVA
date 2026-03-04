@@ -163,8 +163,6 @@ class jp{
 // Write a Java function `safe_subtract(x: float, y: float) -> float` that subtracts two numbers and handles
 // the case where the subtraction results in a negative number.
 
-
-
 // 3. Check for Division by Zero
 // Write a Java function `divide_numbers(x: float, y: float) -> float` that divides `x` by `y`. If `y` is zero, it
 // should return `"Cannot divide by zero"`.
@@ -208,8 +206,6 @@ class jp{
 // 4. Handling Invalid Input
 // Write a Java function `parse_input(value: str) -> int` that takes a string input and converts it to an
 // integer. If the conversion fails, return the message `"Invalid input"`.
-
-
 
 // 5. Negative Numbers Handling
 // Write a Java function `add_positive_numbers(x: int, y: int) -> int` that adds two numbers but only if both
