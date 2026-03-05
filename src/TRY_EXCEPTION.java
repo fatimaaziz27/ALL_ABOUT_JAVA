@@ -99,3 +99,34 @@
 //         }
 //     }
 // }
+
+//     code 3:
+
+// with throw & throws ------->
+
+//class invalid_age_exception extends Exception{
+//    invalid_age_exception(String m){
+//        super(m);
+//    }
+//}
+//class e{
+//    static String validate_age(int age) throws invalid_age_exception{
+//        if (age < 18){
+//            throw new invalid_age_exception("Age must be 18");
+//        }
+//        else {
+//            return "valid age";
+//        }
+//    }
+//    public static void main(String[]args){
+//        try{
+//            System.out.println(validate_age(13));
+//        }
+//        catch (invalid_age_exception e){
+//            System.out.println(e.getMessage());
+//        }
+//        finally {
+//            System.out.println("exit");
+//        }
+//    }
+//}
