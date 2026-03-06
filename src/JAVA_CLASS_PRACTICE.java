@@ -24,6 +24,9 @@ import java.util.*;
 
 
 
+
+
+
 // 1. Safe Addition
 // Write a Java function `safe_add(x: float, y: float) -> float` that adds two numbers, and returns a custom
 // error message if the numbers are not valid floats.
