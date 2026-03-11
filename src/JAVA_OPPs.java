@@ -45,17 +45,35 @@ class JAVA_OOPs {
 //     It restricts direct access to some of the object components, which help prevent unintended interference and misuse
 //     of the data.
 
+        class Student {
+            int id;
+            String name;
+        }
+
 //     Inheritance:
 //     A mechanism where a new class (sub class/ child class) can inherit properties and behaviour from an existing class
 //     (super class/ parent class). This promotes code reusability and establishes a hierarchical relationship between classes.
+
+        class Student {
+            int id;
+            String name;
+        }
 
 //     Polymorphism:
 //     The ability of different classes to be treated as instances of the same class through a common interface.
 //     It allows methods to do different things based on the object that it is acting upon, even though they share the same name.
 
+        // Types:
+        // Method Overloading
+        // Method Overriding
+
 //     Abstraction:
 //     The concept of hiding the complex implementation details and exposing only the essential features of an object.
 //     It helps in reducing complexity and increases efficiency.
+
+        abstract class Shape {
+            abstract void draw();
+            }
 
 
 //                  Benefits of OOP:
@@ -75,6 +93,32 @@ class JAVA_OOPs {
 
 //  5. Real-World Modeling: OOP allows for better modeling of real-world entities
 //   and relationships, making it easier to understand and design complex systems.
+
+
+class Animal {
+    void sound() {
+        System.out.println("Animal makes sound");
+    }
+}
+
+class Dog extends Animal {
+    void sound() {
+        System.out.println("Dog barks");
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Dog d = new Dog();
+        d.sound();
+    }
+}
+
+
+
+
+
+
 
 
     public static void main(String[] args) {
@@ -228,3 +272,17 @@ class clothing extends product{
     }
 }
 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
