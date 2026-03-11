@@ -1,5 +1,5 @@
 class JAVA_OOPs {
-// /*
+
 // There are two types of programming:
 //     procedural programming
 //     object oriented programming (OOP)
@@ -129,6 +129,7 @@ public class Main {
         // Since the object is of Dog class, Dog's sound() method will run
         d.sound();
     }
+}
 }
 
 // OUTPUT ---->
