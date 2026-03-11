@@ -96,187 +96,43 @@ class JAVA_OOPs {
 
 //               Java OOP Example  -------->
 
+// Parent class (Base class)
 class Animal {
+
+    // Method of Animal class
     void sound() {
+        // This method prints a general message for animals
         System.out.println("Animal makes sound");
     }
 }
 
+// Child class (Derived class) that inherits from Animal
 class Dog extends Animal {
+
+    // Method overriding
+    // The Dog class provides its own implementation of the sound() method
     void sound() {
+        // This message is specific to Dog
         System.out.println("Dog barks");
     }
 }
 
+// Main class where the program starts
 public class Main {
+
     public static void main(String[] args) {
+
+        // Creating an object of Dog class
         Dog d = new Dog();
+
+        // Calling the sound() method
+        // Since the object is of Dog class, Dog's sound() method will run
         d.sound();
     }
 }
 
 // OUTPUT ---->
 // Dog barks
-
-
-
-
-
-
-    public static void main(String[] args) {
-
-       // Creating objects of the OOP class
-       // Syntax: classname objectname = new classname();
-
-        car hamzas_car = new car();
-
-       // Calling method to display data
-       // objectname.methodname();
-
-       hamzas_car.honk();           // Output: Beep Beep!
-       hamzas_car.start();          // Output: Car Started
-
-       // objectname.attributename;
-
-        hamzas_car.brand="Honda";
-       System.out.println(hamzas_car.brand);          // Output: Honda
-       System.out.println(hamzas_car.year);          // Output: 2008
-        car ammars_car= new car();
-       System.out.println(ammars_car.brand);       // Output: Suzuki
-       System.out.println(ammars_car.year);        // Output: 2008
-    }
-}
-class car{
-   String brand="Suzuki";          // Attribute (property)
-   int year = 2008;              // Attribute (property)
-
-   // Method (behavior)
-
-    void honk() {
-        System.out.println("Beep Beep!");}
-    void start() {
-        System.out.println("Car Started");}
-
-}
-
-
-
-
-// Q) Make a class Pen with attributes ink type, ink color, pen type and method
-//  write print "I am a pen and I can write"
-
-
-//        pen obj1 = new pen();
-////        obj1.write(); // Output: I am a pen and I can write
-//        System.out.println(obj1.ink_color);
-//        obj1.ink_color="green";
-//        System.out.println(obj1.ink_color);
-//    }
-//}
-//class pen {
-//    String ink_type = "gel";
-//    String ink_color = "blue";
-//    String pen_type = "gel pen";
-//
-//    void write() {
-//        System.out.println("I am a pen and I can write");
-//    }
-//}
-//    void display() {
-//    System.out.println("Ink Type: "+ink_type);
-//    System.out.println("Ink Color: "+ink_color);
-//    System.out.println("Pen Type: "+pen_type);
-//    }
-//}
-
-
-
-// Q) Make a class of shape with 3 attribute lenght breath & radius and 2 methods
-//  find_area(lenght * breath) and find_circumference(2*3.14*radius).
-
-
-//        Shape square = new Shape(5,4,0);
-//        Shape circle = new Shape(0,0,5);
-//        square.find_area();
-//        square.find_circumference();
-//        circle.find_circumference();
-//        circle.find_area();
-//    }
-//}
-//class Shape{
-//    int lenght;
-//    int breath;
-//    double radius;
-//    //Constructor
-//    Shape(int l, int b, double r){
-//        lenght = l;
-//        breath = b;
-//        radius = r;
-//    }
-//    void find_area(){
-//        int area = lenght*breath;
-//        System.out.println("The area is found to be: "+area);
-//    }
-//    void find_circumference(){
-//        double circumference = 2*(radius)*3.14;
-//        System.out.println("The circumference is found to be: "+circumference);
-//    }
-//}
-
-
-
-
-
-// Q) Write a Java program to demonstrate polymorphism using an abstract class 'product' 
-// with subclasses 'electronics' and 'clothing'. Implement methods to calculate and display 
-// discounts and final prices for each product type.
-/*
-import java.util.*;
-class q1{
-    public static void main(String[]args){
-        electronics e1 = new electronics();
-        clothing c1 = new clothing();
-        e1.getDiscount();
-        e1.finalprice();
-
-        c1.getDiscount();
-        c1.finalprice();
-    }
-}
-abstract class product {
-    private int productID;
-    private int price;
-
-    abstract void getDiscount();
-
-    void finalprice() {
-        int finalprice;
-    }
-}
-class electronics extends product{
-    @Override
-    public void getDiscount() {
-    System.out.println("10% discount");
-    }
-    @Override
-    public void finalprice(){
-    System.out.println("500");
-    }
-}
-class clothing extends product{
-    @Override
-    public void getDiscount() {
-    System.out.println("70% discount");
-    }
-    @Override
-    public void finalprice(){
-    System.out.println("600");
-    }
-}
-*/
-
-
-
 
 
 
