@@ -1,15 +1,46 @@
 import java.util.*;
+
+import javax.print.attribute.standard.Copies;
 public class Constructor {
-    public static void main(String[] args) {
-        //Topic: Constructor
-    // A constructor in Java is a special method that is automatically called when an object of a class is
-    // instantiated(created). It has the same name as the class, no return type (not even void), and is
-    // used to initialize the object's state by setting initial values for its attributes.
+
+// Constructors in Java
+// A constructor is a special method used to initialize objects.
+
+// Types of Constructors
+
+// 1. Default Constructor
+// Constructor without parameters.
+
+class Student {
+    Student() {
+        System.out.println("Default Constructor");
+    }
+}
+
+// 2. Parameterized Constructor
+// Constructor with parameters.
+
+class Students {
+    int id;
+    Student(int i) {
+        id = i;
+    }
+}
+
+// 3. Copy Constructor
+// Copies values from another object.
+
+
+
+
     //Types of Constructor:
     //1. Argumental
-    //2. Non Argumental/ Programmer Defined Default
-    //3. Java Default
+    // Constructor with parameters
 
+    //2. Non Argumental/ Programmer Defined Default
+    // Constructor without parameters written by programmer
+    //3. Java Default
+// Constructor automatically created by Java if none exists
 
             Scanner input = new Scanner(System.in);
             System.out.println("Enter your name: ");
