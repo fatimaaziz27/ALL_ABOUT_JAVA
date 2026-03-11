@@ -5,5 +5,22 @@ public class INHERITANCE {
     
 class Subclass extends Superclass {
     }
-    
+
+// Types of Inheritance
+
+// Single Inheritance
+// Multilevel Inheritance
+// Hierarchical Inheritance
+
+// Example:
+
+class Animal {
+}
+
+class Dog extends Animal {
+}
+
+class Puppy extends Dog {
+}
+
 }
