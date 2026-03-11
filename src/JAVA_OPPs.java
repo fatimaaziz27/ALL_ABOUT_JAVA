@@ -94,6 +94,7 @@ class JAVA_OOPs {
 //  5. Real-World Modeling: OOP allows for better modeling of real-world entities
 //   and relationships, making it easier to understand and design complex systems.
 
+//               Java OOP Example  -------->
 
 class Animal {
     void sound() {
@@ -114,7 +115,8 @@ public class Main {
     }
 }
 
-
+// OUTPUT ---->
+// Dog barks
 
 
 
