@@ -35,9 +35,8 @@
                 v
      Internal Hardware & Code
             (Hidden)
+
                   
-
-
 //     Example Code 1:
 // Flow Daigram ---->
 
@@ -91,7 +90,7 @@
 // }
 
                    
-//     code 2:
+//     Example Code 2:
 
                  +----------------------+
                  |       Payment        |
