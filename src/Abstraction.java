@@ -1,14 +1,9 @@
 //                      Abstraction in Java:
 
 // The concept of hiding the complex implementation details and exposing only the essential features of an object.
-// It helps in reducing complexity and increases efficiency.
-
-// Abstraction is an OOP concept that focuses on what an object does, not how it does it.
-// It hides unnecessary details and shows only the important features to the user.
 // Abstract methods cannot be accessed without inheritance (parent and child classes).
 // Polymorphism is required, where the child class overrides the abstract method.
 // If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
-// Abstraction is used to hide data and expose only essential information.
 
 //  Examples ------->
 
