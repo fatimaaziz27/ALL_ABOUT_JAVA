@@ -4,6 +4,7 @@
 // Abstract methods cannot be accessed without inheritance (parent and child classes).
 // Polymorphism is required, where the child class overrides the abstract method.
 // If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
+
 //           Abstraction Diagram
 
                 ABSTRACTION
@@ -38,7 +39,7 @@
 
                   
 //     Example Code 1:
-// Flow Daigram ---->
+//     Flow Daigram ---->
 
                  +-------------------+
                  |    MagicCave      |
