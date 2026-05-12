@@ -8,6 +8,27 @@
 //  Examples ------->
 
 //     code 1:
+// Flow Daigram ---->
+
+                 +-------------------+
+                 |    MagicCave      |
+                 |-------------------|
+                 | treasure          |
+                 |-------------------|
+                 | gates_open()      |  ← abstract
+                 | open_sesame()     |
+                 +-------------------+
+                           ▲
+                           |
+                           |
+                 +-------------------+
+                 |     AliBaba       |
+                 |-------------------|
+                 | gates_open()      |
+                 | open_sesame()     |
+                 | get_treasure()    |
+                 | sleep()           |
+                 +-------------------+
 
 // class Abstraction {
 //     public static void main(String[] args) {
@@ -38,6 +59,7 @@
 //     }
 // }
 
+                   
 //     code 2:
 
 // abstract class payment{
