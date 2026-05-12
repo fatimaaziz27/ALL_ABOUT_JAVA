@@ -91,7 +91,8 @@
 // }
 
                    
-//     Example Code 2:
+//     Example Code 2:                  
+//     Flow Daigram ---->
 
                  +----------------------+
                  |       Payment        |
