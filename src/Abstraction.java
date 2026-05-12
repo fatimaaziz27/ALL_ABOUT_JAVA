@@ -5,6 +5,7 @@
 // Polymorphism is required, where the child class overrides the abstract method.
 // If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
 //           Abstraction Diagram
+
                 ABSTRACTION
                       |
       --------------------------------
@@ -18,10 +19,26 @@
 
  Internal Logic               User Interaction
  Hidden from User             Visible to User
-                  
-//  Examples ------->
 
-//     code 1:
+// Simple Real-Life Abstraction Diagram
+               User
+                |
+                v
+         Uses Mobile Phone
+                |
+        -----------------
+        |  Call          |
+        |  Message       |
+        |  Camera        |
+        -----------------
+                |
+                v
+     Internal Hardware & Code
+            (Hidden)
+                  
+
+
+//     Example Code 1:
 // Flow Daigram ---->
 
                  +-------------------+
