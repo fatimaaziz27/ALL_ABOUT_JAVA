@@ -62,6 +62,21 @@
                    
 //     code 2:
 
+                 +----------------------+
+                 |       Payment        |
+                 |----------------------|
+                 | process_payment()    | ← abstract
+                 +----------------------+
+                            ▲
+                -------------------------
+                |                       |
+                |                       |
+       +-------------------+   +-------------------+
+       | CreditCardPayment |   |  PaypalPayment    |
+       |-------------------|   |-------------------|
+       | process_payment() |   | process_payment() |
+       +-------------------+   +-------------------+
+                   
 // abstract class payment{
 //     abstract void process_payment();
 // }
