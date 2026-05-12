@@ -4,8 +4,20 @@
 // Abstract methods cannot be accessed without inheritance (parent and child classes).
 // Polymorphism is required, where the child class overrides the abstract method.
 // If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
+//           Abstraction Diagram
+                ABSTRACTION
+                      |
+      --------------------------------
+      |                              |
+      v                              v
 
+ Hide Complex                Show Essential
+ Implementation                 Features
+      |                              |
+      v                              v
 
+ Internal Logic               User Interaction
+ Hidden from User             Visible to User
                   
 //  Examples ------->
 
