@@ -4,6 +4,17 @@ import java.lang.reflect.Method;
 //     The ability of different classes to be treated as instances of the same class through a common interface.
 //     It allows methods to do different things based on the object that it is acting upon, even though they share the same name.
 
+                  POLYMORPHISM
+                        |
+        -----------------------------------
+        |                                 |
+        v                                 v
+ Method Overloading              Method Overriding
+ (Compile-Time)                    (Run-Time)
+        |                                 |
+ Same method name                Same method name
+ Different parameters            Different implementation
+
 //       Type of Polymorphism:
 //      Method Overloading 
 //      Method Overriding
