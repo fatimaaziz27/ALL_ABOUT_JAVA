@@ -4,6 +4,16 @@ import java.lang.reflect.Method;
 //     The ability of different classes to be treated as instances of the same class through a common interface.
 //     It allows methods to do different things based on the object that it is acting upon, even though they share the same name.
 
+                    POLYMORPHISM
+                           |
+                           v
+        One Method or Action with Many Forms
+                           |
+        -----------------------------------------
+        |                                       |
+        v                                       v
+ Different Objects                     Different Behaviors
+ Use the Same Method                   Based on the Object
                   
 //       Type of Polymorphism:
 //      Method Overloading 
@@ -22,21 +32,7 @@ import java.lang.reflect.Method;
 
 //1. Method Overloading
 // Method overloading means multiple methods with the same name but different parameters.
-                     
-public class POLYMORPHISM {
-class Calculator {
-
-    int add(int a, int b) {
-        return a + b;
-    }
-
-    int add(int a, int b, int c) {
-        return a + b + c;
-    }
-}
-
 // Flow Diagram:
-
                   main()
                      |
                      v
@@ -53,8 +49,21 @@ class Calculator {
 
   add(int,int)   add(int,int,int) add(int,double)
 
+                      
+// public class POLYMORPHISM {
+// class Calculator {
 
-  
+//     int add(int a, int b) {
+//         return a + b;
+//     }
+
+//     int add(int a, int b, int c) {
+//         return a + b + c;
+//     }
+// }
+
+                      
+                    
 //2. Method Overriding
 // Method overriding occurs when a subclass provides a specific implementation of a method already defined in the parent class.
 
@@ -69,6 +78,15 @@ class Dog extends Animal {
         System.out.println("Dog bark");
     }
 }
+
+
+
+
+
+
+
+
+
 
 
     
