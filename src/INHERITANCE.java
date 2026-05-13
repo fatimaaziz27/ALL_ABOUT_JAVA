@@ -1,21 +1,140 @@
-public class INHERITANCE {
+//=====================================================
+//                 INHERITANCE IN JAVA
+//=====================================================
 
-// Inheritance in Java
-// Inheritance allows one class to acquire the properties and methods of another class.
+// Definition:
+// Inheritance allows one class to acquire
+// the properties and methods of another class.
 
+//=====================================================
+//              INHERITANCE DIAGRAM
+//=====================================================
 
-// Syntax of Inheritance
-// class Subclass extends Superclass {
-// }
+/*
 
+                    INHERITANCE
+                           |
+                           v
 
-// Types of Inheritance in Java
-// 1. Single Inheritance
-// 2. Multilevel Inheritance
-// 3. Hierarchical Inheritance
+          Acquiring Properties & Methods
+                   from Another Class
+                           |
+          --------------------------------
+          |                              |
+          v                              v
 
+        Reusability                Parent-Child Relation
 
-// Parent Class (Superclass)
+*/
+
+//=====================================================
+//            TYPES OF INHERITANCE
+//=====================================================
+
+/*
+
+                    INHERITANCE
+                           |
+    ------------------------------------------------
+    |                     |                        |
+    v                     v                        v
+
+ Single Inheritance   Multilevel Inheritance   Hierarchical Inheritance
+
+*/
+
+//=====================================================
+//             SINGLE INHERITANCE
+//=====================================================
+
+/*
+
+                +----------------+
+                |    Animal      |
+                +----------------+
+                | eat()          |
+                +----------------+
+                         ▲
+                         |
+                         |
+                +----------------+
+                |      Dog       |
+                +----------------+
+                | bark()         |
+                +----------------+
+
+*/
+
+//=====================================================
+//           MULTILEVEL INHERITANCE
+//=====================================================
+
+/*
+
+                +----------------+
+                |    Animal      |
+                +----------------+
+                         ▲
+                         |
+                +----------------+
+                |      Dog       |
+                +----------------+
+                         ▲
+                         |
+                +----------------+
+                |     Puppy      |
+                +----------------+
+
+*/
+
+//=====================================================
+//         HIERARCHICAL INHERITANCE
+//=====================================================
+
+/*
+
+                     +----------------+
+                     |    Animal      |
+                     +----------------+
+                        ▲         ▲
+                        |         |
+              +----------------+ +----------------+
+              |      Dog       | |      Cat       |
+              +----------------+ +----------------+
+
+*/
+
+//=====================================================
+//                  FLOW DIAGRAM
+//=====================================================
+
+/*
+
+                        main()
+                           |
+                           v
+
+                Create Puppy Object
+                           |
+                           v
+
+                  ----------------
+                  |      |       |
+                  v      v       v
+
+                eat()  bark()  weep()
+
+                  |      |       |
+                  v      v       v
+
+               Animal   Dog    Puppy
+
+*/
+
+//=====================================================
+//                PARENT CLASS
+//=====================================================
+
 class Animal {
 
     void eat() {
@@ -23,8 +142,10 @@ class Animal {
     }
 }
 
+//=====================================================
+//          CHILD CLASS (SINGLE INHERITANCE)
+//=====================================================
 
-// Child Class (Single Inheritance)
 class Dog extends Animal {
 
     void bark() {
@@ -32,8 +153,10 @@ class Dog extends Animal {
     }
 }
 
+//=====================================================
+//            MULTILEVEL INHERITANCE
+//=====================================================
 
-// Multilevel Inheritance
 class Puppy extends Dog {
 
     void weep() {
@@ -41,25 +164,59 @@ class Puppy extends Dog {
     }
 }
 
+//=====================================================
+//         HIERARCHICAL INHERITANCE
+//=====================================================
 
-// Main Class
-public class Main {
+class Cat extends Animal {
 
-    public static void main(String[] args) {
-
-        // Creating object of Puppy
-        Puppy p = new Puppy();
-
-        // Accessing methods from all inherited classes
-        p.eat();   // from Animal
-        p.bark();  // from Dog
-        p.weep();  // from Puppy
+    void meow() {
+        System.out.println("Cat meows");
     }
 }
 
-// OUTPUT ------>
-// Animal can eat
-// Dog barks
-// Puppy weeps
+//=====================================================
+//                    MAIN CLASS
+//=====================================================
 
+public class Inheritance {
+
+    public static void main(String[] args) {
+
+        //=================================================
+        //          MULTILEVEL INHERITANCE
+        //=================================================
+
+        Puppy p = new Puppy();
+
+        // Accessing inherited methods
+
+        p.eat();    // From Animal
+        p.bark();   // From Dog
+        p.weep();   // From Puppy
+
+        //=================================================
+        //        HIERARCHICAL INHERITANCE
+        //=================================================
+
+        Cat c = new Cat();
+
+        c.eat();    // From Animal
+        c.meow();   // From Cat
+    }
 }
+
+/*
+
+======================== OUTPUT ========================
+
+Animal can eat
+Dog barks
+Puppy weeps
+
+Animal can eat
+Cat meows
+
+========================================================
+
+*/
