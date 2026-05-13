@@ -61,7 +61,6 @@
 
 // Magic Cave Example
 
-/*
                   FLOW DIAGRAM
 
                  +-------------------+
@@ -84,7 +83,6 @@
                  | sleep()           |
                  +-------------------+
 
-*/
 
 abstract class MagicCave {
 
@@ -126,8 +124,7 @@ class AliBaba extends MagicCave {
 
 // Payment System Example
 
-/*
-                  FLOW DIAGRAM
+                      FLOW DIAGRAM
 
                  +----------------------+
                  |       Payment        |
@@ -144,7 +141,6 @@ class AliBaba extends MagicCave {
        | process_payment() |   | process_payment() |
        +-------------------+   +-------------------+
 
-*/
 
 abstract class Payment {
 
@@ -171,8 +167,7 @@ class PaypalPayment extends Payment {
 
 // Shape Example
 
-/*
-                  FLOW DIAGRAM
+                       FLOW DIAGRAM
 
                     +------------------+
                     |      Shape       |
@@ -188,8 +183,7 @@ class PaypalPayment extends Payment {
          |---------------|     |----------------|
          | cal_area()    |     | cal_area()     |
          +---------------+     +----------------+
-
-*/
+                         
 
 abstract class Shape {
 
