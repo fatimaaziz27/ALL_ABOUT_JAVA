@@ -1,60 +1,82 @@
-//                      Abstraction in Java:
+//=====================================================
+//                 ABSTRACTION IN JAVA
+//=====================================================
 
-// The concept of hiding the complex implementation details and exposing only the essential features of an object.
-// Abstract methods cannot be accessed without inheritance (parent and child classes).
-// Polymorphism is required, where the child class overrides the abstract method.
-// If inheritance or overriding is used incorrectly, the code will not give the expected output or the abstract method cannot be accessed.
+// Definition:
+// Abstraction is the process of hiding complex
+// implementation details and showing only the
+// essential features of an object.
 
-//           Abstraction Diagram
+// Abstract methods require inheritance.
+// Child classes override abstract methods.
+// Polymorphism is used to access overridden methods.
 
-                ABSTRACTION
+//=====================================================
+//                ABSTRACTION DIAGRAM
+//=====================================================
+
+
+                    ABSTRACTION
+                          |
+          --------------------------------
+          |                              |
+          v                              v
+
+   Hide Complex                 Show Essential
+   Implementation                    Features
+
+          |                              |
+          v                              v
+
+   Internal Logic                User Interaction
+   Hidden from User              Visible to User
+
+
+//=====================================================
+//         REAL-LIFE ABSTRACTION DIAGRAM
+//=====================================================
+
+
+                    User
                       |
-      --------------------------------
-      |                              |
-      v                              v
+                      v
 
- Hide Complex                Show Essential
- Implementation                 Features
-      |                              |
-      v                              v
+               Uses Mobile Phone
+                      |
+             -------------------
+             |  Call           |
+             |  Message        |
+             |  Camera         |
+             -------------------
+                      |
+                      v
 
- Internal Logic               User Interaction
- Hidden from User             Visible to User
+          Internal Hardware & Code
+                  (Hidden)
 
-// Simple Real-Life Abstraction Diagram
-               User
-                |
-                v
-         Uses Mobile Phone
-                |
-        -----------------
-        |  Call          |
-        |  Message       |
-        |  Camera        |
-        -----------------
-                |
-                v
-     Internal Hardware & Code
-            (Hidden)
 
-                  
-                  
-//     Example Code 1:
-//     Flow Daigram ---->
+//=====================================================
+//                  EXAMPLE CODE 1
+//=====================================================
+
+// Magic Cave Example
+
+/*
+                  FLOW DIAGRAM
 
                  +-------------------+
                  |    MagicCave      |
                  |-------------------|
                  | treasure          |
                  |-------------------|
-                 | gates_open()      |  ← abstract
+                 | gates_open()      | ← abstract
                  | open_sesame()     |
                  +-------------------+
                            ▲
                            |
                            |
                  +-------------------+
-                 |     AliBaba       |
+                 |      AliBaba      |
                  |-------------------|
                  | gates_open()      |
                  | open_sesame()     |
@@ -62,39 +84,50 @@
                  | sleep()           |
                  +-------------------+
 
-// class Abstraction {
-//     public static void main(String[] args) {
-//         ali_baba obj = new ali_baba();
-//         obj.open_sesame();
-//         obj.get_treasure();
-//     }
-// }
-// abstract class magic_cave {
-//     String treasure = "hidden treasure";
-//     abstract void gates_open();
-//     void open_sesame() {
-//         System.out.println("The magic words are spoken.");
-//     }
-// }
-// class ali_baba extends magic_cave {
-//     void gates_open() {
-//         System.out.println("....");
-//     }
-//     void open_sesame() {
-//         System.out.println("The gates of the cave open.");
-//     }
-//     void get_treasure() {
-//         System.out.println(this.treasure);
-//     }
-//     void sleep(){
-//         System.out.println("sleeping in the cave for a while");
-//     }
-// }
+*/
 
-                  
-                   
-//     Example Code 2:                  
-//     Flow Daigram ---->
+abstract class MagicCave {
+
+    String treasure = "Hidden Treasure";
+
+    // Abstract method
+    abstract void gates_open();
+
+    // Normal method
+    void open_sesame() {
+        System.out.println("The magic words are spoken.");
+    }
+}
+
+class AliBaba extends MagicCave {
+
+    // Overriding abstract method
+    void gates_open() {
+        System.out.println("The gates are opening...");
+    }
+
+    // Overriding normal method
+    void open_sesame() {
+        System.out.println("The gates of the cave open.");
+    }
+
+    void get_treasure() {
+        System.out.println(treasure);
+    }
+
+    void sleep() {
+        System.out.println("Sleeping inside the cave.");
+    }
+}
+
+//=====================================================
+//                  EXAMPLE CODE 2
+//=====================================================
+
+// Payment System Example
+
+/*
+                  FLOW DIAGRAM
 
                  +----------------------+
                  |       Payment        |
@@ -106,37 +139,40 @@
                 |                       |
                 |                       |
        +-------------------+   +-------------------+
-       | CreditCardPayment |   |  PaypalPayment    |
+       | CreditCardPayment |   |   PaypalPayment   |
        |-------------------|   |-------------------|
        | process_payment() |   | process_payment() |
        +-------------------+   +-------------------+
-                   
-// abstract class payment{
-//     abstract void process_payment();
-// }
-// class credit_card_payment extends payment{
-//     void process_payment(){
-//         System.out.println("By Credit Card");
-//     }
-// }
-// class paypal_payment extends payment{
-//     void process_payment(){
-//         System.out.println("By Paypal");
-//     }
-// }
-// class main{
-//     public static void main(String[] args){
-//     credit_card_payment c1 = new credit_card_payment();
-//     c1.process_payment();
-//     paypal_payment p1 = new paypal_payment();
-//     p1.process_payment();
-//     }
-// }
 
+*/
 
-                  
-//     Example Code 3:                  
-//     Flow Daigram ---->
+abstract class Payment {
+
+    abstract void process_payment();
+}
+
+class CreditCardPayment extends Payment {
+
+    void process_payment() {
+        System.out.println("Payment by Credit Card");
+    }
+}
+
+class PaypalPayment extends Payment {
+
+    void process_payment() {
+        System.out.println("Payment by Paypal");
+    }
+}
+
+//=====================================================
+//                  EXAMPLE CODE 3
+//=====================================================
+
+// Shape Example
+
+/*
+                  FLOW DIAGRAM
 
                     +------------------+
                     |      Shape       |
@@ -153,26 +189,68 @@
          | cal_area()    |     | cal_area()     |
          +---------------+     +----------------+
 
-// import java.util.*;
+*/
 
-// abstract class shape{
-//     abstract void cal_area();
-// }
-// class circle extends shape{
-//     void cal_area(){
-//         System.out.println("Circle Area");
-//     }
-// }
-// class rectangle extends shape{
-//     void cal_area(){
-//         System.out.println("Rectangle Area");
-//     }
-// }
-// class main{
-//     public static void main(String[] args){
-//         circle c1 = new circle();
-//         c1.cal_area();
-//         rectangle r1 = new rectangle();
-//         r1.cal_area();
-//     }
-// }
+abstract class Shape {
+
+    abstract void cal_area();
+}
+
+class Circle extends Shape {
+
+    void cal_area() {
+        System.out.println("Circle Area");
+    }
+}
+
+class Rectangle extends Shape {
+
+    void cal_area() {
+        System.out.println("Rectangle Area");
+    }
+}
+
+//=====================================================
+//                    MAIN CLASS
+//=====================================================
+
+public class Abstraction {
+
+    public static void main(String[] args) {
+
+        //=================================================
+        //               EXAMPLE 1
+        //=================================================
+
+        AliBaba obj = new AliBaba();
+
+        obj.gates_open();
+        obj.open_sesame();
+        obj.get_treasure();
+        obj.sleep();
+
+        //=================================================
+        //               EXAMPLE 2
+        //=================================================
+
+        Payment p1;
+
+        p1 = new CreditCardPayment();
+        p1.process_payment();
+
+        p1 = new PaypalPayment();
+        p1.process_payment();
+
+        //=================================================
+        //               EXAMPLE 3
+        //=================================================
+
+        Shape s1;
+
+        s1 = new Circle();
+        s1.cal_area();
+
+        s1 = new Rectangle();
+        s1.cal_area();
+    }
+}
