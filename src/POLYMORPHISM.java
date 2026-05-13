@@ -1,13 +1,12 @@
 import java.lang.reflect.Method;
 
-public class POLYMORPHISM {
-//Topic: Polymorphism in Java
+//                      Polymorphism in Java
 
 //Type of Polymorphism:
 
-
 //1. Method Overloading
 // Method overloading means multiple methods with the same name but different parameters.
+public class POLYMORPHISM {
 
 class Calculator {
 
