@@ -22,8 +22,8 @@ import java.lang.reflect.Method;
 
 //1. Method Overloading
 // Method overloading means multiple methods with the same name but different parameters.
+                     
 public class POLYMORPHISM {
-
 class Calculator {
 
     int add(int a, int b) {
