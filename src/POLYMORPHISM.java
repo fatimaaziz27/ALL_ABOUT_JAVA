@@ -1,8 +1,13 @@
 import java.lang.reflect.Method;
 
 //                      Polymorphism in Java
+//     Polymorphism:
+//     The ability of different classes to be treated as instances of the same class through a common interface.
+//     It allows methods to do different things based on the object that it is acting upon, even though they share the same name.
 
-//Type of Polymorphism:
+//      Type of Polymorphism:
+//      Method Overloading 
+//      Method Overriding
 
 //1. Method Overloading
 // Method overloading means multiple methods with the same name but different parameters.
