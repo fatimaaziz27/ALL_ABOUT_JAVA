@@ -29,7 +29,6 @@
 //            TYPES OF INHERITANCE
 //=====================================================
 
-/*
 
                     INHERITANCE
                            |
@@ -39,7 +38,6 @@
 
  Single Inheritance   Multilevel Inheritance   Hierarchical Inheritance
 
-*/
 
 //=====================================================
 //             SINGLE INHERITANCE
