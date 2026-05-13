@@ -10,7 +10,6 @@
 //              INHERITANCE DIAGRAM
 //=====================================================
 
-/*
 
                     INHERITANCE
                            |
@@ -25,7 +24,6 @@
 
         Reusability                Parent-Child Relation
 
-*/
 
 //=====================================================
 //            TYPES OF INHERITANCE
