@@ -66,18 +66,32 @@ import java.lang.reflect.Method;
                     
 //2. Method Overriding
 // Method overriding occurs when a subclass provides a specific implementation of a method already defined in the parent class.
+// Flow Diagram:
+                 main()
+                    |
+                    v
+           Create Dog5 object
+                    |
+                    v
+              dog.sound()
+                    |
+                    v
+          Overridden method runs
+                    |
+                    v
+               "Dog barks"
+                      
+// class Animal {
+//     void sound() {
+//         System.out.println("Animal sound");
+//     }
+// }
 
-class Animal {
-    void sound() {
-        System.out.println("Animal sound");
-    }
-}
-
-class Dog extends Animal {
-    void sound() {
-        System.out.println("Dog bark");
-    }
-}
+// class Dog extends Animal {
+//     void sound() {
+//         System.out.println("Dog bark");
+//     }
+// }
 
 
 
