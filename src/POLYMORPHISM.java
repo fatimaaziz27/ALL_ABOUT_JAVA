@@ -35,7 +35,26 @@ class Calculator {
     }
 }
 
+// Flow Diagram:
 
+                  main()
+                     |
+                     v
+      Create MathOperations object
+                     |
+        --------------------------------
+        |              |              |
+        v              v              v
+
+     add(2,3)      add(2,3,4)    add(2,3.5)
+
+        |              |              |
+        v              v              v
+
+  add(int,int)   add(int,int,int) add(int,double)
+
+
+  
 //2. Method Overriding
 // Method overriding occurs when a subclass provides a specific implementation of a method already defined in the parent class.
 
