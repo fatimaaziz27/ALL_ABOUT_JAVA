@@ -164,6 +164,23 @@ class Car {
     private int year;
 
 
+    //=================================================
+    //                  GETTERS
+    //=================================================
+
+    public String getBrand() {
+        return brand;
+    }
+
+    public String getModel() {
+        return model;
+    }
+
+    public int getYear() {
+        return year;
+    }
+
+
 
 
   
