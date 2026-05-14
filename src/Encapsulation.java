@@ -152,6 +152,17 @@ class Person {
     }
 }
 
+//=====================================================
+//                 CAR CLASS
+//=====================================================
+
+class Car {
+
+    // Private Attributes
+    private String brand;
+    private String model;
+    private int year;
+
 
 
 
