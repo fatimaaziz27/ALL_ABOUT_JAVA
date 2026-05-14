@@ -1,16 +1,5 @@
 //                                 Encapsulation in OOP:
 
-// The bundling of data (attributes) and methods (functions) that operate on that data into a single unit (class).
-// It restricts direct access to some of the object components, which help prevent unintended interference and misuse
-// of the data.
-
-// Encapsulation is the concept of wrapping data (attributes) and methods (functions
-// behaviors) together into a single unit known as a class. It restricts direct access
-// to some of the object's components, which helps prevent unintended interference
-// and misuse of the data. Encapsulation is a fundamental principle of object-oriented
-// programming (OOP) that promotes data hiding and modularity.
-
-
 // Encapsulation is an OOP concept that focuses on binding data (variables) and methods into a single unit (class).
 // It hides the internal data of an object and allows access only through public methods.
 // Data members are usually declared private to prevent direct access from outside the class.
