@@ -1,12 +1,37 @@
-//                                 Encapsulation in OOP:
-// Encapsulation is an OOP concept that focuses on binding data (variables) and methods into a single unit (class).
-// It hides the internal data of an object and allows access only through public methods.
-// Data members are usually declared private to prevent direct access from outside the class.
-// Access to the data is provided using getter and setter methods.
-// Encapsulation helps in data security, data validation, and better control over class variables.
-// If encapsulation is not used properly, data can be modified incorrectly, which may cause unexpected results.
-// Encapsulation is used to protect data and maintain data integrity.
+//=====================================================
+//                ENCAPSULATION IN JAVA
+//=====================================================
 
+// Definition:
+// Encapsulation is an OOP concept that binds
+// data (variables) and methods into a single unit
+// called a class.
+
+// It hides internal data and allows controlled
+// access using getter and setter methods.
+
+// Benefits:
+// - Data Security
+// - Data Validation
+// - Better Control
+// - Data Integrity
+
+//=====================================================
+//              ENCAPSULATION DIAGRAM
+//=====================================================
+
+/*
+
+                    ENCAPSULATION
+                           |
+          -----------------------------------
+          |                                 |
+          v                                 v
+
+     Hide Internal Data            Controlled Access
+        (Private Data)             Using Methods
+
+*/
 
 public class Encapsulation {
 
