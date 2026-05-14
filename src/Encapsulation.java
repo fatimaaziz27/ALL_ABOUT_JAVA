@@ -20,7 +20,6 @@
 //              ENCAPSULATION DIAGRAM
 //=====================================================
 
-/*
 
                     ENCAPSULATION
                            |
@@ -31,7 +30,6 @@
      Hide Internal Data            Controlled Access
         (Private Data)             Using Methods
 
-*/
 
 //=====================================================
 //            REAL-LIFE ENCAPSULATION
