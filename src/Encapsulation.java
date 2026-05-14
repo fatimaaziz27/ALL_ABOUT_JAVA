@@ -75,31 +75,7 @@
 
 
 
-//Make a class 'Car' with attributes 'brand' and 'year' and 'model'.
-//Make getter setter to initialize these attributes.
-// Include methods to 'honk', 'start', and 'display' the car's details.
-//In 'honk', print "Beep Beep!".
-//In 'start', print "Car Started".
-//In 'display', print the brand, year, and model of the car.
 
-class GetterSetter{
-    public static void main(String[] args){
-        Car1 car1 = new Car1();
-        car1.setBrand("Ford");
-        car1.setModel("Ford GT");
-        car1.setYear(2022);
-        car1.honk();
-        car1.start();
-        car1.display();
-        Car1 car2 = new Car1();
-        car2.display();
-
-    }
-}
-static class Car1{
-    String brand;
-    String model;
-    int year;
 
 //Getter Setter Methods
 //Getter syntax ->
