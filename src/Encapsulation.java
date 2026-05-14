@@ -196,6 +196,28 @@ class Car {
         this.year = newYear;
     }
 
+   //=================================================
+    //                  METHODS
+    //=================================================
+
+    public void honk() {
+        System.out.println("Beep Beep!");
+    }
+
+    public void start() {
+        System.out.println("Car Started");
+    }
+
+    public void display() {
+
+        System.out.println(
+                "Brand: " + brand
+                + ", Model: " + model
+                + ", Year: " + year
+        );
+    }
+}
+
 
 
 
