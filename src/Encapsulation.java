@@ -117,12 +117,6 @@ class Person {
 
   
 
-//Getter Setter Methods
-//Getter syntax ->
-//    public datatype_attribute get+attribute_name(){
-//      return attribute_name
-//    }
-
 //Setter syntax ->
 //    public void set+attribute_name(datatype_attribute new_value(new+attribute_name){
 //      this.attribute_name =  new+attribute_name
