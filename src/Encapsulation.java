@@ -101,7 +101,21 @@
 
 */
 
+//=====================================================
+//                 PERSON CLASS
+//=====================================================
 
+class Person {
+
+    // Private Data Members
+    private String name;
+    private int age;
+    private String hairColor;
+
+
+
+
+  
 
 //Getter Setter Methods
 //Getter syntax ->
