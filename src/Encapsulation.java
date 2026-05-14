@@ -33,6 +33,46 @@
 
 */
 
+//=====================================================
+//            REAL-LIFE ENCAPSULATION
+//=====================================================
+
+/*
+
+                     ATM MACHINE
+                           |
+          --------------------------------
+          |                              |
+          v                              v
+
+     User Can Access             Internal Data Hidden
+     Withdraw & Balance          PIN & Database Hidden
+
+*/
+
+//=====================================================
+//           GETTER & SETTER DIAGRAM
+//=====================================================
+
+/*
+
+                   +------------------+
+                   |      Person      |
+                   +------------------+
+                   | - name           |
+                   | - age            |
+                   | - hairColor      |
+                   +------------------+
+                   | + getName()      |
+                   | + setName()      |
+                   | + getAge()       |
+                   | + setAge()       |
+                   | + getHairColor() |
+                   | + setHairColor() |
+                   +------------------+
+
+*/
+
 
 
 //Make a class 'Car' with attributes 'brand' and 'year' and 'model'.
