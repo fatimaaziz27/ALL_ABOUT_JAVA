@@ -113,6 +113,22 @@ class Person {
     private String hairColor;
 
 
+    //=================================================
+    //                  GETTERS
+    //=================================================
+
+    public String getName() {
+        return name;
+    }
+
+    public int getAge() {
+        return age;
+    }
+
+    public String getHairColor() {
+        return hairColor;
+    }
+
 
 
   
