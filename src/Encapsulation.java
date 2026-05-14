@@ -180,6 +180,22 @@ class Car {
         return year;
     }
 
+    //=================================================
+    //                  SETTERS
+    //=================================================
+
+    public void setBrand(String newBrand) {
+        this.brand = newBrand;
+    }
+
+    public void setModel(String newModel) {
+        this.model = newModel;
+    }
+
+    public void setYear(int newYear) {
+        this.year = newYear;
+    }
+
 
 
 
