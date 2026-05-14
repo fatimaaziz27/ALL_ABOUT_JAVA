@@ -35,7 +35,6 @@
 //            REAL-LIFE ENCAPSULATION
 //=====================================================
 
-/*
 
                      ATM MACHINE
                            |
@@ -46,7 +45,6 @@
      User Can Access             Internal Data Hidden
      Withdraw & Balance          PIN & Database Hidden
 
-*/
 
 //=====================================================
 //           GETTER & SETTER DIAGRAM
