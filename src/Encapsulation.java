@@ -74,6 +74,32 @@
 */
 
 
+//=====================================================
+//                 FLOW DIAGRAM
+//=====================================================
+
+/*
+
+                        main()
+                           |
+                           v
+
+                 Create Person Object
+                           |
+                           v
+
+                ---------------------
+                |                   |
+                v                   v
+
+            setData()           getData()
+
+                |                   |
+                v                   v
+
+         Modify Private Data   Access Private Data
+
+*/
 
 
 
