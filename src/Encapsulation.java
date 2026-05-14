@@ -128,6 +128,30 @@ class Person {
     public String getHairColor() {
         return hairColor;
     }
+  
+    //=================================================
+    //                  SETTERS
+    //=================================================
+
+    public void setName(String newName) {
+        this.name = newName;
+    }
+
+    public void setAge(int newAge) {
+
+        // Validation
+        if (newAge >= 0) {
+            this.age = newAge;
+        } else {
+            System.out.println("Age cannot be negative.");
+        }
+    }
+
+    public void setHairColor(String newHairColor) {
+        this.hairColor = newHairColor;
+    }
+}
+
 
 
 
