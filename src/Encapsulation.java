@@ -217,3 +217,57 @@ class Car {
         );
     }
 }
+
+//=====================================================
+//                    MAIN CLASS
+//=====================================================
+
+public class Encapsulation {
+
+    public static void main(String[] args) {
+
+        //=================================================
+        //              PERSON OBJECT
+        //=================================================
+
+        Person obj1 = new Person();
+
+        obj1.setName("Hussain");
+        obj1.setAge(25);
+        obj1.setHairColor("White");
+
+        System.out.println(
+                "Name: " + obj1.getName()
+                + ", Age: " + obj1.getAge()
+                + ", Hair Color: " + obj1.getHairColor()
+        );
+
+        //=================================================
+        //                CAR OBJECT
+        //=================================================
+
+        Car car1 = new Car();
+
+        car1.setBrand("Ford");
+        car1.setModel("Ford GT");
+        car1.setYear(2022);
+
+        car1.honk();
+        car1.start();
+        car1.display();
+    }
+}
+
+/*
+
+======================== OUTPUT ========================
+
+Name: Hussain, Age: 25, Hair Color: White
+
+Beep Beep!
+Car Started
+Brand: Ford, Model: Ford GT, Year: 2022
+
+========================================================
+
+*/
