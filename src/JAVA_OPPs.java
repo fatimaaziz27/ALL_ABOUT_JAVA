@@ -1,3 +1,23 @@
+//=====================================================
+//              OBJECT ORIENTED PROGRAMMING
+//=====================================================
+
+// Main Concepts of OOP:
+//
+// 1. Classes and Objects
+// 2. Encapsulation
+// 3. Inheritance
+// 4. Polymorphism
+// 5. Abstraction
+// 6. Interfaces
+
+
+
+
+
+
+
+
 
 
 
