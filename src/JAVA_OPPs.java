@@ -73,6 +73,18 @@ class Car {
 // into a single unit and protecting data
 // using private access modifiers.
 
+/*
+
+                 ENCAPSULATION
+                        |
+        --------------------------------
+        |                              |
+        v                              v
+
+   Hide Internal Data          Controlled Access
+      (private)               Using Getter/Setter
+
+*/
 
 
 
