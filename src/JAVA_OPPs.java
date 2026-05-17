@@ -64,6 +64,14 @@ class Car {
     }
 }
 
+//=====================================================
+//                 2. ENCAPSULATION
+//=====================================================
+
+// Definition:
+// Encapsulation means binding data and methods
+// into a single unit and protecting data
+// using private access modifiers.
 
 
 
