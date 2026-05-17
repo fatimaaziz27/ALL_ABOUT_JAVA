@@ -48,6 +48,22 @@
 
 */
 
+class Car {
+
+    // Fields
+    String model;
+    int year;
+
+    // Methods
+    void start() {
+        System.out.println("Car is starting.");
+    }
+
+    void accelerate() {
+        System.out.println("Car is accelerating.");
+    }
+}
+
 
 
 
