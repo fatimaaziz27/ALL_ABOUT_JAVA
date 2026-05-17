@@ -12,6 +12,42 @@
 // 6. Interfaces
 
 
+//=====================================================
+//               1. CLASSES & OBJECTS
+//=====================================================
+
+// Definition:
+// Class:
+// A blueprint or template for creating objects.
+//
+// Object:
+// An instance of a class representing a real-world entity.
+
+/*
+
+                    CLASS
+                      |
+                      v
+
+             Blueprint / Template
+                      |
+             -------------------
+             |                 |
+             v                 v
+
+          Fields            Methods
+
+                      |
+                      v
+
+                    OBJECT
+                      |
+                      v
+
+              Instance of Class
+
+*/
+
 
 
 
