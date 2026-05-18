@@ -261,6 +261,42 @@ public class Main {
 // OUTPUT ---->
 // Dog barks
 
+//=====================================================
+//                  3. INHERITANCE
+//=====================================================
+
+// Definition:
+// Inheritance allows one class to acquire
+// properties and methods of another class.
+
+/*
+
+                    INHERITANCE
+                           |
+                 -------------------
+                 |                 |
+                 v                 v
+
+             Superclass         Subclass
+
+*/
+
+class Animal {
+
+    void eat() {
+        System.out.println("Animal is eating.");
+    }
+}
+
+class Dog extends Animal {
+
+    void bark() {
+        System.out.println("Dog is barking.");
+    }
+}
+
+
+
 
 
 
