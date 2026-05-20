@@ -121,6 +121,7 @@ class Student {
 // One method performing different actions
 // depending on the object.
 
+
 //=====================================================
 //             METHOD OVERLOADING
 //=====================================================
@@ -143,6 +144,34 @@ class Calculator {
 
     double add(double a, double b) {
         return a + b;
+    }
+}
+
+//=====================================================
+//             METHOD OVERRIDING
+//=====================================================
+
+/*
+
+              METHOD OVERRIDING
+                        |
+         Same Method Name
+       Different Implementation
+
+*/
+
+class Bird {
+
+    void sing() {
+        System.out.println("Bird is singing.");
+    }
+}
+
+class Parrot extends Bird {
+
+    @Override
+    void sing() {
+        System.out.println("Parrot is mimicking.");
     }
 }
 
