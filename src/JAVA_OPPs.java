@@ -176,6 +176,25 @@ class Parrot extends Bird {
 }
 
 
+//=====================================================
+//                  5. ABSTRACTION
+//=====================================================
+
+// Definition:
+// Hiding implementation details
+// and showing only essential features.
+
+/*
+
+
+
+
+
+
+
+
+
+
 
 
 
