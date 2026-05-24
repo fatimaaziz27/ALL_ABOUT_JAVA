@@ -210,6 +210,14 @@ class Circle extends Shape {
     }
 }
 
+//=====================================================
+//                    6. INTERFACES
+//=====================================================
+
+// Definition:
+// An interface contains abstract methods
+// that implementing classes must define.
+
 
 
 
