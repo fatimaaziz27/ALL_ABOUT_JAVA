@@ -218,6 +218,33 @@ class Circle extends Shape {
 // An interface contains abstract methods
 // that implementing classes must define.
 
+/*
+
+                     INTERFACE
+                           |
+          --------------------------------
+          |                              |
+          v                              v
+
+      Multiple Classes          Common Behavior
+
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
