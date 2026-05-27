@@ -230,6 +230,27 @@ class Circle extends Shape {
 
 */
 
+interface ShapeInterface {
+
+    void draw();
+
+    double calculateArea();
+}
+
+class CircleInterface implements ShapeInterface {
+
+    @Override
+    public void draw() {
+        System.out.println("Drawing a circle.");
+    }
+
+    @Override
+    public double calculateArea() {
+
+        // Area calculation
+        return 0;
+    }
+}
 
 
 
