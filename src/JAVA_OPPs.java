@@ -264,6 +264,15 @@ public class OOPConcepts {
         //           CLASSES & OBJECTS
         //=================================================
 
+             Car myCar = new Car();
+
+        myCar.model = "Toyota";
+        myCar.year = 2022;
+
+        myCar.start();
+        myCar.accelerate();
+
+
 
 
 
