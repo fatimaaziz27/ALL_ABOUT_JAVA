@@ -272,6 +272,9 @@ public class OOPConcepts {
         myCar.start();
         myCar.accelerate();
 
+        //=================================================
+        //              ENCAPSULATION
+        //=================================================
 
              
 
