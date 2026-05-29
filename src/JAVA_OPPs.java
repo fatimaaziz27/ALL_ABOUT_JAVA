@@ -276,6 +276,17 @@ public class OOPConcepts {
         //              ENCAPSULATION
         //=================================================
 
+        Student s1 = new Student();
+
+        s1.setName("Ali");
+        s1.setAge(20);
+
+        System.out.println(
+                "Student Name: " + s1.getName()
+                + ", Age: " + s1.getAge()
+        );
+
+
              
 
 
