@@ -300,6 +300,14 @@ public class OOPConcepts {
         //              POLYMORPHISM
         //=================================================
 
+Calculator c1 = new Calculator();
+
+        System.out.println(c1.add(2, 3));
+        System.out.println(c1.add(2.5, 3.5));
+
+        Parrot p1 = new Parrot();
+        p1.sing();
+
 
 
 
