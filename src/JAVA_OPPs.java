@@ -331,7 +331,10 @@ Circle circle1 = new Circle();
 
 ======================== OUTPUT ========================
 
-        
+ 
+Car is starting.
+Car is accelerating
+       
 
 
 
