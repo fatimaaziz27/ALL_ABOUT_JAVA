@@ -320,6 +320,16 @@ Circle circle1 = new Circle();
         //=================================================
 
 
+        CircleInterface ci = new CircleInterface();
+
+        ci.draw();
+        System.out.println(ci.calculateArea());
+    }
+}
+
+/*
+
+
         
 
 
