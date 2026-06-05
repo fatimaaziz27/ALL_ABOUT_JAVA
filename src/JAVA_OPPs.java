@@ -334,7 +334,12 @@ Circle circle1 = new Circle();
  
 Car is starting.
 Car is accelerating
-       
+
+Student Name: Ali, Age: 20
+
+Animal is eating.
+Dog is barking.
+
 
 
 
