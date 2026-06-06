@@ -340,6 +340,10 @@ Student Name: Ali, Age: 20
 Animal is eating.
 Dog is barking.
 
+5
+6.0
+
+
 
 
 
