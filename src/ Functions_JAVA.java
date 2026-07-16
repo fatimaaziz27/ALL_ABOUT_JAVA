@@ -530,3 +530,361 @@ Vowels: 6
 Consonants: 5
 
 */
+
+
+
+
+
+
+
+
+
+
+//=====================================================
+//                   WHILE LOOP
+//=====================================================
+
+// Definition:
+// A while loop repeats a block of code
+// as long as the condition is true.
+
+/*
+
+                  WHILE LOOP
+                       |
+                       v
+
+              Check Condition
+                 /        \
+               True      False
+                |           |
+                v           v
+
+         Execute Loop      Stop
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+             i = 0
+               |
+               v
+
+            i <= 10 ?
+             /      \
+           Yes      No
+            |        |
+            v        v
+
+      Print Value    End
+            |
+            v
+
+           i++
+            |
+            |
+            └───────────────↺
+
+*/
+
+// CODE:
+
+/*
+class main{
+public static void main(String[] args){
+int i=0;
+while(i<=10){
+System.out.println(i);
+i++;
+}
+}
+}
+*/
+
+// OUTPUT:
+
+/*
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+*/
+
+
+
+//=====================================================
+//                  DO-WHILE LOOP
+//=====================================================
+
+// Definition:
+// A do-while loop executes the code once,
+// then checks the condition.
+// It always runs at least one time.
+
+/*
+
+                 DO-WHILE LOOP
+                       |
+                       v
+
+             Execute Statement
+                       |
+                       v
+
+             Check Condition
+                /        \
+             True      False
+               |           |
+               v           v
+
+          Repeat Loop     End
+
+*/
+
+// Flow Diagram
+
+/*
+
+              Start
+                |
+                v
+
+              k = 0
+                |
+                v
+
+           Print Value
+                |
+                v
+
+              k++
+                |
+                v
+
+            k <= 10 ?
+             /      \
+           Yes      No
+            |        |
+            |        v
+            └──────> End
+
+*/
+
+// CODE:
+
+/*
+class main{
+public static void main(String[] args){
+int k=0;
+do{
+System.out.println(k);
+k++;
+}
+while(k<=10);
+}
+}
+*/
+
+// OUTPUT:
+
+/*
+
+0
+1
+2
+3
+4
+5
+6
+7
+8
+9
+10
+
+*/
+
+
+
+//=====================================================
+//                  JAVA DATA TYPES
+//=====================================================
+
+// Definition:
+// Data types tell Java what kind of value
+// a variable can store.
+
+/*
+
+                 DATA TYPES
+                      |
+      ----------------------------------
+      |         |        |             |
+      v         v        v             v
+
+     int      float     char        String
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+      Create Variables
+              |
+              v
+
+     Store Different Values
+              |
+              v
+
+      Program Uses Values
+              |
+              v
+             End
+
+*/
+
+// CODE:
+
+/*
+class main{
+public static void main(String[] args){
+// java datatypes
+int my_num = 5;
+float my_float = 5.99f;
+char my_char = 'd';
+Boolean my_bool = true;
+String my_string = "hello";
+}
+}
+*/
+
+// OUTPUT:
+
+/*
+
+No output
+
+Values Stored:
+
+my_num = 5
+my_float = 5.99
+my_char = d
+my_bool = true
+my_string = hello
+
+*/
+
+
+
+//=====================================================
+//               JAVA USER INPUT (SCANNER)
+//=====================================================
+
+// Definition:
+// Scanner is used to take input
+// from the user during program execution.
+
+/*
+
+                  SCANNER
+                      |
+                      v
+
+              Read User Input
+                      |
+                      v
+
+              Store in Variable
+                      |
+                      v
+
+               Print the Value
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+       Create Scanner Object
+               |
+               v
+
+        Ask for Input
+               |
+               v
+
+         User Enters Value
+               |
+               v
+
+       Store in Variable
+               |
+               v
+
+         Print the Value
+               |
+               v
+              End
+
+*/
+
+// CODE:
+
+/*
+class Main {
+    public static void main(String[] args) {
+
+        Scanner sc = new Scanner(System.in);
+
+        System.out.println("Enter a number:");
+        int num = sc.nextInt();
+
+        System.out.println("You entered: " + num);
+    }
+}
+*/
+
+// OUTPUT:
+
+/*
+
+Enter a number:
+25
+
+You entered: 25
+
+*/
+
+
+
+
+
+
+
+
+
