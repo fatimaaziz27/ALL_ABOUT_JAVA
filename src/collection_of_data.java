@@ -79,3 +79,177 @@ class student_database{
 }
 */
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+//=====================================================
+//             STUDENT DATABASE CLASS
+//=====================================================
+
+// Definition:
+// Student Database is a program that stores
+// student information.
+// Each student has a name and age.
+// It allows adding, removing, and displaying
+// student records.
+
+/*
+
+              STUDENT DATABASE
+                     |
+                     v
+
+            Store Student Data
+                     |
+          -----------------------
+          |          |          |
+          v          v          v
+
+        Add       Remove     Display
+
+      Student    Student    Students
+
+*/
+
+
+
+// Types:
+// This program uses HashMap to store data.
+
+/*
+
+              DATA STORAGE
+                    |
+                    v
+
+                HashMap
+                    |
+          -----------------
+          |               |
+          v               v
+
+        Key            Value
+
+       Name            Age
+
+*/
+
+
+
+// Flow Diagram:
+
+/*
+
+                Start
+                  |
+                  v
+
+        Create Student Object
+                  |
+                  v
+
+          Add Student Data
+                  |
+                  v
+
+        Display Student Data
+                  |
+                  v
+
+         Remove Student Data
+                  |
+                  v
+
+                 End
+
+*/
+
+
+
+// EXAMPLE CODE:
+
+/*
+
+import java.util.*;
+
+class main{
+
+public static void main(String[] args){
+
+student_database s1 = new student_database("alice",23);
+
+s1.add();
+
+s1.display();
+
+s1.add();
+
+s1.remove();
+
+}
+
+}
+
+
+class student_database{
+
+String name;
+
+Integer age;
+
+
+HashMap<String,Integer> h1 = new HashMap<>();
+
+
+student_database(String name , Integer age){
+
+    this.name = name;
+
+    this.age= age;
+
+}
+
+
+void add(){
+
+    h1.put(this.name,this.age);
+
+}
+
+
+void remove(){
+
+    h1.remove(this.name);
+
+}
+
+
+void display(){
+
+    System.out.println(h1);
+
+}
+
+}
+
+*/
