@@ -378,3 +378,502 @@ System.out.println("Well guessed!");
 
         }
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// from GPT
+class BASIC_JAVA {
+    public static void main(String[] args) {
+
+//=====================================================
+//                 ITERATIVE STRUCTURE
+//=====================================================
+
+// Definition:
+// Iterative structure means repeating a block
+// of code until a condition becomes false.
+
+/*
+
+              ITERATIVE STRUCTURE
+                      |
+        -----------------------------
+        |             |             |
+        v             v             v
+
+      for loop    while loop   do-while loop
+
+*/
+
+
+
+//=====================================================
+//          PRINT FIRST 10 NATURAL NUMBERS
+//=====================================================
+
+// Definition:
+// This program prints the first
+// 10 natural numbers using a for loop.
+
+/*
+
+           PRINT NATURAL NUMBERS
+                    |
+                    v
+
+              Start Loop
+                    |
+                    v
+
+            Print 1 to 10
+                    |
+                    v
+
+                 End Loop
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+            i = 1
+               |
+               v
+
+            i <= 10 ?
+             /      \
+           Yes      No
+            |        |
+            v        v
+
+        Print i      End
+            |
+            v
+
+           i++
+            |
+            |
+            └────────────↺
+
+*/
+
+// CODE:
+
+/*
+        for (int i = 1; i <= 10; i++) {
+            System.out.println(i);
+        }
+*/
+
+
+
+//=====================================================
+//      SUM OF NUMBERS & MULTIPLICATION TABLE
+//=====================================================
+
+// Definition:
+// This program finds the sum of numbers
+// from 1 to a given number.
+// It also prints the multiplication table
+// of that number.
+
+/*
+
+             USER ENTERS NUMBER
+                      |
+          -------------------------
+          |                       |
+          v                       v
+
+      Calculate Sum        Print Table
+
+*/
+
+// Flow Diagram
+
+/*
+
+              Start
+                |
+                v
+
+          Enter Number
+                |
+                v
+
+      Calculate Sum (1 to n)
+                |
+                v
+
+      Print Multiplication
+           Table
+                |
+                v
+
+               End
+
+*/
+
+// CODE:
+
+/*
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int num = scanner.nextInt();
+
+        int sum = 0;
+        for (int i = 1; i <= num; i++) {
+            sum += i;
+        }
+        for (int i = 1; i <= 10; i++) {
+             System.out.println((num * i));
+        }
+*/
+
+
+
+//=====================================================
+//      DISPLAY SPECIFIC NUMBERS FROM A LIST
+//=====================================================
+
+// Definition:
+// This program prints only those numbers
+// that satisfy the given conditions.
+
+/*
+
+                 NUMBER LIST
+                      |
+                      v
+
+             Check Conditions
+                      |
+      --------------------------------
+      |                              |
+      v                              v
+
+   Valid Number               Skip / Stop
+
+*/
+
+// Flow Diagram
+
+/*
+
+              Start
+                |
+                v
+
+         Read Each Number
+                |
+                v
+
+          Number > 500 ?
+           /          \
+         Yes          No
+          |            |
+         Stop          |
+                      v
+
+        Number > 150 ?
+          /         \
+        Yes         No
+         |           |
+       Skip          |
+                    v
+
+     Divisible by 5 ?
+        /        \
+      Yes        No
+       |          |
+       v          v
+
+    Print      Next Number
+
+*/
+
+// CODE:
+
+/*
+int[] numbers = {12, 75, 150, 180, 145, 525, 50};
+for (int number : numbers) {
+    if (number > 500) break;
+    if (number % 5 == 0 && number <= 150) {
+        System.out.println(number);
+    }
+}
+*/
+
+
+
+//=====================================================
+//        PRINT LIST IN REVERSE ORDER
+//=====================================================
+
+// Definition:
+// This program prints the elements
+// of an array from last to first.
+
+/*
+
+                 ARRAY
+                   |
+                   v
+
+          Last Element
+                |
+                v
+
+       Print Towards First
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+    i = Last Index
+              |
+              v
+
+          i >= 0 ?
+          /      \
+        Yes      No
+         |        |
+         v        v
+
+     Print Item   End
+         |
+         v
+
+        i--
+         |
+         |
+         └────────────↺
+
+*/
+
+// CODE:
+
+/*
+int[] numbers = {10, 20, 30, 40, 50};
+for (int i = numbers.length - 1; i >= 0; i--) {
+    System.out.println(numbers[i]);
+}
+*/
+
+
+
+//=====================================================
+//      DISPLAY PRIME NUMBERS IN A RANGE
+//=====================================================
+
+// Definition:
+// This program prints all prime numbers
+// from 2 up to a given limit.
+
+/*
+
+              RANGE OF NUMBERS
+                     |
+                     v
+
+            Check Each Number
+                     |
+                     v
+
+          Prime or Not Prime
+                     |
+                     v
+
+             Print Prime Number
+
+*/
+
+// Flow Diagram
+
+/*
+
+              Start
+                |
+                v
+
+          Set Limit (n)
+                |
+                v
+
+      Check Every Number
+         from 2 to n
+                |
+                v
+
+        Is Number Prime?
+          /          \
+        Yes          No
+         |            |
+         v            |
+
+    Print Number   Check Next
+
+*/
+
+// CODE:
+
+/*
+int n = 20;
+System.out.println("Prime numbers up to " + n + ":");
+for (int i = 2; i <= n; i++) {
+    boolean isPrime = true;
+    for (int j = 2; j <= i / 2; j++) {
+        if (i % j == 0) {
+            isPrime = false;
+            break;
+        }
+    }
+    if (isPrime) System.out.println(i);
+}
+*/
+
+
+
+//=====================================================
+//             FACTORIAL OF A NUMBER
+//=====================================================
+
+// Definition:
+// Factorial is the product of all
+// positive numbers from 1 to the given number.
+
+/*
+
+              FACTORIAL
+                  |
+                  v
+
+          Multiply Numbers
+             from 1 to n
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+        Enter Number
+              |
+              v
+
+      factorial = 1
+              |
+              v
+
+    Multiply 1 to n
+              |
+              v
+
+      Print Factorial
+              |
+              v
+
+             End
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter a number: ");
+int num = scanner.nextInt();
+int factorial = 1;
+for (int i = 1; i <= num; i++) {
+    factorial *= i;
+}
+System.out.println("Factorial of " + num + " is " + factorial);
+*/
+
+
+
+//=====================================================
+//          SUM OF SERIES UP TO N TERMS
+//=====================================================
+
+// Definition:
+// This program calculates the sum
+// of the series up to n terms.
+
+/*
+
+             SERIES
+                |
+                v
+
+         Add Every Term
+                |
+                v
+
+          Print Sum
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+        Enter Terms
+              |
+              v
+
+      Add Every Term
+              |
+              v
+
+        Print Sum
+              |
+              v
+
+             End
+
+*/
+
+// CODE:
+
+/*
+System.out.print("Enter the number of terms: ");
+int terms = scanner.nextInt();
+double sumSeries = 0.0;
+for (int i = 1; i <= terms; i++) {
+    sumSeries += (double) 1 / i;
+}
+System.out.println("Sum of the series up to " + terms + " terms is " + sumSeries);
+*/
+
+    
