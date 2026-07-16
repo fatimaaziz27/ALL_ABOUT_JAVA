@@ -888,3 +888,152 @@ You entered: 25
 
 
 
+//=====================================================
+//                 SWITCH STATEMENT
+//=====================================================
+
+// Definition:
+// A switch statement checks an expression
+// and executes the matching case.
+// It is used as an alternative to multiple
+// if-else statements.
+
+/*
+
+                SWITCH STATEMENT
+                        |
+                        v
+
+                Check Expression
+                        |
+      -----------------------------------
+      |      |      |      |      |      |
+      v      v      v      v      v      v
+
+    Case A Case B Case C Case D Case E Default
+
+*/
+
+// Flow Diagram
+
+/*
+
+               Start
+                 |
+                 v
+
+          Enter Grade
+                 |
+                 v
+
+        Check Switch Cases
+                 |
+     --------------------------------
+     |      |      |      |      |
+     v      v      v      v      v
+
+     A      B      C      D      E
+     |      |      |      |      |
+     v      v      v      v      v
+
+ Excellent Very   Good  Average Poor
+           Good
+
+                 |
+                 v
+
+          No Matching Case
+                 |
+                 v
+
+               "Fail"
+                 |
+                 v
+
+                End
+
+*/
+
+// CODE:
+
+/*
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter your grade:");
+char letter = sc.next().toLowerCase().charAt(0);
+
+switch (letter) {
+case 'a':
+    System.out.println("Excellent");
+    break;
+
+case 'b':
+    System.out.println("Very good");
+    break;
+
+case 'c':
+    System.out.println("Good");
+    break;
+
+case 'd':
+    System.out.println("Average");
+    break;
+
+case 'e':
+    System.out.println("Poor");
+    break;
+
+default:
+    System.out.println("Fail");
+}
+}
+*/
+
+// OUTPUT:
+
+/*
+
+Enter your grade:
+A
+
+Excellent
+
+or
+
+Enter your grade:
+B
+
+Very good
+
+or
+
+Enter your grade:
+C
+
+Good
+
+or
+
+Enter your grade:
+D
+
+Average
+
+or
+
+Enter your grade:
+E
+
+Poor
+
+or
+
+Enter your grade:
+F
+
+Fail
+
+*/
+
+}
+}
