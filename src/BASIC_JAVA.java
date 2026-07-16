@@ -1373,6 +1373,533 @@ System.out.println("Destination List: " + destinationList);
 
 
 
+//=====================================================
+//       FIND THE MAXIMUM VALUE IN A LIST
+//=====================================================
 
-        
+// Definition:
+// This program finds the largest number
+// in a list without using the max() function.
+
+/*
+
+               NUMBER LIST
+                    |
+                    v
+
+         Compare Every Value
+                    |
+                    v
+
+          Store Largest Value
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+      Set First Value as Max
+               |
+               v
+
+      Read Next Number
+               |
+               v
+
+    Number > Max ?
+        /      \
+      Yes      No
+       |        |
+       v        |
+   Update Max   |
+       |________|
+            |
+            v
+
+     Repeat Until End
+            |
+            v
+
+       Print Maximum
+
+*/
+
+// CODE:
+
+/*
+List<Integer> numbers = Arrays.asList(34, 67, 23, 89, 12, 90, 45);
+
+int max = numbers.get(0);
+
+for (int i = 1; i < numbers.size(); i++) {
+    if (numbers.get(i) > max) {
+        max = numbers.get(i);
+    }
+}
+
+System.out.println("Maximum value in the list: " + max);
+*/
+
+
+
+//=====================================================
+//      COUNT EVEN AND ODD NUMBERS
+//=====================================================
+
+// Definition:
+// This program counts the number
+// of even and odd values in a list.
+
+/*
+
+             NUMBER LIST
+                  |
+                  v
+
+        Check Every Number
+                  |
+        -------------------
+        |                 |
+        v                 v
+
+      Even              Odd
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+        Read Number
+               |
+               v
+
+      Number % 2 == 0 ?
+         /          \
+       Yes          No
+        |            |
+        v            v
+
+ Increase Even   Increase Odd
+     Counter        Counter
+        |______________|
+               |
+               v
+
+         Repeat Until End
+
+*/
+
+// CODE:
+
+/*
+List<Integer> numbers = Arrays.asList(1, 2, 3, 4, 5, 6, 7, 8, 9);
+
+int evenCount = 0;
+int oddCount = 0;
+
+for (Integer number : numbers) {
+    if (number % 2 == 0) {
+        evenCount++;
+    } else {
+        oddCount++;
+    }
+}
+
+System.out.println("Even numbers count: " + evenCount);
+System.out.println("Odd numbers count: " + oddCount);
+*/
+
+
+
+//=====================================================
+//     SUM OF SQUARES OF LIST ELEMENTS
+//=====================================================
+
+// Definition:
+// This program finds the sum of the
+// squares of all numbers in a list.
+
+/*
+
+             NUMBER LIST
+                  |
+                  v
+
+       Square Every Number
+                  |
+                  v
+
+         Add All Squares
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+      Read Number
+              |
+              v
+
+     Square Number
+              |
+              v
+
+       Add to Total
+              |
+              v
+
+    Repeat Until End
+
+*/
+
+// CODE:
+
+/*
+List<Integer> numbers = Arrays.asList(3, 5, 23, 6, 5, 1, 2, 9, 8);
+
+int sumOfSquares = 0;
+
+for (Integer number : numbers) {
+    sumOfSquares += number * number;
+}
+
+System.out.println("Sum of squares: " + sumOfSquares);
+*/
+
+
+
+//=====================================================
+//          LIST SEPARATION AND SORTING
+//=====================================================
+
+// Definition:
+// This program separates strings and
+// numbers into different lists.
+// It also sorts both lists in
+// ascending and descending order.
+
+/*
+
+              MIXED LIST
+                  |
+      -------------------------
+      |                       |
+      v                       v
+
+  String List           Number List
+      |                       |
+      v                       v
+
+  Sort A-Z / Z-A      Sort Low / High
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+      Read Mixed List
+               |
+               v
+
+   String or Number?
+      /          \
+ String        Number
+    |             |
+    v             v
+
+ Store in      Store in
+String List   Number List
+      |_____________|
+             |
+             v
+
+      Sort Both Lists
+
+*/
+
+// CODE:
+
+/*
+List<Object> gadgets = Arrays.asList(
+"Mobile", "Laptop", 100, "Camera", 310.28,
+"Speakers", 27.00, "Television", 1000,
+"Laptop Case", "Camera Lens");
+
+List<String> stringList = new ArrayList<>();
+List<Double> numberList = new ArrayList<>();
+
+for (Object item : gadgets) {
+    if (item instanceof String) {
+        stringList.add((String) item);
+    } else if (item instanceof Number) {
+        numberList.add(((Number) item).doubleValue());
+    }
+}
+
+List<String> ascStrings = new ArrayList<>(stringList);
+Collections.sort(ascStrings);
+
+List<String> descStrings = new ArrayList<>(stringList);
+Collections.sort(descStrings, Collections.reverseOrder());
+
+List<Double> ascNumbers = new ArrayList<>(numberList);
+Collections.sort(ascNumbers);
+
+List<Double> descNumbers = new ArrayList<>(numberList);
+Collections.sort(descNumbers, Collections.reverseOrder());
+
+System.out.println("Strings (Ascending): " + ascStrings);
+System.out.println("Strings (Descending): " + descStrings);
+System.out.println("Numbers (Low to High): " + ascNumbers);
+System.out.println("Numbers (High to Low): " + descNumbers);
+*/
+
+
+
+//=====================================================
+//      COUNT LETTERS AND DIGITS
+//=====================================================
+
+// Definition:
+// This program counts the number
+// of letters and digits in a string.
+
+/*
+
+             INPUT STRING
+                  |
+                  v
+
+      Check Every Character
+                  |
+        -------------------
+        |                 |
+        v                 v
+
+     Letter            Digit
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+        Enter String
+              |
+              v
+
+ Read One Character
+              |
+              v
+
+ Letter or Digit?
+      |         |
+      v         v
+
+ Increase     Increase
+ Letters      Digits
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("Enter Any String: ");
+
+String input = scanner.nextLine();
+
+int letters = 0;
+int digits = 0;
+
+for (char n : input.toCharArray()) {
+
+    if(Character.isLetter(n))
+        letters++;
+
+    else if(Character.isDigit(n))
+        digits++;
+}
+
+System.out.println("Letters: "+letters+", Digits: "+digits);
+*/
+
+
+
+//=====================================================
+//      ARRAY SUM AND MAXIMUM VALUE
+//=====================================================
+
+// Definition:
+// This program stores numbers
+// in an array, finds their sum,
+// and finds the largest value.
+
+/*
+
+              ARRAY
+                |
+      ------------------
+      |                |
+      v                v
+
+    Find Sum      Find Maximum
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+     Enter Array Size
+              |
+              v
+
+    Store Elements
+              |
+              v
+
+ Read Every Element
+              |
+      ----------------
+      |              |
+      v              v
+
+ Add to Sum   Compare Max
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("Enter the number of elements: ");
+
+int n = scanner.nextInt();
+
+int[] numbers = new int[n];
+
+System.out.println("Enter the elements: ");
+
+for (int i = 0; i < n; i++) {
+    numbers[i] = scanner.nextInt();
+}
+
+int sum = 0;
+int max = numbers[0];
+
+for (int num : numbers) {
+
+    sum += num;
+
+    if (num > max) {
+        max = num;
+    }
+}
+
+System.out.println("Sum of numbers: " + sum);
+System.out.println("Maximum number: " + max);
+*/
+
+
+
+//=====================================================
+//      STRING LENGTH WITHOUT length()
+//=====================================================
+
+// Definition:
+// This program finds the length
+// of a string without using
+// the length() method.
+
+/*
+
+              STRING
+                 |
+                 v
+
+      Read Every Character
+                 |
+                 v
+
+      Increase Counter
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+        Enter String
+              |
+              v
+
+ Convert to Array
+              |
+              v
+
+ Count Characters
+              |
+              v
+
+ Print Length
+
+*/
+
+// CODE:
+
+/*
+Scanner sc = new Scanner(System.in);
+
+System.out.println("Enter any string:");
+
+String word = sc.nextLine();
+
+int count = 0;
+
+char[] charList = word.toCharArray();
+
+for (char i : charList) {
+    count++;
+}
+
+System.out.println("The length of string entered is: " + count);
+*/
+
+        }
+}
     
