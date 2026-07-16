@@ -876,4 +876,503 @@ for (int i = 1; i <= terms; i++) {
 System.out.println("Sum of the series up to " + terms + " terms is " + sumSeries);
 */
 
+
+
+
+
+
+
+
+
+
+
+
+//=====================================================
+//             GUESS THE NUMBER GAME
+//=====================================================
+
+// Definition:
+// This program asks the user to guess
+// the correct number.
+// The loop continues until the correct
+// number is entered.
+
+/*
+
+              GUESS NUMBER
+                    |
+                    v
+
+            User Enters Guess
+                    |
+          ----------------------
+          |                    |
+          v                    v
+
+      Correct Guess      Wrong Guess
+          |                    |
+          v                    |
+       End Program <------------
+
+*/
+
+// Flow Diagram
+
+/*
+
+             Start
+               |
+               v
+
+      Set Secret Number
+               |
+               v
+
+       Enter a Guess
+               |
+               v
+
+   Guess == Secret Number?
+        /             \
+      Yes             No
+       |               |
+       v               |
+
+  Print Success    Too High /
+      Message      Too Low
+       |               |
+       |_______________|
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+int secretNumber = 7;
+int userGuess = 0;
+
+while (userGuess != secretNumber) {
+    System.out.print("Guess a number between 1 and 9: ");
+    userGuess = scanner.nextInt();
+
+    if (userGuess < secretNumber) {
+        System.out.println("Too low, try again.");
+    } else if (userGuess > secretNumber) {
+        System.out.println("Too high, try again.");
+    }
+}
+
+System.out.println("Well guessed!");
+*/
+
+
+
+//=====================================================
+//      REVERSE A WORD & COUNT LETTERS/DIGITS
+//=====================================================
+
+// Definition:
+// This program reverses a word.
+// It also counts the number of
+// letters and digits in a string.
+
+/*
+
+             USER INPUT
+                  |
+        --------------------
+        |                  |
+        v                  v
+
+   Reverse Word     Count Characters
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+         Enter Word
+              |
+              v
+
+      Reverse Word
+              |
+              v
+
+       Enter String
+              |
+              v
+
+ Check Every Character
+              |
+      ------------------
+      |                |
+      v                v
+
+   Letter          Digit
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+System.out.print("Enter a word: ");
+String word = scanner.nextLine();
+
+String reversed = "";
+
+for (int i = word.length() - 1; i >= 0; i--) {
+    reversed += word.charAt(i);
+}
+
+System.out.println("Reversed word: " + reversed);
+
+System.out.print("Enter a string: ");
+String input = scanner.nextLine();
+
+int letterCount = 0;
+int digitCount = 0;
+
+for (int i = 0; i < input.length(); i++) {
+    char ch = input.charAt(i);
+
+    if (Character.isLetter(ch)) {
+        letterCount++;
+    } else if (Character.isDigit(ch)) {
+        digitCount++;
+    }
+}
+
+System.out.println("Letters: " + letterCount);
+System.out.println("Digits: " + digitCount);
+*/
+
+
+
+//=====================================================
+//        STRING LENGTH WITHOUT length()
+//=====================================================
+
+// Definition:
+// This program finds the length of
+// a string without using length().
+
+/*
+
+             STRING
+                |
+                v
+
+      Read Every Character
+                |
+                v
+
+      Increase Counter
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+        Enter String
+              |
+              v
+
+ Read One Character
+              |
+              v
+
+ Increase Counter
+              |
+              v
+
+ Repeat Until End
+              |
+              v
+
+      Print Length
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("Enter a string to calculate its length: ");
+String str = scanner.nextLine();
+
+int length = 0;
+
+for (char c : str.toCharArray()) {
+    length++;
+}
+
+System.out.println("Length of the string: " + length);
+*/
+
+
+
+//=====================================================
+//      COUNT VOWELS AND CONSONANTS
+//=====================================================
+
+// Definition:
+// This program counts vowels and
+// consonants in the user's full name.
+
+/*
+
+            FULL NAME
+                |
+                v
+
+      Check Every Letter
+                |
+      -------------------
+      |                 |
+      v                 v
+
+    Vowel         Consonant
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+      Enter Full Name
+              |
+              v
+
+ Read One Character
+              |
+              v
+
+ Is Alphabet?
+      /     \
+    Yes      No
+     |
+     v
+
+Vowel or Consonant?
+     |
+     v
+
+ Increase Counter
+     |
+     v
+
+ Print Result
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("Enter your full name: ");
+
+String fullName = scanner.nextLine().toLowerCase();
+
+int vowels = 0;
+int consonants = 0;
+
+for (int i = 0; i < fullName.length(); i++) {
+
+    char ch = fullName.charAt(i);
+
+    if (ch >= 'a' && ch <= 'z') {
+
+        if (ch == 'a' || ch == 'e' || ch == 'i'
+                || ch == 'o' || ch == 'u') {
+
+            vowels++;
+
+        } else {
+
+            consonants++;
+
+        }
+    }
+}
+
+System.out.println("Vowels: " + vowels);
+*/
+
+
+
+//=====================================================
+//          CREATE A LIST FROM USER INPUT
+//=====================================================
+
+// Definition:
+// This program creates a list
+// using values entered by the user.
+
+/*
+
+           USER INPUT
+                |
+                v
+
+         Store in List
+                |
+                v
+
+          Display List
+
+*/
+
+// Flow Diagram
+
+/*
+
+            Start
+              |
+              v
+
+   Enter Number of Values
+              |
+              v
+
+ Enter Values One by One
+              |
+              v
+
+    Add Values to List
+              |
+              v
+
+      Print List
+
+*/
+
+// CODE:
+
+/*
+Scanner scanner = new Scanner(System.in);
+
+System.out.print("Enter the number of values you want to input: ");
+
+int n = scanner.nextInt();
+
+List<Integer> values = new ArrayList<>();
+
+System.out.println("Enter " + n + " values:");
+
+for (int i = 0; i < n; i++) {
+
+    int value = scanner.nextInt();
+
+    values.add(value);
+}
+
+System.out.println("You entered: " + values);
+*/
+
+
+
+//=====================================================
+//      COPY ELEMENTS FROM ONE LIST TO ANOTHER
+//=====================================================
+
+// Definition:
+// This program copies all elements
+// from one list into another list.
+
+/*
+
+          SOURCE LIST
+                |
+                v
+
+         Copy Elements
+                |
+                v
+
+      DESTINATION LIST
+
+*/
+
+// Flow Diagram
+
+/*
+
+           Start
+             |
+             v
+
+      Read Source List
+             |
+             v
+
+ Read One Element
+             |
+             v
+
+ Add to New List
+             |
+             v
+
+ Repeat Until End
+             |
+             v
+
+ Display Both Lists
+
+*/
+
+// CODE:
+
+/*
+List<Integer> sourceList = Arrays.asList(1, 2, 3, 4, 5);
+
+List<Integer> destinationList = new ArrayList<>();
+
+for (Integer item : sourceList) {
+    destinationList.add(item);
+}
+
+System.out.println("Source List: " + sourceList);
+System.out.println("Destination List: " + destinationList);
+*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        
     
