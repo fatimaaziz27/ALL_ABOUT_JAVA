@@ -46,6 +46,10 @@ class mainn {
 
 
 
+
+
+    
+
     
 // code 1
 class mainn {
@@ -207,8 +211,125 @@ class mainn {
 
 
 
-    
-    
+// 1. Check Even or Odd
+class mainn {
+    public static void main(String[] args) {
+
+        int n = 10;
+
+        if (n % 2 == 0)
+            System.out.println("Even");
+        else
+            System.out.println("Odd");
+    }
+}
+
+// Steps
+// Store 10 in n.
+// Check n % 2.
+// If the remainder is 0 → Even.
+// Otherwise → Odd.
+
+
+
+
+
+// 2. Check Positive or Negative
+class mainn {
+    public static void main(String[] args) {
+
+        int n = -5;
+
+        if (n > 0)
+            System.out.println("Positive");
+        else
+            System.out.println("Negative");
+    }
+}
+
+// Steps
+// Store -5 in n.
+// Check if n > 0.
+// If true → Positive.
+// Otherwise → Negative.
+
+
+
+
+
+
+// 3. Check Pass or Fail
+class mainn {
+    public static void main(String[] args) {
+
+        int marks = 60;
+
+        if (marks >= 50)
+            System.out.println("Pass");
+        else
+            System.out.println("Fail");
+    }
+}
+
+// Steps
+// Store marks in marks.
+// Check if marks are >= 50.
+// If true → Pass.
+// Otherwise → Fail.
+
+
+
+
+
+
+// 4. Find Greater Number
+class mainn {
+    public static void main(String[] args) {
+
+        int a = 10;
+        int b = 20;
+
+        if (a > b)
+            System.out.println("A is greater");
+        else
+            System.out.println("B is greater");
+    }
+}
+// Steps
+// Store 10 in a.
+// Store 20 in b.
+// Check if a > b.
+// If true → A is greater.
+// Otherwise → B is greater.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 // from GPT
 import java.util.*;
 class mainn {
