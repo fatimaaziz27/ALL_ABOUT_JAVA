@@ -93,26 +93,6 @@ class mainn {
 
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    
 // code    2
 class mainn {
     public static void main(String[] args) {
@@ -133,7 +113,41 @@ class mainn {
             System.out.println("Zero");
     }
 }
-    
+            
+
+        ┌─────────────┐
+        │    START    │
+        └──────┬──────┘
+               ↓
+        ┌─────────────┐
+        │   n = -5    │
+        └──────┬──────┘
+               ↓
+        ┌─────────────┐
+        │    n > 0 ?  │
+        └───┬─────┬───┘
+          YES     NO
+           ↓       ↓
+   ┌────────────┐  ┌─────────────┐
+   │   Print    │  │    n < 0 ?  │
+   │ "Positive" │  └───┬─────┬───┘
+   └──────┬─────┘    YES     NO
+          │            ↓       ↓
+          │     ┌──────────┐ ┌────────┐
+          │     │  Print   │ │ Print  │
+          │     │"Negative"│ │ "Zero" │
+          │     └────┬─────┘ └───┬────┘
+          │          │            │
+          └──────────┴──────┬─────┘
+                             ↓
+                     ┌─────────────┐
+                     │     END     │
+                     └─────────────┘
+
+
+
+
+            
 // code    3
 class mainn {
     public static void main(String[] args) {
