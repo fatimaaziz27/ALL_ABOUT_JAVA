@@ -83,7 +83,15 @@ class mainn {
 
 class mainn {
     public static void main(String[] args) {
+Steps:
 
+Store two numbers in a and b.
+Compare a with b.
+If a > b → A is greater.
+Otherwise check b > a.
+If true → B is greater.
+Otherwise → Both are equal.
+    
         int a = 10;
         int b = 20;
 
@@ -96,6 +104,7 @@ class mainn {
     }
 }
 
+    
     
 // from GPT
 import java.util.*;
