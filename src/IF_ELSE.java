@@ -6,60 +6,51 @@ class mainn {
 // Between 2 and 5 → Not Weird
 // Between 6 and 20 → Weird
 // Greater than 20 → Not Weird
-
-    private static final Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        int n = scanner.nextInt();
-        
-        if (n%2!=0){
-            System.out.println("Weird");
-        }
-        else if(n>=2 && n<=5){
-            System.out.println("Not Weird");
-        }
-        else if(n>=6 && n<=20){
-            System.out.println("Weird");
-        }
-        else if(n>20){
-            System.out.println("Not Weird");
-        }
-        scanner.close();
-    }
-}
-
-
-
-
-
-
-
-
-
-
-// class mainn {
-//     public static void main(String[] args) {
-
-//         int n = 7;
-
-//         if (n % 2 != 0)
-//             System.out.println("Weird");
-//         else if (n <= 5)
-//             System.out.println("Not Weird");
-//         else if (n <= 20)
-//             System.out.println("Weird");
-//         else
-//             System.out.println("Not Weird");
-//     }
-// }
-
-
-
-class mainn {
+    class mainn {
     public static void main(String[] args) {
 
         int n = 7;
 
+        if (n % 2 != 0)
+            System.out.println("Weird");
+        else if (n <= 5)
+            System.out.println("Not Weird");
+        else if (n <= 20)
+            System.out.println("Weird");
+        else
+            System.out.println("Not Weird");
+    }
+}
+//     private static final Scanner scanner = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         int n = scanner.nextInt();
+        
+//         if (n%2!=0){
+//             System.out.println("Weird");
+//         }
+//         else if(n>=2 && n<=5){
+//             System.out.println("Not Weird");
+//         }
+//         else if(n>=6 && n<=20){
+//             System.out.println("Weird");
+//         }
+//         else if(n>20){
+//             System.out.println("Not Weird");
+//         }
+//         scanner.close();
+//     }
+// }
+
+
+// code 1
+class mainn {
+    public static void main(String[] args) {
+// Steps:
+// Store a number in n.
+// Use % 2 to check the remainder.
+// If remainder is 0 → Even.
+// Otherwise → Odd.
+        int n = 7;
         if (n % 2 == 0)
             System.out.println("Even");
         else
@@ -67,6 +58,9 @@ class mainn {
     }
 }
 
+
+
+    
 
 
 // from GPT
