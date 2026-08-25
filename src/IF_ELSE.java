@@ -229,10 +229,12 @@ class mainn {
 
         int n = 10;
 
-        if (n % 2 == 0)
+        if (n % 2 == 0){
             System.out.println("Even");
-        else
+        }
+        else{
             System.out.println("Odd");
+        }
     }
 }
 
@@ -275,10 +277,12 @@ class mainn {
 
         int n = -5;
 
-        if (n > 0)
+        if (n > 0){
             System.out.println("Positive");
-        else
+        }
+        else{
             System.out.println("Negative");
+        }
     }
 }
 
@@ -322,10 +326,12 @@ class mainn {
 
         int marks = 60;
 
-        if (marks >= 50)
+        if (marks >= 50){
             System.out.println("Pass");
-        else
+        }
+        else{
             System.out.println("Fail");
+        }
     }
 }
 
@@ -370,10 +376,12 @@ class mainn {
         int a = 10;
         int b = 20;
 
-        if (a > b)
+        if (a > b){
             System.out.println("A is greater");
-        else
+        }
+        else{
             System.out.println("B is greater");
+        }
     }
 }
 // Steps
