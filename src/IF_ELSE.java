@@ -68,7 +68,6 @@ class mainn {
 class mainn {
     public static void main(String[] args) {
 // Steps:
-
 // Store a number in n.
 // Check if n > 0.
 // If true → Positive.
