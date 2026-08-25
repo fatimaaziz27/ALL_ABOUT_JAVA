@@ -42,6 +42,11 @@ class mainn {
 // }
 
 
+
+
+
+
+    
 // code 1
 class mainn {
     public static void main(String[] args) {
@@ -58,7 +63,8 @@ class mainn {
     }
 }
 
-
+    
+// code    2
 class mainn {
     public static void main(String[] args) {
 // Steps:
@@ -80,17 +86,17 @@ class mainn {
     }
 }
     
-
+// code    3
 class mainn {
     public static void main(String[] args) {
-Steps:
 
-Store two numbers in a and b.
-Compare a with b.
-If a > b → A is greater.
-Otherwise check b > a.
-If true → B is greater.
-Otherwise → Both are equal.
+// Steps:
+// Store two numbers in a and b.
+// Compare a with b.
+// If a > b → A is greater.
+// Otherwise check b > a.
+// If true → B is greater.
+// Otherwise → Both are equal.
     
         int a = 10;
         int b = 20;
@@ -103,6 +109,13 @@ Otherwise → Both are equal.
             System.out.println("Both are equal");
     }
 }
+
+
+
+
+
+
+
 
     
     
