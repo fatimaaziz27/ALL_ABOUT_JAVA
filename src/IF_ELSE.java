@@ -11,14 +11,18 @@ class mainn {
 
         int n = 7;
 
-        if (n % 2 != 0)
+        if (n % 2 != 0){
             System.out.println("Weird");
-        else if (n <= 5)
+        }
+        else if (n <= 5){
             System.out.println("Not Weird");
-        else if (n <= 20)
+        }
+        else if (n <= 20){
             System.out.println("Weird");
-        else
+        }
+        else{
             System.out.println("Not Weird");
+        }
     }
 }
 //     private static final Scanner scanner = new Scanner(System.in);
@@ -60,10 +64,12 @@ class mainn {
 // If remainder is 0 → Even.
 // Otherwise → Odd.
         int n = 7;
-        if (n % 2 == 0)
+        if (n % 2 == 0){
             System.out.println("Even");
-        else
+        }
+        else{
             System.out.println("Odd");
+        }
     }
 }
 
@@ -109,12 +115,15 @@ class mainn {
 // Otherwise → Zero.
         int n = -5;
 
-        if (n > 0)
+        if (n > 0){
             System.out.println("Positive");
-        else if (n < 0)
+        }
+        else if (n < 0){
             System.out.println("Negative");
-        else
+        }
+        else{
             System.out.println("Zero");
+        }
     }
 }
             
@@ -167,12 +176,15 @@ class mainn {
         int a = 10;
         int b = 20;
 
-        if (a > b)
+        if (a > b){
             System.out.println("A is greater");
-        else if (b > a)
+        }
+        else if (b > a){
             System.out.println("B is greater");
-        else
+        }
+        else{
             System.out.println("Both are equal");
+        }
     }
 }
 
