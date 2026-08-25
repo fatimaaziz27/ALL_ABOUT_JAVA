@@ -36,6 +36,25 @@ class mainn {
 
 
 
+
+// class mainn {
+//     public static void main(String[] args) {
+
+//         int n = 7;
+
+//         if (n % 2 != 0)
+//             System.out.println("Weird");
+//         else if (n <= 5)
+//             System.out.println("Not Weird");
+//         else if (n <= 20)
+//             System.out.println("Weird");
+//         else
+//             System.out.println("Not Weird");
+//     }
+// }
+
+
+
 // from GPT
 import java.util.*;
 class mainn {
