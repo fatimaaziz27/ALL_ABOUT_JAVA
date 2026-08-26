@@ -222,7 +222,7 @@ class mainn {
 
 
 
-
+// code 3
 // 1. Check Even or Odd
 class mainn {
     public static void main(String[] args) {
@@ -270,7 +270,7 @@ class mainn {
 
 
 
-
+// code 4
 // 2. Check Positive or Negative
 class mainn {
     public static void main(String[] args) {
@@ -319,7 +319,7 @@ class mainn {
 
 
 
-
+// code 5
 // 3. Check Pass or Fail
 class mainn {
     public static void main(String[] args) {
@@ -368,7 +368,7 @@ class mainn {
 
 
 
-
+// code 6
 // 4. Find Greater Number
 class mainn {
     public static void main(String[] args) {
