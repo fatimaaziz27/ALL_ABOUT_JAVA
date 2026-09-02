@@ -591,6 +591,52 @@ if (temperature < 0) {
 
 
 
+// workig calculator 
+import java.util.*;
+public class Main {
+    public static void main(String[] args) {
+
+    Scanner scan = new Scanner(System.in); 
+
+    System.out.println("Enter a Operator:");
+    String operator = scan.nextLine();
+
+    System.out.println("Enter a number:");
+    int n1 = scan.nextInt();
+
+    System.out.println("Enter a number:");
+    int n2 = scan.nextInt();
+
+    if (operator.equals("+")){
+      System.out.println(n1+n2);
+    }
+    else if (operator.equals("-")){
+      System.out.println(n1-n2);
+    }
+    else if (operator.equals("*")){
+      System.out.println(n1*n2);
+    }
+    else if (operator.equals("/")){
+      System.out.println(n1/n2);
+    }
+    else if (operator.equals("%")){
+      System.out.println(n1/n2);
+    }
+    else{
+      System.out.println("Invalid Operator");
+    }
+
+    }
+}
+
+
+
+
+
+
+
+
+
 
 
 
