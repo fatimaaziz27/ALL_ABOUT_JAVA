@@ -549,6 +549,38 @@ else {
 
 
 
+// Real-Life Examples
+// Find out if a person is old enough to vote, and if they are a citizen (using nested if statements):
+Example
+int age = 20;
+boolean isCitizen = true;
+
+if (age >= 18) {
+  System.out.println("Old enough to vote.");
+  
+  if (isCitizen) {
+    System.out.println("And you are a citizen, so you can vote!");
+  } else {
+    System.out.println("But you must be a citizen to vote.");
+  }
+} else {
+  System.out.println("Not old enough to vote.");
+}
+
+
+// Check temperature:
+// Example
+int temperature = 30;
+
+if (temperature < 0) {
+  System.out.println("It's freezing!");
+} else if (temperature < 20) {
+  System.out.println("It's cool.");
+} else {
+  System.out.println("It's warm.");
+} 
+
+
 
 
 
