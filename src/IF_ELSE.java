@@ -74,31 +74,9 @@ class mainn {
 }
 
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │   n = 7     │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │  n % 2 == 0 │
-        │     ?       │
-        └───┬─────┬───┘
-          Yes     No
-           ↓       ↓
-   ┌───────────┐ ┌──────────┐
-   │ Print     │ │ Print    │
-   │ "Even"    │ │ "Odd"    │
-   └─────┬─────┘ └────┬─────┘
-         │             │
-         └──────┬──────┘
-                ↓
-        ┌─────────────┐
-        │     END     │
-        └─────────────┘
 
+
+    
 
 
 
@@ -128,34 +106,10 @@ class mainn {
 }
             
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │   n = -5    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    n > 0 ?  │
-        └───┬─────┬───┘
-          YES     NO
-           ↓       ↓
-   ┌────────────┐  ┌─────────────┐
-   │   Print    │  │    n < 0 ?  │
-   │ "Positive" │  └───┬─────┬───┘
-   └──────┬─────┘    YES     NO
-          │            ↓       ↓
-          │     ┌──────────┐ ┌────────┐
-          │     │  Print   │ │ Print  │
-          │     │"Negative"│ │ "Zero" │
-          │     └────┬─────┘ └───┬────┘
-          │          │            │
-          └──────────┴──────┬─────┘
-                             ↓
-                     ┌─────────────┐
-                     │     END     │
-                     └─────────────┘
+
+
+
+
 
 
 
@@ -188,35 +142,7 @@ class mainn {
     }
 }
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-       ┌────────────────┐
-       │    a = 10      │
-       │    b = 20      │
-       └───────┬────────┘
-               ↓
-       ┌────────────────┐
-       │     a > b ?    │
-       └──────┬─────┬───┘
-            YES      NO
-             ↓        ↓
-     ┌────────────┐  ┌────────────────┐
-     │   Print    │  │     b > a ?    │
-     │"A is greater"│ └──────┬─────┬───┘
-     └──────┬─────┘       YES      NO
-            │              ↓        ↓
-            │      ┌────────────┐ ┌──────────────┐
-            │      │   Print    │ │    Print     │
-            │      │"B is greater"││"Both are equal"│
-            │      └─────┬──────┘ └──────┬───────┘
-            │            │               │
-            └────────────┴───────┬───────┘
-                                 ↓
-                         ┌─────────────┐
-                         │     END     │
-                         └─────────────┘
+
 
 
 
@@ -244,29 +170,10 @@ class mainn {
 // If the remainder is 0 → Even.
 // Otherwise → Odd.
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    n = 10   │
-        └──────┬──────┘
-               ↓
-        ┌────────────────┐
-        │   n % 2 == 0 ? │
-        └───────┬───┬────┘
-              YES   NO
-               ↓     ↓
-        ┌─────────┐ ┌─────────┐
-        │  Print  │ │  Print  │
-        │ "Even"  │ │  "Odd"  │
-        └────┬────┘ └────┬────┘
-             │            │
-             └──────┬─────┘
-                    ↓
-             ┌─────────────┐
-             │     END     │
-             └─────────────┘
+
+
+
+
 
 
 
@@ -292,29 +199,10 @@ class mainn {
 // If true → Positive.
 // Otherwise → Negative.
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    n = -5   │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │    n > 0 ?  │
-        └──────┬──────┘
-             YES   NO
-              ↓     ↓
-       ┌──────────┐ ┌──────────┐
-       │  Print   │ │  Print   │
-       │"Positive"│ │"Negative"│
-       └─────┬────┘ └────┬─────┘
-             │             │
-             └──────┬──────┘
-                    ↓
-             ┌─────────────┐
-             │     END     │
-             └─────────────┘
+
+
+
+
 
 
 
@@ -341,29 +229,8 @@ class mainn {
 // If true → Pass.
 // Otherwise → Fail.
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-        ┌─────────────┐
-        │  marks = 60 │
-        └──────┬──────┘
-               ↓
-        ┌────────────────┐
-        │  marks >= 50 ? │
-        └───────┬───┬────┘
-              YES   NO
-               ↓     ↓
-        ┌─────────┐ ┌─────────┐
-        │  Print  │ │  Print  │
-        │ "Pass"  │ │ "Fail"  │
-        └────┬────┘ └────┬────┘
-             │            │
-             └──────┬─────┘
-                    ↓
-             ┌─────────────┐
-             │     END     │
-             └─────────────┘
+
+
 
 
 
@@ -391,34 +258,24 @@ class mainn {
 // If true → A is greater.
 // Otherwise → B is greater.
 
-        ┌─────────────┐
-        │    START    │
-        └──────┬──────┘
-               ↓
-       ┌────────────────┐
-       │    a = 10      │
-       │    b = 20      │
-       └───────┬────────┘
-               ↓
-       ┌────────────────┐
-       │     a > b ?    │
-       └───────┬───┬────┘
-             YES   NO
-              ↓     ↓
-       ┌───────────┐ ┌───────────┐
-       │   Print   │ │   Print   │
-       │"A greater"│ │"B greater"│
-       └─────┬─────┘ └─────┬─────┘
-             │               │
-             └───────┬───────┘
-                     ↓
-              ┌─────────────┐
-              │     END     │
-              └─────────────┘
 
 
 
 
+
+
+
+// Check temperature:
+// Example
+int temperature = 30;
+
+if (temperature < 0) {
+  System.out.println("It's freezing!");
+} else if (temperature < 20) {
+  System.out.println("It's cool.");
+} else {
+  System.out.println("It's warm.");
+} 
 
 
 
@@ -472,7 +329,6 @@ if (age >= 18) {
 } else {
   System.out.println("Not old enough to vote.");
 }
-
 
 
 
@@ -549,39 +405,164 @@ else {
 
 
 
-// Real-Life Examples
-// Find out if a person is old enough to vote, and if they are a citizen (using nested if statements):
-Example
-int age = 20;
-boolean isCitizen = true;
 
-if (age >= 18) {
-  System.out.println("Old enough to vote.");
-  
-  if (isCitizen) {
-    System.out.println("And you are a citizen, so you can vote!");
-  } else {
-    System.out.println("But you must be a citizen to vote.");
-  }
-} else {
-  System.out.println("Not old enough to vote.");
+
+
+
+
+
+// 1. AND &&
+class mainn {
+    public static void main(String[] args) {
+
+        int age = 20;
+        boolean id = true;
+
+        if (age >= 18 && id == true)
+            System.out.println("Allowed");
+        else
+            System.out.println("Not Allowed");
+    }
 }
 
-
-// Check temperature:
-// Example
-int temperature = 30;
-
-if (temperature < 0) {
-  System.out.println("It's freezing!");
-} else if (temperature < 20) {
-  System.out.println("It's cool.");
-} else {
-  System.out.println("It's warm.");
-} 
+// Steps:
+// Store age.
+// Check age is 18 or above.
+// Check ID is true.
+// Both conditions must be true.
+// Print Allowed.
 
 
 
+
+
+// 2. OR ||
+class mainn {
+    public static void main(String[] args) {
+
+        int n = 5;
+
+        if (n == 5 || n == 10)
+            System.out.println("Correct");
+        else
+            System.out.println("Wrong");
+    }
+}
+
+// Steps:
+// Store a number.
+// Check if it is 5.
+// OR check if it is 10.
+// If either condition is true → Correct.
+// Otherwise → Wrong.
+
+    
+
+    
+// 3. NOT !
+class mainn {
+    public static void main(String[] args) {
+
+        boolean rain = false;
+
+        if (!rain)
+            System.out.println("Go Outside");
+        else
+            System.out.println("Stay Home");
+    }
+}
+
+// Steps:
+// Store rain as false.
+// !rain changes false to true.
+// If it is not raining → Go Outside.
+// Otherwise → Stay Home.
+
+
+
+
+
+
+    
+    
+// Real-Life Examples
+// 1. AND — Driving
+class mainn {
+    public static void main(String[] args) {
+
+        int age = 20;
+        boolean license = true;
+
+        if (age >= 18 && license == true)
+            System.out.println("You can drive");
+        else
+            System.out.println("You cannot drive");
+    }
+}
+
+// Steps:
+// Check age is 18 or above.
+// Check the person has a license.
+// Both must be true.
+// Allow driving.
+
+
+    
+// 2. OR — Discount
+class mainn {
+    public static void main(String[] args) {
+
+        boolean student = true;
+        boolean senior = false;
+
+        if (student || senior)
+            System.out.println("Discount Available");
+        else
+            System.out.println("No Discount");
+    }
+}
+
+// Steps:
+// Check if the person is a student.
+// Check if the person is a senior.
+// Either one can be true.
+// Give the discount.
+
+
+
+// 3. AND + OR — School Entry
+class mainn {
+    public static void main(String[] args) {
+
+        int marks = 70;
+        boolean feePaid = true;
+
+        if (marks >= 50 && feePaid)
+            System.out.println("Admission Allowed");
+        else
+            System.out.println("Admission Not Allowed");
+    }
+}
+
+// Steps:
+// Check marks are 50 or above.
+// Check the fee is paid.
+// Both conditions must be true.
+// Allow admission.
+// Otherwise, don't allow admission.
+
+
+
+
+
+
+
+
+
+
+
+
+    
 
 
 
@@ -628,15 +609,6 @@ public class Main {
 
     }
 }
-
-
-
-
-
-
-
-
-
 
 
 
