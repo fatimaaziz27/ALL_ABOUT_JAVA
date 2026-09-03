@@ -1,6 +1,33 @@
 import java.util.*;
-class mainn {
 
+
+// if else &  else if
+
+// ned java class practice question ---------->
+
+//     private static final Scanner scanner = new Scanner(System.in);
+//     public static void main(String[] args) {
+//         int n = scanner.nextInt();
+        
+//         if (n%2!=0){
+//             System.out.println("Weird");
+//         }
+//         else if(n>=2 && n<=5){
+//             System.out.println("Not Weird");
+//         }
+//         else if(n>=6 && n<=20){
+//             System.out.println("Weird");
+//         }
+//         else if(n>20){
+//             System.out.println("Not Weird");
+//         }
+//         scanner.close();
+//     }
+// }
+
+
+
+class mainn {
 // If the number is odd → print Weird
 // If the number is even:
 // Between 2 and 5 → Not Weird
@@ -25,37 +52,17 @@ class mainn {
         }
     }
 }
-//     private static final Scanner scanner = new Scanner(System.in);
-//     public static void main(String[] args) {
-//         int n = scanner.nextInt();
-        
-//         if (n%2!=0){
-//             System.out.println("Weird");
-//         }
-//         else if(n>=2 && n<=5){
-//             System.out.println("Not Weird");
-//         }
-//         else if(n>=6 && n<=20){
-//             System.out.println("Weird");
-//         }
-//         else if(n>20){
-//             System.out.println("Not Weird");
-//         }
-//         scanner.close();
-//     }
-// }
-
-
-
-
-
-
-
 
     
-
     
-// code 1
+
+
+
+
+
+
+
+
 class mainn {
     public static void main(String[] args) {
 // Steps:
@@ -291,6 +298,16 @@ if (temperature < 0) {
 
 
 
+
+
+
+
+
+
+
+
+
+
 // Nested If
 // Syntax
 if (condition1) {
@@ -299,6 +316,8 @@ if (condition1) {
     // code to run if both condition1 and condition2 are true
   }
 }
+
+
 
 // Example
 int x = 15;
@@ -312,6 +331,177 @@ if (x > 10) {
     System.out.println("y is also greater than 20");
   }
 }
+
+
+
+
+
+
+
+
+// 1. Check Age
+class mainn {
+    public static void main(String[] args) {
+
+        int age = 20;
+
+        if (age >= 18) {
+            if (age >= 60)
+                System.out.println("Senior Citizen");
+            else
+                System.out.println("Adult");
+        }
+        else
+            System.out.println("Minor");
+    }
+}
+
+// Steps:
+// Store age in age.
+// Check if age is 18 or above.
+// If yes, check if age is 60 or above.
+// If yes → Senior Citizen.
+// Otherwise → Adult.
+// If no → Minor.
+
+
+
+
+
+
+
+// 2. Check Number
+class mainn {
+    public static void main(String[] args) {
+
+        int n = 10;
+
+        if (n > 0) {
+            if (n % 2 == 0)
+                System.out.println("Positive Even");
+            else
+                System.out.println("Positive Odd");
+        }
+        else
+            System.out.println("Negative");
+    }
+}
+
+// Steps:
+// Store a number in n.
+// Check if the number is positive.
+// If positive, check if it is even.
+// If yes → Positive Even.
+// Otherwise → Positive Odd.
+// If not positive → Negative.
+
+
+
+
+
+
+
+
+
+// 3. Check Marks
+class mainn {
+    public static void main(String[] args) {
+
+        int marks = 80;
+
+        if (marks >= 50) {
+            if (marks >= 80)
+                System.out.println("Excellent");
+            else
+                System.out.println("Pass");
+        }
+        else
+            System.out.println("Fail");
+    }
+}
+
+// Steps:
+// Store marks in marks.
+// Check if marks are 50 or above.
+// If yes, check if marks are 80 or above.
+// If yes → Excellent.
+// Otherwise → Pass.
+// If below 50 → Fail.
+
+
+
+
+
+
+
+// 4. Check Login
+class mainn {
+    public static void main(String[] args) {
+
+        String username = "admin";
+        String password = "1234";
+
+        if (username.equals("admin")) {
+            if (password.equals("1234"))
+                System.out.println("Login Successful");
+            else
+                System.out.println("Wrong Password");
+        }
+        else
+            System.out.println("Wrong Username");
+    }
+}
+
+// Steps:
+// Store username.
+// Store password.
+// Check the username.
+// If correct, check the password.
+// If both are correct → Login Successful.
+// Otherwise → Wrong Username or Wrong Password.
+
+    
+    
+    
+    
+    
+    
+    
+    
+// 5. Check Driving Eligibility
+class mainn {
+    public static void main(String[] args) {
+
+        int age = 20;
+        boolean license = true;
+
+        if (age >= 18) {
+            if (license)
+                System.out.println("Can Drive");
+            else
+                System.out.println("Need License");
+        }
+        else
+            System.out.println("Too Young");
+    }
+}
+
+// Steps:
+// Store age.
+// Store whether the person has a license.
+// Check if age is 18 or above.
+// If yes, check the license.
+// If license is true → Can Drive.
+// Otherwise → Need License.
+// If age is below 18 → Too Young.
+
+
+
+
+
+
+
+
 
 // Real-Life Example
 // Example
@@ -329,6 +519,10 @@ if (age >= 18) {
 } else {
   System.out.println("Not old enough to vote.");
 }
+
+
+
+
 
 
 
@@ -402,10 +596,6 @@ else {
 // securityLevel 4 = Access denied
 //
 // If isAdmin = true, access is granted.
-
-
-
-
 
 
 
