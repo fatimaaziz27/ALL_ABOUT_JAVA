@@ -35,7 +35,7 @@ public class Stream3 {
    }
 }
 
-4. Filter Even Numbers (Stream)
+// 4. Filter Even Numbers (Stream)
 import java.util.*;
 import java.util.stream.*;
 
