@@ -1,4 +1,4 @@
-// STRINGS (7 Practice Codes)
+// STRINGS (Practice Codes)
 
 // 1. Print Length of String
 public class String1 {
