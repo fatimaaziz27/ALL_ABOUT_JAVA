@@ -1,6 +1,6 @@
 // STREAMS & LAMBDA (7 Practice Codes)
 
-1. Basic Lambda Expression
+// 1. Basic Lambda Expression
 interface MyInterface {
    void show();
 }
