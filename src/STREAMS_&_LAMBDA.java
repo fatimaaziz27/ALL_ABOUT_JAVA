@@ -49,7 +49,7 @@ public class Stream4 {
    }
 }
 
-5. Map (Square Numbers)
+// 5. Map (Square Numbers)
 import java.util.*;
 import java.util.stream.*;
 
