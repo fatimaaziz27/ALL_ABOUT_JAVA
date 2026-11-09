@@ -12,7 +12,7 @@ public class Stream1 {
    }
 }
 
-2. Lambda with Parameters
+// 2. Lambda with Parameters
 interface Add {
    int sum(int a, int b);
 }
