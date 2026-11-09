@@ -1,4 +1,4 @@
-STREAMS & LAMBDA (7 Practice Codes)
+// STREAMS & LAMBDA (7 Practice Codes)
 
 1. Basic Lambda Expression
 interface MyInterface {
