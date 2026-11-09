@@ -1,6 +1,6 @@
-STRINGS (7 Practice Codes)
+// STRINGS (7 Practice Codes)
 
-1. Print Length of String
+// 1. Print Length of String
 public class String1 {
    public static void main(String[] args) {
        String str = "Hello";
@@ -9,7 +9,7 @@ public class String1 {
    }
 }
 
-2. Convert to Uppercase & Lowercase
+// 2. Convert to Uppercase & Lowercase
 public class String2 {
    public static void main(String[] args) {
        String str = "Java";
@@ -19,7 +19,7 @@ public class String2 {
    }
 }
 
-3. Check Two Strings Equal
+// 3. Check Two Strings Equal
 public class String3 {
    public static void main(String[] args) {
        String a = "Java";
@@ -30,7 +30,7 @@ public class String3 {
    }
 }
 
-4. Reverse a String
+// 4. Reverse a String
 public class String4 {
    public static void main(String[] args) {
        String str = "Hello";
@@ -44,7 +44,7 @@ public class String4 {
    }
 }
 
-5. Count Vowels
+// 5. Count Vowels
 public class String5 {
    public static void main(String[] args) {
        String str = "Education";
@@ -60,7 +60,7 @@ public class String5 {
    }
 }
 
-6. Check Palindrome
+// 6. Check Palindrome
 public class String6 {
    public static void main(String[] args) {
        String str = "madam";
@@ -78,7 +78,7 @@ public class String6 {
    }
 }
 
-7. Use StringBuilder (Efficient Reverse)
+// 7. Use StringBuilder (Efficient Reverse)
 public class String7 {
    public static void main(String[] args) {
        String str = "Java";
