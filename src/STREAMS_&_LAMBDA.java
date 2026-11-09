@@ -63,7 +63,7 @@ public class Stream5 {
    }
 }
 
-6. Reduce (Sum of Elements)
+// 6. Reduce (Sum of Elements)
 import java.util.*;
 import java.util.stream.*;
 
