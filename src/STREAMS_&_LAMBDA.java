@@ -78,7 +78,7 @@ public class Stream6 {
    }
 }
 
-7. Sort using Stream
+// 7. Sort using Stream
 import java.util.*;
 import java.util.stream.*;
 
