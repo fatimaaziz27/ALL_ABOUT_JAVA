@@ -24,7 +24,7 @@ public class Stream2 {
    }
 }
 
-3. forEach using Lambda
+// 3. forEach using Lambda
 import java.util.*;
 
 public class Stream3 {
