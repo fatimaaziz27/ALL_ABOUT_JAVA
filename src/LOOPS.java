@@ -23,7 +23,7 @@ public class Loop2 {
    }
 }
 
-3. Sum of First N Numbers
+// 3. Sum of First N Numbers
 public class Loop3 {
    public static void main(String[] args) {
        int n = 5;
