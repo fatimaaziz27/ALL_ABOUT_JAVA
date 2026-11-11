@@ -1,4 +1,4 @@
-MULTITHREADING (Practice Codes)
+// MULTITHREADING (Practice Codes)
 
 1. Create Thread using Thread class
 class MyThread extends Thread {
