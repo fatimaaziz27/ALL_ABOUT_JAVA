@@ -4,7 +4,6 @@
 interface MyInterface {
    void show();
 }
-
 public class Stream1 {
    public static void main(String[] args) {
        MyInterface obj = () -> System.out.println("Hello Lambda");
