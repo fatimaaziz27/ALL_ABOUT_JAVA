@@ -48,7 +48,7 @@ public class Thread3 {
    }
 }
 
-4. Thread Sleep
+// 4. Thread Sleep
 public class Thread4 {
    public static void main(String[] args) throws InterruptedException {
        for (int i = 1; i <= 5; i++) {
