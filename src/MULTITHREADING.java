@@ -75,7 +75,7 @@ public class Thread5 {
    }
 }
 
-6. Synchronization
+// 6. Synchronization
 class Counter {
    int count = 0;
 
