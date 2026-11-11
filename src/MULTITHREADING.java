@@ -14,7 +14,7 @@ public class Thread1 {
    }
 }
 
-2. Create Thread using Runnable
+// 2. Create Thread using Runnable
 class MyTask implements Runnable {
    public void run() {
        System.out.println("Runnable thread running");
