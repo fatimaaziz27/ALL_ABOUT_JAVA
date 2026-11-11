@@ -71,7 +71,6 @@ public class Stream6 {
 // 7. Sort using Stream
 import java.util.*;
 import java.util.stream.*;
-
 public class Stream7 {
    public static void main(String[] args) {
        List<Integer> list = Arrays.asList(5,2,8,1);
