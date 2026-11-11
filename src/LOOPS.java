@@ -62,7 +62,7 @@ public class Loop5 {
    }
 }
 
-6. Reverse a Number (using while)
+// 6. Reverse a Number (using while)
 public class Loop6 {
    public static void main(String[] args) {
        int num = 1234;
