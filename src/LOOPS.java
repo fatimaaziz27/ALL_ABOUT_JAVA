@@ -9,7 +9,7 @@ public class Loop1 {
    }
 }
 
-2. Print Even Numbers (1 to 20) – while loop
+// 2. Print Even Numbers (1 to 20) – while loop
 public class Loop2 {
    public static void main(String[] args) {
        int i = 1;
