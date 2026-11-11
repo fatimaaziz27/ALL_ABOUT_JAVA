@@ -1,4 +1,4 @@
-// LOOPS (7 Practice Codes)
+// LOOPS (Practice Codes)
 
 // 1. Print Numbers (1 to 10) – for loop
 public class Loop1 {
