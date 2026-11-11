@@ -63,7 +63,6 @@ public class Stream6 {
        List<Integer> list = Arrays.asList(1,2,3,4);
        int sum = list.stream()
                      .reduce(0, (a, b) -> a + b);
-
        System.out.println("Sum = " + sum);
    }
 }
@@ -79,4 +78,3 @@ public class Stream7 {
            .forEach(System.out::println);
    }
 }
-
