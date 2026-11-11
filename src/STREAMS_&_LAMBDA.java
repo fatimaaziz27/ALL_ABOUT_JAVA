@@ -46,7 +46,6 @@ public class Stream4 {
 // 5. Map (Square Numbers)
 import java.util.*;
 import java.util.stream.*;
-
 public class Stream5 {
    public static void main(String[] args) {
        List<Integer> list = Arrays.asList(1,2,3,4);
