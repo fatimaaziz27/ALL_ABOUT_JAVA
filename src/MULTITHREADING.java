@@ -28,7 +28,7 @@ public class Thread2 {
    }
 }
 
-3. Multiple Threads
+// 3. Multiple Threads
 class A extends Thread {
    public void run() {
        System.out.println("Thread A");
