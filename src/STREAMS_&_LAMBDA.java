@@ -34,7 +34,6 @@ public class Stream3 {
 // 4. Filter Even Numbers (Stream)
 import java.util.*;
 import java.util.stream.*;
-
 public class Stream4 {
    public static void main(String[] args) {
        List<Integer> list = Arrays.asList(1,2,3,4,5,6);
