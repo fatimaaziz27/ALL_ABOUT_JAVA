@@ -24,7 +24,6 @@ public class Stream2 {
 
 // 3. forEach using Lambda
 import java.util.*;
-
 public class Stream3 {
    public static void main(String[] args) {
        List<Integer> list = Arrays.asList(1, 2, 3, 4);
