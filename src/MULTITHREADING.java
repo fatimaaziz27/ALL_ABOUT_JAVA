@@ -106,7 +106,7 @@ public class Thread6 {
    }
 }
 
-7. Lambda Thread (Java 8+)
+// 7. Lambda Thread (Java 8+)
 public class Thread7 {
    public static void main(String[] args) {
        Thread t = new Thread(() -> {
