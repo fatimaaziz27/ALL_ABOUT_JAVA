@@ -58,7 +58,7 @@ public class Thread4 {
    }
 }
 
-5. Thread Join
+// 5. Thread Join
 class MyThread extends Thread {
    public void run() {
        System.out.println("Thread running");
