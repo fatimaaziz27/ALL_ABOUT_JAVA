@@ -1,6 +1,6 @@
 // MULTITHREADING (Practice Codes)
 
-1. Create Thread using Thread class
+// 1. Create Thread using Thread class
 class MyThread extends Thread {
    public void run() {
        System.out.println("Thread is running");
