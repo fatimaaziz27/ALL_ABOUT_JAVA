@@ -58,7 +58,6 @@ public class Stream5 {
 // 6. Reduce (Sum of Elements)
 import java.util.*;
 import java.util.stream.*;
-
 public class Stream6 {
    public static void main(String[] args) {
        List<Integer> list = Arrays.asList(1,2,3,4);
