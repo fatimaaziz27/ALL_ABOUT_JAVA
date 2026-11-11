@@ -51,7 +51,7 @@ public class Loop4 {
    }
 }
 
-5. Multiplication Table
+// 5. Multiplication Table
 public class Loop5 {
    public static void main(String[] args) {
        int num = 3;
