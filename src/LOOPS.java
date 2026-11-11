@@ -78,7 +78,7 @@ public class Loop6 {
    }
 }
 
-7. Pattern Printing (Nested Loop)
+// 7. Pattern Printing (Nested Loop)
 public class Loop7 {
    public static void main(String[] args) {
        int n = 4;
