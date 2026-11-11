@@ -37,7 +37,7 @@ public class Loop3 {
    }
 }
 
-4. Factorial of a Number
+// 4. Factorial of a Number
 public class Loop4 {
    public static void main(String[] args) {
        int n = 5;
