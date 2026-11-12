@@ -27,7 +27,7 @@ public class B {
        System.out.println("Sub package");
    }
 }
-4. Import all classes
+// 4. Import all classes
 import mypack.*;
 
 class Test {
