@@ -43,7 +43,7 @@ class Test {
        obj.show();
    }
 }
-6. Multiple classes in package
+// 6. Multiple classes in package
 package mypack;
 
 class X {
