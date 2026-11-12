@@ -53,7 +53,7 @@ class X {
 class Y {
    void y() { System.out.println("Y"); }
 }
-7. Access package method
+// 7. Access package method
 import mypack.X;
 
 class Test {
