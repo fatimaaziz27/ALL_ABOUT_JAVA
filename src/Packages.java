@@ -1,5 +1,6 @@
 // Packages (7 Practice Codes)
-1. Simple package class
+
+// 1. Simple package class
 package mypack;
 
 public class A {
