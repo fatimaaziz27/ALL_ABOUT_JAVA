@@ -18,7 +18,8 @@ class Test {
        obj.show();
    }
 }
-3. Sub-package example
+
+// 3. Sub-package example
 package mypack.subpack;
 
 public class B {
