@@ -27,6 +27,7 @@ public class B {
        System.out.println("Sub package");
    }
 }
+
 // 4. Import all classes
 import mypack.*;
 
@@ -36,6 +37,7 @@ class Test {
        obj.show();
    }
 }
+
 // 5. Fully qualified name
 class Test {
    public static void main(String[] args) {
@@ -43,6 +45,7 @@ class Test {
        obj.show();
    }
 }
+
 // 6. Multiple classes in package
 package mypack;
 
@@ -53,6 +56,7 @@ class X {
 class Y {
    void y() { System.out.println("Y"); }
 }
+
 // 7. Access package method
 import mypack.X;
 
@@ -62,4 +66,3 @@ class Test {
        obj.x();
    }
 }
-
