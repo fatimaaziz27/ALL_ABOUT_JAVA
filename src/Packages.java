@@ -1,4 +1,4 @@
-// Packages (7 Practice Codes)
+// Packages (Practice Codes)
 
 // 1. Simple package class
 package mypack;
