@@ -36,7 +36,7 @@ class Test {
        obj.show();
    }
 }
-5. Fully qualified name
+// 5. Fully qualified name
 class Test {
    public static void main(String[] args) {
        mypack.A obj = new mypack.A();
