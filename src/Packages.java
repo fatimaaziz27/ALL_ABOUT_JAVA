@@ -8,7 +8,8 @@ public class A {
        System.out.println("Hello Package");
    }
 }
-2. Using package class
+
+// 2. Using package class
 import mypack.A;
 
 class Test {
