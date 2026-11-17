@@ -24,7 +24,7 @@ public class Array2 {
    }
 }
 
-3. Find Maximum Element
+// 3. Find Maximum Element
 public class Array3 {
    public static void main(String[] args) {
        int[] arr = {5, 2, 9, 1};
