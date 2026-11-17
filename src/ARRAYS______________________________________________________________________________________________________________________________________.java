@@ -52,7 +52,7 @@ public class Array4 {
    }
 }
 
-5. Search Element
+// 5. Search Element
 public class Array5 {
    public static void main(String[] args) {
        int[] arr = {3, 7, 1, 9};
