@@ -87,7 +87,7 @@ public class Array6 {
    }
 }
 
-7. 2D Array (Matrix Print)
+// 7. 2D Array (Matrix Print)
 public class Array7 {
    public static void main(String[] args) {
        int[][] matrix = {
