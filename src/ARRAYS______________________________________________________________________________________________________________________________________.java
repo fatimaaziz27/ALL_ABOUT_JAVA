@@ -10,7 +10,7 @@ public class Array1 {
    }
 }
 
-2. Find Sum of Array
+// 2. Find Sum of Array
 public class Array2 {
    public static void main(String[] args) {
        int[] arr = {10, 20, 30};
