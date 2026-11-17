@@ -71,7 +71,7 @@ public class Array5 {
    }
 }
 
-6. Count Even Numbers
+// 6. Count Even Numbers
 public class Array6 {
    public static void main(String[] args) {
        int[] arr = {2, 5, 6, 7, 8};
