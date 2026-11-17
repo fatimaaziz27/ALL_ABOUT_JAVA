@@ -41,7 +41,7 @@ public class Array3 {
    }
 }
 
-4. Reverse an Array
+// 4. Reverse an Array
 public class Array4 {
    public static void main(String[] args) {
        int[] arr = {1, 2, 3, 4};
