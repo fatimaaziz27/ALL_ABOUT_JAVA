@@ -79,7 +79,7 @@ public class File5 {
    }
 }
 
-6. Delete a File
+// 6. Delete a File
 import java.io.File;
 
 public class File6 {
