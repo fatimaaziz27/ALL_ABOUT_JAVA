@@ -134,7 +134,7 @@ public class Interface6 {
    }
 }
 
-7. Static Method in Interface
+// 7. Static Method in Interface
 interface MathUtil {
    static int square(int x) {
        return x * x;
