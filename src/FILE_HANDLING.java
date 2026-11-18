@@ -1,6 +1,6 @@
 // FILE HANDLING (JAVA) – 7 Practice Codes
 
-1. Create a File
+// 1. Create a File
 import java.io.File;
 import java.io.IOException;
 
