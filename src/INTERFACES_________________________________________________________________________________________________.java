@@ -18,7 +18,7 @@ public class Interface1 {
    }
 }
 
-2. Multiple Classes Implement Same Interface
+// 2. Multiple Classes Implement Same Interface
 interface Animal {
    void sound();
 }
