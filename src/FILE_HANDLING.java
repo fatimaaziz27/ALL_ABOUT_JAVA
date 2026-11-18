@@ -30,7 +30,7 @@ public class File2 {
    }
 }
 
-3. Read File (FileReader)
+// 3. Read File (FileReader)
 import java.io.FileReader;
 import java.io.IOException;
 
