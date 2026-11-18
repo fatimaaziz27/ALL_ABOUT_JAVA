@@ -94,7 +94,7 @@ public class File6 {
    }
 }
 
-7. Get File Information
+// 7. Get File Information
 import java.io.File;
 
 public class File7 {
