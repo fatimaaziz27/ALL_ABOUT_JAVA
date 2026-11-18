@@ -1,4 +1,4 @@
-INTERFACES (7 Practice Codes)
+// INTERFACES (7 Practice Codes)
 
 1. Basic Interface Implementation
 interface Animal {
