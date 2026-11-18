@@ -65,7 +65,7 @@ public class File4 {
    }
 }
 
-5. Append Data to File
+// 5. Append Data to File
 import java.io.FileWriter;
 import java.io.IOException;
 
