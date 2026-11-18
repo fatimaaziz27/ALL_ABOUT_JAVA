@@ -16,7 +16,7 @@ public class File1 {
    }
 }
 
-2. Write to File (FileWriter)
+// 2. Write to File (FileWriter)
 import java.io.FileWriter;
 import java.io.IOException;
 
