@@ -47,7 +47,7 @@ public class File3 {
    }
 }
 
-4. Read File using BufferedReader
+// 4. Read File using BufferedReader
 import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
