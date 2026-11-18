@@ -84,7 +84,7 @@ public class Interface4 {
    }
 }
 
-5. Multiple Interfaces (Achieving Multiple Inheritance)
+// 5. Multiple Interfaces (Achieving Multiple Inheritance)
 interface A {
    void show();
 }
