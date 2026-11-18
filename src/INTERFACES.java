@@ -1,5 +1,4 @@
 // INTERFACES (Practice Codes)
-
 // 1. Basic Interface Implementation
 interface Animal {
    void sound();
