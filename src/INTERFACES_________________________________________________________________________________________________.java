@@ -42,7 +42,7 @@ public class Interface2 {
    }
 }
 
-3. Interface with Multiple Methods
+// 3. Interface with Multiple Methods
 interface Shape {
    void draw();
    void color();
