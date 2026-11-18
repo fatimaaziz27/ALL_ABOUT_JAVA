@@ -1,5 +1,4 @@
 // FILE HANDLING JAVA (Practice Codes)
-
 // 1. Create a File
 import java.io.File;
 import java.io.IOException;
@@ -110,4 +109,3 @@ public class File7 {
        }
    }
 }
-
