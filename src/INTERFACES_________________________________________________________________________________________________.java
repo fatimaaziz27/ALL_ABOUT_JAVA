@@ -111,7 +111,7 @@ public class Interface5 {
    }
 }
 
-6. Default Method (Java 8+)
+// 6. Default Method (Java 8+)
 interface Animal {
    void sound();
 
