@@ -1,4 +1,4 @@
-// FILE HANDLING (JAVA) – 7 Practice Codes
+// FILE HANDLING JAVA (Practice Codes)
 
 // 1. Create a File
 import java.io.File;
