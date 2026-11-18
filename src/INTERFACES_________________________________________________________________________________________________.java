@@ -66,7 +66,7 @@ public class Interface3 {
    }
 }
 
-4. Interface Variable (Reference)
+// 4. Interface Variable (Reference)
 interface Animal {
    void sound();
 }
