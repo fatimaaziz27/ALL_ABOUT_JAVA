@@ -63,7 +63,7 @@ public class Static4 {
 }
 
 // FINAL KEYWORD
-5. Final Variable (constant)
+// 5. Final Variable (constant)
 public class Final1 {
    public static void main(String[] args) {
        final int x = 10;
