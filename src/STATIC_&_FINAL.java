@@ -91,7 +91,7 @@ public class Final2 {
    }
 }
 
-7. Final Class (cannot inherit)
+// 7. Final Class (cannot inherit)
 final class A {
    void display() {
        System.out.println("Final class");
