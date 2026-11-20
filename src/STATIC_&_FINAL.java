@@ -44,7 +44,7 @@ public class Static3 {
    }
 }
 
-4. Static vs Instance Variable
+// 4. Static vs Instance Variable
 class Demo {
    int x = 10;          // instance
    static int y = 20;   // static
