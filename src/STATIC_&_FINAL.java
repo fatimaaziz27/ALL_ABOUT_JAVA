@@ -73,7 +73,7 @@ public class Final1 {
    }
 }
 
-6. Final Method (cannot override)
+// 6. Final Method (cannot override)
 class Parent {
    final void show() {
        System.out.println("Final method");
