@@ -18,7 +18,7 @@ public class Static1 {
    }
 }
 
-2. Static Method
+// 2. Static Method
 class MathUtil {
    static int square(int x) {
        return x * x;
