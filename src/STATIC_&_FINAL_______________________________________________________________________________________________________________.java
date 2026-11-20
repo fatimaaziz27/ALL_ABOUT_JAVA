@@ -1,4 +1,4 @@
-STATIC & FINAL (7 Practice Codes)
+// STATIC & FINAL (7 Practice Codes)
 
 🔹 STATIC KEYWORD
 1. Static Variable (shared among objects)
