@@ -1,6 +1,5 @@
 // STATIC & FINAL (Practice Codes)
-
-🔹 STATIC KEYWORD
+// STATIC KEYWORD
 1. Static Variable (shared among objects)
 class Counter {
    static int count = 0;
