@@ -31,7 +31,7 @@ public class Static2 {
    }
 }
 
-3. Static Block
+// 3. Static Block
 class Test {
    static {
        System.out.println("Static block executed");
