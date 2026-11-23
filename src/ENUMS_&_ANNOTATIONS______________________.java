@@ -34,7 +34,7 @@ for (Day d : Day.values()) {
    System.out.println(d);
 }
 
-5. Custom enum constructor
+// 5. Custom enum constructor
 enum Level {
    LOW(1), MEDIUM(2), HIGH(3);
 
