@@ -10,7 +10,7 @@ class Test {
    }
 }
 
-2. Enum in switch
+// 2. Enum in switch
 enum Day { MON, TUE }
 
 class Test {
