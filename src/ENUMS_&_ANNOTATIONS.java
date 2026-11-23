@@ -13,7 +13,6 @@ class Test {
 
 // 2. Enum in switch
 enum Day { MON, TUE }
-
 class Test {
    public static void main(String[] args) {
        Day d = Day.MON;
