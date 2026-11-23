@@ -28,6 +28,7 @@ class Test {
 enum Size {
    SMALL, MEDIUM, LARGE
 }
+
 4. Loop enum
 for (Day d : Day.values()) {
    System.out.println(d);
