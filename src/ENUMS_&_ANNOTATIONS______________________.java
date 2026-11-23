@@ -52,6 +52,7 @@ class Test {
        return "Hello";
    }
 }
+
 7. Custom annotation
 import java.lang.annotation.*;
 
