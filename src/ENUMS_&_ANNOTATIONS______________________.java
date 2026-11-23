@@ -44,6 +44,7 @@ enum Level {
        this.value = value;
    }
 }
+
 6. Basic annotation usage
 class Test {
    @Override
