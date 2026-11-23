@@ -24,7 +24,7 @@ class Test {
    }
 }
 
-3. Enum with values
+// 3. Enum with values
 enum Size {
    SMALL, MEDIUM, LARGE
 }
