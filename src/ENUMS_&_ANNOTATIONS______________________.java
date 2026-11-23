@@ -63,4 +63,3 @@ import java.lang.annotation.*;
 
 @Info("Test Class")
 class Demo {}
-
