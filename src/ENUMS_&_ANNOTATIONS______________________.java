@@ -1,4 +1,4 @@
-// Enums & Annotations (7 Practice Codes)
+// Enums & Annotations (Practice Codes)
 1. Basic Enum
 enum Day {
    MON, TUE, WED
