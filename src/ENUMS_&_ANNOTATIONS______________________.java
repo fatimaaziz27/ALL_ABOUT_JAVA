@@ -9,6 +9,7 @@ class Test {
        System.out.println(Day.MON);
    }
 }
+
 2. Enum in switch
 enum Day { MON, TUE }
 
