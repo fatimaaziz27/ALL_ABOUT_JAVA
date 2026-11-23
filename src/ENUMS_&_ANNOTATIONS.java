@@ -61,6 +61,5 @@ import java.lang.annotation.*;
 @interface Info {
    String value();
 }
-
 @Info("Test Class")
 class Demo {}
