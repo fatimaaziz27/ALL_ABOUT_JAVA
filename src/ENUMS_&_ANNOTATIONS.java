@@ -37,9 +37,7 @@ for (Day d : Day.values()) {
 // 5. Custom enum constructor
 enum Level {
    LOW(1), MEDIUM(2), HIGH(3);
-
    int value;
-
    Level(int value) {
        this.value = value;
    }
@@ -55,7 +53,6 @@ class Test {
 
 // 7. Custom annotation
 import java.lang.annotation.*;
-
 @Retention(RetentionPolicy.RUNTIME)
 @interface Info {
    String value();
