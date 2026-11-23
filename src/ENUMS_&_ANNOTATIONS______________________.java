@@ -53,7 +53,7 @@ class Test {
    }
 }
 
-7. Custom annotation
+// 7. Custom annotation
 import java.lang.annotation.*;
 
 @Retention(RetentionPolicy.RUNTIME)
