@@ -45,7 +45,7 @@ enum Level {
    }
 }
 
-6. Basic annotation usage
+// 6. Basic annotation usage
 class Test {
    @Override
    public String toString() {
