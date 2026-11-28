@@ -11,6 +11,7 @@ class Test {
            .forEach(System.out::println);
    }
 }
+
 2. Map to square
 nums.stream()
    .map(n -> n * n)
