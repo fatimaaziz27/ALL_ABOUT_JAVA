@@ -1,5 +1,5 @@
 // Streams API (Practice Codes)
-1. Filter even numbers
+// 1. Filter even numbers
 import java.util.*;
 import java.util.stream.*;
 
