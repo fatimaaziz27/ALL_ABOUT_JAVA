@@ -33,6 +33,7 @@ int max = nums.stream()
    .max(Integer::compare)
    .get();
 System.out.println(max);
+
 6. Convert to List
 List<Integer> evens = nums.stream()
    .filter(n -> n % 2 == 0)
