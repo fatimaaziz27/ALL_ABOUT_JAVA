@@ -28,7 +28,7 @@ nums.stream()
    .sorted()
    .forEach(System.out::println);
 
-5. Find max
+// 5. Find max
 int max = nums.stream()
    .max(Integer::compare)
    .get();
