@@ -23,7 +23,7 @@ long count = nums.stream()
    .count();
 System.out.println(count);
 
-4. Sort list
+// 4. Sort list
 nums.stream()
    .sorted()
    .forEach(System.out::println);
