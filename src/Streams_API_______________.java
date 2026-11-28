@@ -1,4 +1,4 @@
-// Streams API (Practice Codes)
+1// Streams API (Practice Codes)
 // 1. Filter even numbers
 import java.util.*;
 import java.util.stream.*;
@@ -40,7 +40,7 @@ List<Integer> evens = nums.stream()
    .collect(Collectors.toList());
 System.out.println(evens);
 
-7. Reduce (sum)
+// 7. Reduce (sum)
 int sum = nums.stream()
    .reduce(0, (a,b) -> a + b);
 System.out.println(sum);
