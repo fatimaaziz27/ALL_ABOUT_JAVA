@@ -16,6 +16,7 @@ class Test {
 nums.stream()
    .map(n -> n * n)
    .forEach(System.out::println);
+
 3. Count elements > 3
 long count = nums.stream()
    .filter(n -> n > 3)
