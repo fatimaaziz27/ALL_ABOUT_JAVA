@@ -34,7 +34,7 @@ int max = nums.stream()
    .get();
 System.out.println(max);
 
-6. Convert to List
+// 6. Convert to List
 List<Integer> evens = nums.stream()
    .filter(n -> n % 2 == 0)
    .collect(Collectors.toList());
