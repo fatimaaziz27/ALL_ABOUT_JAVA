@@ -22,6 +22,7 @@ long count = nums.stream()
    .filter(n -> n > 3)
    .count();
 System.out.println(count);
+
 4. Sort list
 nums.stream()
    .sorted()
