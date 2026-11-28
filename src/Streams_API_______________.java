@@ -1,8 +1,7 @@
-1// Streams API (Practice Codes)
+// Streams API (Practice Codes)
 // 1. Filter even numbers
 import java.util.*;
 import java.util.stream.*;
-
 class Test {
    public static void main(String[] args) {
        List<Integer> nums = Arrays.asList(1,2,3,4,5,6);
